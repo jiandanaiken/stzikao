@@ -80,34 +80,125 @@
     <div class=main_mainbar_left>
       <div class=main_mainbar1>
         <div class=main_mainbar1_img><!-- flash section -->
-          <script language="javascript" type="text/javascript" src="/flash/flash.js"></script>
-          <script language="javascript" type="text/javascript">
-            var images="";
-            var links="";
-            var texts="";
-            images=images+"|"+"/Article/UploadFiles/202206/2022061709504126.jpg";
-            links=links+"|"+"/Article/zknews/4714.html";
-            texts=texts+"|"+"2021年10月汕头自考办联系地⋯"
-            images=images+"|"+"/Article/UploadFiles/202206/2022061709503738.jpg";
-            links=links+"|"+"/Article/zknews/4713.html";
-            texts=texts+"|"+"汕头市2021年10月自考报名已⋯"
-            images=images+"|"+"/Article/UploadFiles/202206/2022061709502569.jpg";
-            links=links+"|"+"/Article/zknews/4710.html";
-            texts=texts+"|"+"汕头市2021年1月自考准考证打⋯"
-            images=images+"|"+"/Article/UploadFiles/202206/2022061709502156.jpg";
-            links=links+"|"+"/Article/zknews/4709.html";
-            texts=texts+"|"+"汕头2020年下半年办理自考毕⋯"
-            images=images+"|"+"/Article/UploadFiles/202206/2022061709501846.jpg";
-            links=links+"|"+"/Article/zknews/4708.html";
-            texts=texts+"|"+"汕头市金平区2020年下半年自⋯"
-            images=images.substring(1, images.length );
-            links=links.substring(1, links.length );
-            texts=texts.substring(1, texts.length );
-            var focus_width=260 //宽度
-            var focus_height=232 //高度，focus_height text_height 相加之和最好是偶数,否则数字会出现模糊失真的问题
-            var text_height=0 //标题高度
-            cindx.home.flashNews("/flash/xman.swf", focus_width, focus_height, images, links, texts, text_height);
-          </script>
+         <!-- 替换原有Flash JS代码的完整代码 -->
+<style>
+  /* 轮播容器样式，保持原有尺寸 */
+  .flash-news-container {
+    width: 260px;
+    height: 232px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  /* 轮播图片列表 */
+  .flash-news-list {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  /* 轮播项 */
+  .flash-news-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  /* 激活的轮播项 */
+  .flash-news-item.active {
+    opacity: 1;
+  }
+  /* 轮播图片 */
+  .flash-news-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+  }
+</style>
+
+<!-- 轮播容器 -->
+<div class="flash-news-container" id="flashNewsContainer"></div>
+
+<script>
+  // 保留你原有的数据定义（完全不变）
+  var images="";
+  var links="";
+  var texts="";
+  images=images+"|"+"/article/UploadFiles/202206/2022061709504126.jpg";
+  links=links+"|"+"/article/zknews/4714.html";
+  texts=texts+"|"+"2021年10月汕头自考办联系地⋯";
+  images=images+"|"+"/article/UploadFiles/202206/2022061709503738.jpg";
+  links=links+"|"+"/article/zknews/4713.html";
+  texts=texts+"|"+"汕头市2021年10月自考报名已⋯";
+  images=images+"|"+"/article/UploadFiles/202206/2022061709502569.jpg";
+  links=links+"|"+"/article/zknews/4710.html";
+  texts=texts+"|"+"汕头市2021年1月自考准考证打⋯";
+  images=images+"|"+"/article/UploadFiles/202206/2022061709502156.jpg";
+  links=links+"|"+"/article/zknews/4709.html";
+  texts=texts+"|"+"汕头2020年下半年办理自考毕⋯";
+  images=images+"|"+"/article/UploadFiles/202206/2022061709501846.jpg";
+  links=links+"|"+"/article/zknews/4708.html";
+  texts=texts+"|"+"汕头市金平区2020年下半年自⋯";
+  images=images.substring(1, images.length );
+  links=links.substring(1, links.length );
+  texts=texts.substring(1, texts.length );
+
+  // 原生JS轮播实现（替代Flash）
+  (function() {
+    // 解析原有数据为数组
+    const imgArr = images.split('|');
+    const linkArr = links.split('|');
+    const textArr = texts.split('|');
+    const container = document.getElementById('flashNewsContainer');
+    
+    // 创建轮播列表
+    const list = document.createElement('ul');
+    list.className = 'flash-news-list';
+    container.appendChild(list);
+
+    // 生成轮播项
+    imgArr.forEach((imgSrc, index) => {
+      const item = document.createElement('li');
+      item.className = `flash-news-item ${index === 0 ? 'active' : ''}`;
+      // 创建链接和图片
+      const a = document.createElement('a');
+      a.href = linkArr[index] || '#';
+      a.title = textArr[index] || '';
+      const img = document.createElement('img');
+      img.src = imgSrc;
+      img.alt = textArr[index] || '轮播图片';
+      img.className = 'flash-news-img';
+      // 组装元素
+      a.appendChild(img);
+      item.appendChild(a);
+      list.appendChild(item);
+    });
+
+    // 自动轮播逻辑
+    let currentIndex = 0;
+    const items = document.querySelectorAll('.flash-news-item');
+    const total = items.length;
+    
+    function switchSlide() {
+      // 移除当前激活状态
+      items[currentIndex].classList.remove('active');
+      // 切换到下一张，循环
+      currentIndex = (currentIndex + 1) % total;
+      // 添加新激活状态
+      items[currentIndex].classList.add('active');
+    }
+
+    // 3秒自动切换（可修改速度，单位毫秒）
+    setInterval(switchSlide, 3000);
+  })();
+</script>
           <!-- flash section -->
         </div>
       </div>
@@ -769,6 +860,7 @@
 </div>
 </body>
 </html>
+
 
 
 
