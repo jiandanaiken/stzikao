@@ -1,0 +1,7332 @@
+<html>
+<head>
+<title>2007年10月广东省高等教育自学考试各专业课程使用教材</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+.style1 {color: #0099cc}
+-->
+</style>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<script language="JavaScript" type="text/JavaScript">
+//改变图片大小
+function resizepic(thispic)
+{
+if(thispic.width>700){thispic.height=thispic.height*700/thispic.width;thispic.width=700;} 
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  var zoom=parseInt(o.style.zoom, 10)||100;
+  zoom+=event.wheelDelta/12;
+  if (zoom>0) o.style.zoom=zoom+'%';
+  return false;
+}
+//双击鼠标滚动屏幕的代码
+var currentpos,timer;
+function initialize()
+{
+timer=setInterval ("scrollwindow ()",30);
+}
+function sc()
+{
+clearInterval(timer);
+}
+function scrollwindow()
+{
+currentpos=document.body.scrollTop;
+window.scroll(0,++currentpos);
+if (currentpos !=document.body.scrollTop)
+sc();
+}
+document.onmousedown=sc
+document.ondblclick=initialize
+
+//更改字体大小
+var status0='';
+var curfontsize=10;
+var curlineheight=18;
+function fontZoomA(){
+  if(curfontsize>8){
+    document.getElementById('fontzoom').style.fontSize=(--curfontsize)+'pt';
+	document.getElementById('fontzoom').style.lineHeight=(--curlineheight)+'pt';
+  }
+}
+function fontZoomB(){
+  if(curfontsize<64){
+    document.getElementById('fontzoom').style.fontSize=(++curfontsize)+'pt';
+	document.getElementById('fontzoom').style.lineHeight=(++curlineheight)+'pt';
+  }
+}
+</script>
+</head>
+<body leftmargin=0 topmargin=0 >
+<div id=menuDiv style="Z-INDEX: 1000; VISIBILITY: hidden; WIDTH: 1px; POSITION: absolute; HEIGHT: 1px; BACKGROUND-COLOR: #9cc5f8">
+</div>
+  <table class=top_tdbgall style="WORD-BREAK: break-all" cellSpacing=0 cellPadding=0 width=890 align=center border=0>
+  <!--顶部空距代码-->
+    <tr>
+      <td class=top_top colSpan=2></td>
+    </tr>
+    <!--频道显示代码-->
+    <tr>
+      <td class=top_Channel align=right colSpan=2>&nbsp;|&nbsp;<a class='Channel' href='/'>网站首页</a>&nbsp;|&nbsp;<a class='Channel2'  href='/Article/' target='_blank' title=''>自考动态</a>&nbsp;|&nbsp;<a class='Channel'  href='/Soft/' target='_blank' title=''>资料下载</a>&nbsp;|&nbsp;<a class='Channel'  href='http://www.stzikao.com/Article/Special/photoshop/Index.html' target='_blank' title=''>自考必读</a>&nbsp;|&nbsp;<a class='Channel'  href='/fxzd/' target='_blank' title=''>复习指导</a>&nbsp;|&nbsp;<a class='Channel'  href='/cjbj/' target='_blank' title=''>串讲笔记</a>&nbsp;|&nbsp;<a class='Channel'  href='/lnst/' target='_blank' title=''>历年试题</a>&nbsp;|&nbsp;<a class='Channel'  href='/bylw/' target='_blank' title=''>毕业论文</a>&nbsp;|&nbsp;<a class='Channel'  href='http://www.stzikao.com/Article/plane/Index.html' target='_blank' title=''>报考指南</a>&nbsp;|&nbsp;<a class='Channel'  href='http://www.stzikao.com/Article/websrv/Index.html' target='_blank' title=''>主考院校</a>&nbsp;|&nbsp;<a class='Channel'  href='http://www.stzikao.com/Article/zkbkbd/Index.html' target='_blank' title=''>考试计划</a>&nbsp;|&nbsp;<a class='Channel'  href='http://www.stzikao.com/Article/syjc/Index.html' target='_blank' title=''>使用教材</a>&nbsp;|&nbsp;<a class='Channel'  href='http://www.stzikao.com/fxzd/jyjl/Index.html' target='_blank' title=''>经验交流</a>&nbsp;|&nbsp;<a class='Channel'  href='http://music.stzikao.com/' target='_blank' title=''>音乐频道</a>&nbsp;|&nbsp;<a class='Channel'  href='http://edu.stzikao.com/' target='_blank' title=''>远程教育</a>&nbsp;|&nbsp;<a class='Channel'  href='/oblog' target='_blank' title=''>网站博客</a>&nbsp;|&nbsp;<a class='Channel'  href='/bbs' target='_blank' title=''>网站论坛</a>&nbsp;|&nbsp;<a class='Channel'  href='/GuestBook/' target='_blank' title=''>雁过留声</a>&nbsp;|&nbsp;</td>
+    </tr>
+    <tr>
+      <td align=middle><IMG alt=汕头自考网 src="/skin/mzstory/mz_logo.gif" border=0></td>
+      <td align=middle><a href='http://www.stzikao.com' title='汕头自考网'><img src='/images/banner.jpg' width='590' height='60' border='0'></a></td>
+    </tr>
+    <tr>
+      <td class=top_nav_menu vAlign=center colSpan=2>
+      <script language="JavaScript1.2" type="text/JavaScript" src="/Article/JS/ShowClass_Menu.js"></script></td>
+    </tr>
+  </table>
+  <!--导航代码开始-->
+  <table class=top_Path style="WIDTH: 890px; WORD-BREAK: break-all; HEIGHT: 30px" cellSpacing=0 cellPadding=0 width=890 align=center border=0>
+    <tr>
+      <td align=middle width="5%"><IMG height=11 src="/Images/arrow3.gif" width=29></td>
+      <td width="73%">您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/Index.shtml'>自考动态</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/syjc/Index.shtml'>使用教材</a>&nbsp;>>&nbsp;正文</td>
+      <td align=right width="22%"><IMG height=13 src="/Images/User_Login.gif" width=13 align=absMiddle> <A class=top_UserLogin href="/User/User_Login.asp" target=_blank>用户登录</A> <IMG height=13 src="/Images/User_Reg.gif" width=13 align=absMiddle> <A class=top_UserLogin href="/Reg/User_Reg.asp" target=_blank>新用户注册</A> </td>
+    </tr>
+  </table>
+  <!--导航代码结束-->
+  <!-- ********网页顶部代码结束******** -->
+  <!-- ********网页中部代码开始******** -->
+  <!--文章显示代码开始-->
+  <table class=center_tdbgall style="WORD-BREAK: break-all" cellSpacing=0 cellPadding=0 width=890 align=center border=0>
+    <tr>
+      <td colSpan=2>
+        <table class=main_title_890 style="WORD-BREAK: break-all" cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td vAlign=center width="3%"><IMG src="/Images/arrow.gif" align=absMiddle></td>
+            <td width="66%"><STRONG>2007年10月广东省高等教育自学考试各专业课程使用教材</STRONG></td>
+            <td width="18%">&nbsp;&nbsp;&nbsp;<font color=red>热</font>&nbsp;<font color=green>荐</font>&nbsp;&nbsp;<font color='#009999'>★★★</font></td>
+            <td align=right width="13%">【字体：<A href="javascript:fontZoomA();"><FONT color=#ffffff>小</FONT></A> <A href="javascript:fontZoomB();"><FONT color=#ffffff>大</FONT></A>】</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr vAlign=center align=middle>
+      <td class=main_ArticleTitle style="WORD-BREAK: break-all" colSpan=2 height=50>2007年10月广东省高等教育自学考试各专业课程使用教材</td>
+    </tr>
+    <tr vAlign=center align=middle>
+      <td class=main_ArticleSubheading style="WORD-BREAK: break-all" colSpan=2></td>
+    </tr>
+    <tr align=middle>
+      <td class=Article_tdbgall colSpan=2>作者：佚名&nbsp;&nbsp;&nbsp;&nbsp;文章来源：广东自考办&nbsp;&nbsp;&nbsp;&nbsp;点击数：<script language='javascript' src='/Article/GetHits.asp?ArticleID=406'></script>&nbsp;&nbsp;&nbsp;&nbsp;更新时间：2006-11-16&nbsp;&nbsp;&nbsp;&nbsp;<A title=收藏的网页将被永久地保存到新浪ViVi收藏夹http://vivi.sina.com.cn href="javascript:d=document;t=d.selection?(d.selection.type!='None'?d.selection.createRange().text:''):(d.getSelection?d.getSelection():'');void(vivi=window.open('http://vivi.sina.com.cn/collect/icollect.php?pid=2008&title='+escape(d.title)+'&url='+escape(d.location.href)+'&desc='+escape(t),'vivi','scrollbars=no,width=480,height=480,left=75,top=20,status=no,resizable=yes'));vivi.focus();"><IMG src="/images/vivi_coop1.gif" align=absMiddle border=0></A></td>
+    </tr>
+    <tr>
+      <td class=main_tdbg_890 id=fontzoom style="WORD-BREAK: break-all" vAlign=top colSpan=2 height=300>
+        <table cellSpacing=0 cellPadding=10 align=left border=0>
+          <tr>
+            <td>
+            <!--插入广告JS代码--></td>
+          </tr>
+        </table>
+{$GetSubTitleHtml}<TABLE cellSpacing=2 cellPadding=1 width=1026 border=1>
+<TBODY>
+<TR>
+<TD width=32>
+<DIV align=center>序号</DIV></TD>
+<TD width=38>
+<DIV align=center>课程代号</DIV></TD>
+<TD width=158>
+<DIV align=center>课程名称</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>考试节号</DIV></TD>
+<TD width=181>
+<DIV align=center>使用<a class="channel_keylink" href="http://www.stzikao.com/Article/syjc/Index.html">教材</a></DIV></TD>
+<TD width=134>
+<DIV align=center>作者</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV align=center>出版社</DIV></TD>
+<TD width=120>
+<DIV align=center>出版日期</DIV></TD>
+<TD width=145>
+<DIV align=center>备注</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>1</DIV></TD>
+<TD width=38>
+<DIV align=center>0001</DIV></TD>
+<TD width=158>
+<DIV>马克思主义哲学原理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>马克思主义哲学原理</DIV></TD>
+<TD width=134>
+<DIV>赵家祥</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>2</DIV></TD>
+<TD width=38>
+<DIV align=center>0002</DIV></TD>
+<TD width=158>
+<DIV>邓小平理论概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>邓小平理论概论</DIV></TD>
+<TD width=134>
+<DIV>钱淦荣</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国财政经济出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>3</DIV></TD>
+<TD width=38>
+<DIV align=center>0003</DIV></TD>
+<TD width=158>
+<DIV>法律基础与思想道德修养</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>法律基础与思想道德修养</DIV></TD>
+<TD width=134>
+<DIV>巩献田</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>4</DIV></TD>
+<TD width=38>
+<DIV align=center>0004</DIV></TD>
+<TD width=158>
+<DIV>毛泽东思想概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>毛泽东思想概论</DIV></TD>
+<TD width=134>
+<DIV>罗正楷</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>5</DIV></TD>
+<TD width=38>
+<DIV align=center>0005</DIV></TD>
+<TD width=158>
+<DIV>马克思主义政治经济学原理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>马克思主义政治经济学原理</DIV></TD>
+<TD width=134>
+<DIV>卫兴华</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>6</DIV></TD>
+<TD width=38>
+<DIV align=center>0009</DIV></TD>
+<TD width=158>
+<DIV>政治经济学[财]</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>政治经济学原理</DIV></TD>
+<TD width=134>
+<DIV>卫兴华、顾学荣</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>7</DIV></TD>
+<TD width=38>
+<DIV align=center>0012</DIV></TD>
+<TD width=158>
+<DIV>英语（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>大学英语自学教程[上册]</DIV></TD>
+<TD width=134>
+<DIV>高远</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>8</DIV></TD>
+<TD width=38>
+<DIV align=center>0015</DIV></TD>
+<TD width=158>
+<DIV>英语（二）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>大学英语自学教程[上.下册]</DIV></TD>
+<TD width=134>
+<DIV>高远</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>1998年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>9</DIV></TD>
+<TD width=38>
+<DIV align=center>0020</DIV></TD>
+<TD width=158>
+<DIV>高等数学（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>高等数学（一）微积分</DIV></TD>
+<TD width=134>
+<DIV>章学城</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>10</DIV></TD>
+<TD width=38>
+<DIV align=center>0022</DIV></TD>
+<TD width=158>
+<DIV>高等数学（工专）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>高等数学（工专）</DIV></TD>
+<TD width=134>
+<DIV>吴纪桃、漆毅</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>11</DIV></TD>
+<TD width=38>
+<DIV align=center>0023</DIV></TD>
+<TD width=158>
+<DIV>高等数学（工本）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>高等数学（工本）</DIV></TD>
+<TD width=134>
+<DIV>陈兆斗、高瑞</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>12</DIV></TD>
+<TD width=38>
+<DIV align=center>0031</DIV></TD>
+<TD width=158>
+<DIV>心理学（A）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>心理学</DIV></TD>
+<TD width=134>
+<DIV>张厚粲</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>南开大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>13</DIV></TD>
+<TD width=38>
+<DIV align=center>0043</DIV></TD>
+<TD width=158>
+<DIV>经济法概论（财）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>经济法概论（财经类）</DIV></TD>
+<TD width=134>
+<DIV>刘文华</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国财政经济出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>14</DIV></TD>
+<TD width=38>
+<DIV align=center>0048</DIV></TD>
+<TD width=158>
+<DIV>财政与金融</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>财政与金融</DIV></TD>
+<TD width=134>
+<DIV>安体富、庄毓敏</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>15</DIV></TD>
+<TD width=38>
+<DIV align=center>0051</DIV></TD>
+<TD width=158>
+<DIV>管理系统中计算机应用</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>管理系统中计算机应用</DIV></TD>
+<TD width=134>
+<DIV>汪星明、周山芙</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>16</DIV></TD>
+<TD width=38>
+<DIV align=center>0055</DIV></TD>
+<TD width=158>
+<DIV>企业会计学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>企业会计学</DIV></TD>
+<TD width=134>
+<DIV>方正生</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国财政经济出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>17</DIV></TD>
+<TD width=38>
+<DIV align=center>0064</DIV></TD>
+<TD width=158>
+<DIV>纳税检查</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>纳税检查</DIV></TD>
+<TD width=134>
+<DIV>刘桓</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国财政经济出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>18</DIV></TD>
+<TD width=38>
+<DIV align=center>0065</DIV></TD>
+<TD width=158>
+<DIV>国民经济统计概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>国民经济统计概论</DIV></TD>
+<TD width=134>
+<DIV>黄书田、刘娟</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>19</DIV></TD>
+<TD width=38>
+<DIV align=center>0066</DIV></TD>
+<TD width=158>
+<DIV>货币银行学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>货币银行学</DIV></TD>
+<TD width=134>
+<DIV>王克华、陈雨露</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>20</DIV></TD>
+<TD width=38>
+<DIV align=center>0067</DIV></TD>
+<TD width=158>
+<DIV>财务管理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>财务管理学</DIV></TD>
+<TD width=134>
+<DIV>王庆成、李相国</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国财政经济出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>21</DIV></TD>
+<TD width=38>
+<DIV align=center>0068</DIV></TD>
+<TD width=158>
+<DIV>外国财政</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>资本主义财政学</DIV></TD>
+<TD width=134>
+<DIV>王传伦</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>22</DIV></TD>
+<TD width=38>
+<DIV align=center>0070</DIV></TD>
+<TD width=158>
+<DIV>政府与事业单位会计</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>政府与事业单位会计</DIV></TD>
+<TD width=134>
+<DIV>林万祥、曹钟候</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国财政经济出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>23</DIV></TD>
+<TD width=38>
+<DIV align=center>0071</DIV></TD>
+<TD width=158>
+<DIV>社会保障概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>社会保障学</DIV></TD>
+<TD width=134>
+<DIV>李晓林、王绪瑾</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国财政经济出版社</DIV></TD>
+<TD width=120>
+<DIV>2003年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>24</DIV></TD>
+<TD width=38>
+<DIV align=center>0076</DIV></TD>
+<TD width=158>
+<DIV>国际金融</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>国际金融</DIV></TD>
+<TD width=134>
+<DIV>刘舒年</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>25</DIV></TD>
+<TD width=38>
+<DIV align=center>0077</DIV></TD>
+<TD width=158>
+<DIV>金融市场学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>金融市场学</DIV></TD>
+<TD width=134>
+<DIV>周升业、王广谦</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国财政经济出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>26</DIV></TD>
+<TD width=38>
+<DIV align=center>0088</DIV></TD>
+<TD width=158>
+<DIV>基础英语</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>英语(上)(下)</DIV></TD>
+<TD width=134>
+<DIV>吴顺昌、黄震华</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>27</DIV></TD>
+<TD width=38>
+<DIV align=center>0090</DIV></TD>
+<TD width=158>
+<DIV>国际贸易实务（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>国际贸易实务</DIV></TD>
+<TD width=134>
+<DIV>黎孝先</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>28</DIV></TD>
+<TD width=38>
+<DIV align=center>0092</DIV></TD>
+<TD width=158>
+<DIV>中国对外贸易</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>中国对外贸易</DIV></TD>
+<TD width=134>
+<DIV>黄晓玲</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>29</DIV></TD>
+<TD width=38>
+<DIV align=center>0098</DIV></TD>
+<TD width=158>
+<DIV>国际市场营销学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>国际市场营销学</DIV></TD>
+<TD width=134>
+<DIV>吴世经、曾国安</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>30</DIV></TD>
+<TD width=38>
+<DIV align=center>0100</DIV></TD>
+<TD width=158>
+<DIV>国际运输与保险</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>国际运输与保险</DIV></TD>
+<TD width=134>
+<DIV>叶梅</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>31</DIV></TD>
+<TD width=38>
+<DIV align=center>0101</DIV></TD>
+<TD width=158>
+<DIV>外经贸经营与管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>外经贸经营与管理</DIV></TD>
+<TD width=134>
+<DIV>宋沛</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>32</DIV></TD>
+<TD width=38>
+<DIV align=center>0102</DIV></TD>
+<TD width=158>
+<DIV>世界市场行情</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>世界市场行情</DIV></TD>
+<TD width=134>
+<DIV>杨逢华、林桂军</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>33</DIV></TD>
+<TD width=38>
+<DIV align=center>0111</DIV></TD>
+<TD width=158>
+<DIV>商标与广告管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>商标与广告管理</DIV></TD>
+<TD width=134>
+<DIV>陈季修、李丁</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>34</DIV></TD>
+<TD width=38>
+<DIV align=center>0112</DIV></TD>
+<TD width=158>
+<DIV>市场管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>市场管理</DIV></TD>
+<TD width=134>
+<DIV>赵丽芬</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>35</DIV></TD>
+<TD width=38>
+<DIV align=center>0113</DIV></TD>
+<TD width=158>
+<DIV>测量学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>测量学（第二版）</DIV></TD>
+<TD width=134>
+<DIV>河北农业大学</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国农业出版社</DIV></TD>
+<TD width=120>
+<DIV>1986年5月第2版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>36</DIV></TD>
+<TD width=38>
+<DIV align=center>0135</DIV></TD>
+<TD width=158>
+<DIV>农业经济与管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>农业经济与管理</DIV></TD>
+<TD width=134>
+<DIV>谭向勇</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD width=120>
+<DIV>1998年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>37</DIV></TD>
+<TD width=38>
+<DIV align=center>0142</DIV></TD>
+<TD width=158>
+<DIV>计量经济学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>计量经济学</DIV></TD>
+<TD width=134>
+<DIV>贺铿</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国统计出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>38</DIV></TD>
+<TD width=38>
+<DIV align=center>0147</DIV></TD>
+<TD width=158>
+<DIV>人力资源管理（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>人力资源管理（一）</DIV></TD>
+<TD width=134>
+<DIV>孙建敏</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>39</DIV></TD>
+<TD width=38>
+<DIV align=center>0148</DIV></TD>
+<TD width=158>
+<DIV>国际企业管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>国际企业管理</DIV></TD>
+<TD width=134>
+<DIV>徐子健</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国财政经济出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>40</DIV></TD>
+<TD width=38>
+<DIV align=center>0149</DIV></TD>
+<TD width=158>
+<DIV>国际贸易理论与实务</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>国际贸易理论与实务</DIV></TD>
+<TD width=134>
+<DIV>冷柏军</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国财政经济出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>41</DIV></TD>
+<TD width=38>
+<DIV align=center>0154</DIV></TD>
+<TD width=158>
+<DIV>企业管理咨询</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>企业管理咨询</DIV></TD>
+<TD width=134>
+<DIV>刘仲康</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国财政经济出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>42</DIV></TD>
+<TD width=38>
+<DIV align=center>0156</DIV></TD>
+<TD width=158>
+<DIV>成本会计</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>成本会计学</DIV></TD>
+<TD width=134>
+<DIV>贺南轩</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国财政经济出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>43</DIV></TD>
+<TD width=38>
+<DIV align=center>0159</DIV></TD>
+<TD width=158>
+<DIV>高级财务会计</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>高级财务会计</DIV></TD>
+<TD width=134>
+<DIV>李大诚</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国财政经济出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>44</DIV></TD>
+<TD width=38>
+<DIV align=center>0161</DIV></TD>
+<TD width=158>
+<DIV>财务报表分析（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>财务报表分析</DIV></TD>
+<TD width=134>
+<DIV>金中泉</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国财政经济出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>45</DIV></TD>
+<TD width=38>
+<DIV align=center>0162</DIV></TD>
+<TD width=158>
+<DIV>会计制度设计</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>会计制度设计</DIV></TD>
+<TD width=134>
+<DIV>张以宽</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国财政经济出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>46</DIV></TD>
+<TD width=38>
+<DIV align=center>0163</DIV></TD>
+<TD width=158>
+<DIV>管理心理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>管理心理学</DIV></TD>
+<TD width=134>
+<DIV>孔祥勇</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>47</DIV></TD>
+<TD width=38>
+<DIV align=center>0169</DIV></TD>
+<TD width=158>
+<DIV>房地产法</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>房地产法</DIV></TD>
+<TD width=134>
+<DIV>程信和、刘国臻</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>48</DIV></TD>
+<TD width=38>
+<DIV align=center>0172</DIV></TD>
+<TD width=158>
+<DIV>房地产经营管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>房地产经营管理</DIV></TD>
+<TD width=134>
+<DIV>张跃庆</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>49</DIV></TD>
+<TD width=38>
+<DIV align=center>0181</DIV></TD>
+<TD width=158>
+<DIV>广告学（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>中国广告学</DIV></TD>
+<TD width=134>
+<DIV>汪洋</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国财政经济出版社</DIV></TD>
+<TD width=120>
+<DIV>2003年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>50</DIV></TD>
+<TD width=38>
+<DIV align=center>0182</DIV></TD>
+<TD width=158>
+<DIV>公共关系学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>公共关系学</DIV></TD>
+<TD width=134>
+<DIV>廖为建</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>51</DIV></TD>
+<TD width=38>
+<DIV align=center>0223</DIV></TD>
+<TD width=158>
+<DIV>中国法制史</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>中国法制史</DIV></TD>
+<TD width=134>
+<DIV>段秋关</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>52</DIV></TD>
+<TD width=38>
+<DIV align=center>0227</DIV></TD>
+<TD width=158>
+<DIV>公司法</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>公司法</DIV></TD>
+<TD width=134>
+<DIV>顾功耘</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>53</DIV></TD>
+<TD width=38>
+<DIV align=center>0228</DIV></TD>
+<TD width=158>
+<DIV>环境与资源保护法学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>环境与资源保护法学</DIV></TD>
+<TD width=134>
+<DIV>金瑞林</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>54</DIV></TD>
+<TD width=38>
+<DIV align=center>0229</DIV></TD>
+<TD width=158>
+<DIV>证据法学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>证据法学</DIV></TD>
+<TD width=134>
+<DIV>江伟</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>法律出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>55</DIV></TD>
+<TD width=38>
+<DIV align=center>0230</DIV></TD>
+<TD width=158>
+<DIV>合同法</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>合同法</DIV></TD>
+<TD width=134>
+<DIV>王利明、崔建远</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>56</DIV></TD>
+<TD width=38>
+<DIV align=center>0235</DIV></TD>
+<TD width=158>
+<DIV>犯罪学（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>犯罪学教程</DIV></TD>
+<TD width=134>
+<DIV>宋浩波</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民公安大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>57</DIV></TD>
+<TD width=38>
+<DIV align=center>0236</DIV></TD>
+<TD width=158>
+<DIV>监狱学基础理论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>监狱学基础理论</DIV></TD>
+<TD width=134>
+<DIV>夏宗素</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>法律出版社</DIV></TD>
+<TD width=120>
+<DIV>1998年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>58</DIV></TD>
+<TD width=38>
+<DIV align=center>0237</DIV></TD>
+<TD width=158>
+<DIV>劳教学基础理论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>劳教学基础理论</DIV></TD>
+<TD width=134>
+<DIV>姚喜平</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>法律出版社</DIV></TD>
+<TD width=120>
+<DIV>1998年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>59</DIV></TD>
+<TD width=38>
+<DIV align=center>0241</DIV></TD>
+<TD width=158>
+<DIV>警察管理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>警察管理学</DIV></TD>
+<TD width=134>
+<DIV>王明泉</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>法律出版社</DIV></TD>
+<TD width=120>
+<DIV>1998年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>60</DIV></TD>
+<TD width=38>
+<DIV align=center>0242</DIV></TD>
+<TD width=158>
+<DIV>民法学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>民法学</DIV></TD>
+<TD width=134>
+<DIV>郭明瑞</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>61</DIV></TD>
+<TD width=38>
+<DIV align=center>0243</DIV></TD>
+<TD width=158>
+<DIV>民事诉讼法学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>民事诉讼法学</DIV></TD>
+<TD width=134>
+<DIV>江伟</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2003年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>62</DIV></TD>
+<TD width=38>
+<DIV align=center>0244</DIV></TD>
+<TD width=158>
+<DIV>经济法概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>经济法概论</DIV></TD>
+<TD width=134>
+<DIV>张守文</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>63</DIV></TD>
+<TD width=38>
+<DIV align=center>0261</DIV></TD>
+<TD width=158>
+<DIV>行政法学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>行政法学</DIV></TD>
+<TD width=134>
+<DIV>罗豪才</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>64</DIV></TD>
+<TD width=38>
+<DIV align=center>0262</DIV></TD>
+<TD width=158>
+<DIV>法律文书写作</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>法律文书写作</DIV></TD>
+<TD width=134>
+<DIV>宁致远</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>65</DIV></TD>
+<TD width=38>
+<DIV align=center>0263</DIV></TD>
+<TD width=158>
+<DIV>外国法制史</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>外国法制史</DIV></TD>
+<TD width=134>
+<DIV>由嵘、胡大展</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>66</DIV></TD>
+<TD width=38>
+<DIV align=center>0281</DIV></TD>
+<TD width=158>
+<DIV>社区社会工作</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>社区社会工作</DIV></TD>
+<TD width=134>
+<DIV>周沛</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>社会科学文献出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>67</DIV></TD>
+<TD width=38>
+<DIV align=center>0287</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>发展社会学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>发展社会学</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>吴忠民、刘祖云</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2002年12月一版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>68</DIV></TD>
+<TD width=38>
+<DIV align=center>0312</DIV></TD>
+<TD width=158>
+<DIV>政治学概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>政治学概论</DIV></TD>
+<TD width=134>
+<DIV>王惠岩</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>69</DIV></TD>
+<TD width=38>
+<DIV align=center>0316</DIV></TD>
+<TD width=158>
+<DIV>西方政治制度</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>西方政治制度</DIV></TD>
+<TD width=134>
+<DIV>曹沛霖</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>70</DIV></TD>
+<TD width=38>
+<DIV align=center>0319</DIV></TD>
+<TD width=158>
+<DIV>行政组织理论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>行政组织理论</DIV></TD>
+<TD width=134>
+<DIV>傅明贤</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>71</DIV></TD>
+<TD width=38>
+<DIV align=center>0320</DIV></TD>
+<TD width=158>
+<DIV>领导科学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>领导科学</DIV></TD>
+<TD width=134>
+<DIV>黄强</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>72</DIV></TD>
+<TD width=38>
+<DIV align=center>0321</DIV></TD>
+<TD width=158>
+<DIV>中国文化概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>中国文化概论</DIV></TD>
+<TD width=134>
+<DIV>王宁</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>湖南师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>73</DIV></TD>
+<TD width=38>
+<DIV align=center>0322</DIV></TD>
+<TD width=158>
+<DIV>中国行政史</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>中国行政史</DIV></TD>
+<TD width=134>
+<DIV>虞崇胜</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>74</DIV></TD>
+<TD width=38>
+<DIV align=center>0323</DIV></TD>
+<TD width=158>
+<DIV>西方行政学说史</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>西方行政学说史</DIV></TD>
+<TD width=134>
+<DIV>竺乾威</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>75</DIV></TD>
+<TD width=38>
+<DIV align=center>0341</DIV></TD>
+<TD width=158>
+<DIV>公文写作与处理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>公文写作与处理</DIV></TD>
+<TD width=134>
+<DIV>饶士奇</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>76</DIV></TD>
+<TD width=38>
+<DIV align=center>0342</DIV></TD>
+<TD width=158>
+<DIV>高级语言程序设计（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>高级语言程序设计</DIV></TD>
+<TD width=134>
+<DIV>迟成文</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2007年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>77</DIV></TD>
+<TD width=38>
+<DIV align=center>0345</DIV></TD>
+<TD width=158>
+<DIV>秘书学概论（B）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>秘书学概论</DIV></TD>
+<TD width=134>
+<DIV>常崇宜</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>78</DIV></TD>
+<TD width=38>
+<DIV align=center>0346</DIV></TD>
+<TD width=158>
+<DIV>办公自动化原理及应用</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>办公自动化原理及应用</DIV></TD>
+<TD width=134>
+<DIV>孙淑扬</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>79</DIV></TD>
+<TD width=38>
+<DIV align=center>0354</DIV></TD>
+<TD width=158>
+<DIV>公安学基础理论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>公安学基础理论</DIV></TD>
+<TD width=134>
+<DIV>柳晓川、许新源</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民公安大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>80</DIV></TD>
+<TD width=38>
+<DIV align=center>0356</DIV></TD>
+<TD width=158>
+<DIV>公安管理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>公安管理学</DIV></TD>
+<TD width=134>
+<DIV>杨建和、张光</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民公安大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>81</DIV></TD>
+<TD width=38>
+<DIV align=center>0372</DIV></TD>
+<TD width=158>
+<DIV>公安信息学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>公安信息学</DIV></TD>
+<TD width=134>
+<DIV>孟宪文</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民公安大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>82</DIV></TD>
+<TD width=38>
+<DIV align=center>0373</DIV></TD>
+<TD width=158>
+<DIV>涉外警务概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>涉外警务概论</DIV></TD>
+<TD width=134>
+<DIV>向党</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民公安大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>83</DIV></TD>
+<TD width=38>
+<DIV align=center>0386</DIV></TD>
+<TD width=158>
+<DIV>幼儿文学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>幼儿文学</DIV></TD>
+<TD width=134>
+<DIV>祝士嫒、张春妮</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>吉林大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>84</DIV></TD>
+<TD width=38>
+<DIV align=center>0388</DIV></TD>
+<TD width=158>
+<DIV>学前儿童数学教育</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>学前儿童数学教育</DIV></TD>
+<TD width=134>
+<DIV>张慧和</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>东北师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>85</DIV></TD>
+<TD width=38>
+<DIV align=center>0389</DIV></TD>
+<TD width=158>
+<DIV>学前教育科学研究</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>学前教育科学研究方法</DIV></TD>
+<TD width=134>
+<DIV>杨爱华</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>南京师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>86</DIV></TD>
+<TD width=38>
+<DIV align=center>0390</DIV></TD>
+<TD width=158>
+<DIV>学前儿童科学教育</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>学前儿童科学教育</DIV></TD>
+<TD width=134>
+<DIV>王志明</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>南京师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>87</DIV></TD>
+<TD width=38>
+<DIV align=center>0393</DIV></TD>
+<TD width=158>
+<DIV>学前儿童语言教育</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>学前儿童语言教育</DIV></TD>
+<TD width=134>
+<DIV>周兢</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>南京师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>88</DIV></TD>
+<TD width=38>
+<DIV align=center>0395</DIV></TD>
+<TD width=158>
+<DIV>科学、技术、社会</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>科学.技术.社会</DIV></TD>
+<TD width=134>
+<DIV>徐辉</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>89</DIV></TD>
+<TD width=38>
+<DIV align=center>0401</DIV></TD>
+<TD width=158>
+<DIV>学前比较教育</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>学前比较教育</DIV></TD>
+<TD width=134>
+<DIV>史静寰、周采</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>90</DIV></TD>
+<TD width=38>
+<DIV align=center>0403</DIV></TD>
+<TD width=158>
+<DIV>学前儿童家庭教育</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>学前儿童家庭教育</DIV></TD>
+<TD width=134>
+<DIV>李洪曾</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>91</DIV></TD>
+<TD width=38>
+<DIV align=center>0409</DIV></TD>
+<TD width=158>
+<DIV>美育基础</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>美育基础</DIV></TD>
+<TD width=134>
+<DIV>李范</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>92</DIV></TD>
+<TD width=38>
+<DIV align=center>0420</DIV></TD>
+<TD width=158>
+<DIV>物理(工)</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>物理(工)</DIV></TD>
+<TD width=134>
+<DIV>丁俊华、祈有龙</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>93</DIV></TD>
+<TD width=38>
+<DIV align=center>0449</DIV></TD>
+<TD width=158>
+<DIV>教育管理原理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>教育管理原理</DIV></TD>
+<TD width=134>
+<DIV>孙绵涛</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广东高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>94</DIV></TD>
+<TD width=38>
+<DIV align=center>0451</DIV></TD>
+<TD width=158>
+<DIV>教育经济学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>教育经济学</DIV></TD>
+<TD width=134>
+<DIV>靳希斌</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>95</DIV></TD>
+<TD width=38>
+<DIV align=center>0454</DIV></TD>
+<TD width=158>
+<DIV>教育预测与规划</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>教育预测与规划</DIV></TD>
+<TD width=134>
+<DIV>徐虹</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>96</DIV></TD>
+<TD width=38>
+<DIV align=center>0456</DIV></TD>
+<TD width=158>
+<DIV>教育科学研究方法</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>教育科学研究方法</DIV></TD>
+<TD width=134>
+<DIV>裴娣娜</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>97</DIV></TD>
+<TD width=38>
+<DIV align=center>0457</DIV></TD>
+<TD width=158>
+<DIV>学前教育管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>学前教育管理</DIV></TD>
+<TD width=134>
+<DIV>虞永平</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>华东师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>98</DIV></TD>
+<TD width=38>
+<DIV align=center>0458</DIV></TD>
+<TD width=158>
+<DIV>中小学教育管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>中小学教育管理</DIV></TD>
+<TD width=134>
+<DIV>贺乐凡</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>华东师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>99</DIV></TD>
+<TD width=38>
+<DIV align=center>0459</DIV></TD>
+<TD width=158>
+<DIV>高等教育管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>高等教育管理</DIV></TD>
+<TD width=134>
+<DIV>柯佑祥</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>华东师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>100</DIV></TD>
+<TD width=38>
+<DIV align=center>0464</DIV></TD>
+<TD width=158>
+<DIV>中外教育简史</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>中外教育简史</DIV></TD>
+<TD width=134>
+<DIV>刘德华</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广东高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>101</DIV></TD>
+<TD width=38>
+<DIV align=center>0466</DIV></TD>
+<TD width=158>
+<DIV>发展与教育心理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>发展与教育心理学</DIV></TD>
+<TD width=134>
+<DIV>沈德立</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>102</DIV></TD>
+<TD width=38>
+<DIV align=center>0469</DIV></TD>
+<TD width=158>
+<DIV>教育学原理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>教育学原理</DIV></TD>
+<TD width=134>
+<DIV>成有信</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广东高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>103</DIV></TD>
+<TD width=38>
+<DIV align=center>0509</DIV></TD>
+<TD width=158>
+<DIV>机关管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>机关管理</DIV></TD>
+<TD width=134>
+<DIV>陈广胜、胡鸿杰</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>104</DIV></TD>
+<TD width=38>
+<DIV align=center>0514</DIV></TD>
+<TD width=158>
+<DIV>外国秘书工作概况</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>外国秘书工作概况</DIV></TD>
+<TD width=134>
+<DIV>方国雄</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>105</DIV></TD>
+<TD width=38>
+<DIV align=center>0518</DIV></TD>
+<TD width=158>
+<DIV>英语文书写作</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>英语文书写作</DIV></TD>
+<TD width=134>
+<DIV>黄家修</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>106</DIV></TD>
+<TD width=38>
+<DIV align=center>0520</DIV></TD>
+<TD width=158>
+<DIV>外事工作概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>外事工作概论</DIV></TD>
+<TD width=134>
+<DIV>蒲丽钿</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>吉林大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>107</DIV></TD>
+<TD width=38>
+<DIV align=center>0521</DIV></TD>
+<TD width=158>
+<DIV>外商投资企业管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>外商投资企业管理</DIV></TD>
+<TD width=134>
+<DIV>董黎明</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>108</DIV></TD>
+<TD width=38>
+<DIV align=center>0529</DIV></TD>
+<TD width=158>
+<DIV>文学概论（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>文学概论</DIV></TD>
+<TD width=134>
+<DIV>童庆炳</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>109</DIV></TD>
+<TD width=38>
+<DIV align=center>0531</DIV></TD>
+<TD width=158>
+<DIV>中国当代文学作品选</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>中国当代文学作品选</DIV></TD>
+<TD width=134>
+<DIV>钱谷融、吴宏聪</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>华东师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>110</DIV></TD>
+<TD width=38>
+<DIV align=center>0533</DIV></TD>
+<TD width=158>
+<DIV>中国古代文学作品选（二）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>中国古代文学作品选（二）</DIV></TD>
+<TD width=134>
+<DIV>徐中玉、金启华</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>华东师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>111</DIV></TD>
+<TD width=38>
+<DIV align=center>0534</DIV></TD>
+<TD width=158>
+<DIV>外国文学作品选</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>外国文学作品选</DIV></TD>
+<TD width=134>
+<DIV>陈惇、刘建军</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>华东师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>112</DIV></TD>
+<TD width=38>
+<DIV align=center>0536</DIV></TD>
+<TD width=158>
+<DIV>古代汉语</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>古代汉语</DIV></TD>
+<TD width=134>
+<DIV>郭锡良、李玲璞</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>语文出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>113</DIV></TD>
+<TD width=38>
+<DIV align=center>0539</DIV></TD>
+<TD width=158>
+<DIV>中国古代文学史（二）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>中国古代文学史(二)</DIV></TD>
+<TD width=134>
+<DIV>罗宗强、陈洪</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>华东师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>114</DIV></TD>
+<TD width=38>
+<DIV align=center>0540</DIV></TD>
+<TD width=158>
+<DIV>外国文学史</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>外国文学史</DIV></TD>
+<TD width=134>
+<DIV>金元浦、孟昭毅</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>华东师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>115</DIV></TD>
+<TD width=38>
+<DIV align=center>0541</DIV></TD>
+<TD width=158>
+<DIV>语言学概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>语言学概论</DIV></TD>
+<TD width=134>
+<DIV>胡明杨</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>语文出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>116</DIV></TD>
+<TD width=38>
+<DIV align=center>0596</DIV></TD>
+<TD width=158>
+<DIV>英语阅读（二）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>英语阅读（二）</DIV></TD>
+<TD width=134>
+<DIV>白永权</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>117</DIV></TD>
+<TD width=38>
+<DIV align=center>0597</DIV></TD>
+<TD width=158>
+<DIV>英语写作基础</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>英语写作基础</DIV></TD>
+<TD width=134>
+<DIV>杨俊峰</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>118</DIV></TD>
+<TD width=38>
+<DIV align=center>0600</DIV></TD>
+<TD width=158>
+<DIV>高级英语</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>高级英语（上下册）</DIV></TD>
+<TD width=134>
+<DIV>王家湘、张中载</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>外语教学与研究出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>119</DIV></TD>
+<TD width=38>
+<DIV align=center>0603</DIV></TD>
+<TD width=158>
+<DIV>英语写作</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>英语写作</DIV></TD>
+<TD width=134>
+<DIV>杨俊峰</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>120</DIV></TD>
+<TD width=38>
+<DIV align=center>0609</DIV></TD>
+<TD width=158>
+<DIV>高级日语（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>日语（第7册）</DIV></TD>
+<TD width=134>
+<DIV>陈生保、胡国伟、陈华洁</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>上海外语教育出版社</DIV></TD>
+<TD width=120>
+<DIV>1987年8月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>121</DIV></TD>
+<TD width=38>
+<DIV align=center>0610</DIV></TD>
+<TD width=158>
+<DIV>高级日语（二）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>日语（第8册）</DIV></TD>
+<TD width=134>
+<DIV>陈生保、胡国伟、陈华洁</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>上海外语教育出版社</DIV></TD>
+<TD width=120>
+<DIV>1987年12月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>122</DIV></TD>
+<TD width=38>
+<DIV align=center>0635</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>广告法规与管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD vAlign=bottom width=181>
+<DIV>广告法规与管理</DIV></TD>
+<TD vAlign=bottom width=134>
+<DIV>丛新强、梁绪敏</DIV></TD>
+<TD vAlign=bottom width=153 colSpan=2>
+<DIV>山东大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004.9第一版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>123</DIV></TD>
+<TD width=38>
+<DIV align=center>0637</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>广告媒体分析</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD vAlign=bottom width=181>
+<DIV>广告媒体分析课程辅导</DIV></TD>
+<TD vAlign=bottom width=134>
+<DIV>聂艳梅</DIV></TD>
+<TD vAlign=bottom width=153 colSpan=2>
+<DIV>上海财经大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004.9第一版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>124</DIV></TD>
+<TD width=38>
+<DIV align=center>0639</DIV></TD>
+<TD width=158>
+<DIV>广播电视广告</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>广播电视广告</DIV></TD>
+<TD vAlign=bottom width=134>
+<DIV>朱月昌</DIV></TD>
+<TD vAlign=bottom width=153 colSpan=2>
+<DIV>厦门大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000.7第一版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>125</DIV></TD>
+<TD width=38>
+<DIV align=center>0640</DIV></TD>
+<TD width=158>
+<DIV>平面广告设计</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>平面广告设计</DIV></TD>
+<TD vAlign=bottom width=134>
+<DIV>何洁</DIV></TD>
+<TD vAlign=bottom width=153 colSpan=2>
+<DIV>中南大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004.2第一版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>126</DIV></TD>
+<TD width=38>
+<DIV align=center>0643</DIV></TD>
+<TD width=158>
+<DIV>公关心理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>公关心理学</DIV></TD>
+<TD width=134>
+<DIV>程曼丽</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>127</DIV></TD>
+<TD width=38>
+<DIV align=center>0644</DIV></TD>
+<TD width=158>
+<DIV>公关礼仪</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>公关礼仪</DIV></TD>
+<TD width=134>
+<DIV>李兴国</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>128</DIV></TD>
+<TD width=38>
+<DIV align=center>0646</DIV></TD>
+<TD width=158>
+<DIV>公共关系写作</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>公共关系写作</DIV></TD>
+<TD width=134>
+<DIV>周安华</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>129</DIV></TD>
+<TD width=38>
+<DIV align=center>0647</DIV></TD>
+<TD width=158>
+<DIV>公关语言</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>公共关系语言</DIV></TD>
+<TD width=134>
+<DIV>蒋春堂</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>130</DIV></TD>
+<TD width=38>
+<DIV align=center>0654</DIV></TD>
+<TD width=158>
+<DIV>新闻采访写作</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>新闻采访写作</DIV></TD>
+<TD width=134>
+<DIV>张默</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>131</DIV></TD>
+<TD width=38>
+<DIV align=center>0655</DIV></TD>
+<TD width=158>
+<DIV>报纸编辑</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>报纸编辑</DIV></TD>
+<TD width=134>
+<DIV>郑兴东</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>132</DIV></TD>
+<TD width=38>
+<DIV align=center>0656</DIV></TD>
+<TD width=158>
+<DIV>广播新闻与电视新闻</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>广播新闻与电视新闻</DIV></TD>
+<TD width=134>
+<DIV>王振业</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>133</DIV></TD>
+<TD width=38>
+<DIV align=center>0657</DIV></TD>
+<TD width=158>
+<DIV>新闻心理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>新闻心理学</DIV></TD>
+<TD width=134>
+<DIV>刘京林</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>134</DIV></TD>
+<TD width=38>
+<DIV align=center>0659</DIV></TD>
+<TD width=158>
+<DIV>新闻摄影</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>新闻摄影</DIV></TD>
+<TD width=134>
+<DIV>盛希贵</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>135</DIV></TD>
+<TD width=38>
+<DIV align=center>0660</DIV></TD>
+<TD width=158>
+<DIV>外国新闻事业史</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>外国新闻事业史</DIV></TD>
+<TD width=134>
+<DIV>张允若</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>136</DIV></TD>
+<TD width=38>
+<DIV align=center>0662</DIV></TD>
+<TD width=158>
+<DIV>新闻事业管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>新闻事业管理</DIV></TD>
+<TD width=134>
+<DIV>屠忠俊</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>137</DIV></TD>
+<TD width=38>
+<DIV align=center>0794</DIV></TD>
+<TD width=158>
+<DIV>综合英语（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>综合英语（一）（上下册）</DIV></TD>
+<TD width=134>
+<DIV>徐克容</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>外语教学与研究出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>138</DIV></TD>
+<TD width=38>
+<DIV align=center>0795</DIV></TD>
+<TD width=158>
+<DIV>综合英语（二）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>综合英语（二）（上下册）</DIV></TD>
+<TD width=134>
+<DIV>徐克容</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>外语教学与研究出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>139</DIV></TD>
+<TD width=38>
+<DIV align=center>0840</DIV></TD>
+<TD width=158>
+<DIV>第二外语[日语]</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>日语入门</DIV></TD>
+<TD width=134>
+<DIV>杨拙人、下泽胜井</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广州外语音像出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年6月第3版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>140</DIV></TD>
+<TD width=38>
+<DIV align=center>0844</DIV></TD>
+<TD width=158>
+<DIV>日语阅读（二）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>新编日语阅读文选（第二册）</DIV></TD>
+<TD width=134>
+<DIV>季林根、陆静华</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>上海外语教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2003年8月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>141</DIV></TD>
+<TD width=38>
+<DIV align=center>0845</DIV></TD>
+<TD width=158>
+<DIV>第二外语[英语]</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>大学英语自学教程（上、下册）</DIV></TD>
+<TD width=134>
+<DIV>高远</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年12月第2版(上册),1998年6月第2版(下册)</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>142</DIV></TD>
+<TD width=38>
+<DIV align=center>0851</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>广告文案写作</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD vAlign=bottom width=181>
+<DIV>广告方案写作</DIV></TD>
+<TD vAlign=bottom width=134>
+<DIV>胡晓芸</DIV></TD>
+<TD vAlign=bottom width=153 colSpan=2>
+<DIV>浙江大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1998.12第一版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>143</DIV></TD>
+<TD width=38>
+<DIV align=center>0852</DIV></TD>
+<TD width=158>
+<DIV>劳教管理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>劳教管理学</DIV></TD>
+<TD width=134>
+<DIV>张劲松</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>法律出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>144</DIV></TD>
+<TD width=38>
+<DIV align=center>0853</DIV></TD>
+<TD width=158>
+<DIV>广告学（二）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>广告学（二）</DIV></TD>
+<TD width=134>
+<DIV>丁俊杰</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>145</DIV></TD>
+<TD width=38>
+<DIV align=center>0860</DIV></TD>
+<TD width=158>
+<DIV>公安行政诉讼</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>公安行政诉讼教程</DIV></TD>
+<TD width=134>
+<DIV>孟昭阳</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民公安大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>146</DIV></TD>
+<TD width=38>
+<DIV align=center>0881</DIV></TD>
+<TD width=158>
+<DIV>学前教育科学研究与<a class="channel_keylink" href="http://www.stzikao.com/bylw/Index.html">论文</a>写作</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>学前教育科学研究与<a class="channel_keylink" href="http://www.stzikao.com/bylw/Index.html">论文</a>写作</DIV></TD>
+<TD width=134>
+<DIV>杨丽珠</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>147</DIV></TD>
+<TD width=38>
+<DIV align=center>0882</DIV></TD>
+<TD width=158>
+<DIV>学前教育心理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>幼儿教育心理学</DIV></TD>
+<TD width=134>
+<DIV>曹中平</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>148</DIV></TD>
+<TD width=38>
+<DIV align=center>0883</DIV></TD>
+<TD width=158>
+<DIV>学前特殊儿童教育</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>学前特殊儿童教育</DIV></TD>
+<TD width=134>
+<DIV>周兢</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>149</DIV></TD>
+<TD width=38>
+<DIV align=center>0884</DIV></TD>
+<TD width=158>
+<DIV>学前教育行政与管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>学前教育行政与管理</DIV></TD>
+<TD width=134>
+<DIV>张燕、闫水晶</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>东北师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>150</DIV></TD>
+<TD width=38>
+<DIV align=center>0886</DIV></TD>
+<TD width=158>
+<DIV>学前儿童心理卫生与辅导</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>学前儿童心理卫生与辅导</DIV></TD>
+<TD width=134>
+<DIV>朱家雄</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>东北师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>151</DIV></TD>
+<TD width=38>
+<DIV align=center>0888</DIV></TD>
+<TD width=158>
+<DIV>电子商务英语</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>电子商务英语</DIV></TD>
+<TD width=134>
+<DIV>崔刚</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>152</DIV></TD>
+<TD width=38>
+<DIV align=center>0890</DIV></TD>
+<TD width=158>
+<DIV>市场营销（三）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>市场营销</DIV></TD>
+<TD width=134>
+<DIV>吕一林</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>153</DIV></TD>
+<TD width=38>
+<DIV align=center>0891</DIV></TD>
+<TD width=158>
+<DIV>国际贸易实务（三）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>国际贸易实务</DIV></TD>
+<TD width=134>
+<DIV>董瑾</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>154</DIV></TD>
+<TD width=38>
+<DIV align=center>0894</DIV></TD>
+<TD width=158>
+<DIV>计算机与网络技术基础</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>计算机与网络技术基础</DIV></TD>
+<TD width=134>
+<DIV>于淼</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2007年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>155</DIV></TD>
+<TD width=38>
+<DIV align=center>0896</DIV></TD>
+<TD width=158>
+<DIV>电子商务概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>电子商务概论</DIV></TD>
+<TD width=134>
+<DIV>成栋</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>156</DIV></TD>
+<TD width=38>
+<DIV align=center>0906</DIV></TD>
+<TD width=158>
+<DIV>电子商务网站设计原理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>电子商务网站设计原理</DIV></TD>
+<TD width=134>
+<DIV>杨雅辉</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国财政经济出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>157</DIV></TD>
+<TD width=38>
+<DIV align=center>0910</DIV></TD>
+<TD width=158>
+<DIV>网络经济与企业管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>网络经济与企业管理</DIV></TD>
+<TD width=134>
+<DIV>李凤云</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>158</DIV></TD>
+<TD width=38>
+<DIV align=center>0915</DIV></TD>
+<TD width=158>
+<DIV>电子商务与现代物流</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>电子商务与现代物流</DIV></TD>
+<TD width=134>
+<DIV>何明珂</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>159</DIV></TD>
+<TD width=38>
+<DIV align=center>0917</DIV></TD>
+<TD width=158>
+<DIV>民法原理与实务</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>民法原理与实务</DIV></TD>
+<TD width=134>
+<DIV>李仁玉</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>160</DIV></TD>
+<TD width=38>
+<DIV align=center>0918</DIV></TD>
+<TD width=158>
+<DIV>民事诉讼原理与实务（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>民事诉讼原理与实务</DIV></TD>
+<TD width=134>
+<DIV>陈桂明</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>161</DIV></TD>
+<TD width=38>
+<DIV align=center>0921</DIV></TD>
+<TD width=158>
+<DIV>商法原理与实务</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>商法原理与实务</DIV></TD>
+<TD width=134>
+<DIV>王保树</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>162</DIV></TD>
+<TD width=38>
+<DIV align=center>0922</DIV></TD>
+<TD width=158>
+<DIV>经济法原理与实务</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>经济法原理与实务</DIV></TD>
+<TD width=134>
+<DIV>盛杰民</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>163</DIV></TD>
+<TD width=38>
+<DIV align=center>0997</DIV></TD>
+<TD width=158>
+<DIV>电子商务安全导论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>电子商务安全导论</DIV></TD>
+<TD width=134>
+<DIV>蒋汉生</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>164</DIV></TD>
+<TD width=38>
+<DIV align=center>2113</DIV></TD>
+<TD width=158>
+<DIV>医学心理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>医学心理学</DIV></TD>
+<TD width=134>
+<DIV>胡佩诚</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京医科大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>165</DIV></TD>
+<TD width=38>
+<DIV align=center>2120</DIV></TD>
+<TD width=158>
+<DIV>数据库及其应用</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>数据库及其应用</DIV></TD>
+<TD width=134>
+<DIV>牛允鹏</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>166</DIV></TD>
+<TD width=38>
+<DIV align=center>2126</DIV></TD>
+<TD width=158>
+<DIV>应用文写作</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>应用文写作</DIV></TD>
+<TD width=134>
+<DIV>火玥人</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国电力出版社</DIV></TD>
+<TD width=120>
+<DIV>2003年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>167</DIV></TD>
+<TD width=38>
+<DIV align=center>2142</DIV></TD>
+<TD width=158>
+<DIV>数据结构导论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>数据结构导论</DIV></TD>
+<TD width=134>
+<DIV>陈小平</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>168</DIV></TD>
+<TD width=38>
+<DIV align=center>2198</DIV></TD>
+<TD width=158>
+<DIV>线性代数</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>工程数学&nbsp;&nbsp; 线性代数</DIV></TD>
+<TD width=134>
+<DIV>魏战线</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>169</DIV></TD>
+<TD width=38>
+<DIV align=center>2269</DIV></TD>
+<TD width=158>
+<DIV>电工原理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>电工原理</DIV></TD>
+<TD width=134>
+<DIV>张洪让</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国电力出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>170</DIV></TD>
+<TD width=38>
+<DIV align=center>2277</DIV></TD>
+<TD width=158>
+<DIV>微型计算机原理与应用</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>微型计算机原理及应用</DIV></TD>
+<TD width=134>
+<DIV>孙德文</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国电力出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>171</DIV></TD>
+<TD width=38>
+<DIV align=center>2300</DIV></TD>
+<TD width=158>
+<DIV>电力系统基础</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>电力系统基础</DIV></TD>
+<TD width=134>
+<DIV>韦钢</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国电力出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>172</DIV></TD>
+<TD width=38>
+<DIV align=center>2301</DIV></TD>
+<TD width=158>
+<DIV>发电厂电气主系统</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>发电厂电气主系统</DIV></TD>
+<TD width=134>
+<DIV>宗士杰</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国电力出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>173</DIV></TD>
+<TD width=38>
+<DIV align=center>2306</DIV></TD>
+<TD width=158>
+<DIV>自动控制理论（二）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>自动控制理论</DIV></TD>
+<TD width=134>
+<DIV>翁思义</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国电力出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>174</DIV></TD>
+<TD width=38>
+<DIV align=center>2310</DIV></TD>
+<TD width=158>
+<DIV>电力系统分析</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>电力系统分析</DIV></TD>
+<TD width=134>
+<DIV>李焕明</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国电力出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>175</DIV></TD>
+<TD width=38>
+<DIV align=center>2311</DIV></TD>
+<TD width=158>
+<DIV>发电厂动力部分</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>发电厂动力部分</DIV></TD>
+<TD width=134>
+<DIV>关金峰</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国电力出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>176</DIV></TD>
+<TD width=38>
+<DIV align=center>2312</DIV></TD>
+<TD width=158>
+<DIV>电力系统远动及调度自动化</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>电力系统远动及调度自动化</DIV></TD>
+<TD width=134>
+<DIV>毕胜春</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国电力出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>177</DIV></TD>
+<TD width=38>
+<DIV align=center>2331</DIV></TD>
+<TD width=158>
+<DIV>数据结构（A）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>数据结构</DIV></TD>
+<TD width=134>
+<DIV>黄刘生</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>178</DIV></TD>
+<TD width=38>
+<DIV align=center>2333</DIV></TD>
+<TD width=158>
+<DIV>软件工程</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>软件工程</DIV></TD>
+<TD width=134>
+<DIV>陆丽娜</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>179</DIV></TD>
+<TD width=38>
+<DIV align=center>2342</DIV></TD>
+<TD width=158>
+<DIV>非线性电子电路</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>非线性电子电路</DIV></TD>
+<TD width=134>
+<DIV>傅丰林</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>180</DIV></TD>
+<TD width=38>
+<DIV align=center>2369</DIV></TD>
+<TD width=158>
+<DIV>计算机通信接口技术</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>计算机通信接口技术</DIV></TD>
+<TD width=134>
+<DIV>于英民</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>181</DIV></TD>
+<TD width=38>
+<DIV align=center>2373</DIV></TD>
+<TD width=158>
+<DIV>计算机通信网</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>计算机通信网</DIV></TD>
+<TD width=134>
+<DIV>王晓军、毛京丽</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>182</DIV></TD>
+<TD width=38>
+<DIV align=center>2376</DIV></TD>
+<TD width=158>
+<DIV>信息系统开发</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>信息系统开发</DIV></TD>
+<TD width=134>
+<DIV>甘仞初</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>183</DIV></TD>
+<TD width=38>
+<DIV align=center>2379</DIV></TD>
+<TD width=158>
+<DIV>计算机网络管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>计算机网络管理</DIV></TD>
+<TD width=134>
+<DIV>雷震甲</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>184</DIV></TD>
+<TD width=38>
+<DIV align=center>2382</DIV></TD>
+<TD width=158>
+<DIV>管理信息系统</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>管理信息系统</DIV></TD>
+<TD width=134>
+<DIV>杨一平</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2007年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>185</DIV></TD>
+<TD width=38>
+<DIV align=center>2384</DIV></TD>
+<TD width=158>
+<DIV>计算机原理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>计算机原理</DIV></TD>
+<TD width=134>
+<DIV>侯炳辉</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>186</DIV></TD>
+<TD width=38>
+<DIV align=center>2387</DIV></TD>
+<TD width=158>
+<DIV>工程测量</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>工程测量</DIV></TD>
+<TD width=134>
+<DIV>邹永廉</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>187</DIV></TD>
+<TD width=38>
+<DIV align=center>2396</DIV></TD>
+<TD width=158>
+<DIV>混凝土及砌体结构</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>混凝土及砌体结构</DIV></TD>
+<TD width=134>
+<DIV>程文瀼</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>188</DIV></TD>
+<TD width=38>
+<DIV align=center>2398</DIV></TD>
+<TD width=158>
+<DIV>土力学与地基基础</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>土力学及地基基础</DIV></TD>
+<TD width=134>
+<DIV>杨小平</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>189</DIV></TD>
+<TD width=38>
+<DIV align=center>2400</DIV></TD>
+<TD width=158>
+<DIV>建筑施工（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>建筑施工</DIV></TD>
+<TD width=134>
+<DIV>方先和</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>190</DIV></TD>
+<TD width=38>
+<DIV align=center>2404</DIV></TD>
+<TD width=158>
+<DIV>工程地质及土力学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>工程地质及土力学</DIV></TD>
+<TD width=134>
+<DIV>王铁儒</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>191</DIV></TD>
+<TD width=38>
+<DIV align=center>2440</DIV></TD>
+<TD width=158>
+<DIV>混凝土结构设计</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>混凝土结构设计</DIV></TD>
+<TD width=134>
+<DIV>程文瀼</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>192</DIV></TD>
+<TD width=38>
+<DIV align=center>2447</DIV></TD>
+<TD width=158>
+<DIV>建筑经济与企业管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>建筑经济与企业管理</DIV></TD>
+<TD width=134>
+<DIV>周银河、严薇</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>193</DIV></TD>
+<TD width=38>
+<DIV align=center>2448</DIV></TD>
+<TD width=158>
+<DIV>建筑结构试验</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>建筑结构试验</DIV></TD>
+<TD width=134>
+<DIV>姚振纲</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>194</DIV></TD>
+<TD width=38>
+<DIV align=center>2660</DIV></TD>
+<TD width=158>
+<DIV>植物学（二）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>植物学</DIV></TD>
+<TD width=134>
+<DIV>张淑萍</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>科学普及出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>195</DIV></TD>
+<TD width=38>
+<DIV align=center>2691</DIV></TD>
+<TD width=158>
+<DIV>花卉学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>花卉学</DIV></TD>
+<TD width=134>
+<DIV>鲁涤非</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国农业出版社</DIV></TD>
+<TD width=120>
+<DIV>1998年10月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>196</DIV></TD>
+<TD width=38>
+<DIV align=center>2697</DIV></TD>
+<TD width=158>
+<DIV>果树栽培学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>果树栽培学各论（南方本）</DIV></TD>
+<TD width=134>
+<DIV>陈杰忠</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国农业出版社</DIV></TD>
+<TD width=120>
+<DIV>2003年7月第3版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>197</DIV></TD>
+<TD width=38>
+<DIV align=center>2901</DIV></TD>
+<TD width=158>
+<DIV>病理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>病理学[含病理生理学]</DIV></TD>
+<TD width=134>
+<DIV>吴秉铨</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京医科大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>198</DIV></TD>
+<TD width=38>
+<DIV align=center>2903</DIV></TD>
+<TD width=158>
+<DIV>药理学（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>药理学</DIV></TD>
+<TD width=134>
+<DIV>金有豫</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京医科大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>199</DIV></TD>
+<TD width=38>
+<DIV align=center>2996</DIV></TD>
+<TD width=158>
+<DIV>护理伦理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>护理伦理学</DIV></TD>
+<TD width=134>
+<DIV>李本富</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>200</DIV></TD>
+<TD width=38>
+<DIV align=center>2998</DIV></TD>
+<TD width=158>
+<DIV>内科护理学（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>内科护理学</DIV></TD>
+<TD width=134>
+<DIV>姚景鹏</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>201</DIV></TD>
+<TD width=38>
+<DIV align=center>3001</DIV></TD>
+<TD width=158>
+<DIV>外科护理学（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>外科护理学</DIV></TD>
+<TD width=134>
+<DIV>顾沛</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>202</DIV></TD>
+<TD width=38>
+<DIV align=center>3002</DIV></TD>
+<TD width=158>
+<DIV>妇产科护理学（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>妇产科护理学</DIV></TD>
+<TD width=134>
+<DIV>何仲</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>203</DIV></TD>
+<TD width=38>
+<DIV align=center>3005</DIV></TD>
+<TD width=158>
+<DIV>护理教育导论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>护理教育导论</DIV></TD>
+<TD width=134>
+<DIV>郑修霞</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>湖南科学技术出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>204</DIV></TD>
+<TD width=38>
+<DIV align=center>3006</DIV></TD>
+<TD width=158>
+<DIV>护理管理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>护理管理学</DIV></TD>
+<TD width=134>
+<DIV>姜小鹰</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>上海科学技术出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>205</DIV></TD>
+<TD width=38>
+<DIV align=center>3008</DIV></TD>
+<TD width=158>
+<DIV>护理学研究</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>护理学研究</DIV></TD>
+<TD width=134>
+<DIV>肖顺贞</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>湖南科学技术出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>206</DIV></TD>
+<TD width=38>
+<DIV align=center>3009</DIV></TD>
+<TD width=158>
+<DIV>精神障碍护理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>精神障碍护理学</DIV></TD>
+<TD width=134>
+<DIV>宋燕华</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>湖南科学技术出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>207</DIV></TD>
+<TD width=38>
+<DIV align=center>3010</DIV></TD>
+<TD width=158>
+<DIV>妇产科护理学（二）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>妇产科护理学（二）</DIV></TD>
+<TD width=134>
+<DIV>岳亚飞</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>湖南科学技术出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>208</DIV></TD>
+<TD width=38>
+<DIV align=center>3011</DIV></TD>
+<TD width=158>
+<DIV>儿科护理学（二）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>儿科护理学（二）</DIV></TD>
+<TD width=134>
+<DIV>崔焱</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>上海科学技术出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>209</DIV></TD>
+<TD width=38>
+<DIV align=center>3029</DIV></TD>
+<TD width=158>
+<DIV>药剂学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD vAlign=bottom width=181>
+<DIV>药剂学</DIV></TD>
+<TD vAlign=bottom width=134>
+<DIV>崔福德</DIV></TD>
+<TD vAlign=bottom width=153 colSpan=2>
+<DIV>人民卫生出版社</DIV></TD>
+<TD width=120>
+<DIV>2003.7五版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>210</DIV></TD>
+<TD width=38>
+<DIV align=center>3034</DIV></TD>
+<TD width=158>
+<DIV>药事管理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD vAlign=bottom width=181>
+<DIV>药事管理学</DIV></TD>
+<TD vAlign=bottom width=134>
+<DIV>吴蓬</DIV></TD>
+<TD vAlign=bottom width=153 colSpan=2>
+<DIV>人民卫生出版社</DIV></TD>
+<TD width=120>
+<DIV>2003三版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>211</DIV></TD>
+<TD width=38>
+<DIV align=center>3049</DIV></TD>
+<TD width=158>
+<DIV>数理统计</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD vAlign=bottom width=181>
+<DIV>医药数理统计方法</DIV></TD>
+<TD vAlign=bottom width=134>
+<DIV>祝国强、刘庆欧</DIV></TD>
+<TD vAlign=bottom width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2004.7一版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>212</DIV></TD>
+<TD width=38>
+<DIV align=center>3142</DIV></TD>
+<TD width=158>
+<DIV>互联网及其应用</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>互联网及其应用</DIV></TD>
+<TD width=134>
+<DIV>袁保宗</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>吉林大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>213</DIV></TD>
+<TD width=38>
+<DIV align=center>3155</DIV></TD>
+<TD width=158>
+<DIV>现代电信技术概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>现代电信技术概论</DIV></TD>
+<TD width=134>
+<DIV>吴德本</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>214</DIV></TD>
+<TD width=38>
+<DIV align=center>3156</DIV></TD>
+<TD width=158>
+<DIV>现代邮政通信技术概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>现代邮政通信技术概论</DIV></TD>
+<TD width=134>
+<DIV>时良平</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>215</DIV></TD>
+<TD width=38>
+<DIV align=center>3159</DIV></TD>
+<TD width=158>
+<DIV>邮电经营管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>邮电经营管理</DIV></TD>
+<TD width=134>
+<DIV>吕亮</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>216</DIV></TD>
+<TD width=38>
+<DIV align=center>3160</DIV></TD>
+<TD width=158>
+<DIV>邮电管理信息系统</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>邮电管理信息系统</DIV></TD>
+<TD width=134>
+<DIV>忻展红</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>217</DIV></TD>
+<TD width=38>
+<DIV align=center>3164</DIV></TD>
+<TD width=158>
+<DIV>环境科学概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>环境科学概论</DIV></TD>
+<TD width=134>
+<DIV>李玉文</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>218</DIV></TD>
+<TD width=38>
+<DIV align=center>3173</DIV></TD>
+<TD width=158>
+<DIV>软件开发工具</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>软件开发工具</DIV></TD>
+<TD width=134>
+<DIV>陈禹、方美琪</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>219</DIV></TD>
+<TD width=38>
+<DIV align=center>3203</DIV></TD>
+<TD width=158>
+<DIV>外科护理学（二）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>外科护理学（二）</DIV></TD>
+<TD width=134>
+<DIV>顾沛 </DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>上海科学技术出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>220</DIV></TD>
+<TD width=38>
+<DIV align=center>3291</DIV></TD>
+<TD width=158>
+<DIV>人际关系学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>人际关系学</DIV></TD>
+<TD width=134>
+<DIV>冯兰</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>221</DIV></TD>
+<TD width=38>
+<DIV align=center>3295</DIV></TD>
+<TD width=158>
+<DIV>国际公共关系</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>国际公共关系</DIV></TD>
+<TD width=134>
+<DIV>郭惠民</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>222</DIV></TD>
+<TD width=38>
+<DIV align=center>3299</DIV></TD>
+<TD width=158>
+<DIV>广告运作策略</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>广告运作策略</DIV></TD>
+<TD width=134>
+<DIV>黄升民</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>223</DIV></TD>
+<TD width=38>
+<DIV align=center>3300</DIV></TD>
+<TD width=158>
+<DIV>现代媒体总论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>现代媒体总论</DIV></TD>
+<TD width=134>
+<DIV>金梦玉</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>辽宁大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>224</DIV></TD>
+<TD width=38>
+<DIV align=center>3332</DIV></TD>
+<TD width=158>
+<DIV>政府信息资源管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>政府信息资源开发与管理</DIV></TD>
+<TD width=134>
+<DIV>李绪蓉、徐焕良</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年3月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>225</DIV></TD>
+<TD width=38>
+<DIV align=center>3333</DIV></TD>
+<TD width=158>
+<DIV>电子政务概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>电子政务</DIV></TD>
+<TD width=134>
+<DIV>赵国俊</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>电子工业出版社</DIV></TD>
+<TD width=120>
+<DIV>2003年9月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>226</DIV></TD>
+<TD width=38>
+<DIV align=center>3340</DIV></TD>
+<TD width=158>
+<DIV>网站建设与管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>网站建设与管理</DIV></TD>
+<TD width=134>
+<DIV>吴振峰</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>227</DIV></TD>
+<TD width=38>
+<DIV align=center>3342</DIV></TD>
+<TD width=158>
+<DIV>电子政务案例分析</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>电子政务案例分析</DIV></TD>
+<TD width=134>
+<DIV>苏新宁、吴鹏</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>国防工业出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>228</DIV></TD>
+<TD width=38>
+<DIV align=center>3344</DIV></TD>
+<TD width=158>
+<DIV>信息与网络安全管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>网络安全概论</DIV></TD>
+<TD width=134>
+<DIV>郑连清</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>清华大学、北京交通大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>229</DIV></TD>
+<TD width=38>
+<DIV align=center>3346</DIV></TD>
+<TD width=158>
+<DIV>项目管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>现代项目管理教程新编</DIV></TD>
+<TD width=134>
+<DIV>关老健</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中山大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>230</DIV></TD>
+<TD width=38>
+<DIV align=center>3347</DIV></TD>
+<TD width=158>
+<DIV>流体力学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>流体力学</DIV></TD>
+<TD width=134>
+<DIV>刘鹤年</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>231</DIV></TD>
+<TD width=38>
+<DIV align=center>3349</DIV></TD>
+<TD width=158>
+<DIV>政府经济管理概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>政府经济管理概论</DIV></TD>
+<TD width=134>
+<DIV>孙亚忠、金乐琴</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>232</DIV></TD>
+<TD width=38>
+<DIV align=center>3350</DIV></TD>
+<TD width=158>
+<DIV>社会研究方法</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>社会研究方法</DIV></TD>
+<TD width=134>
+<DIV>关信平</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>233</DIV></TD>
+<TD width=38>
+<DIV align=center>4183</DIV></TD>
+<TD width=158>
+<DIV>概率论与数理统计（经管类）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>概率论与数理统计（经管类）</DIV></TD>
+<TD width=134>
+<DIV>柳金甫、王义东</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>234</DIV></TD>
+<TD width=38>
+<DIV align=center>4184</DIV></TD>
+<TD width=158>
+<DIV>线性代数（经管类）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>线性代数（经管类）</DIV></TD>
+<TD width=134>
+<DIV>刘吉佑、徐诚浩</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>235</DIV></TD>
+<TD width=38>
+<DIV align=center>4436</DIV></TD>
+<TD width=158>
+<DIV>康复护理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>康复护理学</DIV></TD>
+<TD width=134>
+<DIV>黄永禧</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学医学出版社</DIV></TD>
+<TD width=120>
+<DIV>2007年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>236</DIV></TD>
+<TD width=38>
+<DIV align=center>4531</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>微观经济学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>微观经济学</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>咸春龙</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>广东高等教育出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2002年7月一版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>237</DIV></TD>
+<TD width=38>
+<DIV align=center>4532</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>财务会计专题</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>高级财务会计</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>王维祝、谢瑞峰、郭继宏</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2003年9月一版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>238</DIV></TD>
+<TD width=38>
+<DIV align=center>4537</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>小城镇发展与规划</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>小城镇发展与规划概论</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>汤铭潭等</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>中国建筑工业出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2004年7月一版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>239</DIV></TD>
+<TD width=38>
+<DIV align=center>4540</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>写作基础与应用</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>写作基础与应用</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>黄新荣</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>广东高等教育出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2002年9月二版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>240</DIV></TD>
+<TD width=38>
+<DIV align=center>4729</DIV></TD>
+<TD width=158>
+<DIV>大学语文</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>大学语文</DIV></TD>
+<TD width=134>
+<DIV>徐中玉、陶型传</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>华东师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>241</DIV></TD>
+<TD width=38>
+<DIV align=center>4732</DIV></TD>
+<TD width=158>
+<DIV>微型计算机及接口技术</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>微型计算机及接口技术</DIV></TD>
+<TD width=134>
+<DIV>孙德文</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2007年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>242</DIV></TD>
+<TD width=38>
+<DIV align=center>4735</DIV></TD>
+<TD width=158>
+<DIV>数据库系统原理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>数据库系统原理</DIV></TD>
+<TD width=134>
+<DIV>丁宝康</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>经济科学出版社</DIV></TD>
+<TD width=120>
+<DIV>2007年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>243</DIV></TD>
+<TD width=38>
+<DIV align=center>5162</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>区域可持续发展</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>环境保护与可持续发展</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>钱易、唐孝炎</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2000年7月一版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>244</DIV></TD>
+<TD width=38>
+<DIV align=center>5362</DIV></TD>
+<TD width=158>
+<DIV>物流英语</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>物流英语</DIV></TD>
+<TD width=134>
+<DIV>待定</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>　</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>245</DIV></TD>
+<TD width=38>
+<DIV align=center>5372</DIV></TD>
+<TD width=158>
+<DIV>国际物流导论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>国际物流导论</DIV></TD>
+<TD width=134>
+<DIV>王德章</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>246</DIV></TD>
+<TD width=38>
+<DIV align=center>5374</DIV></TD>
+<TD width=158>
+<DIV>物流企业财务管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>物流企业财务管理</DIV></TD>
+<TD width=134>
+<DIV>刘东明</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2006年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>247</DIV></TD>
+<TD width=38>
+<DIV align=center>5440</DIV></TD>
+<TD width=158>
+<DIV>商务英语写作</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>商务英语信函</DIV></TD>
+<TD width=134>
+<DIV>曹菱</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>外语教学与研究出版社</DIV></TD>
+<TD width=120>
+<DIV>2000年7月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>248</DIV></TD>
+<TD width=38>
+<DIV align=center>5443</DIV></TD>
+<TD width=158>
+<DIV>日本社会文化</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>日本文化</DIV></TD>
+<TD width=134>
+<DIV>王勇</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年3月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>249</DIV></TD>
+<TD width=38>
+<DIV align=center>5678</DIV></TD>
+<TD width=158>
+<DIV>金融法</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>金融法</DIV></TD>
+<TD width=134>
+<DIV>吴志攀</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1999年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>250</DIV></TD>
+<TD width=38>
+<DIV align=center>5680</DIV></TD>
+<TD width=158>
+<DIV>婚姻家庭法</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>婚姻家庭法（一）</DIV></TD>
+<TD width=134>
+<DIV>杨大文、马忆南</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>251</DIV></TD>
+<TD width=38>
+<DIV align=center>6042</DIV></TD>
+<TD width=158>
+<DIV>日语写作</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>日语写作教程</DIV></TD>
+<TD width=134>
+<DIV>于日平</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2004年7月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>252</DIV></TD>
+<TD width=38>
+<DIV align=center>6069</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>审计学原理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>现代审计学</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>李敏</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>上海财经大学出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2003年9月一版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>253</DIV></TD>
+<TD width=38>
+<DIV align=center>6137</DIV></TD>
+<TD width=158>
+<DIV>电力企业管理概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>电力企业管理概论</DIV></TD>
+<TD width=134>
+<DIV>张文泉</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国电力出版社</DIV></TD>
+<TD width=120>
+<DIV>2003年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>254</DIV></TD>
+<TD width=38>
+<DIV align=center>6139</DIV></TD>
+<TD width=158>
+<DIV>电力市场基础</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>电力市场基础</DIV></TD>
+<TD width=134>
+<DIV>毛晋</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国电力出版社</DIV></TD>
+<TD width=120>
+<DIV>2003年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>255</DIV></TD>
+<TD width=38>
+<DIV align=center>6140</DIV></TD>
+<TD width=158>
+<DIV>农村电力市场基础</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>农村电力市场基础</DIV></TD>
+<TD width=134>
+<DIV>王广庆</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国电力出版社</DIV></TD>
+<TD width=120>
+<DIV>2003年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>256</DIV></TD>
+<TD width=38>
+<DIV align=center>6215</DIV></TD>
+<TD width=158>
+<DIV>农业生态学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>农业生态学</DIV></TD>
+<TD width=134>
+<DIV>骆世明</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国农业出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年3月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>257</DIV></TD>
+<TD width=38>
+<DIV align=center>6254</DIV></TD>
+<TD width=158>
+<DIV>农村社会调查研究方法</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>农村社会调查方法</DIV></TD>
+<TD width=134>
+<DIV>钟涨宝</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国农业出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年1月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>258</DIV></TD>
+<TD width=38>
+<DIV align=center>6257</DIV></TD>
+<TD width=158>
+<DIV>园艺植物繁育学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>园林苗圃学</DIV></TD>
+<TD width=134>
+<DIV>俞玖</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国林业出版社</DIV></TD>
+<TD width=120>
+<DIV>1988年1月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>259</DIV></TD>
+<TD width=38>
+<DIV align=center>6259</DIV></TD>
+<TD width=158>
+<DIV>园艺作物保护学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>植物保护学通论</DIV></TD>
+<TD width=134>
+<DIV>韩召军</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年8月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>260</DIV></TD>
+<TD width=38>
+<DIV align=center>6261</DIV></TD>
+<TD width=158>
+<DIV>园艺设施工程技术</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>设施园艺学</DIV></TD>
+<TD width=134>
+<DIV>张福墁</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国农业大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2001年7月第3版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>261</DIV></TD>
+<TD width=38>
+<DIV align=center>6262</DIV></TD>
+<TD width=158>
+<DIV>园艺产品贮藏加工学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>园艺产品贮藏运销学</DIV></TD>
+<TD width=134>
+<DIV>邓伯勋</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国农业出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年7月第3版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>262</DIV></TD>
+<TD width=38>
+<DIV align=center>6270</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>技术经济学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>农业技术经济学</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>牛宝俊</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>广东高等教育出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2002年11月一版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>263</DIV></TD>
+<TD width=38>
+<DIV align=center>7089</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>区域经济学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>区域经济学</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>丁四保等</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2003年12月一版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>264</DIV></TD>
+<TD width=38>
+<DIV align=center>8002</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>财务管理（N）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>财务管理学</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>牟小容</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>高教出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2003.9</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>265</DIV></TD>
+<TD width=38>
+<DIV align=center>8003</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>现代管理学（N）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>现代管理学教程</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>赖作卿</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2002.4</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>266</DIV></TD>
+<TD width=38>
+<DIV align=center>8014</DIV></TD>
+<TD width=158>
+<DIV>唐宋名家词导读</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD vAlign=bottom width=181>
+<DIV>唐宋名家词导读新编</DIV></TD>
+<TD vAlign=bottom width=134>
+<DIV>彭玉平</DIV></TD>
+<TD vAlign=bottom width=153 colSpan=2>
+<DIV>中山大学出版社</DIV></TD>
+<TD vAlign=bottom width=120>
+<DIV>2006年4月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>267</DIV></TD>
+<TD width=38>
+<DIV align=center>8025</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>写作基础与应用（N）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>写作基础与应用</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>黄新荣</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2000.9</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>268</DIV></TD>
+<TD width=38>
+<DIV align=center>8031</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>农业技术经济学（N）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>农业技术经济学</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>牛宝俊</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2002.11</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>269</DIV></TD>
+<TD width=38>
+<DIV align=center>8032</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>经济法（N）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>经济法</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>陈亚平</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2002.9</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>270</DIV></TD>
+<TD width=38>
+<DIV align=center>8033</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>微观经济学（N）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>微观经济学</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>咸春龙</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2002.7</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>271</DIV></TD>
+<TD width=38>
+<DIV align=center>8035</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>企业经营决策（N）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>企业经营决策</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>周建华</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD vAlign=bottom width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>272</DIV></TD>
+<TD width=38>
+<DIV align=center>8041</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>管理学基础（N）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>管理学基础</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>汪凤桂等</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2002.5</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>273</DIV></TD>
+<TD width=38>
+<DIV align=center>8050</DIV></TD>
+<TD width=158>
+<DIV>教育学（B）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>现代教育学</DIV></TD>
+<TD width=134>
+<DIV>扈中平、李方、张俊洪</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2005年6月第2版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>274</DIV></TD>
+<TD width=38>
+<DIV align=center>8051</DIV></TD>
+<TD width=158>
+<DIV>方剂学（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>方剂学</DIV></TD>
+<TD width=134>
+<DIV>许济群</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>上海科技出版社</DIV></TD>
+<TD width=120>
+<DIV>1985.6</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>275</DIV></TD>
+<TD width=38>
+<DIV align=center>8053</DIV></TD>
+<TD width=158>
+<DIV>中医诊断学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>中医诊断学（上、下册）</DIV></TD>
+<TD width=134>
+<DIV>广州中医药大学</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>上海科技出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>276</DIV></TD>
+<TD width=38>
+<DIV align=center>8057</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>种子学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>种子学</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>毕辛华等</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>农业出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>1993.10</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>277</DIV></TD>
+<TD width=38>
+<DIV align=center>8063</DIV></TD>
+<TD width=158>
+<DIV>学校管理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>学校管理学</DIV></TD>
+<TD width=134>
+<DIV>江月孙</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>278</DIV></TD>
+<TD width=38>
+<DIV align=center>8066</DIV></TD>
+<TD width=158>
+<DIV>电视节目制作</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>电视节目制作</DIV></TD>
+<TD width=134>
+<DIV>张印平</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>暨南大学出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>279</DIV></TD>
+<TD width=38>
+<DIV align=center>8069</DIV></TD>
+<TD width=158>
+<DIV>现代汉语语法学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>现代汉语语法理论与方法</DIV></TD>
+<TD width=134>
+<DIV>周国光等</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD width=120>
+<DIV>2003年9月版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>280</DIV></TD>
+<TD width=38>
+<DIV align=center>8073</DIV></TD>
+<TD width=158>
+<DIV>中国近代文学史</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>中国近代文学发展史（上、下）</DIV></TD>
+<TD width=134>
+<DIV>管林等</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国文联出版社</DIV></TD>
+<TD width=120>
+<DIV>1994</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>281</DIV></TD>
+<TD width=38>
+<DIV align=center>8075</DIV></TD>
+<TD width=158>
+<DIV>文体写作</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>文体写作</DIV></TD>
+<TD width=134>
+<DIV>陈佳民</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广东人民出版社</DIV></TD>
+<TD width=120>
+<DIV>1997</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>282</DIV></TD>
+<TD width=38>
+<DIV align=center>8076</DIV></TD>
+<TD width=158>
+<DIV>近代汉语</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>近代汉语概论</DIV></TD>
+<TD width=134>
+<DIV>袁滨</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>上海教育出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>283</DIV></TD>
+<TD width=38>
+<DIV align=center>8077</DIV></TD>
+<TD width=158>
+<DIV>唐诗宋词研究</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>唐诗宋词概说</DIV></TD>
+<TD width=134>
+<DIV>陈新璋</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广东人民出版社</DIV></TD>
+<TD width=120>
+<DIV>1997.6</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>284</DIV></TD>
+<TD width=38>
+<DIV align=center>8078</DIV></TD>
+<TD width=158>
+<DIV>中医基础理论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>中医基础理论</DIV></TD>
+<TD width=134>
+<DIV>北京中医(印令河)</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>上海科技出版社</DIV></TD>
+<TD width=120>
+<DIV>1984.5</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>285</DIV></TD>
+<TD width=38>
+<DIV align=center>8083</DIV></TD>
+<TD width=158>
+<DIV>模拟电子线路基础</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD vAlign=bottom width=181>
+<DIV>线性电子电路</DIV></TD>
+<TD vAlign=bottom width=134>
+<DIV>吴运昌</DIV></TD>
+<TD vAlign=bottom width=153 colSpan=2>
+<DIV>华南理工大学出版社</DIV></TD>
+<TD vAlign=bottom width=120>
+<DIV>1999年3月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>286</DIV></TD>
+<TD width=38>
+<DIV align=center>8085</DIV></TD>
+<TD width=158>
+<DIV>基础写作</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>基础写作/基础写作文选</DIV></TD>
+<TD width=134>
+<DIV>刘孟宇、诸孝正</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>暨南大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1989.9</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>287</DIV></TD>
+<TD width=38>
+<DIV align=center>8087</DIV></TD>
+<TD width=158>
+<DIV>关系数据库与程序设计</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>FOXBASE+程序设计教程</DIV></TD>
+<TD width=134>
+<DIV>陆子强等</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广东科技出版社</DIV></TD>
+<TD width=120>
+<DIV>1997.9</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>288</DIV></TD>
+<TD width=38>
+<DIV align=center>8088</DIV></TD>
+<TD width=158>
+<DIV>辩证唯物主义</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>辩证唯物主义</DIV></TD>
+<TD width=134>
+<DIV>李秀林</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1992</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>289</DIV></TD>
+<TD width=38>
+<DIV align=center>8089</DIV></TD>
+<TD width=158>
+<DIV>历史唯物主义</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>历史唯物主义</DIV></TD>
+<TD width=134>
+<DIV>李秀林</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1993</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>290</DIV></TD>
+<TD width=38>
+<DIV align=center>8091</DIV></TD>
+<TD width=158>
+<DIV>马克思主义哲学史</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>马克思主义哲学史稿</DIV></TD>
+<TD width=134>
+<DIV>中山大学哲学系</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>人民出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>292</DIV></TD>
+<TD width=38>
+<DIV align=center>8107</DIV></TD>
+<TD width=158>
+<DIV>初等数学研究</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>初等代数研究教程</DIV></TD>
+<TD width=134>
+<DIV>林国泰</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>暨南大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1996.8</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>293</DIV></TD>
+<TD width=38>
+<DIV align=center>8111</DIV></TD>
+<TD width=158>
+<DIV>日本概况</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD vAlign=bottom width=181>
+<DIV>日本国家概况</DIV></TD>
+<TD vAlign=bottom width=134>
+<DIV>刘笑明</DIV></TD>
+<TD vAlign=bottom width=153 colSpan=2>
+<DIV>南开大学出版社</DIV></TD>
+<TD vAlign=bottom width=120>
+<DIV>2000年9月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32 rowSpan=2>
+<DIV align=center>294</DIV></TD>
+<TD width=38 rowSpan=2>
+<DIV align=center>8114</DIV></TD>
+<TD width=158 rowSpan=2>
+<DIV>日语综合技能</DIV></TD>
+<TD width=48 colSpan=2 rowSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>(本专业日语课程所有<a class="channel_keylink" href="http://www.stzikao.com/Article/syjc/Index.html">教材</a>)</DIV></TD>
+<TD width=134>
+<DIV>　</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>　</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD vAlign=bottom width=181>
+<DIV>新编日汉翻译教程</DIV></TD>
+<TD vAlign=bottom width=134>
+<DIV>庞春兰</DIV></TD>
+<TD vAlign=bottom width=153 colSpan=2>
+<DIV>北京大学出版社</DIV></TD>
+<TD vAlign=bottom width=120>
+<DIV>1998年3月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>295</DIV></TD>
+<TD width=38>
+<DIV align=center>8115</DIV></TD>
+<TD width=158>
+<DIV>基础日语[一]</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>日本语[1-2]</DIV></TD>
+<TD width=134>
+<DIV>黄仁贵编译</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>山西人民出版社</DIV></TD>
+<TD width=120>
+<DIV>1997.3</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>296</DIV></TD>
+<TD width=38>
+<DIV align=center>8125</DIV></TD>
+<TD width=158>
+<DIV>微型计算机原理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>微型计算机原理</DIV></TD>
+<TD width=134>
+<DIV>杨廷善.杜</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>人民邮电出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>297</DIV></TD>
+<TD width=38>
+<DIV align=center>8133</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>农业政策与法规（N）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>农业政策与法规</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>周建华、陈亚平</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>华南理工大学出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2004.4.2</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>298</DIV></TD>
+<TD width=38>
+<DIV align=center>8139</DIV></TD>
+<TD width=158>
+<DIV>劳动经济学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>劳动经济学</DIV></TD>
+<TD width=134>
+<DIV>杨河清</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国人民大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2002年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>299</DIV></TD>
+<TD width=38>
+<DIV align=center>8141</DIV></TD>
+<TD width=158>
+<DIV>工资管理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>工资理论与工资管理</DIV></TD>
+<TD width=134>
+<DIV>康士勇</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中国劳动社会保障出版社</DIV></TD>
+<TD width=120>
+<DIV>1998年版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>300</DIV></TD>
+<TD width=38>
+<DIV align=center>8145</DIV></TD>
+<TD width=158>
+<DIV>护理学基础（A）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>护理学基础</DIV></TD>
+<TD width=134>
+<DIV>吕式瑗</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>光明日报出版社</DIV></TD>
+<TD width=120>
+<DIV>1993</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>301</DIV></TD>
+<TD width=38>
+<DIV align=center>8146</DIV></TD>
+<TD width=158>
+<DIV>护理心理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>护理心理学</DIV></TD>
+<TD width=134>
+<DIV>邱鸿钟</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广州中医药大学</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>302</DIV></TD>
+<TD width=38>
+<DIV align=center>8151</DIV></TD>
+<TD width=158>
+<DIV>中医骨伤科护理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>中医骨伤科护理学</DIV></TD>
+<TD width=134>
+<DIV>广州中医药大学</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广州中医药大学</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>303</DIV></TD>
+<TD width=38>
+<DIV align=center>8152</DIV></TD>
+<TD width=158>
+<DIV>中医外科护理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>中医外科护理学</DIV></TD>
+<TD width=134>
+<DIV>广州中医药大学</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广州中医药大学</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>304</DIV></TD>
+<TD width=38>
+<DIV align=center>8154</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>农业气象学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>气象学</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>钟光友等</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2003.2</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>305</DIV></TD>
+<TD width=38>
+<DIV align=center>8186</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>乡镇经济管理概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>乡镇企业经济管理学</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>和丕禅</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>中国农业出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2001年3月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>306</DIV></TD>
+<TD width=38>
+<DIV align=center>8193</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>作物栽培学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>作物栽培学各论</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>刁操铨</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>中国农业出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>1998.12</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>307</DIV></TD>
+<TD width=38>
+<DIV align=center>8194</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>农业信息学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>农业信息学</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>梁计南等</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2002.9</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>308</DIV></TD>
+<TD width=38>
+<DIV align=center>8195</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>农业管理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>农业管理学</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>陈建军</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>科学出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>1997.11</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>309</DIV></TD>
+<TD width=38>
+<DIV align=center>8198</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>农业资源开发与利用</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>中国农业资源与利用</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>全国农业区划办</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>农业出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>310</DIV></TD>
+<TD width=38>
+<DIV align=center>8206</DIV></TD>
+<TD width=158>
+<DIV>财税史</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>简明中国财税史</DIV></TD>
+<TD width=134>
+<DIV>郭小东</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广东经济出版社</DIV></TD>
+<TD width=120>
+<DIV>1997.8</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>311</DIV></TD>
+<TD width=38>
+<DIV align=center>8208</DIV></TD>
+<TD width=158>
+<DIV>国有资产管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>国有资产管理</DIV></TD>
+<TD width=134>
+<DIV>祁军</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广东经济出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>312</DIV></TD>
+<TD width=38>
+<DIV align=center>8220</DIV></TD>
+<TD width=158>
+<DIV>马克思主义哲学原著选读</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>马克思主义原著选读（哲学）</DIV></TD>
+<TD width=134>
+<DIV>朱道忠</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>南京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1995</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>313</DIV></TD>
+<TD width=38>
+<DIV align=center>8221</DIV></TD>
+<TD width=158>
+<DIV>政治经济学原著选读</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>《资本论》选读解说</DIV></TD>
+<TD width=134>
+<DIV>彭延光</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1993</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>314</DIV></TD>
+<TD width=38>
+<DIV align=center>8222</DIV></TD>
+<TD width=158>
+<DIV>中华人民共和国史</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>中华人民共和国史</DIV></TD>
+<TD width=134>
+<DIV>郑可益等</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>陕西师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1996.4</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>315</DIV></TD>
+<TD width=38>
+<DIV align=center>8226</DIV></TD>
+<TD width=158>
+<DIV>现代科学技术概论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>现代科学技术基础知识</DIV></TD>
+<TD width=134>
+<DIV>宋健</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>科学出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>316</DIV></TD>
+<TD width=38>
+<DIV align=center>8234</DIV></TD>
+<TD width=158>
+<DIV>面向对象数据库技术</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>Visual Foxpro 6.0数据库与程序设计</DIV></TD>
+<TD width=134>
+<DIV>卢湘鸿</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>电子工业出版社</DIV></TD>
+<TD width=120>
+<DIV>2003.1</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>317</DIV></TD>
+<TD width=38>
+<DIV align=center>8239</DIV></TD>
+<TD width=158>
+<DIV>中学数学方法论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>中学数学思想方法概论</DIV></TD>
+<TD width=134>
+<DIV>王林全</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>暨南大学出版社</DIV></TD>
+<TD width=120>
+<DIV>2000.8</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>318</DIV></TD>
+<TD width=38>
+<DIV align=center>8240</DIV></TD>
+<TD width=158>
+<DIV>线性规划</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>线性规划</DIV></TD>
+<TD width=134>
+<DIV>张干宗</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>武汉大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1990.9</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>319</DIV></TD>
+<TD width=38>
+<DIV align=center>8241</DIV></TD>
+<TD width=158>
+<DIV>应用统计方法</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>应用统计方法</DIV></TD>
+<TD width=134>
+<DIV>古华民</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>暨南大学出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>320</DIV></TD>
+<TD width=38>
+<DIV align=center>8250</DIV></TD>
+<TD width=158>
+<DIV>热学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>热学</DIV></TD>
+<TD width=134>
+<DIV>梁绍荣等</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>321</DIV></TD>
+<TD width=38>
+<DIV align=center>8261</DIV></TD>
+<TD width=158>
+<DIV>自然辩证法</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>现代自然哲学与科学哲学</DIV></TD>
+<TD width=134>
+<DIV>张华夏、叶侨健</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中山大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1996</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>322</DIV></TD>
+<TD width=38>
+<DIV align=center>8263</DIV></TD>
+<TD width=158>
+<DIV>现代西方哲学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>现代西方哲学</DIV></TD>
+<TD width=134>
+<DIV>刘放桐</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>人民出版社</DIV></TD>
+<TD width=120>
+<DIV>1983</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>323</DIV></TD>
+<TD width=38>
+<DIV align=center>8266</DIV></TD>
+<TD width=158>
+<DIV>翻译</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>翻译新概念 英汉互译使用教程</DIV></TD>
+<TD width=134>
+<DIV>宋天锡</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>国防工业出版社</DIV></TD>
+<TD width=120>
+<DIV>2003年第二版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>324</DIV></TD>
+<TD width=38>
+<DIV align=center>8269</DIV></TD>
+<TD width=158>
+<DIV>英语语言学（英文）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD vAlign=bottom width=181>
+<DIV>新编简明英语语言学教程</DIV></TD>
+<TD vAlign=bottom width=134>
+<DIV>戴炜栋、何兆熊</DIV></TD>
+<TD vAlign=bottom width=153 colSpan=2>
+<DIV>上海外语教育出版社</DIV></TD>
+<TD vAlign=bottom width=120>
+<DIV>2002年7月第1版</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>325</DIV></TD>
+<TD width=38>
+<DIV align=center>8274</DIV></TD>
+<TD width=158>
+<DIV>城市道路设计</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>城市道路设计</DIV></TD>
+<TD width=134>
+<DIV>周荣沾</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>人民交通出版社</DIV></TD>
+<TD width=120>
+<DIV>1988.6</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>326</DIV></TD>
+<TD width=38>
+<DIV align=center>8316</DIV></TD>
+<TD width=158>
+<DIV>节目策划与编导</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>电视节目策划与编导</DIV></TD>
+<TD width=134>
+<DIV>张静民</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>暨南大学出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>327</DIV></TD>
+<TD width=38>
+<DIV align=center>8317</DIV></TD>
+<TD width=158>
+<DIV>主持人节目</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>节目主持人通论</DIV></TD>
+<TD width=134>
+<DIV>俞虹</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>杭州大学出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>328</DIV></TD>
+<TD width=38>
+<DIV align=center>8332</DIV></TD>
+<TD width=158>
+<DIV>数字电路与逻辑设计</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>数字电子电路</DIV></TD>
+<TD width=134>
+<DIV>阎石</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>中央广播电视大学</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>329</DIV></TD>
+<TD width=38>
+<DIV align=center>8336</DIV></TD>
+<TD width=158>
+<DIV>电动力学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>电动力学</DIV></TD>
+<TD width=134>
+<DIV>阚仲元</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>330</DIV></TD>
+<TD width=38>
+<DIV align=center>8337</DIV></TD>
+<TD width=158>
+<DIV>热力学与统计物理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>热力学与统计物理</DIV></TD>
+<TD width=134>
+<DIV>徐树山</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>北京师范大学出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>331</DIV></TD>
+<TD width=38>
+<DIV align=center>8343</DIV></TD>
+<TD width=158>
+<DIV>物理学方法论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>物理学方法论</DIV></TD>
+<TD width=134>
+<DIV>张涛光</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>山东科学技术出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>332</DIV></TD>
+<TD width=38>
+<DIV align=center>8345</DIV></TD>
+<TD width=158>
+<DIV>电磁学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>电磁学</DIV></TD>
+<TD width=134>
+<DIV>梁灿彬</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>1980.12</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>333</DIV></TD>
+<TD width=38>
+<DIV align=center>8354</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>作物育种学总论</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>作物育种学总论</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>潘家驹</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>中国农业出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>1994.5</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>334</DIV></TD>
+<TD width=38>
+<DIV align=center>8356</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>作物营养与施肥</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>作物营养与施肥</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>浙江农大</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>农业出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>1990.5</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>335</DIV></TD>
+<TD width=38>
+<DIV align=center>8357</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>植物学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>植物学</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>吴万春</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>华南理工大学出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>1999.7</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>336</DIV></TD>
+<TD width=38>
+<DIV align=center>8360</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>耕作学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>耕作学</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>刘巽浩</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>中国农业出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>1994.10</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>337</DIV></TD>
+<TD width=38>
+<DIV align=center>8361</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>乡镇企业经济活动分析</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>新编企业经济活动分析</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>朱健仪等</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>中山大学出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>1996.7</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>338</DIV></TD>
+<TD width=38>
+<DIV align=center>8363</DIV></TD>
+<TD width=158>
+<DIV>英语语音</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>英语语音学基础实用教程</DIV></TD>
+<TD width=134>
+<DIV>何广铿</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>暨南大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1996.12</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>339</DIV></TD>
+<TD width=38>
+<DIV align=center>8374</DIV></TD>
+<TD width=158>
+<DIV>公路养护与管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>公路养护与管理</DIV></TD>
+<TD width=134>
+<DIV>交通部公路</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>交通出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>340</DIV></TD>
+<TD width=38>
+<DIV align=center>8375</DIV></TD>
+<TD width=158>
+<DIV>交通工程学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>交通工程</DIV></TD>
+<TD width=134>
+<DIV>周商吾</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>同济大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1987.10</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>341</DIV></TD>
+<TD width=38>
+<DIV align=center>8376</DIV></TD>
+<TD width=158>
+<DIV>交通管理与控制</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>交通管理与控制</DIV></TD>
+<TD width=134>
+<DIV>杨佩昆</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>人民交通出版社</DIV></TD>
+<TD width=120>
+<DIV>1999.6</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>342</DIV></TD>
+<TD width=38>
+<DIV align=center>8380</DIV></TD>
+<TD width=158>
+<DIV>公路路政管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>公路路政管理</DIV></TD>
+<TD width=134>
+<DIV>交通部教育</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>交通出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>343</DIV></TD>
+<TD width=38>
+<DIV align=center>8386</DIV></TD>
+<TD width=158>
+<DIV>道路工程经济分析与决策</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>道路工程经济分析与决策</DIV></TD>
+<TD width=134>
+<DIV>李杰</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>人民交通出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>344</DIV></TD>
+<TD width=38>
+<DIV align=center>8388</DIV></TD>
+<TD width=158>
+<DIV>运输统计学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>运输统计学</DIV></TD>
+<TD width=134>
+<DIV>谢启南</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>暨南大学出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>345</DIV></TD>
+<TD width=38>
+<DIV align=center>8389</DIV></TD>
+<TD width=158>
+<DIV>工程项目管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>土木工程项目管理手册</DIV></TD>
+<TD width=134>
+<DIV>雷俊卿</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>人民交通出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>346</DIV></TD>
+<TD width=38>
+<DIV align=center>8390</DIV></TD>
+<TD width=158>
+<DIV>水路运输行政管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>水路运输行政管理</DIV></TD>
+<TD width=134>
+<DIV>交通部</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>交通出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>347</DIV></TD>
+<TD width=38>
+<DIV align=center>8414</DIV></TD>
+<TD width=158>
+<DIV>高等语言程序设计</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>FORTRAN语言结构化程序设计</DIV></TD>
+<TD width=134>
+<DIV>李大友</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>机械工业出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>348</DIV></TD>
+<TD width=38>
+<DIV align=center>8422</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>电工电子基础(N)</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>电工电子技术基础</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>宋淑然等</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2000.3</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>349</DIV></TD>
+<TD width=38>
+<DIV align=center>8425</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>计算机基础及应用（N）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>计算机基础及应用</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>俞守华</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2001.4</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>350</DIV></TD>
+<TD width=38>
+<DIV align=center>8426</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>机械设计基础(N)</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>机械设计基础(上.下)</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>吴机际</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2000</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>351</DIV></TD>
+<TD width=38>
+<DIV align=center>8427</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>机械制造基础(N)</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>工程材料与机械制造基础</DIV></TD>
+<TD width=134>
+<DIV>罗毓湘等</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>352</DIV></TD>
+<TD width=38>
+<DIV align=center>8431</DIV></TD>
+<TD vAlign=bottom noWrap width=158>
+<DIV>会计学原理(N)</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD vAlign=bottom noWrap width=181>
+<DIV>会计学原理与应用</DIV></TD>
+<TD vAlign=bottom noWrap width=134>
+<DIV>左两军</DIV></TD>
+<TD vAlign=bottom noWrap width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD vAlign=bottom noWrap width=120>
+<DIV>2000.10</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>353</DIV></TD>
+<TD width=38>
+<DIV align=center>8436</DIV></TD>
+<TD width=158>
+<DIV>公路施工与管理</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>公路施工与管理</DIV></TD>
+<TD width=134>
+<DIV>廖正环</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>人民交通出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>354</DIV></TD>
+<TD width=38>
+<DIV align=center>8445</DIV></TD>
+<TD width=158>
+<DIV>中学教育学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>中学教育学</DIV></TD>
+<TD width=134>
+<DIV>叶上雄</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>1998</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>355</DIV></TD>
+<TD width=38>
+<DIV align=center>8448</DIV></TD>
+<TD width=158>
+<DIV>基础英语（二）（B）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>新编英语教程[修订本](3册)</DIV></TD>
+<TD width=134>
+<DIV>李观仪</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>上海外语教育出版社</DIV></TD>
+<TD width=120>
+<DIV>1996.8</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>356</DIV></TD>
+<TD width=38>
+<DIV align=center>8449</DIV></TD>
+<TD width=158>
+<DIV>基础英语（三）（B）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>新编英语教程[修订本](4册)</DIV></TD>
+<TD width=134>
+<DIV>李观仪</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>上海外语教育出版社</DIV></TD>
+<TD width=120>
+<DIV>1996.8</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>357</DIV></TD>
+<TD width=38>
+<DIV align=center>8450</DIV></TD>
+<TD width=158>
+<DIV>英语阅读</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>新编英语阅读教程(1-3册)</DIV></TD>
+<TD width=134>
+<DIV>王守仁、赵文书</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>上海外语教育出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>358</DIV></TD>
+<TD width=38>
+<DIV align=center>8456</DIV></TD>
+<TD width=158>
+<DIV>现代汉语（一）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>现代汉语(增订二版)(上)</DIV></TD>
+<TD width=134>
+<DIV>黄伯荣、廖序东</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>2000</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>359</DIV></TD>
+<TD width=38>
+<DIV align=center>8459</DIV></TD>
+<TD width=158>
+<DIV>古代汉语（二）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>古代汉语</DIV></TD>
+<TD width=134>
+<DIV>郭锡良等</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>语文出版社</DIV></TD>
+<TD width=120>
+<DIV>2000</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>360</DIV></TD>
+<TD width=38>
+<DIV align=center>8463</DIV></TD>
+<TD width=158>
+<DIV>数学分析（二）（B）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>数学分析讲义（上下册部分）</DIV></TD>
+<TD width=134>
+<DIV>刘玉琏</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>1994</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>361</DIV></TD>
+<TD width=38>
+<DIV align=center>8464</DIV></TD>
+<TD width=158>
+<DIV>数学分析（三）（B）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>数学分析讲义(下册)</DIV></TD>
+<TD width=134>
+<DIV>刘玉琏</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>1994</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>362</DIV></TD>
+<TD width=38>
+<DIV align=center>8465</DIV></TD>
+<TD width=158>
+<DIV>高等代数（一）（B）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>高等代数</DIV></TD>
+<TD width=134>
+<DIV>华南师大</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>华南理工大学出版社</DIV></TD>
+<TD width=120>
+<DIV>1994.6</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>363</DIV></TD>
+<TD width=38>
+<DIV align=center>8469</DIV></TD>
+<TD width=158>
+<DIV>高级英语(一)(B)</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>新编英语教程(5册)</DIV></TD>
+<TD width=134>
+<DIV>李观仪</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>上海外语教育出版社</DIV></TD>
+<TD width=120>
+<DIV>1994.8</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>364</DIV></TD>
+<TD width=38>
+<DIV align=center>8475</DIV></TD>
+<TD width=158>
+<DIV>英美报刊选读</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>英美报刊阅读教程</DIV></TD>
+<TD width=134>
+<DIV>端木义万</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>南京大学出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>365</DIV></TD>
+<TD width=38>
+<DIV align=center>8476</DIV></TD>
+<TD width=158>
+<DIV>英国文学选读</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>英国文学史及选读（1、2册）</DIV></TD>
+<TD width=134>
+<DIV>吴伟仁</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>外语教学与研究出版社</DIV></TD>
+<TD width=120>
+<DIV>1990</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>366</DIV></TD>
+<TD width=38>
+<DIV align=center>8479</DIV></TD>
+<TD width=158>
+<DIV>中学英语教学法</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>英语教学法基础</DIV></TD>
+<TD width=134>
+<DIV>何广铿</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>暨南大学出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>367</DIV></TD>
+<TD width=38>
+<DIV align=center>8480</DIV></TD>
+<TD width=158>
+<DIV>外语教学心理学</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>外语教学心理学</DIV></TD>
+<TD width=134>
+<DIV>朱纯</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>上海外语教育出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>368</DIV></TD>
+<TD width=38>
+<DIV align=center>8483</DIV></TD>
+<TD width=158>
+<DIV>中国古代文学史（二）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>中国古代文学(三)</DIV></TD>
+<TD width=134>
+<DIV>曹础基</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD width=120>
+<DIV>1999</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>369</DIV></TD>
+<TD width=38>
+<DIV align=center>8484</DIV></TD>
+<TD width=158>
+<DIV>中国古代文学史（三）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>中国古代文学(四)</DIV></TD>
+<TD width=134>
+<DIV>曹础基</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD width=120>
+<DIV>1999</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>370</DIV></TD>
+<TD width=38>
+<DIV align=center>8486</DIV></TD>
+<TD width=158>
+<DIV>中国当代文学史（B）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>4</DIV></TD>
+<TD width=181>
+<DIV>中国当代文学史</DIV></TD>
+<TD width=134>
+<DIV>陈其光等</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>广东高教出版社</DIV></TD>
+<TD width=120>
+<DIV>1992</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>371</DIV></TD>
+<TD width=38>
+<DIV align=center>8487</DIV></TD>
+<TD width=158>
+<DIV>语文教学法（B）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>2</DIV></TD>
+<TD width=181>
+<DIV>中学语文教学法</DIV></TD>
+<TD width=134>
+<DIV>王世堪</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>372</DIV></TD>
+<TD width=38>
+<DIV align=center>8488</DIV></TD>
+<TD width=158>
+<DIV>常微分方程（B）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>常微分方程</DIV></TD>
+<TD width=134>
+<DIV>王高雄</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>373</DIV></TD>
+<TD width=38>
+<DIV align=center>8491</DIV></TD>
+<TD width=158>
+<DIV>组合数学（B）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>3</DIV></TD>
+<TD width=181>
+<DIV>组合数学</DIV></TD>
+<TD width=134>
+<DIV>曹汝成</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>华南理工大学出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>　</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>374</DIV></TD>
+<TD width=38>
+<DIV align=center>8493</DIV></TD>
+<TD width=158>
+<DIV>微分几何（B）</DIV></TD>
+<TD width=48 colSpan=2>
+<DIV align=center>1</DIV></TD>
+<TD width=181>
+<DIV>微分几何</DIV></TD>
+<TD width=134>
+<DIV>梅向明</DIV></TD>
+<TD width=153 colSpan=2>
+<DIV>高等教育出版社</DIV></TD>
+<TD width=120>
+<DIV>　</DIV></TD>
+<TD width=145>
+<DIV>参考书：微分几何/沈纯理/经济科学出版社</DIV></TD></TR>
+<TR>
+<TD width=865 colSpan=10>
+<DIV>注：考试节号“1”表示第一天上午；“2”表示第一天下午；“3”表示第二天上午；“4”表示第二天下午。</DIV></TD>
+<TD width=145>
+<DIV>&nbsp;</DIV></TD></TR>
+<TR>
+<TD width=32>
+<DIV align=center>&nbsp;</DIV></TD>
+<TD width=425 colSpan=5>
+<DIV>考试时间:2007年10月，第一天是27日，第二天是28日</DIV></TD></TR></TBODY></TABLE> 
+      <CENTER></CENTER></td>
+    </tr>
+    <tr>
+      <td class=Article_tdbgall align=right colSpan=2>文章录入：简单爱&nbsp;&nbsp;&nbsp;&nbsp;责任编辑：周泽炜&nbsp; </td>
+    </tr>
+    <tr>
+      <td width=5></td>
+      <td width=752><li>上一篇文章： <a class='LinkPrevArticle' href='/Article/syjc/405.shtml' title='文章标题：2007年4月广东省高等教育自学考试各专业课程使用教材
+作&nbsp;&nbsp;&nbsp;&nbsp;者：佚名
+更新时间：2006-11-16 19:05:59'>2007年4月广东省高等教育自学考试各专业课程使用教材</a></li><BR><li>下一篇文章： <a class='LinkNextArticle' href='/Article/syjc/407.shtml' title='文章标题：2007年1月广东省自学考试开考课程使用教材一览表
+作&nbsp;&nbsp;&nbsp;&nbsp;者：佚名
+更新时间：2006-11-1 19:17:15'>2007年1月广东省自学考试开考课程使用教材一览表</a></li></td>
+    </tr>
+    <tr class=Article_tdbgall align=right>
+      <td colSpan=2>【<a href="/Article/Comment.asp?ArticleID=406" target="_blank">发表评论</a>】【<a href="/User/User_Favorite.asp?Action=Add&ChannelID=1&InfoID=406" target="_blank">加入收藏</a>】【<a href="/Article/SendMail.asp?ArticleID=406" target="_blank">告诉好友</a>】【<a href="/Article/Print.asp?ArticleID=406" target="_blank">打印此文</a>】【<a href="javascript:window.close();">关闭窗口</a>】 </td>
+    </tr>
+  </table>
+  <table class=center_tdbgall cellSpacing=0 cellPadding=0 width=890 align=center border=0>
+    <tr>
+      <td class=main_shadow></td>
+    </tr>
+  </table>
+  <!--文章显示代码结束-->
+  <!--最新热点、最新推荐、相关文章代码开始-->
+  <table class=center_tdbgall style="WORD-BREAK: break-all" cellSpacing=0 cellPadding=0 width=890 align=center border=0>
+    <tr>
+      <td class=main_title_282 width="33%"><B>最新热点</B></td>
+      <td width=5 rowSpan=2></td>
+      <td class=main_title_282 width="33%"><B>最新推荐</B></td>
+      <td width=5 rowSpan=2></td>
+      <td class=main_title_282 width="33%"><B>相关文章</B></td>
+    </tr>
+    <tr>
+      <td class=main_tdbg_890 vAlign=top height=100>
+      <script language="javascript" src="/Article/JS/Article_Hot3.js"></script></td>
+      <td class=main_tdbg_890 vAlign=top width="33%">
+      <script language="javascript" src="/Article/JS/Article_Elite3.js"></script></td>
+      <td class=main_tdbg_890 vAlign=top width="33%">没有相关文章</td>
+    </tr>
+  </table>
+  <table class=center_tdbgall style="WIDTH: 890px; HEIGHT: 23px" cellSpacing=0 cellPadding=0 width=890 align=center border=0>
+    <tr>
+      <td class=main_shadow></td>
+    </tr>
+  </table>
+  <!--最新热点、最新推荐、相关文章代码结束-->
+  <!--网友评论代码开始-->
+  <table class=center_tdbgall style="WORD-BREAK: break-all" cellSpacing=0 cellPadding=0 width=890 align=center border=0>
+    <tr class=main_title_890>
+      <td height=25>　<IMG src="/Images/TEAM.gif" align=absMiddle>　<STRONG>网友评论：</STRONG>（只显示最新10条。评论内容只代表网友观点，与本站立场无关！） </td>
+    </tr>
+    <tr>
+      <td class=main_tdbg_890>
+      <script language="javascript" src="/Article/Comment.asp?Action=JS&CommentNum=10&ArticleID=406"></script> </td>
+    </tr>
+  </table>
+  <table class=center_tdbgall cellSpacing=0 cellPadding=0 width=890 align=center border=0>
+    <tr>
+      <td class=main_shadow></td>
+    </tr>
+  </table>
+  <!--网友评论代码结束-->
+  <!-- ********网页中部代码结束******** -->
+  <!-- ********网页底部代码开始******** -->
+  <table class=Bottom_tdbgall style="WORD-BREAK: break-all" cellSpacing=0 cellPadding=0 width=890 align=center border=0>
+    <tr align=middle>
+      <td class=Bottom_Adminlogo colSpan=2>| <A class=Bottom onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.stzikao.com');" href="#">设为首页</A> | <A class=Bottom href="javascript:window.external.addFavorite('http://www.stzikao.com','汕头自考网');">加入收藏</A> | <A class=Bottom href="mailto:fm-zyh@vip.163.com">联系站长</A> | <A class=Bottom href="/FriendSite/Index.asp" target=_blank>友情链接</A> | <A class=Bottom href="/Copyright.asp" target=_blank>版权申明</A> | </td>
+    </tr>
+    <tr class=Bottom_Copyright>
+      <td width="20%"><IMG style="FILTER: ; WIDTH: 165px; HEIGHT: 55px" height=55 alt="" hspace=0 src="/Skin/sealove/PElogo_sealove.gif" width=165 border=0></td>
+      <td width="80%">声明：<a title="声明：本站是由汕头自考人士主办的公益网站" target="_blank" href="http://www.stzikao.com">本站是由汕头自考人士主办的公益网站</a><br> 汕头自考网版权所有 Copyright &copy; 2006-2009 <a title="汕头自考网" target="_blank" href="http://www.stzikao.com">STzikao</a>. All rights reserved.<br>   交流群：27052471 <a target="_blank" href="http://www.miibeian.gov.cn/">粤ICP备06085905号</a><br>
+<script language='javascript' src='http://www.stzikao.com/ad/tongji.js'></script> 站长：<A href="mailto:fm-zyh@vip.163.com"></A> </td>
+    </tr>
+  </table>
+  <!-- ********网页底部代码结束******** --><NOSCRIPT><IFRAME src='*' Width='0' Height='0'></IFRAME></NOSCRIPT>
+</body>
+</html>
