@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>自学考试《计算机系统结构》复习提纲_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="自学,学考,考试,试《,《计,计算,算机,机系,系统,统结,结构,构》,》复,复习,习提,自学考试《计算机系统结构》复习提纲,学习方法,汕头自考网"> 
+<meta name="description" content="第一章复习题&nbsp;&nbsp;&nbsp;&nbsp;1、解释：系统的外特性、内特性、微外特性、虚拟机。&nbsp;&nbsp;&nbsp;&nbsp;2、什么是SISD、SIMD、MISD、MIMD分类？如何用并行级和流水线分类？要求会分析和写出描述式。&nbsp;&nbsp;&nbsp;&nbsp;3、掌握阿姆达尔定律。&nbsp;&nbsp;&nbsp;&nbsp;4、了解计算机系" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/fxzd/Index.shtml'>复习指导</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/fxzd/xxff/Index.shtml'>学习方法</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>自学考试《计算机系统结构》复习提纲</LI>
+<LI class=date>发布日期时间：2007-1-14&nbsp;&nbsp;来源：网络 &nbsp;&nbsp;点击数：<script language='javascript' src='/fxzd/GetHits.asp?ArticleID=1928'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>sp;&nbsp;&nbsp;23、虚存的保护方式有哪几种？如何实现虚存保护？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;第八章<a class="channel_keylink" href="http://www.stzikao.com/fxzd/Index.html" target="_blank">复习</a>题</P><P>&nbsp;&nbsp;&nbsp;&nbsp;1、输入输出系统的功能是什么？输入输出控制器的管理方法有哪几种？什么是I/O处理机方式？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;2、什么是磁盘数据的时间延迟？由哪几部分时间组成？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;3、总线的控制方式分为哪几种？什么是同步、异步、半同步方式？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;4、总线硬件裁决方式有哪几种？总线裁决算法有哪几种？有何特点？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;5、总线传输操作的类型有哪几种？总线的释放策略有哪几种？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;6、SCSI总线有何特点？主机如何与SCSI连接，SCSI有哪二种传输方式？一般采用什么方式输出？通信协议是什么方式？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;7、PCI总线传送速率为多少？适用于什么样的传送场合，总线支持什么传输方式？PCI总线读写传输为什么方式传输？在什么设备之间传输？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;8、中断处理时，硬件、软件各负责什么功能？为了提高现场保护的速度可采取什么方法？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;9、输入/输出通道有哪几种类型？各用于什么外设的数据传送？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;10、通道有哪些功能？设备控制器有什么具体任务？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;11、I/O处理机有什么功能？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;12、衡量I/O子系统性能有哪些方面？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;第九章<a class="channel_keylink" href="http://www.stzikao.com/fxzd/Index.html" target="_blank">复习</a>题</P><P>&nbsp;&nbsp;&nbsp;&nbsp;1、什么是并行性？并行性指的是哪两种？什么是并行处理？并行可分为哪几个等级？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;2、并行性开发有哪几种方法，它们是如何实现并行性的？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;3、并行性开发可分为哪两个开发方式，各包括哪些手段？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;4、什么陈列机，陈列机以什么方式工作？陈列机有哪些主要特点？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;5、什么是SIMD的互连网络？设计互连网络有哪几个特征？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;6、什么是互连函数，什么是交连互连网络？什么是PM2I互连网络？已知16个处理器编号为0～15，采用上二种互连网络时6号处理器可与哪些处理器相连？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;7、什么是多处理机，属于什么模型？可分为哪两类？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;8、多处理机系统中如何解决cache一致性问题的。</P><P>&nbsp;&nbsp;&nbsp;&nbsp;9、多处理机中处理程序有哪几种相关现象？如何用伯恩斯坦判断数据相关？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;10、多处理机操作系统有什么特点和功能？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;第十章<a class="channel_keylink" href="http://www.stzikao.com/fxzd/Index.html" target="_blank">复习</a>题</P><P>&nbsp;&nbsp;&nbsp;&nbsp;1、计算模型可分为哪几类？各类有何特点？传统的系统结构、数据流结构、图归约机结构、串归约机结构、支持逻辑设计语言的逻辑结构各属于什么计算模型？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;2、数据流计算机指令执行的依据是什么？该计算机中，信息项以什么形式出现？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;3、静态数据流机有何特点？动态数据流机有何特点？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;4、什么是归约机，可分为哪二类？它们是如何区分的？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;5、人工智能机有哪些特征？</P><P>&nbsp;&nbsp;&nbsp;&nbsp;6、AI计算机可分为哪几类</p><p align='center'><b><a href='/fxzd/xxff/1928_2.shtml'>上一页</a>&nbsp;&nbsp;<a href='/fxzd/xxff/1928.shtml'>[1]</a>&nbsp;<a href='/fxzd/xxff/1928_2.shtml'>[2]</a>&nbsp;<font color='red'>[3]</font>&nbsp;</b></p> 
+<!--#include File="/wzad.html"-->
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/fxzd/Comment.asp?Action=JS&CommentNum=6&ArticleID=1928"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/fxzd/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="1928" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐复习指导 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/fxzd/xxff/1928.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门复习指导 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/fxzd/jyjl/3636.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">09年10月自考备考必胜…</SPAN></A></td> 
+      <td align=middle><A href="/fxzd/xxff/3174.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">09年如何学习好自考物…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/fxzd/jyjl/3636.shtml" target=_blank>09年10月自考备考必胜技…</A></LI> 
+<LI>·<A href="/fxzd/xxff/3174.shtml" target=_blank>09年如何学习好自考物流…</A></LI> 
+<LI>·<A href="/fxzd/xxff/3173.shtml" target=_blank>自学考试一次通过三科四…</A></LI> 
+<LI>·<A href="/fxzd/xxff/3172.shtml" target=_blank>考前利用笔记查漏补缺</A></LI> 
+<LI>·<A href="/fxzd/xxff/3171.shtml" target=_blank>自考英语（一）英语语法…</A></LI> 
+<LI>·<A href="/fxzd/xxff/3170.shtml" target=_blank>自考英语（一）英语语法…</A></LI> 
+<LI>·<A href="/fxzd/xxff/3169.shtml" target=_blank>自考英语（一）英语语法…</A></LI> 
+<LI>·<A href="/fxzd/xxff/3168.shtml" target=_blank>上班族自考要做好规划</A></LI> 
+<LI>·<A href="/fxzd/xxff/3167.shtml" target=_blank>认真学习教材&nbsp;自考并不难</A></LI> 
+<LI>·<A href="/fxzd/xxff/3166.shtml" target=_blank>“大学语文”课程学习方…</A></LI> 
+<LI>·<A href="/fxzd/xxff/3165.shtml" target=_blank>自学考试通关绝招：背书…</A></LI> 
+<LI>·<A href="/fxzd/xxff/3164.shtml" target=_blank>自考专业课和基础课要交…</A></LI> 
+<LI>·<A href="/fxzd/xxff/3163.shtml" target=_blank>自考一次通过七大秘诀</A></LI> 
+<LI>·<A href="/fxzd/xxff/3162.shtml" target=_blank>09年自考网页设计与制作…</A></LI> 
+<LI>·<A href="/fxzd/xxff/3161.shtml" target=_blank>自学考试毕业论文撰写第…</A></LI> 
+<LI>·<A href="/fxzd/xxff/3160.shtml" target=_blank>自考成功需掌握四大学习…</A></LI> 
+<LI>·<A href="/fxzd/xxff/3159.shtml" target=_blank>十招通关自考电子商务专…</A></LI> 
+<LI>·<A href="/fxzd/xxff/3158.shtml" target=_blank>专家支招：如何区别自考…</A></LI> 
+<LI>·<A href="/fxzd/xxff/3157.shtml" target=_blank>自考生应如何合理安排一…</A></LI> 
+<LI>·<A href="/fxzd/xxff/3156.shtml" target=_blank>自学考试新生学习技巧两…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>
