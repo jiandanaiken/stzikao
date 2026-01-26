@@ -266,32 +266,42 @@
           </div>
         </div>
         <div class=main_mainbar4_body><center>距离2026年10月22日考试仅<BR><BR>
-           <script>
-        // 等待页面加载完成后执行
-        window.onload = function() {
-            // 获取当前日期和时间
-            const mydate = new Date();
-            // 目标日期：2026年4月11日（月份从0开始，所以4月写3）
-            const urodz = new Date(2026, 3, 11);
-            
-            // 计算时间差（毫秒）
-            const timeDiff = urodz.getTime() - mydate.getTime();
-            // 转换为天数（向下取整）
-            const dni = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-            
-            // 获取显示容器
-            const countdownEl = document.getElementById('countdown');
-            
-            // 根据天数显示不同内容
-            if (dni > 0) {
-                countdownEl.innerHTML = "<b><font color=red size=9 face=arial black>"+dni+"</font></b>";
-            } else if (dni === 0) {
-                countdownEl.innerHTML = "今天举行哦！";
-            } else {
-                countdownEl.innerHTML = "正在举行哦！";
-            }
+        <script>
+    // ===== 显示当前日期（调用date.js的函数）=====
+    const dateEl = document.getElementById('current-date');
+    if (dateEl) {
+      dateEl.textContent = getCurrentChineseDate(); // 用textContent更安全
+    }
+
+    // ===== 倒计时逻辑（独立无冲突）=====
+    (function() {
+      try {
+        // 当前时间
+        const now = new Date();
+        // 目标日期：2026年4月11日（月份0开始，4月=3）
+        const target = new Date(2026, 3, 11);
+        // 计算剩余毫秒数
+        const timeDiff = target.getTime() - now.getTime();
+        // 转换为天数（向下取整）
+        const daysLeft = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+
+        // 显示倒计时
+        const countdownEl = document.getElementById('countdown-days');
+        if (countdownEl) {
+          if (daysLeft > 0) {
+            countdownEl.innerHTML = '<b><font color=red size=9 face="arial black">' + daysLeft + '</font></b>';
+          } else if (daysLeft === 0) {
+            countdownEl.innerHTML = '今天举行哦！';
+          } else {
+            countdownEl.innerHTML = '正在举行哦！';
+          }
         }
-    </script>
+      } catch (e) {
+        console.error('倒计时出错：', e);
+        document.getElementById('countdown-days').textContent = '加载失败';
+      }
+    })();
+  </script>
             </script>天<BR><BR>新生可参加2026年4月大考</td></center>
         </div>
         <div class=main_mainbar4_foot>
@@ -762,6 +772,7 @@
 </div>
 </body>
 </html>
+
 
 
 
