@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>办公自动化原理及应用笔记第三章_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="办公,公自,自动,动化,化原,原理,理及,及应,应用,用笔,笔记,记第,第三,办公自动化原理及应用笔记第三章,工学类,汕头自考网"> 
+<meta name="description" content="				&nbsp;&nbsp;&nbsp;&nbsp;第三章计算机表格处理　　　　（一）EXECL概述　　　　1、识记：EXECL的功能、特点―①Excel是在Windows环境下运行的电子表格应用程序②自动制表功能③表格编辑功能④将数据自动转换到图表、图形或文档中⑤执" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/gxl/Index.shtml'>工学类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>办公自动化原理及应用笔记第三章</LI>
+<LI class=date>发布日期时间：2007-1-14&nbsp;&nbsp;来源：网络 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=1011'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>
+
+				&nbsp;&nbsp;&nbsp; 第三章计算机表格处理<BR>　　<BR>　　（一）EXECL概述<BR>　　<BR>　　1、识记：EXECL的功能、特点―①Excel是在Windows环境下运行的电子表格应用程序②自动制表功能③表格编辑功能④将数据自动转换到图表、图形或文档中⑤执行简单或复杂的函数、公式运算⑥兼具字处理和数据库处理功能⑦具有更精确和详细的预览功能<BR>　　<BR>　　2、领会：EXECL的启动与退出<BR>　　<BR>　　启动：①双击；②开始－程序；③打开已存在的EXCEL文件<BR>　　<BR>　　退出：①文件－退出；②双击控制按钮或单击控制按钮－关闭；③Alt+F4<BR>　　<BR>　　3、应用：（1）EXECL窗口：标题栏、菜单栏、工具栏、编辑栏、工作区、状态栏<BR>　　<BR>　　（2）EXECL电子表格名词术语<BR>　　<BR>　　①电子表格－在计算机上生成并通过计算机进行编辑、操作、处理的表格（行号－数字、列号大写英语字母）<BR>　　<BR>　　②工作簿－用户建立的存储和处理数据的电子表格文件，由若干工作表按一定顺序排列而组成的工作表集合<BR>　　<BR>　　③工作表－在电子表格中进行一切表格操作的二维表区。工作簿隐含16个工作表，最多255个，每表16384行，256列，名字长度不超过32个字符<BR>　　<BR>　　④单元格（单元）－工作表中的每一个格子，每一单元的坐标称地址，形式：列号＋行号<BR>　　<BR>　　⑤活动单元格－活动单位、当前单元，当前正在操作的单元<BR>　　<BR>　　⑥单元指针－被激活的活动单元四周有一黑线杠围绕，此框称单元指针<BR>　　<BR>　　EXCEL能识别五种类型的数据：数值、日期、时间、正文、公式<BR>　　<BR>　　（二）EXCEL表格制作<BR>　　<BR>　　应用：（1）生成表格：①创建新工作簿②输入数据（输入标题、输入表头、输入其他数据）③工作簿存盘<BR>　　<BR>　　（2）编辑工作表①打开工作表（打开文件、选取工作表）②工作表窗口操作（缩放窗口－视图、分割窗口－窗口、冻结分割区域－窗口）③编辑工作表（插入删除行列和单元格、行高列宽调整、重命名工作表、工作表自动套用格式）④编辑数据（数据删除、修改、移动复制、排序&lt;简单、复杂&gt;、格式化）<BR>　　<BR>　　复杂排序－选择排序范围；数据－排序（有标题行复选框）；选定第一、第二、第三关键字；确定<BR>　　<BR>　　数据格式化分自动格式化和手工分步格式化（数据对齐、字体格式设置）<BR>　　<BR>　　（3）打印工作表①打印机硬件设置（联机、装纸）②指定打印范围③打印机、页面、版心设置④打印预览⑤打印对话框（打印机、打印范围、打印份数）设置；⑥确定<BR>　　<BR>　　（三）EXCEL数据计算<BR>　　<BR>　　1、领会：公式和函数基本概念－EXCEL公式由三个元素构成；运算符、参数、函数<BR>　　<BR>　　运算符－①算术运算符（6种）、②逻辑（比较）运算符（6种）、③连接运算符&amp;，优先级③&gt;①&gt;②<BR>　　<BR>　　操作数－常数（运算中不变的数值字符串）、单元格地址（坐标、引用）、区域名：区域第一单元格：最后单位格<BR>　　<BR>　　函数－非公式必要元素，是EXCEL内部公式，格式：函数名（参数……）<BR>　　<BR>　　EXCEL函数有：数量与三角、日期与时间、统计、财金、查找替换、数据库、字符、逻辑、信息<BR>　　<BR>　　2、应用：（1）函数的运用①键盘手工输入②工具栏中自动求和按钮③用函数<a class="channel_keylink" href="http://www.stzikao.com/Article/plane/Index.html">指南</a>输入<BR>　　<BR>　　（2）公式的运用①公式运算②公式复制和移动③公式重新计算（自动重算、手工重算－工具）<BR>　　<BR>　　单元格地址三种引用形式：相对，绝对$，混合－公式复制或移动时，新位置公式中地址是否改变<BR>　　<BR>　　（3）分类汇总－将工作表中某列已排序数据按关键字段进行分类统计，并将结果显示在插入的新行中<BR>　　<BR>　　按分类关键字段排序；选中欲分类汇总的单元区域；数据－分类汇总；分组汇总字段－关键字段；汇总方式；选欲被分类统计的数据列单击增加分类汇总位置框中的表，选中所需列－确定<BR>　　<BR>　　（四）图表应用<BR>　　<BR>　　1、识记：编辑图表<BR>　　<BR>　　2、领会：图表基本知识－<BR>　　<BR>　　图表元素：轴即坐标轴（X、Y、Z）、图表标题、轴标题、图列、数据系列、网络线、类<BR>　　<BR>　　常用图表类型－区域（面积）图、条形图、柱形（直方）图、折线图、饼图、环形图、组合图、三维图<BR>　　<BR>　　3、应用：（1）生成内嵌式图表－在工作表中建立图表，数据来源于工作表或其中某区域，工作表中数据变化，图表也随之更新。<BR>　　<BR>　　①选定工作表数据区域②图表<a class="channel_keylink" href="http://www.stzikao.com/Article/plane/Index.html">指南</a>－插入－在原工作表中嵌入③拖动工作表区域，移动到数值内嵌图表的位置，并拖出一方框，设定图表大小、文件④定义区域⑤选择图表类型⑥选择图表格式⑦确定数据系列类和图例文字⑧设定X、Y轴标题和图表标题<BR>　　<BR>　　（2）生成独立图表－独立于工作表的图表，依赖于工作表数据制图，并被作为一张工作表来保存或处理，系统会在工作表标签行列中相应位置插入该图表标签<BR>　　<BR>　　编辑图表：图表移动、缩放、复制、删除；图表元素的编辑<BR>　　<BR><a class="channel_keylink" href="http://www.stzikao.com" target="_blank">自考</a>365.COM·jennysxm</p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=1011"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="1011" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/gxl/1011.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/ggk/3619.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/ggk/3618.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/ggk/3619.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3618.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3617.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3616.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3615.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3614.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3613.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3612.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3611.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3610.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3609.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3608.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3607.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3606.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3605.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3604.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3603.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3602.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3601.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3600.shtml" target=_blank>2009年10月自考英语（一…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>

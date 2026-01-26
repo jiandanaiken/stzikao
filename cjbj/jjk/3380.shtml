@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>自考“管理系统中计算机应用”课堂笔记（八）_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="自考,考“,“管,管理,理系,系统,统中,中计,计算,算机,机应,应用,用”,”课,课堂,堂笔,笔记,记（,（八,自考“管理系统中计算机应用”课堂笔记（八）,经济类,汕头自考网"> 
+<meta name="description" content="	&nbsp;&nbsp;　　4.1信息系统规划概论<br>　　4.1.1系统规划的目的<br>　　对信息系统规划的目的，主要有如下几方面：<br>　　1.保证信息系统开发符合企业总的战略目标，使系统能真正成为提高企业竞争力的有力工具。<br>　　2.保证信息系统" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/jjk/Index.shtml'>经济类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>自考“管理系统中计算机应用”课堂笔记（八）</LI>
+<LI class=date>发布日期时间：2009-4-6&nbsp;&nbsp;来源：zikao365 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=3380'></script>&nbsp;&nbsp;作者：本站整理</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>	  <P>　　4.1信息系统规划概论</p>
+<P>　　4.1.1系统规划的目的</p>
+<P>　　对信息系统规划的目的，主要有如下几方面：</p>
+<P>　　1.保证信息系统开发符合企业总的战略目标，使系统能真正成为提高企业竞争力的有力工具。</p>
+<P>　　2.保证信息系统满足企业各部门对信息的需求。</p>
+<P>　　企业是由众多的部门所组成的复杂系统，各部门有自己的功能，部门之间通过信息流相互联系。</p>
+<P>　　3.为领导对系统开发决策提供依据。</p>
+<P>　　4.明确系统开发的优先顺序。</p>
+<P>　　4.1.2系统规划的主要内容</p>
+<P>　　一个企业的信息系统规划可划分为战略性规划和执行性规划两大部分。战略性规划是宏观指导性的长远规划，执行性规划是对战略性规划的具体化和细化。</p>
+<P>　　1.信息系统的战略性规划</p>
+<P>　　信息系统的战略性规划就是要在企业战略规划的指导下，考虑企业管理环境和信息技术对信息系统的影响，对企业内部的信息技术和信息资源开发工作进行合理安排，确定信息系统在组织中的地位以及结构关系，并制定出分阶段的发展目标、关键任务和主要内容。</p>
+<P>　　2.企业信息系统的执行性规划</p>
+<P>　　企业信息系统执行性规划又称为开发规划，是对战略性规划的具体落实，主要内容如下：</p>
+<P>　　（1）系统目标与范围的描述。首先要确定信息系统目标；确定系统界面，系统与外部的信息联系；系统的主要功能；系统与企业其他计算机的应用。</p>
+<P>　　（2）系统运行环境描述。它是说明系统运行在管理方面的基本要求与条件，包括管理思想及管理方法变革的设想、业务流程重组及组织机构的变化、职能调整的设想。</p>
+<P>　　（3）信息系统的硬件与系统软件配置。它是说明计算机和网络系统的配置要求，系统软件的配置要求。其目的是通过系统配置可以比较准确地估计出系统的总投资，有利于领导对是否开发信息系统进行决策。</p>
+<P>　　（4）系统开发计划。在<a class="channel_keylink" href="http://www.stzikao.com/Article/zkbkbd/Index.html">计划</a>中要确定系统开发策略（即系统开发的方式与方法），开发阶段的划分，开发的优先顺序及每阶段投入资源的预算，系统运行环境的形成与优化方案。</p>
+<P>　　4.1.3诺兰模型</p>
+<P>　　美国专家诺兰（R.L.Nolan）提出了在一个地区、一个行业乃至一个国家计算机应用发展的客观道路及规律，即所谓诺兰模型。诺兰模型六个阶段模型。</p>
+<P>　　1.初始阶段</p>
+<P>　　这个阶段人们对计算机还很不了解，引入少数的计算机主要起到宣传、启蒙的作用，人们对它的兴趣也只是由于新鲜，注重学习技术，不求实际的效益。</p>
+<P>　　2.普及阶段</p>
+<P>　　此时计算机技术开始普及，一些初期尝试的成功，使人们对计算机技术开始产生了实际的、基于自身工作需要的兴趣。这个阶段，计算机的作用主要还是用于学习和培训，真正用于管理的尚属少数。学习及普及是这一阶段的主要的工作。</p>
+<P>　　3.控制阶段</p>
+<P>　　此时投入使用的计算机应用系统逐渐多起来。然而由于缺乏全局考虑，各单项应用之间不协调，并未取得预期的效益。人们开始对计算机的使用进行规划与控制。</p>
+<P>　　4.集成阶段</p>
+<P>　　人们按照信息系统工程的方法，全面规划，切实地从管理的实际需要出发，进行信息系统的建设与改造。</p>
+<P>　　5.数据管理阶段</p>
+<P>　　信息管理提高到了一个新的以计算机为技术手段的水平上，计算机已经成为日常管理工作的不可缺少的工具，日常信息处理工作已经普遍由计算机来完成。计算机作为日常信息处理工具的作用开始发挥出来，投资开始见效。</p>
+<P>　　6.成熟阶段</p>
+<P>　　在日常数据已经进入计算机的条件下，人们进一步对这些数据加工整理，充分利用，从而使决策水平提高，优化管理，避免失误，真正发挥对各级决策的支持作用。这时，计算机的作用才充分发挥出来。</p>
+<P>　　4.2信息系统规划的主要方法</p>
+<P>　　4.2.1战略集合转移法</p>
+<P>　　战略集合转移法（StrategySetTransformation，SST）是把组织的总战略看成一个信息集合，由使命、目标、战略和其他战略变量（如管理水平、环境约束）等组成。信息系统战略性规划过程，就是将企业的战略集转化为MIS的战略集的过程。</p>
+<P>　　该方法的第一步是识别和阐述企业的战略集，首先考察企业是否有写成文的战略<a class="channel_keylink" href="http://www.stzikao.com/Article/zkbkbd/Index.html">计划</a>，如果没有，就要去构造这个战略集。可以采用下述步骤：</p>
+<P>　　一是描绘出企业有关的各类人员的结构，如企业股东。供应商、顾客、管理者等不同集团。</p>
+<P>　　二是识别每种集团的目标。</p>
+<P>　　三是识别每种集团的使命及战略。</p>
+<P>　　第二步是将企业的战略集转化为MIS的战略集。MIS战略集应包括系统目标、约束及战略计划。在此基础上信息系统分析员可提出MIS执行<a class="channel_keylink" href="http://www.stzikao.com/Article/zkbkbd/Index.html">计划</a>。</p>
+<P>　　4.2.2关键成功要素法</p>
+<P>　　所谓的关键要素，就是关系到企业的生存与组织成功的重要因素，它们也是企业最需要得到的决策信息、是值得管理者重点关注的活动区域。关键要素是企业IT支持最先要解决的问题，也是投资最先予以保证、质量要求最高的环节。</p>
+<P>　　CSF分析包括四个步骤：</p>
+<P>　　一是了解企业及信息系统的战略目标。</p>
+<P>　　二是识别影响战略目标的所有成功要素。可以借助因果关系树等方法来辅助分析。</p>
+<P>　　三是确定关键要素。这需要对所有成功因素进行评价，判断它们对组织目标的影响力，找出影响力大的因素，可以采用层次分析法、特尔斐法、模糊综合评判法等来辅助分析。</p>
+<P>　　四是识别性能指标和标准。给出每个关键要素的性能指标和测量标准。</p>
+<P>　　4.2.3企业系统规划法</p>
+<P>　　企业系统规划法（BusinessSystemPlanning，BSP）的基本出发点是：必须让企业的信息系统支持企业的目标，让信息系统战略表达出企业各个管理层次的需求，向整个企业提供一致性的信息，并且在组织机构和管理体制改变时保持工作能力。</p>
+<P>　　BSP方法实现的主要步骤有定义企业目标、定义企业过程、定义数据类、定义信息系统总体结构等。</p>
+<P>　　第一步是定义企业目标，要在企业各级管理部门中取得一致的看法，使企业的发展方向明确，使信息系统支持这些目标。</p>
+<P>　　第二步是要定义企业过程，这是因BSP方法的核心。所谓企业过程就是企业资源管理所需要的、逻辑上相关的一组决策和活动。企业过程演绎了企业目标的完成过程，又独立于具体的组织机构变化，是建立企业信息系统的基础。</p>
+<P>　　第三步是定义数据类，即认识这些过程所产生、控制和使用的数据，具体了解各种数据的内容、范围、可*性等，认识数据的共享要求和数据政策，以及数据使用中的问题，使信息系统规划能够；满足数据资源管理的要求。</p>
+<P>　　第四步是定义信息系统总体结构，即对数据资源和信息流程进行合理组织的方案，具体包括识别出系统和各个子系统，以及它们所支持的企业过程，从而将企业目标转化成信息系统的目标。（以上内容仅供参考）</P>
+		
+        
+</p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=3380"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="3380" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/jjk/3380.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/ggk/3619.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/ggk/3618.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/ggk/3619.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3618.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3617.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3616.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3615.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3614.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3613.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3612.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3611.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3610.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3609.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3608.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3607.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3606.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3605.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3604.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3603.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3602.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3601.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3600.shtml" target=_blank>2009年10月自考英语（一…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>

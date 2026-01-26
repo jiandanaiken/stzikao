@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>自考“网络技术”笔记名词解释_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="自考,考“,“网,网络,络技,技术,术”,”笔,笔记,记名,名词,词解,自考“网络技术”笔记名词解释,工学类,汕头自考网"> 
+<meta name="description" content="				　　ADSL：非对称数字用户线（ADSL，ADSL是在无中继的用户环路网上，使用有负载电话线提供高速数字接入的传输技术，对少量使用宽带业务的用户是一种经济快速的接入方法。其特点是可在现有任意双绞线上传输，误码" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/gxl/Index.shtml'>工学类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>自考“网络技术”笔记名词解释</LI>
+<LI class=date>发布日期时间：2007-4-10&nbsp;&nbsp;来源：不详 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=2457'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>太网（FastEthernet快10倍，数据传输速率达到1000Mbps.GigabitEthernet保留着传统的10Mbps速率Ethernet的所有特征（相同的数据帧格式。相同的介质访问控制方法。相同的组网方法，只是将传统Ethernet每个比特的发送时间由100ns降低到1ns.</p>
+<P>　　l软件：是为了使用户使用并充分发挥计算机性能和效率的各种程序和数据的统称。软件又可分成系统软件和应用软件两部分，系统软件是所有供用户使用的为解决用户使用计算机而编制的程序和数据，如操作系统。编译程序。汇编程序等；应用软件是为解决某个特定问题而编制的程序。</p>
+<P>　　软件：由程序与相关文档组成。软件是用户与计算机硬件系统之间的桥梁，它体现了人要计算机做什么及怎样做，这一套指令序列均以某种代码形式储存于存储器中。这些指令序列就是程序。从软件工程的观点看，软件不能简单地理解为就是程序。软件是程序以及开发。使用和维护程序所需的所有文档的总和，广义地说，所有使用软件的技能也属于软件的范畴。</p>
+<P>　　s设备独立性：进程申请设备时，应当指定所需设备的类别，而不是指定某一台具体的设备，系统根据当前请求以及设备分配情况在相应类别的设备中选择一个空闲设备并将其分配给申请进程，这称作设备独立性。它具有如下两个优点：提高设备资源利用率，假设申请者指定具体设备，而被指定的设备可能正被占用，因而无法得到，而其他同类设备可能空闲，造成资源浪费以及进程不必要的等待；用户程序不必因指定设备状态的改变而修改程序。</p>
+<P>　　实存储器：实存储器是计算机系统中配置的实际物理存储器，通常有3类：①内存，又称主存。它接收数据和保存数据，而且能根据命令直接存取数据。②外存，也称辅存。它是为了弥补内存容量不足而使用的存储空间，通常采用大容量磁盘。③高速缓存。它是处于内存和中央处理机之间的高速小容量存储器。</p>
+<P>　　实时系统：实时系统是随着计算机应用领域的日益广泛而出现的，具体含义是指系统能够及时响应随机发生的外部事件，并在严格的时间范围内完成对该事件的处理。实时系统在一个特定的应用中是作为一种控制设备来使用的。</p>
+<P>　　授权：授权是指把访问权限授予某一个用户。用户组或指定系统的过程。授权在用户标识出自己的身份之后，确认允许他做哪些事情。</p>
+<P>　　数据传输速率：在数值上等于每秒钟传输构成数据代码的二进制比特数，单位为比特/秒（bit/second，记作bps.对于二进制数据，数据传输速率为：S1/T（bps，其中，T为发送每一比特所需要的时间。</p>
+<P>　　数字用户线路xDSL接入技术：DSL，xDSL中的x表示A/H/S/C/I/V/RA等。xDSL技术按上行（用户到交换局和下行（交换局到用户的速率是否相同可分为速率对称型和速率非对称型两种。</p>
+<P>　　死锁：在多道程序系统中，一组进程中的每一个进程均无限期地等待被该组进程中的另一进程所占有且永远不会释放的资源，这种现象称系统处于死锁状态。处于死锁状态的进程称为死锁进程。系统发生死锁时，死锁进程的个数至少为二个。</p>
+<P>　　搜索引擎：搜索引擎是因特网上的一个WWW服务器，它的主要任务是在因特网中主动搜索其他WWW服务器中的信息并对其自动索引，将索引内容存储在可供查询的大型数据库中。用户可以利用搜索引擎所提供的分类目录和查询功能查找所需要的信息。</p>
+<P>　　所谓平均等待时间：是指需要读写的扇区旋转到磁头下面花费的平均时间。</p>
+<P>　　所谓数据传输速率：是指磁头找到所需读写的扇区后，每秒钟可以读出或写入磁盘的字节数。</p>
+<P>　　所谓吞吐量：衡量系统效率的尺度是系统吞吐量。所谓吞吐量是指单位时间内系统所处理作业（程序的道数（数量。如果系统的资源利用率高，则单位时间内所完成的有效工作多，吞吐量大；反之，如果系统的资源利用率低，则单位时间内所完成的有效工作少，吞吐量小。</p>
+<P>　　特权指令：是指只允许操作系统使用，而不允许一般用户使用的指令。这些指令如：修改程序状态字。设置中断屏蔽。启动设备执行I/O操作。设置时钟。置中断向量。清内存。停机等。这些指令如果允许用户随便使用，就可能使系统陷入混乱。</p>
+<P>　　拓扑学：拓扑学是几何学的一个分支，它是从图论演变过来的。拓扑学首先把实体抽象成与其大小。形状无关的点，将连接实体的线路抽象成线，进而研究点。线。面之间的关系。</p>
+<P>　　网关：传输层及以上各层协议不同的网络之间的互连属于高层互连。实现高层互连的设备。高层互连使用的网关很多是应用层网关，通常简称为应用网关（ApplicationGateway.如果使用应用网关来实现两个网络高层互连，那么允许两个网络的应用层及以下各层网络协议是不同的。</p>
+<P>　　网卡：网卡是网络接口卡（NIC的简称，它是构成网络的基本部件。网卡一方面连接局域网中的计算机，另一方面连接局域网中的传输介质。</p>
+<P>　　网络安全：是指网络系统的硬件。软件及其系统中的数据受到保护，不会由于偶然或恶意的原因而遭到破坏。更改。泄露，系统能连续。可靠和正常地运行，网络服务不中断。网络安全是一个涉及计算机科学。网络技术。通信技术。密码技术。信息安全技术。应用数学。数论和信息论等多种学科的边缘学科。</p>
+<P>　　网络操作系统：网络操作系统（NOS是使联网计算机能够方便而有效地共享网络资源，为网络用户提供所需的各种服务的软件与协议的集合。网络操作系统的基本任务就是：屏蔽本地资源与网络资源的差异性，为用户提供各种基本网络服务功能，完成网络共享系统资源的管理，并提供网络系统的安全性服务。</p>
+<P>　　网络管理：网络管理是控制一个复杂的计算机网络，使它具有最高的效率和生产力的过程。根据进行网络管理的系统的能力，这一过程通常包括数据收集。数据处理。数据分析和产生用于管理网络的报告。</p>
+<P>　　w网络互连：是指将分布在不同地理位置的网络。设备相连接，以构成更大规模的互联网络系统，实现互联网络资源的共享。互连的网络和设备可以是同种类型的网络。不同类型的网络，以及运行不同网络协议的设备与系统。</p>
+<P>　　网络卡：是最常用的插卡之一，它是组网的关键部件，也称为适配器卡（adaptercard.它插在主板的扩展槽内，一方面与计算机连接，另一方面与传输电缆连接。其主要功能是：（1实现与主机总线的通信连接，解释并执行主机的控制命令。（2实现数据链路层的功能，如形成数据帧。差错校验。发送接收等。（3实现物理层的功能，如对发送信号的传输驱动。对进来信号的侦听与接收。对数据的缓存以及串行并行转换等。</p>
+<P>　　网络协议：计算机网络由多个互连的结点组成，结点之间要不断地交换数据和控制信息。要做到有条不紊地交换数据，每个结点都必须遵守一些事先约定好的规则。这些规则精确地规定了所交换数据的格式和时序。这些为网络数据交换而制定的规则。约定与标准被称为网络协议（Protoco1.一个网络协议主要由以下3个要素组成：（1语法，即用户数据与控制信息的结构和格式；（2语</p><p align='center'><b><a href='/cjbj/gxl/2457_4.shtml'>上一页</a>&nbsp;&nbsp;<a href='/cjbj/gxl/2457.shtml'>[1]</a>&nbsp;<a href='/cjbj/gxl/2457_2.shtml'>[2]</a>&nbsp;<a href='/cjbj/gxl/2457_3.shtml'>[3]</a>&nbsp;<a href='/cjbj/gxl/2457_4.shtml'>[4]</a>&nbsp;<font color='red'>[5]</font>&nbsp;<a href='/cjbj/gxl/2457_6.shtml'>[6]</a>&nbsp;<a href='/cjbj/gxl/2457_6.shtml'>下一页</a> </b></p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=2457"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="2457" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/gxl/2457.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/ggk/3619.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/ggk/3618.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/ggk/3619.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3618.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3617.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3616.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3615.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3614.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3613.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3612.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3611.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3610.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3609.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3608.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3607.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3606.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3605.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3604.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3603.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3602.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3601.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3600.shtml" target=_blank>2009年10月自考英语（一…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>

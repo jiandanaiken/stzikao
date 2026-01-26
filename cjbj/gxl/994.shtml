@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>自考《汇编语言》上机实践策略_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="自考,考《,《汇,汇编,编语,语言,言》,》上,上机,机实,实践,践策,自考《汇编语言》上机实践策略,工学类,汕头自考网"> 
+<meta name="description" content="				　　上机实践是计算机应用专业考试的重要环节，许多人觉得上机考试比笔试更难通过，笔者也有这种感觉。但平心而论，上机实践程序并不难（至少较笔试容易），所谓“难”在于要在短时间内（一般为3个小时），不仅要" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/gxl/Index.shtml'>工学类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>自考《汇编语言》上机实践策略</LI>
+<LI class=date>发布日期时间：2007-1-14&nbsp;&nbsp;来源：网络 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=994'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>
+
+				<P>　　上机实践是计算机应用专业考试的重要环节，许多人觉得上机考试比笔试更难通过，笔者也有这种感觉。但平心而论，上机实践程序并不难（至少较笔试容易），所谓“难”在于要在短时间内（一般为3个小时），不仅要把程序编出来，而且还要调试成功并按要求的功能运行通过才行。因此，要想通过上机实践考试，除了平时经常练习外，还需要一些技巧。以下是笔者在“汇编语言”课程上机实践考核后总结的考试策略，希望对大家<a class="channel_keylink" href="http://www.stzikao.com/fxzd/Index.html" target="_blank">复习</a>备考有所帮助。</p>
+<P>　　<STRONG>策略1：</STRONG>先保证过关。<a class="channel_keylink" href="http://www.stzikao.com/lnst/Index.html">试题</a>纸上，根据程序功能的难易实现，分为三个成绩等级：及格、良好、优秀。我的策略是先保证及格，然后才向更好的方向靠近。</p>
+<P>　　<STRONG>策略2：</STRONG>以子程序方式作各功能模块。这样做，层次清晰，易于查错，易于增加功能。具体做时，应每做完一个功能模块，立即调试，成功后再考虑增加新功能。值得注意的是，一旦用模块法做程序，应坚持到底。因为在实际考<a class="channel_keylink" href="http://www.stzikao.com/lnst/Index.html">试题</a>目中，各功能都有相似之处，或许增加几条指令又可完成一项功能，而你一旦分精力倾注于此，你原本清晰的思路会被弄得很乱，且容易因此导致整个程序失败。子程序方式是保证策略1实现的最好方法。</p>
+<P>　　<STRONG>策略3：</STRONG>画流程图。由于采用模块方法，因此，主流程图的内容仅为各功能模块的调用顺序，而各功能模块，目标功能明确，也易于画流程图，从而使你的程序更清晰。</p>
+<P>　　<STRONG>策略4：</STRONG>边做边录入。要养成这个好习惯，不然万一机器掉电，内容尽失，追悔莫及。按照主流程图，录入程序的主框架，暂时不用的模块部分可先屏蔽起来（在行前加上分号；）</p>
+<P>　　<STRONG>策略5：</STRONG>熟练应用常用的DOS功能调用。考试时，<a class="channel_keylink" href="http://www.stzikao.com/lnst/Index.html">试题</a>多以交互式形式出现；有输入，还能看见运行结果。因此，对于常用的用于交互的如2号、9号、10号DOS功能调用一定要熟练掌握。另外，进制之间的转换是常考的题型，如要求以不同的进制把结果显示出来等，要加强联系。</p>
+<P>　　<STRONG>策略6：</STRONG>调试时注意运用以下小技巧：a.汇编源程序时会生成“文件名。lst”文件（汇编时碰到[.lst]键入文件名即可），若汇编结果有错，此文件是静态检查的好帮手；b.应用debug.exe调试工具软件；c.如果你很自信算法和指令都正确，但就是结果不对，那么就换个寄存器试试，这可能是预期的值被偿所不知的功能调用的返回值冲掉造成的。</p>
+<P>　　以上是我在考试过后的成功经验，写出来与大家交流，希望能起到抛砖引玉的作用，看到更多同学的成功<a class="channel_keylink" href="http://www.stzikao.com/fxzd/jyjl/Index.html" target="_blank">经验</a>。参加<a class="channel_keylink" href="http://www.stzikao.com" target="_blank">自考</a>的朋友，祝你们学习顺利、考试通过。</P> 北京<a class="channel_keylink" href="http://www.stzikao.com" target="_blank">自考</a>热线  马涛</p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=994"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="994" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/gxl/994.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/ggk/3619.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/ggk/3618.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/ggk/3619.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3618.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3617.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3616.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3615.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3614.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3613.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3612.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3611.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3610.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3609.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3608.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3607.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3606.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3605.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3604.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3603.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3602.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3601.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3600.shtml" target=_blank>2009年10月自考英语（一…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>

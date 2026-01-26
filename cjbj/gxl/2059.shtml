@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>自考《网络操作系统》课后答案（4）_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="自考,考《,《网,网络,络操,操作,作系,系统,统》,》课,课后,后答,答案,案（,（4,自考《网络操作系统》课后答案（4）,工学类,汕头自考网"> 
+<meta name="description" content="				　　第三章&nbsp;网络操作系统的通信　　1.&nbsp;什么叫同步：相互合作的两个进程之间需要在某个（些）确定点协调它们的工作，一个进程到达了该点后，除非另一进程已经完成了某些操作，否则就不得不停下来，等待这些操作的" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/gxl/Index.shtml'>工学类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>自考《网络操作系统》课后答案（4）</LI>
+<LI class=date>发布日期时间：2007-1-22&nbsp;&nbsp;来源：不详 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=2059'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>
+
+				<P><STRONG>　　第三章 网络操作系统的通信</STRONG></p>
+<P>　　1. 什么叫同步：相互合作的两个进程之间需要在某个（些）确定点协调它们的工作，一个进程到达了该点后，除非另一进程已经完成了某些操作，否则就不得不停下来，等待这些操作的完成。这就是进程间的同步。什么叫互斥：两个进程由于不能同时使用同一临界资源，只能在一个进程使用完了，另一进程才能使用，这种现象称为进程间的互斥。试举例说明进程间同步和互斥的区别：①同步的主要特征是：一个进程在某一点上等待另一进程提供信息，两进程之间存在直接制约关系，其表现形式为进程—进程。②互斥的主要特征是争用资源，两进程间存在间接制约关系，其表现形式是进程—资源—进程。</p>
+<P>　　2. 试给出P、V操作的定义：P、V操作是定义在信号量S上的两个操作，其定义如下：</p>
+<P>　　P（S）：</p>
+<P>　　① S：=S-1；</p>
+<P>　　② 若S≥0，则调用P（S）的进程继续运行；</p>
+<P>　　③ 若S＜0，则调用P（S）的进程被阻塞，并把它插入到等待信号量S的阻塞队列中。</p>
+<P>　　V（S）：</p>
+<P>　　① S：=S+1；</p>
+<P>　　② 若S＞0，则调用V（S）的进程继续运行；</p>
+<P>　　③ 若S≤0，则从等待信号量S的阻塞队列中唤醒头一个进程，然后调用V（S）的进程继续运行。</p>
+<P>　　如何利用P、V操作实现进程间的互斥：P、V操作是解决同步与互斥问题的有力工具。为解决互斥问题，应采取如下步骤：首先根据给定问题的描述，列出各进程要执行的程序。其次，设置信号量。互斥问题中，在临界区前面加P（S），临界区后面加V（S）。最后确定信号量的初值。在互斥问题中，信号量通常取为互斥资源的个数。并说明信号量的物理意义：信号量S＞0时，S的数值表示某类可用资源的数目，执行P操作意味着申请分配一个单位的资源；当S≤0时，表示无资源可用，此时S的绝对值表示信号量S的阻塞队列中的进程数。执行V操作意味着释放一个单位的资源。</p>
+<P>　　3. 如何利用P、V操作实现进程间的同步：P、V操作是解决同步与互斥问题的有力工具。为解决同步问题，应采取如下步骤：首先根据给定问题的描述，列出各进程要执行的程序。其次，设置信号量。同步问题中有几个同步点就设置几个信号量，等待的地方加P（S），发信号（解除等待）的地方加V（S）。最后确定信号量的初值。在同步问题中，信号量的初值一般取0.在同步和互斥中，信号量初值的设置有何不同：在同步问题中，信号量的初值一般取为0，在互斥问题中，信号量通常取为互斥资源的个数。</p>
+<P>　　4. 高级通信原语有何优点：能够实现在进程之间传递大量的信息。在消息缓冲通信方式中，发送原语和接收原语的主要功能是什么：发送原语的作用：将欲发送的消息从发送区复制到消息缓冲区，并把它挂起在接收进程的消息缓冲队列末尾。如果该接收进程因等待消息而处于阻塞状态，则将其唤醒。接收原语的作用：把发送者发来的消息从消息缓冲区复制到接收区，然后将消息缓冲区从消息队列中消去，如果没有消息可以接收，则进入阻塞状态。</p>
+<P>　　5. 什么是信箱：信箱用于存放信件，而信件是一个进程发送给另一进程的消息。信箱的数据结构：信箱头和信箱体。信箱头是信箱的描述部分，信箱体由若干格子组成，每个格子可存放一个信件。信箱头包括的信息：①信箱名②信箱大小③已存信件数④空的格子数。如何用信箱实现两个进程之间的通信：进程A想向进程B发送消息前，先把消息组成一封信件，然后调用send原语向进程B发送信件，并将信件投入进程B的信箱中。进程B为得到进程A的消息，只要调用receive原语就可以从信箱中索取来自进程A的信件。这就完成了一次进程A到进程B的通信过程。</p>
+<P>　　6. 在网络操作系统中，为什么要采用消息传递的通信机制：基于共享变量的通信方式适用于网络中各节点内部诸进程之间的通信，而基于消息传递的通信方式适用于网络中各节点之间的进程通信。在消息传递的通信机制中有哪些通信方式：①通信原语②远程过程调用③组通信。</p>
+<P>　　7. 什么是同步原语：当一个进程调用一个send原语时，在消息开始发送后，发送进程便处于阻塞状态，直至消息完全发送完毕，send原语的后继语句才能继续执行。当一个进程调用一个receive原语时，并不立即返回控制，而是等到把消息实际接收下来，并把它放入指定的接收区，才返回控制，继续执行该原语的后继指令。在这段时间它一直处于阻塞状态。上述的send和receive被称为同步通信原语或阻塞通信原语。异步原语：发送进程在调用send原语后，并不进入阻塞状态，它不等消息发送完就继续执行其后继语句。在使用异步通信原语时，发送者在消息发送完成前为什么不能使用缓冲区：因为倘若发送进程在消息发送完成之前，即在消息发送期间使用或修改原来的缓冲区，将会造成错误。如何解决？有两种办法（应采用异步原语）：①采用带拷贝的非阻塞原语，即让内核把消息拷贝到内核缓冲区，允许调用进程继续运行。②带中断的非阻塞发送，即当消息发送完成后，中断发送进程，通知发送进程此时缓冲区可用。</p>
+<P>　　8. 在进程间通信如何保证消息不会丢失：为了保证消息被对方收到，可采用可靠原语。具体作法是：客户向服务器方发一请求后，服务器对这一请求，由其内核向客户内核返回一个确认ACK，当客户内核收到这一消息后，就唤醒客户进程。在客户与服务器之间的请求/应答共需四个消息：①从客户向服务器的请求②从服务器内核向客户内核返回一个确认③从服务器到客户的应答④从客户的内核向服务器内核返回一个确认。</p>
+<P>　　9. 远程过程调用：在网络或分布式系统中，设有任意两个节点A、B，节点A上的进程调用节点B上的一个进程时，节点A上的进程被挂起，在节点B上执行被调用的过程，消息以参数的形式从调用进程传送到被调用进程，并将被调用过程执行的结果返回给调用进程。这种通信方式称为远程过程调用。其基本原理是什么：允许某一节点上的程序调用其他节点上的过程或函数。例如节点机A上的进程调用节点机B上的过程，节点机A的调用进程被挂起，在节点机B上执行被调用过程。消息以参数的形式从调用过程传到被调用过程，被调用过程执行的结果再返回给调用过程。对程序员来说，他看不到消息传递过程和I/O处理过程。</p>
+<P>　　10. RPC的透明性指的是什么：指的是要使得远程过程调用尽可能像本地调用一样。调用过程应该不知道被调用过程是在另外一台计算机上执行，反过来也是如此，被调用过程也不应该知道是由哪个机器上的进程调用的。如何保证这一透明性：远程过程调用为实现其透明性，在客户机上设置一个客户代理，同样在服务器机上设置一个服务器代理。</p>
+<P>　　11. 简述远程过程调用的步骤：①客户过程以通常方式调用客户代理。②客户代理构造一个消息并陷入内核。③本地内核发送消息给远程内核。④远程内核把消息送给服务器代理。⑤服务器代理从消息包中取出参数并调用服务器。⑥服务器完成相应的服务，将结果送给服务代理。⑦服务代理将结果打包形成一</p><p align='center'><b><font color='red'>[1]</font>&nbsp;<a href='/cjbj/gxl/2059_2.shtml'>[2]</a>&nbsp;<a href='/cjbj/gxl/2059_2.shtml'>下一页</a> </b></p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=2059"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="2059" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/gxl/2059.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/ggk/3619.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/ggk/3618.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/ggk/3619.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3618.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3617.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3616.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3615.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3614.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3613.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3612.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3611.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3610.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3609.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3608.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3607.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3606.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3605.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3604.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3603.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3602.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3601.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3600.shtml" target=_blank>2009年10月自考英语（一…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>

@@ -1,0 +1,357 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>自考“管理系统中计算机应用”课堂笔记（十）_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="自考,考“,“管,管理,理系,系统,统中,中计,计算,算机,机应,应用,用”,”课,课堂,堂笔,笔记,记（,（十,自考“管理系统中计算机应用”课堂笔记（十）,经济类,汕头自考网"> 
+<meta name="description" content="	&nbsp;&nbsp;　　5.l现行系统详细调查<br>　　现状调查是在所确定的系统范围之内，对现行系统进行详尽、深入的调查和分析，收集一切有关的事实、资料和数据，彻底掌握现行系统的工作状况，为下一步的需求分析和建立逻辑模型提供依" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/jjk/Index.shtml'>经济类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>自考“管理系统中计算机应用”课堂笔记（十）</LI>
+<LI class=date>发布日期时间：2009-4-6&nbsp;&nbsp;来源：zikao365 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=3382'></script>&nbsp;&nbsp;作者：本站整理</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>	  <P>　　5.l现行系统详细调查</p>
+<P>　　现状调查是在所确定的系统范围之内，对现行系统进行详尽、深入的调查和分析，收集一切有关的事实、<a class="channel_keylink" href="http://www.stzikao.com/Soft/Index.asp">资料</a>和数据，彻底掌握现行系统的工作状况，为下一步的需求分析和建立逻辑模型提供依据。</p>
+<P>　　现状调查的方法可以多种多样，如召开调查会、个别交谈、发查表收集书面意见、调查人员直接参加业务实践、请管理人员给组介绍情况、查阅企业的有关<a class="channel_keylink" href="http://www.stzikao.com/Soft/Index.asp">资料</a>等。</p>
+<P>　　在现状调查及以后的系统分析工作中，将要用到一系列描述、分析现行管理系统和新的目标系统的工具（各种图、表和方法）。</p>
+<P>　　现状调查应“自顶向下”、由抽象到具体地进行，调查内容有企业组织结构和信息关联状况、系统业务流程、系统数据调查等几个方面。</p>
+<P>　　5.1.1企业组织结构与信息关联状况</p>
+<P>　　1.组织结构</p>
+<P>　　现状调查的第一步，就是要了解企业组织结构的现状及各组成部分之间的联系，并用组织结构图将它描绘出来。</p>
+<P>　　2.信息关联情况。</p>
+<P>　　在组织结构调查以后，接着应按照组织结构，进一步了解企业各管理层次、各管理职能部门和生产部门之间的信息联系，绘制出信息关联图。</p>
+<P>　　5.1.2系统的业务流程</p>
+<P>　　组织结构图和信息关联图描述了企业各组成部分及其信息之间的联系，是企业管理信息系统背景的综合性概述，比较粗略和抽象。</p>
+<P>　　1.调查应按照原系统的管理业务流程，一个环节一个环节地深入细致地进行。</p>
+<P>　　2.为了准确地表达原系统的业务处理流程和便于以后各工作阶段能有效地研究和使用这些调查成果，一般采用业务流程图作为描述原系统业务的工具。</p>
+<P>　　业务流程图是系统业务调查中使用得最普遍、最重要的工具。</p>
+<P>　　5.1.3系统的数据调查</p>
+<P>　　1.全面收集与业务有关的所有保存和传递数据的载体，包括各种原始凭证、票据、单据、台账</p>
+<P>　　对上述各种数据需要进行汇总、整理，为以后的数据分析和数据库设计打下基础。系统调查的数据汇总为三类：</p>
+<P>　　（1）输入数据。主要指输入系统进行处理的凭证、票据，或下级部门上报给本系统的报表。</p>
+<P>　　（2）存储数据。主要指各种台账、记录文件，是本系统实现计算机化后，需要存储的数据的主要内容。</p>
+<P>　　（3）输出数据。指由本系统将输入数据和存储数据进行加工处理，产生的各类报表和查询结果。它是计算机化以后系统输出和网络传输的主要内容。</p>
+<P>　　2.数据分布的估算</p>
+<P>　　在汇总的基础上按部门进行数据分布估算，分析企业数据量在不同业务部门的分布、数据来源、数据的时间分布，各业务部门数据处理的重点等。同时也可以用所列的数据存储量为基数，并充分考虑到系统发展的需要，估计新系统计算设备应提供的存储能力。</p>
+<P>　　5.2需求分析和系统逻辑模型的建立</p>
+<P>　　需求分析则是对原系统的功能和信息作进一步的分析和抽象，以确定新系统应满足的要求，即明确新系统应当“做什么”，从而完成新系统的逻辑设计。</p>
+<P>　　这个分析和抽象工作可分以下三步进行：</p>
+<P>　　5.2.1数据流程图的绘制</p>
+<P>　　数据流程图既是对原系统进行分析和抽象的工具，也是用以描述新系统逻辑模型的主要工具。它有两个特点：</p>
+<P>　　（1）具有概括性。</p>
+<P>　　（2）具有抽象性。</p>
+<P>　　由于数据流程图简明、清晰，不涉及技术细节，容易让用户理解，因此数据流程图是系统分析人员与用户进行交流的有效工具，也是系统设计的主要依据。</p>
+<P>　　1.数据流程图的符号</p>
+<P>　　在数据流程图中，采用四种符号。</p>
+<P>　　（1）外部实体。这是指不受所描述的系统控制，独立于该系统之外的部门、群体，或另一个信息系统。</p>
+<P>　　（2）处理功能。这是指对输入数据流进行加工、变换与输出数据流的逻辑处理过程。</p>
+<P>　　（3）数据存储。这是指逻辑上要求存储的数据，不考虑具体数据的存储介质和技术手段。</p>
+<P>　　（4）数据流。这是指与所描述系统数据处理功能有关的各类数据的载体，是各处理功能输入和输出的数据集合。</p>
+<P>　　数据流用一根箭线表示。</p>
+<P>　　2.顶层数据流程图</p>
+<P>　　数据流程图的绘制，采取自顶向下逐步求精的方法，即先把整个系统当做一个处理功能来看待，画出最粗略的数据流程图；然后逐层向下分析，分解为详细的低层次的数据流程图。</p>
+<P>　　（1）顶层数据流程图的一般形式。任何系统，无论多么复杂，顶层数据流程都可粗略地表达一种形式。若系统中具有全系统共享的数据存储，可表示在顶层数据流程图中，部分处理功能共享的数据可在低层次数据流程图中表达。</p>
+<P>　　（2）顶层数据流程图的绘制。先应根据系统可行性分析确定的范围和目标、用户的需求，划定系统的界面。界面内的，作为具体分析的系统；界面外的、与系统有数据联系的部门和事物，则视为外部实体。</p>
+<P>　　3.低层次数据流程图</p>
+<P>　　在顶层数据流程图的基础上，将处理功能（逻辑功能）逐步分解，可得到不同层次的数据流程图。</p>
+<P>　　用分层次的数据流程图来描述原系统，把系统看作一个统一的整体，进行综合的逻辑描述。首先要划定系统的边界，分析系统与外界的信息联系。</p>
+<P>　　4.扩展的数据流程图</p>
+<P>　　扩展的具体内容有两个方面：（1）应用计算机以后，可以增加许多原来手工处理难以完成的各种功能。（2）扩展是增加对各种例外情况和错误情况的处理。</p>
+<P>　　最终确定的数据流程图，是新系统的综合逻辑描述，着重反映系统的全貌。而逻辑模型的许多细节，如每个处理功能的要求，数据流和数据存储的具体内容、特征等，不可能在一套图中完全表示出来，因此还要进一步进行下面两步的分析工作，即数据分析和功能分析。</p>
+<P>　　5.2.2数据分析</p>
+<P>　　数据分析的任务，是将数据流程图中所出现的各组成部分的内容、特征用数据字典的形式做出明确的定义和说明。</p>
+<P>　　1.数据字典的作用和编写要求。</p>
+<P>　　数据字典是给数据流程图中每个成分以定义和说明的工具。数据字典的作用是对数据流程图中的各种成分，包括数据项、数据结构、数据流、数据存储、处理功能、外部项等的逻辑内容与特征予以详细说明。数据字典中有关系统的详细信息是以后系统设计、系统实施与维护的重要依据。</p>
+<P>　　2.数据字典的生成方法</p>
+<P>　　生成数据字典的方法有两种：由手工方式生成和由计算机辅助生成。手工编写的优点是具有较大灵活性与适应性，但手工编写效率低。编辑困难、容易出现疏漏和错误，对数据字典的检验、维护、查询、统计、分析都不方便。计算机辅助编写数据字典是将数据字典有关的数据输入计算机，存储在数据字典库中。计算机辅助生成的数据字典具有查询、维护、统计、分析等功能。</p>
+<P>　　数据字典中的条目有以下六种形式：</p>
+<P>　　（1）数据项。</p>
+<P>　　（2）数据结构。</p>
+<P>　　（3）数据流。</p>
+<P>　　（4）数据存储。</p>
+<P>　　（5）处理功能。</p>
+<P>　　（6）外部实体。</p>
+<P>　　5.2.3功能分析</p>
+<P>　　功能分析是对数据流程图中处理过程的功能作详细的说明。从逻辑上进行分析，处理功能可归纳为三类，即数据的输入和输出处理、算术运算、逻辑判断。常采用决策树、决策表及结构化语言等作为描述功能分析的工具。</p>
+<P>　　1.决策树</p>
+<P>　　决策树又称判定树，是一种呈树状的图形工具，适合于描述处理中具有多种策略，要根据若干条件的判定，确定所采用策略的情况。左端圆圈为树根表示决策结点；由决策结点引出的直线，形似树枝，称为条件技，每条树枝代表一个条件；中间的圆圈称为条件结点；右端的实心圆表示决策结果。决策树中条件结点以及每个结点所引出条件技的数量依具体问题而定。</p>
+<P>　　决策树的优点是清晰、直观；缺点是当条件多，而且互相组合时，不容易清楚地表达判断过程。</p>
+<P>　　2.决策表</p>
+<P>　　决策表又称判断表，是一种呈表格状的图形工具，适用于描述处理判断条件较多、各条件又相互组合、有多种决策方案的情况。决策表由四部分组成，</p>
+<P>　　3.结构化语言</p>
+<P>　　在自然语言的基础上发展了一种规范化的语言表达方式，它使用的词汇主要有三种：即祈使语句中明确的动词；数据字典和数据流程图中的名词；表示处理逻辑结构的保留字。</p>
+<P>　　用结构化语言任何处理逻辑都可以表达为顺序、选择判断、循环三种结构。</p>
+<P>　　（1）顺序结构中的祈使语句应包含一个动词及一个宾语，表示要进行的处理（包括输入、输出及运算等）。</p>
+<P>　　（2）判断结构有两种表示形式，可与判定树、判定表的表达方式相对应。</p>
+<P>　　（3）循环结构是指在条件成立时，重复执行某处理，直到条件不成立时为止。</p>
+<P>　　5.2.4数据/功能分析</p>
+<P>　　U/C矩阵是一张表格。它可以表数据/功能系统化分析的结果。它的左边第一列列出系统中各功能的名称，上面第一行列出系统中各数据类的名称。表中在各功能与数据类的交*处，填写功能与数据类的关系。</p>
+<P>　　U/C矩阵的正确性，可由三方面来检验：</p>
+<P>　　（1）完备性检验。这是指每一个数据类必须有一个产生者（即“C”）和至少有一个使用者（即“U”）；每个功能必须产生或者使用数据类。否则这个U/C矩阵是不完备的。</p>
+<P>　　（2）一致性检验。这是指每一个数据类仅有一个产生者，即在矩阵中每个数据类只有一个“C”。如果有多个产生者的情况出现，则会产生数据不一致的现象。</p>
+<P>　　（3）无冗余性检验。这是指每一行或每一列必须有“U”或“C”，即不允许有空行空列。若存在空行空列，则说明该功能或数据的划分是没有必要的、冗余的。</p>
+<P>　　将U/C矩阵进行整理，移动某些行或列，把字母“C”尽量*近U/C矩阵的对角线，可得到C符号的适当排列。（以上内容仅供参考）</P>
+		
+        
+</p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=3382"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="3382" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/jjk/3382.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/ggk/3619.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/ggk/3618.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/ggk/3619.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3618.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3617.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3616.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3615.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3614.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3613.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3612.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3611.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3610.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3609.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3608.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3607.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3606.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3605.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3604.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3603.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3602.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3601.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3600.shtml" target=_blank>2009年10月自考英语（一…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>

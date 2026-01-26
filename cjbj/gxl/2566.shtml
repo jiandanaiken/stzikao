@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>自考“局域网技术与组网工程”模拟题(7)_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="自考,考“,“局,局域,域网,网技,技术,术与,与组,组网,网工,工程,程”,”模,模拟,拟题,自考“局域网技术与组网工程”模拟题(7),工学类,汕头自考网"> 
+<meta name="description" content="				　　第一部分选择题　　一、单项选择题　　1.在以下传输介质中，抗电磁干扰最高的是「」　　A.&nbsp;双绞线　　B.光纤　　C.同轴电缆　　D.微波　　2.&nbsp;有关MAC子层标题，说法正确的是「」　　A.必须包含一个用来惟一标" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/gxl/Index.shtml'>工学类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>自考“局域网技术与组网工程”模拟题(7)</LI>
+<LI class=date>发布日期时间：2007-7-4&nbsp;&nbsp;来源：不详 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=2566'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>
+
+				<P>　　<STRONG>第一部分选择题</STRONG></p>
+<P><STRONG>　　一、单项选择题</STRONG></p>
+<P>　　1.在以下传输介质中，抗电磁干扰最高的是「」</p>
+<P>　　A. 双绞线</p>
+<P>　　B.光纤</p>
+<P>　　C.同轴电缆</p>
+<P>　　D.微波</p>
+<P>　　2. 有关MAC子层标题，说法正确的是「」</p>
+<P>　　A.必须包含一个用来惟一标识局域网上某个站的目的地址</p>
+<P>　　B.可以包含多个用来标识局域网上某个站的目的地址</p>
+<P>　　C.不需要包含用来标识局域网上某个站的目的地址</p>
+<P>　　D.以上说法都不对</p>
+<P>　　3.在以太网中，通过双绞线联接站点的方式，称为「」</p>
+<P>　　A.10Base-5</p>
+<P>　　B.10Base－2</p>
+<P>　　C.10Base－T</p>
+<P>　　D.10Base－F</p>
+<P>　　4. 局域网中的站点完成接收后，首先判断是否为帧碎片，若是则「」</p>
+<P>　　A.要求重发</p>
+<P>　　B.丢弃</p>
+<P>　　C.不考虑</p>
+<P>　　D.接受</p>
+<P>　　5.在千兆位以太网中采用了帧扩展技术，其目的是「」</p>
+<P>　　A.为增加新的功能</p>
+<P>　　B.为增加传输速度</p>
+<P>　　C.为扩展碰撞域</p>
+<P>　　D.为增加传输字节数</p>
+<P>　　6. 快速以太网的通信协议是「」</p>
+<P>　　A.TCP/IP</p>
+<P>　　B.SMTP</p>
+<P>　　C.CSMA／CD</p>
+<P>　　D.CSMA／CA</p>
+<P>　　7.以太网交换器存在。不同的结构。「」</p>
+<P>　　A. 2种</p>
+<P>　　B.3种</p>
+<P>　　C.4种</p>
+<P>　　D.5种</p>
+<P>　　8.全双工以太网技术是指「」</p>
+<P>　　A.可以工作在10 Mb／s或100Mb／s传输速率下</p>
+<P>　　B.可以同时工作在10Mb／s和100Mb／s传输速率下</p>
+<P>　　C.可以同时接收和发送</p>
+<P>　　D.以上都是</p>
+<P>　　9.令牌环网上的站点，如果要发送帧，则首先要「」</p>
+<P>　　A.侦测网上是否空闲</p>
+<P>　　B.侦测是否上一站已完成发送</p>
+<P>　　C.等待令牌的到来</p>
+<P>　　D.将令牌转变成一帧的帧首</p>
+<P>　　10.FDDI标准规定了一个数据速率为100 Mb／s，采用NRZI－4B／SB编码方案的光纤环型网，它所采用的波长为「」</p>
+<P>　　A.125nm</p>
+<P>　　B.850nm</p>
+<P>　　C.1300nm</p>
+<P>　　D.1550nm</p>
+<P>　　11.路由器在网络互联中的作用为「」</p>
+<P>　　A. 网络的互联</p>
+<P>　　B.网络的隔离</p>
+<P>　　C.流量的控制</p>
+<P>　　D.以上都是</p>
+<P>　　12. 在RIP中有三个重要的时钟，其中路由更新时钟一般设为「」</p>
+<P>　　A. 30秒</p>
+<P>　　B.90秒</p>
+<P>　　C.270秒</p>
+<P>　　D.不确定</p>
+<P>　　13.属于核心模型解决方案的有「」</p>
+<P>　　A.3Com公司的FastIP</p>
+<P>　　B.Cisco公司的NetFlow交换</p>
+<P>　　C.Cabletrom公司的虚拟快速安全网络</p>
+<P>　　D.Cascade公司的IP导航处理</p>
+<P>　　14 Bay的IP路由交换机的中心部件是「」</p>
+<P>　　A.CPU</p>
+<P>　　B.交换核心模块</p>
+<P>　　C.I／O模块</p>
+<P>　　D.CACHE</p>
+<P>　　15.划分VLAN的方法常用的有「」</p>
+<P>　　A. 3种</p>
+<P>　　B.4种</p>
+<P>　　C.5种</p>
+<P>　　D.6种</p>
+<P>　　16“独臂”路由器的意思是「」</p>
+<P>　　A.路由器和交换机在一起</p>
+<P>　　B.路由器接在主干网上的一个交换设备上</p>
+<P>　　C.路由器和工作站联在一起</p>
+<P>　　D.单独的一个分支路由器</p>
+<P>　　17. ATM层是ATM网络的核心，它的功能相对OSI模型中的「」</p>
+<P>　　A.数据链路层</p>
+<P>　　B.网络层</p>
+<P>　　C.传输层</p>
+<P>　　D.高层</p>
+<P>　　18.信元和分组的不同是「」</p>
+<P>　　A.信元通常比分组小</p>
+<P>　　B.信元不同物理地址合并</p>
+<P>　　C.所有信元有固定长度</p>
+<P>　　D.分组不能被交换</p>
+<P>　　19.下列不属于系统建设原则的是「」</p>
+<P>　　A.以用户的应用服务需求为依据</p>
+<P>　　B、采用成熟的先进技术，兼顾末来发展趋势</p>
+<P>　　C.系统是可维护、可管理的</p>
+<P>　　D.以上都是错误的</p>
+<P>　　20.下列不属于传输平台的是「」</p>
+<P>　　A.FTP</p>
+<P>　　B.OS</p>
+<P>　　C.TCP/IP</p>
+<P>　　D.LAN</p>
+<P>　　<STRONG>第二部分非选择题</STRONG></p>
+<P>　　<STRONG>二、填空题</STRONG></p>
+<P>　　1.为了实现网络的互联，路由器必须能完成________、数据转换、路由选择和协议转换功能。</p>
+<P>　　2.令牌环网的特点有________，具有实时性能和优先权机制，环网的媒体可以使用光纤，覆盖范围较大（可达数十公里）。</p>
+<P>　　3.以太网交换器存在四种不同的结构，即软件执行交换结构、______、总线交换结构和共享存储器交换结构。</p>
+<P>　　4在100 Mb／s快速以太网中使用了双绞线与_______两种媒体。对于100Base－TX，可以使用5类不屏蔽双绞线，也可使用屏蔽双绞线。</p>
+<P>　　5.当接收来自媒体上传输的帧时，通过物理层译码功能，把_______转换成计算机内部使用的NRZ码。</p>
+<P>　　6.局域网络参考模型是以________标准为基础的。</p>
+<P>　　7.Intranet分层结构包括网络、________、应用三个层次。</p>
+<P>　　8.根据ATM4.0版，ATM支持的服务主要包括________、可变比特率、可用比特率和不定比特率。</p>
+<P>　　9.LAN交换设备具有极低的报文转发延迟以及很高的传输带宽。LAN交换设备能够将整个网络在逻</p><p align='center'><b><font color='red'>[1]</font>&nbsp;<a href='/cjbj/gxl/2566_2.shtml'>[2]</a>&nbsp;<a href='/cjbj/gxl/2566_2.shtml'>下一页</a> </b></p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=2566"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="2566" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/gxl/2566.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/ggk/3619.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/ggk/3618.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/ggk/3619.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3618.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3617.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3616.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3615.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3614.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3613.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3612.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3611.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3610.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3609.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3608.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3607.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3606.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3605.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3604.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3603.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3602.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3601.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3600.shtml" target=_blank>2009年10月自考英语（一…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>

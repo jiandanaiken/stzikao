@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>自考“管理系统中计算机应用”课堂笔记（四）_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="自考,考“,“管,管理,理系,系统,统中,中计,计算,算机,机应,应用,用”,”课,课堂,堂笔,笔记,记（,（四,自考“管理系统中计算机应用”课堂笔记（四）,经济类,汕头自考网"> 
+<meta name="description" content="	&nbsp;&nbsp;　　2.l计算机系统<br>　　管理信息系统是在计算机系统的基础上建立起来的，系统的开发、运行、维护等都离不开计算机的硬件、软件平台（环境）。<br>　　2.1.1计算机系统<br>　　1.计算机和计算机系统<br>　　计算机（Compute" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/jjk/Index.shtml'>经济类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>自考“管理系统中计算机应用”课堂笔记（四）</LI>
+<LI class=date>发布日期时间：2009-4-6&nbsp;&nbsp;来源：zikao365 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=3376'></script>&nbsp;&nbsp;作者：本站整理</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>合适的。</p>
+<P>　　存储转发交换方式可以分为报文交换和报文分组交换两类。</p>
+<P>　　①报文交换。不论传送数据的长度是多少，都把它作为一个逻辑单元，加上目的地址、源地址、控制信息，按规定格式打成一个包发送。这个数据包就叫做报文，这种存储转发交换方式就叫做报文交换。</p>
+<P>　　②报文分组交换。将一个长的报文分解为多个短小（一般不超过1000字节）的组，叫做报文分组。</p>
+<P>　　2.2.2计算机网络基础</p>
+<P>　　计算机网络：是将地理位置不同，并具有独立功能的多个计算机系统通过通信设备和线路连接起来，在功能完善的网络软件支持下，向多个用户提供各种应用服务，从而实现数据、程序与硬件等各类资源共享的系统。</p>
+<P>　　计算机网络的主要功能是：数据通信、资源共享和分布处理。</p>
+<P>　　1.计算机网络的结构</p>
+<P>　　典型的计算机网络从逻辑功能上可以分为资源子网和通信子网两大部分。</p>
+<P>　　（1）资源子网：由主机、终端、终端控制器、联网外设、各种软件资源和信息资源组成的，向用户提供各种网络资源和网络服务，负责整个网络的数据处理业务和各种网络资源的共享服务。</p>
+<P>　　（2）通信子网：由通信控制处理机（CCP）、专用或公用的通信线路及其他通信设备组成的，完成所有网络数据的传输、转发、加工和交换等通信处理工作。</p>
+<P>　　2.计算机网络的分类</p>
+<P>　　主要的分类方式有两种：</p>
+<P>　　（1）按网络传输技术分类：可以分为点对点式网络和广播式网络。</p>
+<P>　　点对点信道：网络通过通信信道来完成数据传输任务，一条线路只能连接一对结点。</p>
+<P>　　广播信道：多个结点共享一条通信信道，一个结点发送信号，全网结点都会收到信息，这种信道就是广播信道，采用的网络传输技术就只能是广播方式，这样的网络就叫广播式网络。</p>
+<P>　　点对点式网络拓扑结构可以是星型、环型、树型等，广播式网络拓扑结构可以是总线型、环型、卫星型等。（2）按网络覆盖范围分类</p>
+<P>　　①局域网（LocalAreaNetwork，LAN）：是小范围的计算机网络。它的覆盖范围一般在10公里以内。设备的更新、新技术的引用都比较容易，所以传输速率也比较高，常常可以达到10-100Mbps.</p>
+<P>　　②广域网（WideAreaNetwork，WAN）也叫做远程网，它可以覆盖几公里至几千公里的范围。广域网的通信子网主要使用分组交换技术，并使用传统的电话网（公用通信网）、卫星通信网、无线网来传输信息。广域网的传输速率较低，一般在几十K至几Mbps之间。</p>
+<P>　　3.计算机网络的拓扑结构</p>
+<P>　　计算机网络拓扑结构是指网络中各结点与通信线路之间的关系结构，实际上主要是指通信子网的拓扑结构。常见的计算机网络拓扑结构有以下几种。</p>
+<P>　　（1）星型拓扑</p>
+<P>　　由一个中心结点与各站点之间呈辐射状连接，中心结点对全网的通信实行集中控制，任何两个结点之间的通信都必须通过中心结点来实现。</p>
+<P>　　星型拓扑的优点是结构简单，访问协议简单，单机故障不会影响网络运行；缺点是对中心结点的可*性要求高，中心结点出现故障，整个网络就会瘫痪，系统的扩充比较困难。</p>
+<P>　　（2）环型拓扑</p>
+<P>　　使网络中各站点首尾相连，以通信线路连接成一个封闭的环路，数据只能在环路中沿着一个方向逐点传输。环型拓扑结构简单，传输延时确定，适合光纤介质网络；但是任何一个结点的故障都会使全网瘫痪，而且结点的增加或减少都比较困难。</p>
+<P>　　（3）总线型拓扑</p>
+<P>　　所有的站点都连接到一条公用传输线——总线上，就形成了总线型计算机网络结构。其优点是结构简单，易于扩充、价格低廉，容易安装。缺点是出现故障后需要检查总线在各结点的连接，因此查错比较困难；虽然某台计算机故障不会影响网络运行，但是若总线断开则网络将不可使用。</p>
+<P>　　（4）树型拓扑</p>
+<P>　　由星型拓扑演变而来，形状像一棵根在上方的大树。各结点按层次进行连接，信息交换主要在上下结点之间进行。树型拓扑结构中的故障比较容易检测和隔离。</p>
+<P>　　4.计算机网络协议</p>
+<P>　　通信协议：在通信过程中，通信双方都必须遵守的规则和约定。</p>
+<P>　　网络协议：计算机网络通信的语言，规定了通信双方交换数据或控制信息的格式、响应及动作；网络协议是实现不同主机之间、不同操作系统之间及工作站之间通信的规则和约定。</p>
+<P>　　国际标准化组织（ISO）在1981年提出了开放系统互联（OSI）参考模型，即网络七层协议。</p>
+<P>　　2.2.3局域网</p>
+<P>　　从应用角度看，局域网的技术特点如下。</p>
+<P>　　（1）覆盖有限的地理范围，适用于公司、机关、学校、工厂等处计算机、终端设备和信息处理设备间联网的要求。</p>
+<P>　　（2）能够提供高数据传输率、低误码率的高质量数据传输环境。</p>
+<P>　　（3）属于一个单位所有，易于建立、维护和扩展。</p>
+<P>　　（4）局域网的特性主要由网络拓扑、传输介质和介质访问控制方法决定。</p>
+<P>　　1.局域网的硬件组成</p>
+<P>　　局域网在逻辑上可以由网络服务器、工作站、网卡、传输介质和连接转换部件构成。</p>
+<P>　　其中连接转换部件可以是中继器、集线器、网桥、路由器、网关等。</p>
+<P>　　2.局域网的软件系统</p>
+<P>　　局域网软件系统主要包含三部分。</p>
+<P>　　（1）网络操作系统。常用的网络操作系统是Novell公司的Netware和Microsoft公司的WindowsNT.</p>
+<P>　　（2）网络管理软件。主要用于监视和控制网络的运行。常用的网络管理软件有HP公司的openview及IBM公司的Netview等。</p>
+<P>　　（3）网络应用软件。网络应用软件是用户利用软件开发平台，按照各自需要开发的各种各样的网上业务应用系统。常见的开发平台有各种数据库管理系统、办公自动化管理系统以及浏览器、网页制作网站管理等软件。</p>
+<P>　　3.局域网传输介质</p>
+<P>　　局域网中常用的传输介质是同轴电缆、双绞线、光纤和无线通信信道。过去同轴电缆的性价比是最好的。目前中高速的局域网中都采用双绞线作为传输介质，在远距离传输中使用光纤传输，在有移动站点的局域网中，则采用无线通信技术。</p>
+<P>　　4.局域网工作方式</p>
+<P>　　局域网的工作方式有共享介质式和交换式两种。</p>
+<P>　　共享介质式中，所有结点共享一条公共通信传输介质，当一个结点发送数据时，将会以广播的形式传送到所有的结点上。因此在共享介质的网络中，在任何一个时间段内，只能有一个结点占用公共通信信道。共享介质式容易发生冲突的现象。于是提出了交换式局域网工作方式。</p>
+<P>　　5.局域网的介质访问控制方式</p>
+<P>　　为了实现对多结点共享传输介质，并在发送和接收数据时为防止冲突而加以控制的方式有三种，即总线CSMA/CD控制、令牌环传递TokenRing控制和令牌总线传递TokenBus控制。</p>
+<P>　　6.局域网协议</p>
+<P>　　控制网络访问的协议，这类访问主要就是CSMA/CD访问和令牌传送访问。在OSI的七层数据通信协议基础上，由局域网标准（IEEE802）委员会提出了局域网协议IEEE802标准，并且被国际标准化组织（ISO）于1984年3月批准为国际标准，称为ISO8802.</p>
+<P>　　7.局域网中计算机的相对地位</p>
+<P>　　在局域网中，计算机的相对地位有对等和客户机/服务器方式两种形式。</p>
+<P>　　（1）对等网络模式。在这种网络模式中，所有计算机都具有相同的地位，不设置专有的文件服务器，每一台计算机都可以访问网络中的其他计算机。每一台计算机既是其他计算机的服务器，同时又是其他计算机的客户机。</p>
+<P>　　采用对等模式的局域网虽然价格比较便宜，但是网络传输速度比较慢，保密性比较差，而且维护也比较困难。</p>
+<P>　　（2）客户机/服务器网络模式。这种模式用一台或多台单独的、高性能、大容量的高档微机，或者是大中型机、小型机作为网络中心服务器；而用多台微型机作为客户机，以总线、星型总线等拓扑结构与服务器连接成局域网。</p>
+<P>　　8.网络互联技术</p>
+<P>　　网络互联：指将分布在不同地理位置的、类型相同或不同的、协议相同或不相同的网络及设备，相互连接构成更大规模的网络，实现网络资源的共享。</p>
+<P>　　互联网络能够屏蔽各子网在网络协议、服务器类型、网络管理方面的差异。要实现网络互联，必须做到以下几点：</p>
+<P>　　（1）在互联的网络之间提供链路，至少有物理线路和数据线。</p>
+<P>　　（2）在不同网络结点的进程之间提供适当的路由来交换数据。</p>
+<P>　　（3）提供网络记账服务，记录网络资源使用情况。</p>
+<P>　　（4）提供各种互联服务，应当尽可能不改变互联网的结构。</p>
+<P>　　2.2.4Internet的基础</p>
+<P>　　Internet是全球性的计算机互联网络；它连接了全世界千千万万个计算机网络的网络，所以也叫做网际网。</p>
+<P>　　Internet也是基于客户/服务器模式的，所有的服务由服务器提供，而各种访问、存取则由客户机完成。服务器常常是指主机，它总有一个标识地址；客户实质上是客户端的软件程序，它向服务器提出请求，并翻译、转换和显示服务器传输来的信息。</p>
+<P>　　1.Internet的组成</p>
+<P>　　因特网主要由通信线路、路由器、主机和信息资源等组成。</p>
+<P>　　（1）通信线路。通信线路是连接因特网中各种设备的基础设施，可以分为有线通信线路和无线通信信道两类。通信线路的数据传输能力用带宽和传输速率两个指标衡量，传输速率与带宽成正比，带宽越大，传输速率也就越高。</p>
+<P>　　（2）路由器。连接因特网中各局域网、广域网的设备是路由器，它会根据信道的情况自动选择和设定路由，以最佳的路径，按前后顺序发送信号。</p>
+<P>　　（3）主机。按用途不同可以分为两类：一类是信息资源与服务的提供者，叫做服务器。服务器总是由高性能、大容量的大型计算机担当。另一类是信息资源与服务的接受者，叫做客户机。</p>
+<P>　　（4）信息资源。在因特网中的信息资源，比如文本、图像、声音、视频信息。</p>
+<P>　　2.Internet通信协议</p>
+<P>　　在进行数据通信时必须遵守统一的规范和约定。这种规范和约定就叫做网络通信协议，因特网的网络互联通信协议是TCP/IP（TransmissionControlProtocol/InternetProtocol）协议。</p>
+<P>　　3.Internet网络地址</p>
+<P>　　为了实现网络中的数据通信，规定因特网中每一台主机在子网内都有惟一的网络地址。网络地址可以是真实的物理地址。也可以是IP地址或城名。</p>
+<P>　　（1）物理地址。物理地址是制造在网卡上的地址码。网络的技术和标准不同，相应的网卡地址编码也不同。</p>
+<P>　　（2）IP地址。因为物理地址的规范很不统一，为了确保主机地址的惟一性，因此在因特网中对所有的主机进行统一的编码。这种地址就叫做IP地址。IP地址和物理地址可以根据协议对应转换。</p>
+<P>　　IP地址由4个字节（32位）的二进制数组成，表示为用圆点分隔的4个十进制整数组合的形式。一个字节对应一个十进制数，所以每个十进制数的值应在0-255之间。</p>
+<P>　　（3）域名。用字符来表示网络地址，就是网络域名。如，<a class="channel_keylink" href="http://www.stzikao.com" target="_blank"></p><p align='center'><b><a href='/cjbj/jjk/3376.shtml'>上一页</a>&nbsp;&nbsp;<a href='/cjbj/jjk/3376.shtml'>[1]</a>&nbsp;<font color='red'>[2]</font>&nbsp;<a href='/cjbj/jjk/3376_3.shtml'>[3]</a>&nbsp;<a href='/cjbj/jjk/3376_3.shtml'>下一页</a> </b></p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=3376"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="3376" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/jjk/3376.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/ggk/3619.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/ggk/3618.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/ggk/3619.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3618.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3617.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3616.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3615.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3614.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3613.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3612.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3611.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3610.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3609.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3608.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3607.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3606.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3605.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3604.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3603.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3602.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3601.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3600.shtml" target=_blank>2009年10月自考英语（一…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>

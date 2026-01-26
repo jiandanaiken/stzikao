@@ -1,0 +1,321 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>广告学专业Photoshop复习资料（3）_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="广告,告学,学专,专业,业P,Ph,ho,ot,to,os,sh,ho,op,p复,复习,习资,资料,料（,（3,广告学专业Photoshop复习资料（3）,理学类,汕头自考网"> 
+<meta name="description" content="第九章&nbsp;&nbsp;控制图像色彩和色调　　填空题　　（1）PS提供了色调分布的统计功能，可以查看整个图像或图像某个选取范围中的色调分布状况，实现这一功能是通过（直方图）面板。　　（2）在[曲线]对话框中，按下（Alt）键，" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/lxl/Index.shtml'>理学类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>广告学专业Photoshop复习资料（3）</LI>
+<LI class=date>发布日期时间：2007-2-15&nbsp;&nbsp;来源：不详 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=2308'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body><STRONG>　第九章&nbsp; 控制图像色彩和色调</STRONG></p>
+<P><STRONG>　　填空题</STRONG></p>
+<P>　　（1）PS提供了色调分布的统计功能，可以查看整个图像或图像某个选取范围中的色调分布状况，实现这一功能是通过（直方图）面板。</p>
+<P>　　（2）在[曲线]对话框中，按下（Alt）键，在曲线表格中单击，则可以切换表格格显示，即由原来的4×4的表格变为（10×10）的表格。</p>
+<P>　　（4）如果要去掉一幅彩色图像的彩色部分，可以使用（去色）命令。</p>
+<P>　　<STRONG>选择题</STRONG></p>
+<P>　　（2）可以将黑白图像变成彩色图像的命令是（C）。</p>
+<P>　　A、[色彩平衡]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B、[亮度/对比度] C、[色相/饱和度]&nbsp;&nbsp;&nbsp;&nbsp; D、[可选颜色]</p>
+<P>　　（4）[色阶]命令主要用于调整图像的（A）。</p>
+<P>　　A、明暗度&nbsp;&nbsp; B、色相&nbsp;&nbsp; C、对比度&nbsp;&nbsp; D、以上都对</p>
+<P>　　<STRONG>选择题</STRONG></p>
+<P>　　（3）[阈值]命令可以将灰度图像或彩色图像转换成为高对比度的黑白图像。（对）</p>
+<P>　　（4）[反相]命令可以将一个正片黑白图像变成负片，或者将扫描的黑白负片转换成正片。（对）</p>
+<P>　<STRONG>　问答题</STRONG></p>
+<P>　　[渐变映射]的功能是什么？</p>
+<P>　　答：[渐变映射]的主要功能是将预设的几种渐变模式作用于图像。</p>
+<P>　　<STRONG>第十章&nbsp; 图层基本操作</STRONG></p>
+<P><STRONG>　　划书部分</STRONG></p>
+<P>　　[图层]面板是进行图层编辑操作时必不可少的工具。它显示了当前图像的图层信息，用户从中可以调节图层叠放顺序，图层不透明度以及图层混合模式等参数。几乎所有的图层操作都可通过它来实现。</p>
+<P>　　图层类型：文本图层、调整图层、背景图层、形状图层和填充图层。</p>
+<P>　　普通图层指用一般方法建立的图层，是一种最常用的图层，几乎所有的PS功能都可以在这种图层上得到应用。</p>
+<P>　　按下Ctrl+Shift+N组合键或按住Alt键单击创建新的图层按钮，也可打开[新图层]对话框。</p>
+<P>　　背景图层具有如下特点：1.背景图层是一个不透明的图层，有一个以背景色为底色的颜色。它始终是被锁定的。2.背景图层不能进行图层不透明度、图层混合模式和图层填充颜色的控制。3.背景图层的图层名称始终以“背景”为名，位置在[图层]面板的最底层。</p>
+<P>　　如果一定要更改背景图层的不透明度和图层混合模式，应先将它转换成普通图层。</p>
+<P>　　当使用背景色橡皮擦工具和魔术橡皮擦工具擦除背景图层中的图像内容时，背景图层也会自动变为普通图层。</p>
+<P>　　调整图层是一种比较特殊的图层。这种类型的图层主要用来控制色调和色彩的调整。</p>
+<P>　　调整图层有以下特点：在调整图层左侧将显示与色调或色彩命令相关的图层缩览图，如调整图层还有以下特点：在调整图层左侧将显示与色调或色彩命令相关的图层缩览图，在其右侧显示图像蒙版缩览图，中间显示关于图层内容与蒙版是否有链接的链接符号。当出现链接符号时，表示色调/色彩调整将只对蒙版中所指定的图像区域起作用。反之，如果没有链接符号，则表示这个调整图层将对整个图像起作用。调整图层对其下方的所有图层都起作用，而对在其上方的图层不起作用。</p>
+<P>　　文本图层就是用文本工具建立的图层。</p>
+<P>　　填充图层可以在当前图层中填入一种颜色（纯色或渐变色）或图案，并结合图层蒙版的功能，产生一种遮盖特效。在图层中，图层蒙版起到了隐藏或显示图像区域的作用。图层蒙版不能应用于背景图书馆层，并且只对单一图层有作用。当在图像中建立了一个图层蒙版时，PS同时在通道面板中也将增加一个额外通道。</p>
+<P>　　当用户选中图层蒙板进行编辑时，则只对图层蒙版起作用，而不会影响图像内容；当对图像内容进行编辑时，则只对图像内容起作用，而不会影响图层蒙版内容。</p>
+<P>　　形状图层（矩形工具、圆角矩形工具、椭圆工具、多边形工具、直线工具、自定形状工具）形状图层等于是在一个已有的路径上执行了[填充]功能后的结果。形状图层具有可以反复修改和编辑的弹性。在[图层]面板中单击剪辑路径缩览图，PS就会在[路径]面板中自动选择当前路径，随后用户即可利用各种路径编辑工具进行编辑。与此同时，用户也可以更改形状图层中的填充颜色，只要双击图层预缩览图就可以打开对话框重新设置填充颜色。</p>
+<P>　　对齐和分布链接图层在PS中，对齐和分布功能仅对不透明度大于50%的图层有效。</p>
+<P>　　<STRONG>填空题</STRONG></p>
+<P>　　（1）选择一种填充图层的类型后，PS会根据所选的填充图层类型的不同，分别出现（纯色）、（渐变）、[图案]三种方式。</p>
+<P>　　（2）（背景）图层是一个不透明的图层，用户不能对它进行图层不透明度、图层混合模式和图层填充颜色的调整。</p>
+<P>　　（3）调整图层是一种比较特殊的图层，主要用来控制（色彩）和（色调）的调整。</p>
+<P>　　（4）在[图层]面板中，被选中后会区别于其他图层，它会以较深颜色显示，这个图层被称为（作用图层）。</p>
+<P>　　（6）要删除图层钮，可以选择[图层]菜单中（删除）子菜单中的（图层）命令。</p>
+<P>　　<STRONG>选择题</STRONG></p>
+<P>　　（1）当图层中出现锁图标时，表示该图层（A）。</p>
+<P>　　A、已被锁定&nbsp;&nbsp; B、与上一图层链接&nbsp;&nbsp;&nbsp; C、与下一图层编组&nbsp;&nbsp; D、以上都不对</p>
+<P>　　（3）要将一个图层调到最顶层，可以按下（C）键。</p>
+<P>　　A、Ctrl+]&nbsp;&nbsp;&nbsp; B、Ctrl+[&nbsp;&nbsp;&nbsp; C、Ctrl+Shift+]&nbsp;&nbsp;&nbsp; D、Ctrl+Shift+[</p>
+<P>　　（4）要将当前图层与下一图层合并，可以按下（A）键。</p>
+<P>　　A、Ctrl+E&nbsp;&nbsp; B、Ctrl+G&nbsp;&nbsp; C、Ctrl+Shift+E&nbsp;&nbsp; D、Ctrl+Shift+G</p>
+<P>　　<STRONG>判断题</STRONG></p>
+<P>　　（1）按下Ctrl+Shift+N组合键可打开[新图层]对话框。（对）</p>
+<P>　　（3）不能直接对文本图层、形状图层和填充图层使用滤镜。（错）</p></p><p align='center'><b><font color='red'>[1]</font>&nbsp;<a href='/cjbj/lxl/2308_2.shtml'>[2]</a>&nbsp;<a href='/cjbj/lxl/2308_2.shtml'>下一页</a> </b></p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=2308"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="2308" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/lxl/2308.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/ggk/3619.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/ggk/3618.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/ggk/3619.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3618.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3617.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3616.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3615.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3614.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3613.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3612.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3611.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3610.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3609.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3608.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3607.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3606.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3605.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3604.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3603.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3602.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3601.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3600.shtml" target=_blank>2009年10月自考英语（一…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>

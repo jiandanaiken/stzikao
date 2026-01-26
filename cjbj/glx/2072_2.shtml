@@ -1,0 +1,352 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>自学考试电子文件听课笔记（四）_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="自学,学考,考试,试电,电子,子文,文件,件听,听课,课笔,笔记,记（,（四,自学考试电子文件听课笔记（四）,管理类,汕头自考网"> 
+<meta name="description" content="126、从接收者验证签名的方式可将数字签名分为（真数字签名）和（仲裁数字签名）两类　　127、简述数字签名算法有哪些　　（1）普通数字签名，又叫自认证数字签名，有RSA算法和美国国家标准局提出DSA算法　　（2）不" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/glx/Index.shtml'>管理类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>自学考试电子文件听课笔记（四）</LI>
+<LI class=date>发布日期时间：2007-1-22&nbsp;&nbsp;来源：不详 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=2072'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>主要功能是实现档案数据的录入、存储和检索、利用，技术基础为数据库。而电子文件管理系统的主要功能是：及时登录文件的产生，监控文件流程，以元数据方式记录相关背景信息，自动或半自动地进行文件鉴定和处置，健全的日志管理，定期进行数据备份，必要时实施数据转载，具有数据灾难防护和恢复<a class="channel_keylink" href="http://www.stzikao.com/Article/zkbkbd/Index.html">计划</a>，有效提供检索利用，支持机构正常业务活动，能够出示机构活动的证据</p>
+<P>　　155、简述电子文件管理系统的概念和特点</p>
+<P>　　（1）电子文件管理系统</p>
+<P>　　是包括所有与电子文件管理有关的技术、管理、法律、标准、人员等相关因素在内，以保证电子文件的行政有效性和法律证据性，保证电子文件的科学管理和高效利用为目的的信息系统。</p>
+<P>　　（2）电子文件管理系统的特点</p>
+<P>　　A、具有行政有效性和法律证据性</p>
+<P>　　B、由文件内容、背景信息和结构等构成</p>
+<P>　　C、是执行业务活动的辅助系统</p>
+<P>　　D、种类繁多</p>
+<P>　　E、具有独特的技术思路。</p>
+<P>　　156、电子文件管理系统</p>
+<P>　　是包括所有与电子文件管理有关的技术、管理、法律、标准、人员等相关因素在内，以保证电子文件的行政有效性和法律证据性，保证电子文件的科学管理和高效利用为目的的信息系统。</p>
+<P>　　157、电子文件形成的特点？&nbsp; 记点可能为X</p>
+<P>　　（1）分散性</p>
+<P>　　首先表现在电子文件的内容、结构、背景信息存储和管理方式的分散上；还表现在同类型信息记录和管理方式的不同上。</p>
+<P>　　（2）差异性</p>
+<P>　　差异性首先体现在电子文件生成平台的差异上；还表现在不同部门和不同人员的文件管理风格上。</p>
+<P>　　（3）随意性</p>
+<P>　　（4）脆弱性</p>
+<P>　　158、简述电子文件管理系统开发原则</p>
+<P>　　（1）整体性</p>
+<P>　　（2）全程性</p>
+<P>　　电子文件管理系统必须对电子文件从产生到销毁的整个生命周期进行全程管理。首先表现在系统对文件流程各阶段的管理和监控上；还表现为对文件在整个生命周期过程中的处理活动的记录。</p>
+<P>　　（3）安全性</p>
+<P>　　兼容各种软件格式；提供有效的数据迁移功能；提供数据备份和数据恢复的技术支持；提供严格的用户角色定义、权限分配和口令审查；在文件阅读上，对不同用户提供不同的的使用权限；提供和Internet的防火墙功能；提供必要的防杀病毒和病毒实时检测的功能。</p>
+<P>　　（4）相关性</p>
+<P>　　文件之间的相关性联系表现在如下方面：</p>
+<P>　　A、业务处理过程中文件之间的有机联系</p>
+<P>　　B、信息内容之间的逻辑联系</p>
+<P>　　C、文件、数据之间彼此参考的关系</p>
+<P>　　D、文件或数据之间彼此替代的关系。</p>
+<P>　　（5）综合性</p>
+<P>　　图书、情报和文件档案的综合利用成为机构信息化进程的重要环节。电子文件管理系统应该成为机构各种信息资源综合利用的中心，成为机构信息处理的门户。</p>
+<P>　　（6）自动化</p>
+<P>　　（7）后续性</p>
+<P>　　电子文件管理系统的成功设计和实施将取决于前期系统分析和调研的质量。</p>
+<P>　　159、（元数据技术）是收集、管理信息的最好方法之一。</p>
+<P>　　160、简述电子文件管理系统实现方式？</p>
+<P>　　方式大致有以下几种：</p>
+<P>　　（1）嵌入式</p>
+<P>　　以机构内部各个信息系统为母体，将电子文件管理功能需求和所使用的技术措施嵌入其中</p>
+<P>　　（2）联合式</p>
+<P>　　嵌入式适合小机构，而大机构必须使用联合式。</p>
+<P>　　（3）独立式</p>
+<P>　　161、简述影响电子文件管理系统开发成败的因素</p>
+<P>　　（1）系统开发的理论和实践基础是否完善</p>
+<P>　　在理论上可以从如下方面进行研究：</p>
+<P>　　A.以中国政治和法律制度为基础，探讨电子文件的社会属性</p>
+<P>　　B.建立对电子文件管理的充分认识</p>
+<P>　　C.制定相关标准和规范</p>
+<P>　　（2）系统目标是否明确</p>
+<P>　　电子文件管理系统的预期目标一般包括：</p>
+<P>　　A.保证电子文件的行政有效性和法律证据性</p>
+<P>　　B.保证电子文件运转流程高速，最大程度地支持机构的职能活动</p>
+<P>　　C.保证电子文件对机构所从事的职能活动的完整、真实、可靠的记录，并保证这些记录的长期可读性</p>
+<P>　　D.保证机构内外在线文件检索和利用的效率</p>
+<P>　　E.保证系统中所存储的信息的安全可靠性</p>
+<P>　　F.保证系统的电子文件中所涉及的个人隐私受到保护</p>
+<P>　　G.保证系统的各个环节均不与现有的国家和我国承认和遵守的国际法中有关文件管理、信息等方面的法律规定相抵触</p>
+<P>　　H.遵守我国有关电子文件管理的规定和标准</p>
+<P>　　（3）项目规划质量的高低</p>
+<P>　　（4）是否完整清晰地收集了系统用户的功能需求</p>
+<P>　　（5）对系统可能引起的变化是否有足够的预见和应对措施</p>
+<P>　　（6）对效益原则的认可和执行程度</p>
+<P>　　162、机构宏观环境的调查包括哪几方面</p>
+<P>　　（1）调查目的</p>
+<P>　　（2）收集<a class="channel_keylink" href="http://www.stzikao.com/Soft/Index.asp">资料</a></p>
+<P>　　（3）设计调查问题</p>
+<P>　　（4）整理调查结果</p>
+<P>　　163、机构职能活动的调查包括哪几方面</p>
+<P>　　（1）调查过程</p>
+<P>　　A.收集<a class="channel_keylink" href="http://www.stzikao.com/Soft/Index.asp">资料</a></p>
+<P>　　B.明确机构职能、工作和环节</p>
+<P>　　C.明确文件生成节点</p>
+<P>　　（2）整理调查结果</p>
+<P>　　A.绘制机构职能结构图</p>
+<P>　　B.绘制业务流程图</p>
+<P>　　164、第三节&nbsp; 电子文件管理系统的调查分析&nbsp;&nbsp; 需要了解</p>
+<P>　　165、电子文件管理功能需求调查的目的主要集中在两个方面：（文件需求）和（质量需求）</P</p><p align='center'><b><a href='/cjbj/glx/2072.shtml'>上一页</a>&nbsp;&nbsp;<a href='/cjbj/glx/2072.shtml'>[1]</a>&nbsp;<font color='red'>[2]</font>&nbsp;</b></p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=2072"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="2072" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/glx/2072.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/ggk/3619.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/ggk/3618.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/ggk/3619.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3618.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3617.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3616.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3615.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3614.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3613.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3612.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3611.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3610.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3609.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3608.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3607.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3606.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3605.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3604.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3603.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3602.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3601.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3600.shtml" target=_blank>2009年10月自考英语（一…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>网友整理的数据库及应用笔记（一）_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="网友,友整,整理,理的,的数,数据,据库,库及,及应,应用,用笔,笔记,记（,（一,网友整理的数据库及应用笔记（一）,工学类,汕头自考网"> 
+<meta name="description" content="				&nbsp;&nbsp;&nbsp;&nbsp;数据库及其应用笔记　　　　笔记还未全部整理完成，先贴1-5章内容。（第五章函数及内存变量、数组操作等命令下次贴）欢迎大家补充，更正！　　　　第一章　　　　人类社会活动的三大要素是能源、物质和信息。" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/gxl/Index.shtml'>工学类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>网友整理的数据库及应用笔记（一）</LI>
+<LI class=date>发布日期时间：2007-1-14&nbsp;&nbsp;来源：网络 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=975'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>记录及其联系的集合，应具有描述数据和数据联系两方面的功能，采用形式化的描述方法表达数据和数据之间的联系。数据模型表示的是数据库的框架，在该框架约束下填上具体数据才是数据库。数据库类型根据数据模型划分。数据的数据结构形式就是数据模型<BR>　　<BR>　　为保证数据的完整性，数据模型对数据的描述应包括）模型中包含哪些记录类型，并对记录类型进行命名；指明各个记录类型由哪些数据项构成，并对数据项进行命名；每个数据项均需指明其数据类型和取值范围。<BR>　　<BR>　　对数据间联系的描述要指明：各个不同记录类型间所存在的联系和联系方式。<BR>　　<BR>　　公式DM{R，L}是对数据模型的描述，其中R代表记录类型的集合，L代表不同记录类型联系的集合。<BR>　　<BR>　　公式的含义是表示了数据模型具有描述数据和数据联系两方面的功能，R是对数据的描述，L是对数据间联系的描述。<BR>　　<BR>　　数据模型本质上是对“信息模型”的数据化表示，信息模型又称“实体联系模型”，是客观事物及其自然联系在人脑中所形成的概念。<BR>　　<BR>　　信息来自于三个领域：现实世界、信息世界和数据世界。<BR>　　<BR>　　在信息世界中，不论是实际存在的东西，还是概念性的东西，或是事物与事物之间的联系，一律统称为实体。不同实体是由其属性的不同而被区分的。实体和属性都有“型”和“值”之分。“型”是概念的内涵，而“值”是概念的实例。“型”表达的是个体的共性，而“值”是个体的具体内容。<BR>　　<BR>　　“键”也称关键字，是指在实体属性中，可用于区分实体集中不同个体的那个或几个属性的组合。<BR>　　<BR>　　当有多个属性可作为键而选定其中一个时，则称它为该实体的“主键”。若在实体诸属性中，某实体虽非该实体的主键，却是另一个实体的主键，则称此属性为“外部键”。实体中每个属性，都有一个取值范围，这叫做属性的“域”。<BR>　　<BR>　　实体间的联系分别是一对一联系（1：1），一对多联系（1：n），多对多联系（m：n）。<BR>　　<BR>　　E-R方法，又称为实体联系表示法。<BR>　　<BR>　　E-R图中所表示的实体及其联系，实际上是信息模型。E-R图的三大要素：属性、实体、联系。<BR>　　<BR>　　目前，成熟地应用于数据库系统中的数据模型有层次模型、网状模型和关系模型。<BR>　　<BR>　　层次模型用树结构表示记录类型及其联系。结构特点：有且仅有一个结点无父结点，其他结点有且仅有一个父结点。在层次模型中，上一层记录型和下一层记录型之间的联系为1：n.不能直接支持m：n联系。对于记录之间的m：n关系，可以将其转换为1：n联系。<BR>　　<BR>　　网状模型的结构是结点的连通图，特点是：有一个以上结点无父结点且至少有一个结点有多于一个父结点。典型代表是DBTG系统。<BR>　　<BR>　　目前，在微机上的数据库系统应用最广泛的数据模型是关系模型。关系模型的本质是一张二维表，关系模型中，一张二维表就称为一个关系。如果二维表中的数据有变化，则它的记录数改变，它的字段数相对固定。<BR>　　<BR>　　在文件系统中，一张二维表称为一个文件，表头行称为记录型，表中其他各行称为记录，而每一列中的各元素称为一个数据项。通常在数据库中，二维表以文件的形式存储在磁盘上，一个关系就是一个文件（一张二维表）。<BR>　　<BR>　　从E-R图导出关系模型的时候，图中的每一个实体，都应转换为关系，其中应包括对应实体的全部属性，并应根据关系所表达的语义确定哪个属性（或哪几个属性组合）作为主键。<BR>　　<BR>　　E-R图：方框表示实体，椭圆表示实体的属性，菱形表示联系。<BR>　　<BR>　　信息世界用语：实体集、实体、属性、实体键，在数据世界中对应：文件、记录、数据项（字段）、记录键。<BR>　　<BR>　　以下关于数据模型的描述，A不正确。<BR>　　<BR>　　（A）数据模型表示的是数据库本身（B）数据模型表示的是数据库的框架<BR>　　<BR>　　（C）数据模型是客观事物及其联系的描述（D）数据模型能够以一定的结构形式表示出各种不同数据之间的联系<BR>　　<BR>　　下列关于实体的说法，不正确。B<BR>　　<BR>　　（A）实体是指现实世界中存在的一切事物（B）实体靠联系来描述<BR>　　<BR>　　（C）实体所具有的性质统称为属性（D）实体和属性是信息世界表达概念的两个不同单位<BR>　　<BR>　　实体集中，各实体值相应的属性有着B的域。（A）不同（B）相同（C）各自（D）固定<BR>　　<BR>　　综合：画E-R图，写出关系模型<BR>　　<BR>　　第三章<BR>　　<BR>　　域是值的集合，域中数据个数叫做域的基数。<BR>　　<BR>　　R（D1，D2，…Dn）的含义是：当且仅当R是D1×D2×…×Dn的一个子集，则称R是D1×D2×…×Dn上的一个关系。其中，R是关系名，n是关系的度，Di是第i个域名。在关系的定义中，n度的关系，必有n个域。<BR>　　<BR>　　一个关系就是一张二维表，表中的每一行对应关系中的一个元组，它对应于信息世界中的实体和计算机世界中的记录，表中的每一列就是关系中的一个域。也称为属性，对应于计算机世界中的字段。<BR>　　<BR>　　关系与文件有许多相似之处，把关系看成文件时，则元组就是文件中的记录，属性就是记录中的数据项（字段）。<BR>　　<BR>　　不允许“表中套表”，即表中元组分量必须是原子的。<BR>　　<BR>　　二维表中的各列取自同一个域，因此一列中的各个分量具有相同性质。<BR>　　<BR>　　列的次序、行的次序可以任意交换，不改变关系的实际意义。<BR>　　<BR>　　表中的行叫元组，代表一个实体，因此表中不允许出现相同的两行。<BR>　　<BR>　　判断两个关系是否相等，与属性的次序无关，与元组的次序无关，与关系的命名无关。<BR>　　<BR>　　关系模式是指用关系数据描述语言描述后的关系，必须逐个对关系模型中的关系进行描述才能生成数据库概念模式。对关系的描述实为定义关系模式。关系数据描述语言实质是定义关系框架的，包括对域和关系进行描述<BR>　　<BR>　　常用的关系数据描述语言（DDL）有问答式和语言描述式，常用的FoxPro属于问答式DBMS.<BR>　　<BR>　　语言描述式有专门描述语言定义关系模式，包括关系名、组成该关系的各个域名、数据类型、长度和取值范围<BR>　　<BR>　　域描述语句：DOMAIN&lt;域名&gt;PIC IS&lt;类型（长度）&gt;[RANGE IS&lt;数1&gt;THRU&lt;数2&gt;]，通过DOMAIN定义域名、PIC定义数据类型和长度，RANGE定义取值范围。<BR>　　<BR>　　关系描述语句：RELATION&lt;关系名&gt;（&lt;域名1，域名2，…&gt;）KEY=（&lt;域名i，域名j，…&gt;）<BR>　　<BR>　　关系模式的三类完整性规则是：实体完整性约束规则、引用完整性约束规则、用户定义的完整性约束规则。<BR>　　<BR>　　实体完整性约束是指关系中的“主键”</p><p align='center'><b><a href='/cjbj/gxl/975.shtml'>上一页</a>&nbsp;&nbsp;<a href='/cjbj/gxl/975.shtml'>[1]</a>&nbsp;<font color='red'>[2]</font>&nbsp;<a href='/cjbj/gxl/975_3.shtml'>[3]</a>&nbsp;<a href='/cjbj/gxl/975_3.shtml'>下一页</a> </b></p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=975"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="975" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/gxl/975.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/ggk/3619.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/ggk/3618.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/ggk/3619.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3618.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3617.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3616.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3615.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3614.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3613.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3612.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3611.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3610.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3609.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3608.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3607.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3606.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3605.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3604.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3603.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3602.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3601.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3600.shtml" target=_blank>2009年10月自考英语（一…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>

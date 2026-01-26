@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>《操作系统》名词解释总结（2）_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="《操,操作,作系,系统,统》,》名,名词,词解,解释,释总,总结,结（,（2,《操作系统》名词解释总结（2）,工学类,汕头自考网"> 
+<meta name="description" content="				　　12、作业控制方式　　1、作业控制方式，包括批处理方式和交互方式。　　批处理控制方式：也称脱机控制方式或自动控制方式。就是一下子交待任务，执行过程中不再干涉。　　批处理作业：采用批处理控制方式的作" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/gxl/Index.shtml'>工学类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>《操作系统》名词解释总结（2）</LI>
+<LI class=date>发布日期时间：2007-1-14&nbsp;&nbsp;来源：网络 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=1113'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>
+
+				<P><STRONG>　　12、作业控制方式</STRONG></p>
+<P>　　1、作业控制方式，包括批处理方式和交互方式。</p>
+<P>　　批处理控制方式：也称脱机控制方式或自动控制方式。就是一下子交待任务，执行过程中不再干涉。</p>
+<P>　　批处理作业：采用批处理控制方式的作业称为“批处理作业”。</p>
+<P>　　批处理作业进入系统时必须提交：源程序、运行时的数据、用作业控制语言书写的作业控制说明书。</p>
+<P>　　交互控制方式：也称联机控制方式。就是一步一步地交待任务。做好了一步，再做下一步。</p>
+<P>　　2、批处理作业的控制（领会）</p>
+<P>　　1） 按用户提交的作业控制说明书控制作业的执行。</p>
+<P>　　2） 一个作业步的工作往往由多个进程的合作来完成。</p>
+<P>　　3） 一个作业步的工作完成后，继续下一个作业步的作业，直至作业执行结束。</p>
+<P>　　3、交互式作业的管理（领会）</p>
+<P>　　1）交互式作业的特点： 交互式作业的特点主要表现在交互性上，它采用人机对话的方式工作。</p>
+<P>　　2）交互式作业的控制：一种是操作使用接口，另一种是命令解释执行。</p>
+<P>　　操作使用接口包括操作控制命令，菜单技术，窗口技术。</p>
+<P>　　命令的解释执行 一类是操作系统中的相应处理模块直接解释执行； 另一类必须创建用户进程去解释执行。</p>
+<P>　　<STRONG>13、死锁</STRONG></p>
+<P>　　若系统中存在一组进程（两个或多个进程），它们中的每一个进程都占用了某种资源而又都在等待其中另一个进程所占用的资源，这种等待永远不能结束，则说系统出现了“死锁”。或说这组进程处于“死锁”状态。</p>
+<P>　<STRONG>　14、相关临界区</STRONG></p>
+<P>　　1、并发进程中与共享变量有关的程序段称为“临界区” .并发进程中涉及到相同变量的那些程序段是相关临界区。</p>
+<P>　　2、对相关临界区的管理的基本要求。</p>
+<P>　　对相关临界区管理的基本原则是：如果有进程在相关临界区执行，则不让另一个进程进入相关的临界区执行。</p>
+<P>　　<STRONG>15、进程同步的含义：</STRONG>进程的同步是指并发进程之间存在一种制约关系，一个进程的执行依赖另一个进程的消息，当一个进程没有得到另一个进程的消息时应等待，直到消息到达才被唤醒。</p>
+<P>　　<STRONG>16、中断：</STRONG>一个进程占有处理器运行时，由于自身或自界的原因使运行被打断，让操作系统处理所出现的事件到适当的时候再让被打断的进程继续运行，这个过程称为“中断”。</p>
+<P>　　<STRONG>17、中断机制</STRONG></p>
+<P>　　在它执行程序的时候，如果有另外的事件发生（比如用户又打开了一个程序）那么这时候就需要由计算机系统的中断机制来处理了。</p>
+<P>　　中断机制包括硬件的中断装置和操作系统的中断处理服务程序。</p>
+<P>　　<STRONG>18、中断响应 （硬件即中断装置操作）</STRONG></p>
+<P>　　处理器每执行一条指令后，硬件的中断位置立即检查有无中断事件发生，若有中断事件发生，则暂停现行进程的执行，而让操作系统的中断处理程序占用处理器，这一过程称为“中断响应”。</p>
+<P><STRONG>　　19、中断屏蔽</STRONG></p>
+<P>　　中断屏蔽技术是在一个中断处理没有结束之前不响应其他中断事件，或者只响应比当前级别高的中断事件。</p>
+<P>　　<STRONG>20、存储保护：</STRONG>防止主存储器稳中有降个程序的相互干扰和保护稳中有降区域内的信息安全，限定各程序在规定的主存区域内执行，称为存储保护。</p>
+<P>　　特权指令：即可能影响系统安全的指令。全文是为保护输入输出的完整性，把“启动I/O”等的一类可能影响系统安全的指令定义为特权指令。优点在于：这种方式不但保证安全地使用外围设备，正确地传送信息，而且可减少用户为启动设备而必须了解外围设备特性以及启动等工作，大大方便了用户。</p>
+<P>　　<STRONG>21、文件的保护与保密</STRONG></p>
+<P>　　1）文件的保护是防止文件被破坏。文件的保密是防止文件被窃取。</p>
+<P>　　2）文件的保护措施：</p>
+<P>　　可以采用树形目录结构、存取控制表和规定文件使用权限的方法。</p>
+<P>　　3）文件的常用保密措施：隐藏文件目录、设置口令和使用密码（加密）等。</p>
+<P>　　<STRONG>22、UNIX系统结构</STRONG></p>
+<P>　　UNIX的层次结构。</p>
+<P>　　UNIX可以分为内核层和外壳层两部分。//内核层是UNIX是核心。/外壳层由shell解释程序（即为用户提供的各种命令。）、支持程序设计的各种语言（如C、PASCAL和BASIC等）、编译程序和解释程序、实用程序和系统库等组成。</p>
+<P>　　UNIX系统的主要特点。</p>
+<P>　　短小精悍 //简洁有效 //易移植 //可扩充 //开放性</p>
+<P>　　<STRONG>23、线程的概念</STRONG></p>
+<P>　　线程是进程中可独立执行的子任务，一个进程中可以有一个或多个线程，每个线程都有一个唯一的标识符。</p>
+<P>　　进程与线程有许多相似之处，所以线程又称为轻型进程。</p>
+<P>　　支持线程管理的操作系统有Mach，OS/2，WindowsNT，UNIX等。</p>
+<P>　　<STRONG>24、通道命令</STRONG></p>
+<P>　　通道命令规定设备的操作，每一种通道命令规定了设备的一种操作，通道命令一般由命令码／数据。</p>
+<P>　　主存地址／传送字节个数及标志码等部分组成。</p>
+<P>　　通道程序</p>
+<P>　　是一组通道命令规定通道执行一次输入输出操作应做的工作，这一组命令就组成了一个通道程序。</p>
+<P>　　<STRONG>25、管道机制</STRONG></p>
+<P>　　把第一条命令的输出作为第二条命令的输入，如此进行连接的技术。</p>
+<P>　　<STRONG>26、操作系统概述</STRONG></p>
+<P>　　移动技术</p>
+<P>　　移动技术是把某个作业移到另一处主存空间去（在磁盘整理中我们应用的也是类似的移动技术）。最大好处是可以合并一些空闲区。</p>
+<P>　　对换技术</p>
+<P>　　把一个分区的存储管理技术用于系统时，可采用对换技术把不同时工作的段轮流装入主存储区执行。</P></p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=1113"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="1113" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/gxl/1113.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/ggk/3619.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/ggk/3618.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/ggk/3619.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3618.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3617.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3616.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3615.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3614.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3613.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3612.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3611.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3610.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3609.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3608.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3607.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3606.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3605.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3604.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3603.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3602.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3601.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3600.shtml" target=_blank>2009年10月自考英语（一…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>

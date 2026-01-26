@@ -1,0 +1,408 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>自考“计算机组成原理”串讲资料（4）_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="自考,考“,“计,计算,算机,机组,组成,成原,原理,理”,”串,串讲,讲资,资料,料（,（4,自考“计算机组成原理”串讲资料（4）,工学类,汕头自考网"> 
+<meta name="description" content="				　　第4章&nbsp;指令系统　　一、名词解释：　　历年真题：　　2001年　　3.堆栈：数据的写入写出不需要地址，按先进后出的顺序读取数据的存储区。　　4.立即寻址方式：操作数直接在指令中给出。　　六年以来就考了这" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<div class=header>
+<div class=header_loginbar>
+<div class=header_loginbar_left><div id=UserLogin style="PADDING-LEFT: 20px">载入中… 
+<script language="JavaScript" type="text/JavaScript">LoadUserLogin('/',3,1);</script> </div> </div>
+<div class=header_loginbar_right>
+<UL>
+<LI><A href="/">首页</A></LI>
+<LI><A href="/article/" target=_blank>新闻</A></LI>
+<LI><A href="/cjbj/" target=_blank>串讲</A></LI>
+<LI><A href="/lnst/" target=_blank>试题</A></LI>
+<LI></LI></UL></div></div>
+<div class=header_logobar>
+<div class=header_logobar_left><A href="/"><IMG height=70 src="/skin/web/logo.gif" width=207 border=0></A></div>
+<div class=header_logobar_right>
+<P><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A href="/article/" target=_blank>自考动态</A>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</B>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B><A href="/fxzd/" target=_blank>复习指导</A></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><A href="/lnst/" target=_blank>历年试题</A>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</B>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><A href="/cjbj/" target=_blank>串讲笔记</A></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><A href="/guestbook/" target=_blank>建议留言</A>&nbsp;&nbsp;&nbsp;&nbsp; </B>&nbsp;|<BR><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A href="/article/xsbd" target=_blank>自考必读</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </B>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><A href="/soft" target=_blank>资料下载</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B><A href="/bylw" target=_blank>毕业论文</A>&nbsp;&nbsp;&nbsp; &nbsp; </B>|&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<B><A href="http://bbs.stzikao.com/" target=_blank>自考论坛</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B>|&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<B><A href="/" target=_blank>备用频道</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B>|</P></div></div></div>  <div class="main">
+
+<div class="header_searchbar">
+		<div class="header_searchbar_left">
+		<script language="JavaScript" type="text/JavaScript" src="/js/date.js"></script>				<br />
+				<!-- 天气预报开始 -->
+				<IFRAME style="FILTER: chroma(color=#ffffff)" marginWidth=0 marginHeight=0 src="http://m.weather.com.cn/m/p1/weather1.htm?id=101280501T " frameBorder=0 width=150 scrolling=no height=20></IFRAME>
+				<!-- 天气预报结束 -->
+
+		</div>
+		<div class="header_searchbar_right">
+			<ul>
+			<FORM name=search action=/search.asp method=post>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:10px;">
+  <tr>
+    <td colspan="3" width="550">常用查询： <A href="http://www.stzikao.com" target="_blank">自考报名</A>  <A href="http://www.stzikao.com" target="_blank">自考专业</A>  <A href="http://www.stzikao.com" target="_blank">自考成绩查询</A>  <A href="http://www.stzikao.com" target="_blank">汕头自考办</A>  <A href="http://www.stzikao.com" target="_blank">自考本科</A></td>
+    <td width="150"> </td>
+  </tr>
+  <tr>
+    <td><Input id=Keyword style="WIDTH: 320px;" onclick="search.Keyword.value=''" maxLength=30 size=14 value=关键字 name=Keyword></td>
+    <td><Select size=1 name=ModuleName style="margin-top:4px; margin-bottom:4px;"> 
+  <Option value=article selected>自考新闻</Option>
+  <Option value=cjbj>串讲笔记</Option>
+  <Option value=lnst>历年试题</Option>     
+  <Option value=bylw>毕业论文</Option> 
+  <Option value=fxzd>复习指导</Option>
+</Select> 
+    <Input id=Field type=hidden value=Title name=Field></td>
+    <td><input id=Submit name=Submit type="image" src="/skin/web/button_search.gif" /></td>
+    <td><A href="" name=StranLink>繁體中文</A>
+<script language="javascript" src="/js/gb_big5.js"></script></td>
+  </tr>
+</table>
+
+			</form>
+
+		  </ul>
+</div>
+</div>
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.html'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/gxl/Index.html'>工学类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>自考“计算机组成原理”串讲资料（4）</LI>
+<LI class=date>发布日期时间：2007/7/17&nbsp;&nbsp;来源：不详 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=2634'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>
+
+				<P><STRONG>　　第4章 指令系统</STRONG></p>
+<P>　　一、名词解释：</p>
+<P>　　历年真题：</p>
+<P>　　2001年</p>
+<P>　　3.堆栈：数据的写入写出不需要地址，按先进后出的顺序读取数据的存储区。</p>
+<P>　　4.立即寻址方式：操作数直接在指令中给出。</p>
+<P>　　六年以来就考了这2个名称解释，而且近4年都没有考，所以第四章的名称解释不是考试的重点，这里给大家列出了名词解释大家要熟悉一下，这都是本章的基本概念，有利于做选择题、改错题和填空题。</p>
+<P>　　1.指令系统：计算机中各种指令的集合，它反映了计算机硬件具备的基本功能。</p>
+<P>　　2.计算机指令：计算机硬件能识别并能直接执行操作的命令，描述一个基本操作。</p>
+<P>　　3.指令编码：将指令分成操作码和操作数地址码的几个字段来编码。</p>
+<P>　　4.指令格式：指定指令字段的个数，字段编码的位数和编码的方式。</p>
+<P>　　5.立即数：在指令中直接给出的操作数。</p>
+<P>　　6.指令字长度：一个指令字所占有的位数。</p>
+<P>　　7.助记符：用容易记忆的符号来表示指令中的操作码和操作数。</p>
+<P>　　8.汇编语言：采用文字方式（助记符）表示的程序设计语言，其中大部分指令和机器语言中的指令一一对应，但是不能被计算机的硬件直接识别。</p>
+<P>　　9.伪指令：汇编语言程序所提供的装入内存中的位置信息，表示程序段和数据段开始信息及结束信息等。且不转换成2进制机器指令。</p>
+<P>　　10.大数端：当一个数据元素的位数超过一个字节或者一个字的宽度，需存储在相邻的多个字节的存储位置时，将数据的最低字节存储在最大地址位置的存储方式。</p>
+<P>　　11.小数端：当一个数据元素的位数超过一个字节或者一个字的宽度，需存储在相邻的多个字节的存储位置时，将数据的最低字节存储在最小地址位置的存储方式。</p>
+<P>　　12.操作数寻址方式：指令中地址码的内容及编码方式。</p>
+<P>　　13.系统指令：改变计算机系统的工作状态的指令。</p>
+<P>　　14.特权指令：改变执行特权的指令，用于操作系统对系统资源的控制。</p>
+<P>　　15.自陷指令：特殊的处理程序，又叫中断指令。</p>
+<P>　　16.寻址方式：对指令的地址码进行编码，以得到操作数在存储器中的地址的方式。</p>
+<P>　　17.相对转移：转移到的目标指令的地址与当前指令的地址有关，是用当前指令的PC与一个偏移量相加，和为目标指令的PC.</p>
+<P>　　18.绝对转移：转移到的目标指令的地址与当前指令的地址无关，指令中给定的目标地址即为目标指令的PC.</p>
+<P>　　19.无条件转移：一种转移指令类型，不管状态如何，一律进行转移操作。</p>
+<P>　　20.条件转移：一种转移指令类型，根据计算机中的状态决定是否转移。</p>
+<P>　　21.RISC：精简指令系统计算机，即指令系统中的指令数量少，且指令功能相对简单。</p>
+<P>　　22.CISC：复杂指令系统计算机，即指令系统中的指令数量多，且指令功能相对较强。</p>
+<P>　　23.堆栈：数据的写入写出不需要地址，按先进后出的顺序读取数据的存储区。</p>
+<P>　　二、选择填空题：</p>
+<P>　　历年真题</p>
+<P>　　2000年：</p>
+<P>　　3.在堆栈寻址中，设A为累加器，SP为堆栈指示器，Msp为SP指示的栈顶单元。如果进栈操作顺序是：（SP）-1→SP，（A）→Msp；那么出栈操作的顺序应是（　）。</p>
+<P>　　A.（Msp）→A，（SP）+1→SP</p>
+<P>　　B.（SP）+1→SP，（Msp）→A</p>
+<P>　　C.（SP）-1→SP，（Msp）→A</p>
+<P>　　D.（Msp）→A，（SP）-1→SP</p>
+<P>　　「分析」：堆栈是按特定顺序进行访问的存储区，其访问方式是后进先出，即先存入的数据后读出。对堆栈的操作有入栈和出栈两种，两者的操作完全相反，包括功能和顺序均相反。</p>
+<P>　　「答案」：A</p>
+<P>　　6.在按字节编址的存储器中，每个编址单元中存放（　）。</p>
+<P>　　A.1位　　　　　　　　B.8位　　　　　　　C.16位　　　　　　　D.32位</p>
+<P>　　「分析」：在按字节编址在存储器中，每个编址单元的容量为一个字节，一个字节由8位二进制数组成，一个字节存储单元可以存放8位二进制位。</p>
+<P>　　「答案」：B</p>
+<P>　　4.在CPU的状态寄存器中，常设置以下状态位：零标志位（Z），负标志位（N），（　　）和（　　）。</p>
+<P>　　「分析」：在CPU中专门设置有一个存储计算机状态的寄存器，称为状态寄存器SR，其中通常包括如下标志位：零标志位（Z）、负标志位（N）、溢出标志位（V）、进位或借位标志位（C）等。</p>
+<P>　　「答案」：溢出标志位（V）、进位或借位标志位（C）</p>
+<P>　　5.如指令中给出形式地址为D，则间接寻址方式获得操作数的有效地址为　　　。</p>
+<P>　　「分析」：在存储器间接寻址方式中，操作数的地址在主存储器中，其存储器地址在指令中给出。也就是说在指令中给出的既不是操作数，也不是操作数的地址，而是操作数地址的地址，则有效地址为以形式地址D为地址的存储单元的内容。</p>
+<P>　　「答案」：以D为地址的存储单元的内容</p>
+<P>　　13.如果说变址寻址方式主要是面向用户的，那么基址寻址一般是面向（　　　　）的。</p>
+<P>　　「分析」：变址寻址方式是面向用户的，常用于访问字符串、向量数据结构和循环程序设计；而基址寻址方式是面向系统的，对由逻辑地址空间到物理地址空间的变换提供支持，用以解决程序在存储器中再定位和扩大寻址空间等问题。</p>
+<P>　　「答案」：系统</p>
+<P>　　2001年：</p>
+<P>　　9.为了缩短指令中某个地址段的位数，有效的方法是采取（　）。</p>
+<P>　　A.立即寻址　　　　　　　　　　　B.变址寻址</p>
+<P>　　C.间接寻址　　　　　　　　　　　D.寄存器寻址</p>
+<P>　　「分析」：由于计算机中寄存器的数量一般很少，采用寄存器寻址时可用少量的代码来指定寄存器，这样可以减少对应地址段的代码位数，也可减少整个指令的代码长度。</p>
+<P>　　「答案」：D</p>
+<P>　　10.堆栈指针 SP 的内容是（　）。 A.栈顶单元内容 B.栈顶单元地址 C.栈底单元内容 D.栈底单元地址</p>
+<P>　　「分析」：堆栈是按特定顺序进行访问的存储区，其访问方式是后进先出，即先存入的数据后读出。对堆栈的访问由堆栈指针寄存器SP控制，其内容为堆栈中栈项单元的地址，即入栈时数据保存在SP指向的单元，出栈时将SP指向单元的内容取出。</p>
+<P>　　「答案」：B</p>
+<P></p><p align='center'><b><font color='red'>[1]</font>&nbsp;<a href='/cjbj/gxl/2634_2.html'>[2]</a>&nbsp;<a href='/cjbj/gxl/2634_2.html'>下一页</a> </b></p> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=2634"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="2634" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/4714.html" title="2021年10月汕头自考办联系地址及电话" target="_blank"><img class='pic1' src='/Article/UploadFiles/202206/2022061709504126.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/4714.html" title="2021年10月汕头自考办联系地址及电话" target="_blank">2021年10月汕头自考办联</a></td><td align='center'><a class="" href="/Article/zknews/4713.html" title="汕头市2021年10月自考报名已开始！" target="_blank"><img class='pic1' src='/Article/UploadFiles/202206/2022061709503738.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/4713.html" title="汕头市2021年10月自考报名已开始！" target="_blank">汕头市2021年10月自考报</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/4710.html" title="汕头市2021年1月自考准考证打印系统已开通（附流程）" target="_blank"><img class='pic1' src='/Article/UploadFiles/202206/2022061709502569.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/4710.html" title="汕头市2021年1月自考准考证打印系统已开通（附流程）" target="_blank">汕头市2021年1月自考准考</a></td><td align='center'><a class="" href="/Article/zknews/4709.html" title="汕头2020年下半年办理自考毕业有什么前提要求吗？" target="_blank"><img class='pic1' src='/Article/UploadFiles/202206/2022061709502156.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/4709.html" title="汕头2020年下半年办理自考毕业有什么前提要求吗？" target="_blank">汕头2020年下半年办理自</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/gxl/2634.html" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/lxl/4569.html" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2012年4月自考心理学复…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/lxl/4568.html" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2012年4月自考心理学复…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/lxl/4569.html" target=_blank>2012年4月自考心理学复习…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4568.html" target=_blank>2012年4月自考心理学复习…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4567.html" target=_blank>2012年4月自考心理学复习…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4566.html" target=_blank>2012年4月自考心理学复习…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4565.html" target=_blank>2012年4月自考心理学复习…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4564.html" target=_blank>2012年4月自考心理学复习…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4563.html" target=_blank>2012年4月自考心理学复习…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4562.html" target=_blank>2012年4月自考心理学复习…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4561.html" target=_blank>2012年4月自考心理学复习…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4560.html" target=_blank>2012年4月自考心理学复习…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4559.html" target=_blank>2012年4月自考心理学复习…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4558.html" target=_blank>2012年自考广告心理学复…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4557.html" target=_blank>2012年自考广告心理学复…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4556.html" target=_blank>2012年自考广告心理学复…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4555.html" target=_blank>2012年自考广告心理学复…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4554.html" target=_blank>2012年自考广告心理学复…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4553.html" target=_blank>2012年自考广告心理学复…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4552.html" target=_blank>2012年自考广告心理学复…</A></LI> 
+<LI>·<A href="/cjbj/lxl/4551.html" target=_blank>2012年自考广告心理学复…</A></LI> 
+<LI>·<A href="/cjbj/fxk/4518.html" target=_blank>2012年自考知识产权法名…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+  <!-- 页脚 --><P>
+  <table style="WIDTH: 964px" borderColor=#ffffff cellSpacing=0 cellPadding=1 width=964 align=center bgColor=#ffffff border=1>
+    <tr>
+      <td colSpan=3>
+<P align=center>
+<div align=center>
+      <div class=foot_copyright_head></div>| <A class=Bottom href="/inside/about.asp">关于本站</A> | <A class=Bottom onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.stzikao.com');" href="#">设为首页</A> | <A class=Bottom href="javascript:window.external.addFavorite('http://www.stzikao.com','汕头自考网');">加入收藏</A> | <A class=Bottom href="mailto:linkte@163.com">站长邮箱</A> | <A class=Bottom href="/FriendSite/Index.asp" target=_blank>友情链接</A> | <A class=Bottom href="/Announcelist.asp" target=_blank>网站公告</A> | <A class=Bottom href="/Copyright.asp" target=_blank>版权申明</A> | </div></td>
+        <tr>
+          <td width=200>
+          <P align=center>&nbsp;<IMG style="FILTER: ; WIDTH: 60px; HEIGHT: 80px" height=80 alt="" hspace=0 src="/netalarm.gif" width=60 border=0></P></td>
+          <td>
+          <P align=center>&nbsp;声明：<a title="声明：本站是由汕头自考人士主办的公益网站" target="_blank" href="http://www.stzikao.com">本站是由汕头自考人士主办的公益网站</a><br> 汕头自考网版权所有 Copyright &copy; 2006-2022 <a title="汕头自考网" target="_blank" href="http://www.stzikao.com">STzikao</a>. All rights reserved.<br>   交流群：27052471 <a target="_blank" href="http://beian.miit.gov.cn/">粤ICP备14009918号-2</a><br>
+<script language='javascript' src='http://www.stzikao.com/ad/tongji.js'></script> </P></td>
+          <td width=200>
+<P align=center>&nbsp; 
+<script>var caid="8750";</script> 
+          <script src="http://www.315safe.com.cn/ca.js"></script></P></td>
+        </tr>
+      </table>
+</P>
+<div>
+</div>
+</body>
+</html>

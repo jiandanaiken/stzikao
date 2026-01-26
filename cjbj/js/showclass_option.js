@@ -1,0 +1,1 @@
+document.write("<option value='33'>公共课</option><option value='34'>经济类</option><option value='35'>法学类</option><option value='36'>文学类</option><option value='38'>理学类</option><option value='39'>工学类</option><option value='41'>管理类</option><option value='42'>教育学</option>");

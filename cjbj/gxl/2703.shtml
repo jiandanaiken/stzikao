@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>自考《计算机及应用》专业毕业设计六注意_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="自考,考《,《计,计算,算机,机及,及应,应用,用》,》专,专业,业毕,毕业,业设,设计,计六,六注,自考《计算机及应用》专业毕业设计六注意,工学类,汕头自考网"> 
+<meta name="description" content="				　　从这个月起，自考计算机及应用专业的部分考生进入毕业设计阶段。这一环节是考生毕业前的最后一个环节。这个环节给考生提供了一个将所学知识转化为实践能力的机会，对考生更快更好地适应工作很有帮助。那么，" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/gxl/Index.shtml'>工学类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>自考《计算机及应用》专业毕业设计六注意</LI>
+<LI class=date>发布日期时间：2007-8-17&nbsp;&nbsp;来源：不详 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=2703'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>
+
+				<P>　　从这个月起，自考计算机及应用专业的部分考生进入毕业设计阶段。这一环节是考生毕业前的最后一个环节。这个环节给考生提供了一个将所学知识转化为实践能力的机会，对考生更快更好地适应工作很有帮助。那么，如何顺利完成毕业设计呢？为此，记者采访了北京大学教授孙家骕，孙老师对<a class="channel_keylink" href="http://www.stzikao.com" target="_blank">自考</a>计算机及应用专业毕业设计提出六点注意事项。</p>
+<P>　　<STRONG>一是毕业设计要求是实体开发</STRONG></p>
+<P>　　<a class="channel_keylink" href="http://www.stzikao.com" target="_blank">自考</a>计算机及应用专业实用性很强，在实际生活中也有很广泛的应用空间。所以，考生的毕业设计，必须是开发一个实体，比如某某人力资源系统开发，或是某系统财务软件开发，如果仅仅是就某一产品市场需求进行分析，就不符合要求。</p>
+<P>　　<STRONG>二是毕业设计有规模，难度，实用三方面要求</STRONG></p>
+<P>　　其中，规模的要求是量化的，当然由于开发语言不同，要求不能统一，但总的来说，如果折算成C语言，规模要求应不小于2000行代码。难度要求是指开发的系统不能太过于简单，否则篇幅的量可能达不到要求。<a class="channel_keylink" href="http://www.stzikao.com" target="_blank">自考</a>生的<a class="channel_keylink" href="http://www.stzikao.com/bylw/Index.html">论文</a>一般是小四号字打印，省缺行距，篇幅在20-30页之间。考生选择开发什么样的软件，可以和导师商量，难度是否达到要求也可以先征求导师意见。实用是指开发的软件要有用，无用的软件，在实际工作中没有用处的软件不开发也罢。目前软件开发发展很快，有的考生选择开发的软件有可能是过时的、落伍的，已被淘汰的。所以，考生所开发的软件是否有用，要先请教导师。</p>
+<P>　　<STRONG>三是毕业设计要独立完成</STRONG></p>
+<P>　　毕业设计可以是自己独立开发软件，也可以和别人协商、合作完成某个大型系统开发。有些考生在软件开发公司工作，和同事合作开发某个项目，结合自己的工作实际做毕业设计，也是可以的，但要有自己独立完成的工作，比如是某个子项目的开发，或某些模块的开发是自己独立完成编码，独立完成调试的。如果考生只是看看别人的编码，在<a class="channel_keylink" href="http://www.stzikao.com/bylw/Index.html">论文</a>里讲讲自己的看法，是达不到毕业设计要求的。</p>
+<P>　　<STRONG>四是<a class="channel_keylink" href="http://www.stzikao.com/bylw/Index.html">论文</a>题目要具体</STRONG></p>
+<P>　　有的考生所做的毕业设计很具体，但写论文时，对题目不做仔细推敲，只是泛泛地拟定题目，这是很不可取的。比如，有的考生的<a class="channel_keylink" href="http://www.stzikao.com/bylw/Index.html">论文</a>题目是：办公自动化系统的开发。这个题目就太宽泛了，没有作限定，所开发的办公自动化系统对所有单位都适用吗？很显然这是不现实的。况且一个办公自动化系统的开发需要写几拾万行编码，一个人是不可能独立完成的。</p>
+<P>　　<STRONG>五是<a class="channel_keylink" href="http://www.stzikao.com/bylw/Index.html">论文</a>不要写成文档</STRONG></p>
+<P>　　软件开发工作完成之后， 考生要将自己所做的工作用论文的形式记录下来。如何才能达到论文要求呢？有的考生做了什么就写什么，把论文写成了文档，这是不够的。有些工作虽然没有直接在软件开发中反映出来，但与自己的工作息息相关，也应该写在论文中。比如，<a class="channel_keylink" href="http://www.stzikao.com/bylw/Index.html">论文</a>中要介绍所选择的开发工具，不要仅仅是简单指出选用的是哪种开发工具，还应该说明为什么要选择这种开发工具，几种开发工具之间要有简单的比较，要有论述。当然选择的原则有多方面的，有技术原因，有经济原因，不一定要选择技术最先进的开发工具，因为技术最先进的开发工具往往代价比较高，为了实用，往往要选择在先进性上是中等的开发工具，比较经济实惠。总之，不要简单陈述，要有论述。</p>
+<P>　　<STRONG>六是<a class="channel_keylink" href="http://www.stzikao.com/bylw/Index.html">论文</a>写作格式要规范</STRONG></p>
+<P>　　除题目外，论文还包括摘要、关键词、目录、正文、参考文献等内容。摘要用来简要说明论文内容，考生只要写出中文摘要就可以了，英文摘要一般不作要求。关键词主要是为检索文章方便，在不知道<a class="channel_keylink" href="http://www.stzikao.com/bylw/Index.html">论文</a>题目的情况下，检索关键词，就</p>
+<P>　　可以很快检索到文章正文。所以，考生选择关键词时，要选择那些体现文章特色的词，列出四五个就可以。目录中要包括每章标题和小标题。考生需注意，小标题的层次不要太多、太细。有的考生列了四到五层的小标题，这就没有必要。考生还要注意，写目录时层次要清楚，要和正文中的页号相对应，这在论文排版时尤其要注意，有时由于表格、图形等的调整，很容易造成小标题错页。正文分以下几部分：一部分写开发背景和工作意义，第二部分介绍总体结构、总体功能，第三部分包括各个模块设计，也就是所开发的软件是如何实现的。考生写这些内容时，都要有论述，不仅要讲怎么做，还要讲为什么这样做，特别是要和同类型的工作相比较，如果条件允许，可以在开头部分对所做项目当前的国际国内水平作简单介绍，和自己的工作有个比较。所介绍的各个模块设计，要包括数据结构和算法设计，尤其是算法设计要加一些必要的源代码。另外，一些必要的编码、表格、数据流程图等都要加到文章里。图形要有相应的图题说明和图号。软件的调试情况和运行情况也要加入正文中。论文正文还可包含开发工作的难点、特点，所采用的关键技术等。文章最后列出的参考文献也要规范，要包括文献作者、发表时间、何种出版刊物、所引用内容页码等。这样，<a class="channel_keylink" href="http://www.stzikao.com/bylw/Index.html"></p><p align='center'><b><font color='red'>[1]</font>&nbsp;<a href='/cjbj/gxl/2703_2.shtml'>[2]</a>&nbsp;<a href='/cjbj/gxl/2703_2.shtml'>下一页</a> </b></p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=2703"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="2703" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/gxl/2703.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/ggk/3619.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/ggk/3618.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/ggk/3619.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3618.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3617.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3616.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3615.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3614.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3613.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3612.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3611.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3610.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3609.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3608.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3607.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3606.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3605.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3604.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3603.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3602.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3601.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3600.shtml" target=_blank>2009年10月自考英语（一…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>

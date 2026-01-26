@@ -1,0 +1,280 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>09年自考国际物流导论复习资料第八章_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="09,9年,年自,自考,考国,国际,际物,物流,流导,导论,论复,复习,习资,资料,料第,第八,09年自考国际物流导论复习资料第八章,经济类,汕头自考网"> 
+<meta name="description" content="	&nbsp;&nbsp;第八章　国际物流信息系统　　第一节　国际物流信息系统概述　　一、国际物流信息系统的发展历程：　　（一）单项数据处理；（二）综合数据处理；（三）系统数据处理；（四）辅助决策阶段。　　二、国际物流信息系" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/jjk/Index.shtml'>经济类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>09年自考国际物流导论复习资料第八章</LI>
+<LI class=date>发布日期时间：2009-11-12&nbsp;&nbsp;来源：zikao365 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=4036'></script>&nbsp;&nbsp;作者：本站整理</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>	  <p align="center"><strong>第八章　国际物流信息系统</strong></p><p><strong>　　第一节　国际物流信息系统概述</strong></p><p>　　一、国际物流信息系统的发展历程：</p><p>　　（一）单项数据处理；（二）综合数据处理；（三）系统数据处理；（四）辅助决策阶段。</p><p>　　二、国际物流信息系统：通过对与国际物流相关信息的加工处理来达到对物流、资金流和商流的有效控制和管理，并为企业开展国际物流提供信息分析和决策的人机系统。</p><p>　　国际物流信息系统的特征：集成化、模块化、实时化、网络化和智能化。</p><p>　　三、国际物流信息系统的作用</p><p>　　（一）信息在现代国际物流中的重要性：第一，国际物流中有关订货状况、产品可得性、交货<a class="channel_keylink" href="http://www.stzikao.com/Article/zkbkbd/Index.html">计划</a>表、发票等信息是整个客户服务的一个必要的因素；第二，为了达到整个物流过程中库存的最低，要认识到信息能够有效地减少存货；第三，对有关从战略优势出发考虑的何时、何地及如何利用各种物流资源的问题，充足的相关信息也同样可以增加决策的灵活性。</p><p>　　（二）信息在国际物流中的作用：1、信息是进行国际物流控制的手段；2、决策支持作用；3、信息作为一种资源，是现代国际物流运作的基础。</p><p>　　<strong>第二节　条形码系统</strong></p><p>　　一、条形码的概念：也称条码，来源于&ldquo;Barcode&rdquo;，是一种信息代码，由一组宽度不同、反射率不同的&ldquo;条&rdquo;和&ldquo;空&rdquo;按规定的编码规则组合起来，以表示一组数据的符号，是一种能用光电扫描阅读设备只读并使数据输入计算机的特殊代码。</p><p>　　二、条形码的分类</p><p>　　（一）按码制分类：1、UPC码；2、EAN；3、交叉25码；4、39码；5、库德巴码；6、128码；7、93码；8、49码；9、其他码制</p><p>　　（二）按维数分类：1、普通的一维条码； 2、二维条码；3、多维条码</p><p>　　三、条形码技术的优越性：（一）可靠准确；（二）数据输入速度快；（三）经济便宜；（四）灵活、实用；（五）自由度大；（六）设备简单；（七）易于制作。</p><p>　　四、条形码在物流中的应用：（一）销售信息系统（POS系统）；（二）库存系统；（三）分货拣选系统。</p><p>　　<strong>第三节　电子数据交换（EDI）</strong></p><p>　　一、电子数据交换的概念：从国际物流的角度看，EDI是将与贸易有关的运输、保险、银行和海关等行业的信息，用一种国际公认的标准格式进行编制，并通过计算机通信网络，实现各有关部门或公司与企业之间的数据传输与处理，并完成以贸易为中心的全部业务过程。</p><p>　　二、电子数据交换的分类：（一）订货信息系统；（二）电子金融汇兑系统；（三）交互式应答系统；（四）带有图形<a class="channel_keylink" href="http://www.stzikao.com/Soft/Index.asp">资料</a>自动传输的EDI。</p><p>　　三、电子数据交换的实现过程：（1）发送方将要发送的数据从信息系统数据库中提出，转换为平面文件（也称中间文件）；（2）将平面文件翻译为标准的EDI报文，并组成EDI信件，接受方从EDI信箱接收信件；（3）将EDI信件拆开并翻译成平面文件；（4）将平面文件转换并送到接受方信息系统中进行处理。</p><p>　　四、电子数据交换系统功能模块和工作原理</p><p>　　电子数据交换系统功能模块：（一）用户接口模块；（二）内部接口模块；（三）报文生成及处理模块；（四）格式转换模块；（五）通信模块；</p><p>　　EDI系统的基本功能；1、命名和搜址功能；2、安全功能；3、语义数据管理功能</p><p>　　五、电子数据交换对企业的作用：（一）EDI正在成为企业生存的支柱；（二）节约企业成本；（三）改进企业内部的操作；（四）改善客户关系；（五）提高企业国际市场竞争能力。</p><p>　　<strong>第四节　地理信息系统（GIS）</strong></p><p>　　一、地理信息系统：是以地理空间数据库为基础，采用地理模型分析方法，适时提供多种空间的和动态的地理信息，为地理研究和地理决策服务的计算机技术系统。</p><p>　　二、地理信息系统的类型：（一）专题信息系统；（二）区域地理信息系统；（三）地理信息系统工具。</p><p>　　三、地理信息系统的应用领域：（一）电子地图；（二）辅助规划；（三）交通管理；（四）军事应用。</p><p>　　<strong>第五节　全球卫星定位系统</strong></p><p>　　一、全球定位系统（GPS）：是利用通信卫星、地面控制部分和信号接受机对对象进行动态定位的系统。</p><p>　　二、全球卫星定位系统的构成：GPS由空间部分、地面监控部分和用户接收机三大部分组成。</p><p>　　三、全球卫星定位系统在物流管理中的应用：</p><p>　　（1）用于汽车自定位、跟踪调度、陆地救援；</p><p>　　（2）用于内河及远洋船队最佳航程和安全航线的测定、航向的实时调度、监测及水上救援；</p><p>　　（3）用于空中交通管理、精密进场着陆、航路导航和监视；</p><p>　　（4）用于铁路运输管理；</p><p>　　（5）用于军事物流。</p><style type="text/css">
+
+<!--
+.STYLE2 {color: #000000}
+--></style>12345678<p align="center"><a class="channel_keylink" href="http://www.stzikao.com/Soft/Index.asp">资料</a>来源于网络，仅供参考！</p>
+		
+</p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=4036"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="4036" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/1-10.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/4049.shtml" title="2009年10月自学考试试题全面上线" target="_blank"><img class='pic1' src='/Article/UploadFiles/200911/shiti.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/4049.shtml" title="2009年10月自学考试试题全面上线" target="_blank">2009年10月自学考试试题</a></td><td align='center'><a class="" href="/Article/zknews/3979.shtml" title="潮阳一中190周年校庆" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/20091030004806316_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3979.shtml" title="潮阳一中190周年校庆" target="_blank">潮阳一中190周年校庆</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/jjk/4036.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/jjk/4048.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">09年自考政治学概论复…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/jjk/4047.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">09年自考政治学概论复…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/jjk/4048.shtml" target=_blank>09年自考政治学概论复习…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4047.shtml" target=_blank>09年自考政治学概论复习…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4046.shtml" target=_blank>09年自考政治学概论复习…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4045.shtml" target=_blank>09年自考政治学概论复习…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4044.shtml" target=_blank>09年自考政治学概论复习…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4043.shtml" target=_blank>09年自考政治学概论复习…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4042.shtml" target=_blank>09年自考政治学概论复习…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4041.shtml" target=_blank>09年自考政治学概论复习…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4040.shtml" target=_blank>09年自考政治学概论复习…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4039.shtml" target=_blank>09年自考政治学概论复习…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4038.shtml" target=_blank>09年自考政治学概论复习…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4037.shtml" target=_blank>09年自考政治学概论复习…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4036.shtml" target=_blank>09年自考国际物流导论复…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4035.shtml" target=_blank>09年自考国际物流导论复…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4034.shtml" target=_blank>09年自考国际物流导论复…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4033.shtml" target=_blank>09年自考国际物流导论复…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4032.shtml" target=_blank>09年自考国际物流导论复…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4031.shtml" target=_blank>09年自考国际物流导论复…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4030.shtml" target=_blank>09年自考国际物流导论复…</A></LI> 
+<LI>·<A href="/cjbj/jjk/4029.shtml" target=_blank>09年自考国际物流导论复…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>

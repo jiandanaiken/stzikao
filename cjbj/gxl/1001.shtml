@@ -1,0 +1,324 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>2004年全国高等教育自学考试信号与系统试题_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="20,00,04,4年,年全,全国,国高,高等,等教,教育,育自,自学,学考,考试,试信,信号,号与,与系,系统,统试,2004年全国高等教育自学考试信号与系统试题,工学类,汕头自考网"> 
+<meta name="description" content="				&nbsp;&nbsp;&nbsp;&nbsp;一、单项选择题（本大题共12小题，每小题2分，共24分）&nbsp;&nbsp;&nbsp;&nbsp;在每小题列出的四个备选项中只有一个是符合题目要求的，请将其代码填写在题后的括号内。错选、多选或未选均无分。&nbsp;&nbsp;&nbsp;&nbsp;1.已知信号f（t）的波形如题1" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/gxl/Index.shtml'>工学类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>2004年全国高等教育自学考试信号与系统试题</LI>
+<LI class=date>发布日期时间：2007-1-14&nbsp;&nbsp;来源：网络 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=1001'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>
+
+				<P>&nbsp;&nbsp;&nbsp; 一、单项选择题（本大题共12小题，每小题2分，共24分）</p>
+<P>&nbsp;&nbsp;&nbsp; 在每小题列出的四个备选项中只有一个是符合题目要求的，请将其代码填写在题后的括号内。错选、多选或未选均无分。</p>
+<P>&nbsp;&nbsp;&nbsp; 1.已知信号f（t）的波形如题1图所示，则f（t）的表达式为（　　　）</p>
+<P>&nbsp;&nbsp;&nbsp; A.tε（t）</p>
+<P>&nbsp;&nbsp;&nbsp; B.（t-1）ε（t-1）</p>
+<P>&nbsp;&nbsp;&nbsp; C.tε（t-1）</p>
+<P>&nbsp;&nbsp;&nbsp; D.2（t-1）ε（t-1）</p>
+<P>&nbsp;&nbsp;&nbsp; 2.积分式 的积分结果是（　　　）</p>
+<P>&nbsp;&nbsp;&nbsp; A.14 B.24</p>
+<P>&nbsp;&nbsp;&nbsp; C.26 D.28</p>
+<P>&nbsp;&nbsp;&nbsp; 3.已知f（t）的波形如题3（a）图所示，则f（5-2t）的波形为（　　　）</p>
+<P>&nbsp;&nbsp;&nbsp; 4.周期矩形脉冲的谱线间隔与（　　　）</p>
+<P>&nbsp;&nbsp;&nbsp; A.脉冲幅度有关 B.脉冲宽度有关</p>
+<P>&nbsp;&nbsp;&nbsp; C.脉冲周期有关 D.周期和脉冲宽度有关</p>
+<P>&nbsp;&nbsp;&nbsp; 5.若矩形脉冲信号的宽度加宽，则它的频谱带宽（　　　）</p>
+<P>&nbsp;&nbsp;&nbsp; A.不变 B.变窄</p>
+<P>&nbsp;&nbsp;&nbsp; C.变宽 D.与脉冲宽度无关</p>
+<P>&nbsp;&nbsp;&nbsp; 6.如果两个信号分别通过系统函数为H（jω）的系统后，得到相同的响应，那么这两个信号（　　　）</p>
+<P>&nbsp;&nbsp;&nbsp; A.一定相同 B.一定不同</p>
+<P>&nbsp;&nbsp;&nbsp; C.只能为零 D.可以不同</p>
+<P>&nbsp;&nbsp;&nbsp; 7.f（t）= 的拉氏变换为F（s）= ，且收敛域为（　　　）</p>
+<P>&nbsp;&nbsp;&nbsp; A.Re[s]&gt;0 B.Re[s]&lt;0</p>
+<P>&nbsp;&nbsp;&nbsp; C.Re[s]&gt;1 D.Re[s]&lt;1</p>
+<P>&nbsp;&nbsp;&nbsp; 8.函数 的单边拉氏变换F（s）等于（　　　）</p>
+<P>&nbsp;&nbsp;&nbsp; A.1 B.</p>
+<P>&nbsp;&nbsp;&nbsp; C.e-2s D. e-2s</p>
+<P>&nbsp;&nbsp;&nbsp; 9.单边拉氏变换F（s）= 的原函数f（t）等于（　　　）</p>
+<P>&nbsp;&nbsp;&nbsp; A.e-2tε（t-1） B.e-2（t-1）ε（t-1）</p>
+<P>&nbsp;&nbsp;&nbsp; C.e-2tε（t-2） D.e-2（t-2）ε（t-2）</p>
+<P>&nbsp;&nbsp;&nbsp; 10.已知f1（n）=（ ）nε（n），f2（n）=ε（n）- ε（n-3），令y（n）=f1（n）*f2（n），则当n=4时，y（n）为（　　　）</p>
+<P>&nbsp;&nbsp;&nbsp; A. B.</p>
+<P>&nbsp;&nbsp;&nbsp; C. D.</p>
+<P>&nbsp;&nbsp;&nbsp; 11.序列f（n）作用于一线性时不变离散时间系统，所得自由响应为y1（n），强迫响应为y2（n），零状态响应为y3（n），零输入响应为y4（n）。则该系统的系数函数H（z）为（　　　）</p>
+<P>&nbsp;&nbsp;&nbsp; 12.若序列x（n）的Z变换为X（z），则（－0.5）nx（n）的Z变换为（　　　）</p>
+<P>&nbsp;&nbsp;&nbsp; A.2X（2z） B.2X（-2z）</p>
+<P>&nbsp;&nbsp;&nbsp; C.X（2z） D.X（-2z）</p>
+<P>&nbsp;&nbsp;&nbsp; 二、填空题（本大题共12小题，每小题2分，共24分）</p>
+<P>&nbsp;&nbsp;&nbsp; 请在每小题的空格中填上正确答案。错填、不填均无分。</p>
+<P>&nbsp;&nbsp;&nbsp; 13.用同一组电阻、电感和电容，分别组成RLC串联谐振电路和GCL并联谐振电路，其谐振频率分别为ω1和ω2，则ω1与ω2的关系为_________________.</p>
+<P>&nbsp;&nbsp;&nbsp; 14.在RLC串联谐振电路中，品质因数Q值越大，则谐振电路的选择性越________________.</p>
+<P>&nbsp;&nbsp;&nbsp; 15.如果一线性时不变系统的单位冲激响应为h（t），则该系统的阶跃响应g（t）为_________.</p>
+<P>&nbsp;&nbsp;&nbsp; 16.如果一线性时不变系统的输入为f（t），零状态响应为yf（t）=2f（t-t0），则该系统的单位冲激响应h（t）为_________________.</p>
+<P>&nbsp;&nbsp;&nbsp; 17.如果一线性时不变系统的单位冲激响应h（t）=ε（t），则当该系统的输入信号f（t）=tε（t）时，其零状态响应为_________________.</p>
+<P>&nbsp;&nbsp;&nbsp; 18.如题18图所示周期脉冲信号的傅里叶级数的余弦项系数an为_________________.</p>
+<P>&nbsp;&nbsp;&nbsp; 19.已知x（t）的傅里叶变换为X（jω），那么x（t-t0）的傅里叶变换为_________________.</p>
+<P>&nbsp;&nbsp;&nbsp; 20.已知x1（t）=δ（t-t0），x2（t）的频谱为π［δ（ω+ω0）+δ（ω-ω0）］，且y（t）=x1（t）*x2（t），那么y（t0）= _________________.</p>
+<P>&nbsp;&nbsp;&nbsp; 21.若已知f1（t）的拉氏变换F1（s）= ，则f（t）=f1（t）* f1（t）的拉氏变换F（s）= _________________.</p>
+<P>&nbsp;&nbsp;&nbsp; 22.已知线性时不变系统的冲激响应为h（t）=（1-e-t）ε（t），则其系统函数H（s）＝__________.</p>
+<P>&nbsp;&nbsp;&nbsp; 23.某线性时不变连续时间系统的模拟框图如题23图所示，初始状态为零，则描述</p><p align='center'><b><font color='red'>[1]</font>&nbsp;<a href='/cjbj/gxl/1001_2.shtml'>[2]</a>&nbsp;<a href='/cjbj/gxl/1001_2.shtml'>下一页</a> </b></p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=1001"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="1001" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/gxl/1001.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/ggk/3619.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/ggk/3618.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/ggk/3619.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3618.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3617.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3616.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3615.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3614.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3613.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3612.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3611.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3610.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3609.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3608.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3607.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3606.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3605.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3604.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3603.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3602.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3601.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3600.shtml" target=_blank>2009年10月自考英语（一…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>网友整理的数据库及应用笔记（一）_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="网友,友整,整理,理的,的数,数据,据库,库及,及应,应用,用笔,笔记,记（,（一,网友整理的数据库及应用笔记（一）,工学类,汕头自考网"> 
+<meta name="description" content="				&nbsp;&nbsp;&nbsp;&nbsp;数据库及其应用笔记　　　　笔记还未全部整理完成，先贴1-5章内容。（第五章函数及内存变量、数组操作等命令下次贴）欢迎大家补充，更正！　　　　第一章　　　　人类社会活动的三大要素是能源、物质和信息。" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/gxl/Index.shtml'>工学类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>网友整理的数据库及应用笔记（一）</LI>
+<LI class=date>发布日期时间：2007-1-14&nbsp;&nbsp;来源：网络 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=975'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>不允许取空值。引用完整性约束规则是限制引用不存在的记录。<BR>　　<BR>　　在关系的各种操作中，关系查询是核心，所以关系数据操纵语言DML语言，常被称为查询语言。<BR>　　<BR>　　DML特点：操作对象与结果都是关系，非过程性强，语言一体化，有严密的数学工具。<BR>　　<BR>　　关系数据操作的最大特点是：以关系为处理单位，处理后的结果是关系。<BR>　　<BR>　　关系DML查询，根据表达查询方式的不同，可分为两类：用关系代数运算表达查询和用关系演算公式表达查询。关系数据操作语言相应分为两种不同类型：关系代数型和关系演算型。<BR>　　<BR>　　所谓单目运算就是对一个关系施加的运算，所谓双目运算就是对两个关系施加的运算。选择、投影是单目运算，连接、关系笛卡儿积是双目运算。<BR>　　<BR>　　集合运算符：∪并、∩交、－差、×迪卡尔积，关系运算符：π投影、σ选择、|×|连接<BR>　　<BR>　　比较运算符：&gt;、≥、&lt;、≤、＝、≠，逻辑运算符：－非、∧与、∨或<BR>　　<BR>　　并、交、差用于关系运算，要求参加运算的两个关系是相容的，即两个关系度数相同，相应属性取自同一个域。<BR>　　<BR>　　并：由属于R或属于S或同时属于R和S的元组构成的集合，记为R∪S.<BR>　　<BR>　　差：由属于R而不属于S的所有元组组成的集合，记为R－S.<BR>　　<BR>　　交：由同时属于R和S的元组组成的集合，记为R∩S.<BR>　　<BR>　　选择：按给定条件从关系中挑选满足条件的元组组成的集合，记为σF（R）<BR>　　<BR>　　投影：从关系中挑选出指定的属性组成的新关系，记为：πA（R）A是属性名表，R是关系名。<BR>　　<BR>　　关系R和S的笛卡儿积，它是由R的第一个元组依次与S的所有元组组合，然后是R的第二个元组，直到最后一个元组依次与S所有元组组合，形成新的关系。记为：R×S关系R和S的笛卡儿积k1+k2个元组。<BR>　　<BR>　　连接：按给定条件，把满足条件的两关系的所有元组，按一切可能拼接后形成的新关系，相当于在两关系笛卡儿积上的选择。记为：R|×|S＝σF（R×S）关系R和S的连接后的关系有≤k1×k2个元组。<BR>　　<BR>　　连接运算可以从乘积运算和选择运算中导出，自然连接运算可以从乘积运算、选择运算和投影运算中导出。<BR>　　<BR>　　自然连接是连接的一个重要特例，它要求被连接的两关系有若干相同的属性名。记为：R|×|S<BR>　　<BR>　　连接运算：JOIN &lt;关系1&gt; WITH &lt;关系2&gt; WHERE &lt;条件&gt;，按给定条件对两关系进行连接运算。<BR>　　<BR>　　五种基本运算：并、差、选择、投影、连接。<BR>　　<BR>　　在关系中，当有多个属性可作为键而选定其中一个时，则称它为该关系的主键。<BR>　　<BR>　　在一个关系中，需要几个属性组合起来才能惟一标识元组时，则称这几个属性为该关系的联合键。<BR>　　<BR>　　凡在关系中可以用来惟一标识元组的属性或属性组叫做候选键。<BR>　　<BR>　　当关系中的某个属性或某一组属性并非主键，但却是另一个关系的主键时，称该属性为外部键。<BR>　　<BR>　　凡可作为侯选键的属性叫主属性，不能作为侯选键的属性叫非主属性。<BR>　　<BR>　　所谓函数依赖其实质是刻画关系中各个属性之间相互制约而又相互依赖的关系。<BR>　　<BR>　　函数依赖包括：完全函数依赖、部分函数依赖、传递函数依赖<BR>　　<BR>　　满足最低要求的关系称它属于第一范式，在此基础上又满足了某种条件，则称它属于第二范式的关系，依此类推直到第五范式。数据库一般使用3NF以上的关系。满足较高条件者必满足较低范式条件。<BR>　　<BR>　　一个较低范式的关系，可以通过关系的无损分解转换为若干较高级范式关系的集合，这个过程叫做关系规范化<BR>　　<BR>　　如果关系R的所有属性都是不可再分的数据项，称该关系属于第一范式。1NF<BR>　　<BR>　　第一范式缺点：数据冗余大、修改麻烦、插入异常、删除异常。<BR>　　<BR>　　若关系R属于1NF，且它的每一非主属性都完全依赖于主键，则称R属于第二范式，2NF<BR>　　<BR>　　若关系R属于2NF，且它的每一非主属性都不传递依赖于关键字，则称R属于第三范式，3NF<BR>　　<BR>　　在关系规范化中，分解关系的两条基本原则是：分解必须是无损的和分解后的关系要相互独立。<BR>　　<BR>　　关系规范化过程实质是对关系不断分解的过程，通过分解使关系逐步达到较高范式。规范化是围绕函数依赖进行的。在规范化过程中，消除部分依赖和传递依赖后，1NF变成3NF.1NF、2NF、3NF相互间是全包含关系。<BR>　　<BR>　　以下说法正确的是。A<BR>　　<BR>　　（A）一个关系就是一张二维表（B）在关系所对应的二维表中，行对应属性，列对应元组<BR>　　<BR>　　（C）笛卡儿积中不允许有相同的域（D）关系的各属性名必须与对应的域同名<BR>　　<BR>　　根据关系模式的完整性规则，一个关系中的“主键”。C<BR>　　<BR>　　（A）不能有两个（B）不能成为另一个关系的外部键（C）不允许为空（D）可以取空值<BR>　　<BR>　　关系中的最高范式为。D（A）2NF（B）3NF（C）4NF（D）5NF<BR>　　<BR>　　综合：1、计算并、差、交、选择、投影、关系笛卡尔积、连接、自然连接。2、范式关系规范化<BR>　　<BR>　　3、写出关键字4、确定范式等级<BR>　　<BR><a class="channel_keylink" href="http://www.stzikao.com" target="_blank">自考</a>365.COM社区·jennysx</p><p align='center'><b><a href='/cjbj/gxl/975_2.shtml'>上一页</a>&nbsp;&nbsp;<a href='/cjbj/gxl/975.shtml'>[1]</a>&nbsp;<a href='/cjbj/gxl/975_2.shtml'>[2]</a>&nbsp;<font color='red'>[3]</font>&nbsp;</b></p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=975"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="975" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/gxl/975.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/ggk/3619.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/ggk/3618.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/ggk/3619.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3618.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3617.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3616.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3615.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3614.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3613.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3612.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3611.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3610.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3609.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3608.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3607.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3606.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3605.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3604.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3603.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3602.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3601.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3600.shtml" target=_blank>2009年10月自考英语（一…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>自考“操作系统原理”复习资料（7）_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="自考,考“,“操,操作,作系,系统,统原,原理,理”,”复,复习,习资,资料,料（,（7,自考“操作系统原理”复习资料（7）,工学类,汕头自考网"> 
+<meta name="description" content="				　　本章考核知识点&nbsp;：1.作业和作业步&nbsp;2.作业控制方式&nbsp;3.批处理作业的调度及调度算法&nbsp;4.批处理作业的控制&nbsp;5.交互式作业的管理　　本章自学要求&nbsp;：理解计算机系统中把用户要求处理的一项工作称为一个作业，作业可" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/gxl/Index.shtml'>工学类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>自考“操作系统原理”复习资料（7）</LI>
+<LI class=date>发布日期时间：2007-7-17&nbsp;&nbsp;来源：不详 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=2623'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>
+
+				<P>　　本章考核知识点 ：1.作业和作业步 2.作业控制方式 3.批处理作业的调度及调度算法 4.批处理作业的控制 5.交互式作业的管理</p>
+<P>　　本章自学要求 ：理解计算机系统中把用户要求处理的一项工作称为一个作业，作业可分为批处理作业和交互式作业两大类；掌握操作系统是如何实现作业调度和控制作业执行的；理解作业高度与进程调度之间的关系以及各自的职责。</p>
+<P>　　本章重点 是：两种控制方式；批处理作业的调度算法。</p>
+<P>　　一、作业和作业步（ 识记 ）</p>
+<P>　　1、 作业 ：我们把用户要求计算机系统处理的一个问题称为一个“作业”</p>
+<P>　　2、 作业步 ：任何一个作业都要经过若干加工步骤才能得到结果，我们把作业的每一个加工步聚称为一个“作业步”。</p>
+<P>　　二、作业控制方式（ 领会 ）</p>
+<P>　　1、作业控制方式：把用户根据操作系统提供的手段来说明加工步聚的方式称为“作业控制方式”。 包括批处理方式和交互方式。 批处理方式　老板指着伙计说：你先去买一批货回来，然后把会议室打扫干净，接着去托儿所把我儿子接回家，不许偷懒。回头我再检查你的工作。</p>
+<P>　　交互处理方式　教官对着学员命令道：立正！学员马上就得立正。教官又命令：卧倒！学员不能不照办，如果做得不好，教官很可能让他重做。</p>
+<P>　　2、 批处理控制方式 ：也称脱机控制方式或自动控制方式。用户使用操作系统提供的“ 作业控制语言 ”对作业执行的控制意图写好一份“ 作业控制说明书 ”，连同该作业的源程序和初始数据一同提交给系统，操作系统按照用户说明的控制意图来自动控制作业的执行。这种控制方式称为“ 批处理方式 ”，把采用批处理控制方式的作业称“ 批处理作业 ”。</p>
+<P>　　3、 交互控制方式 ：也称联机控制方式。用户使用操作系统提供的“ 操作控制命令 ”来表达对作业执行的控制意图。用户通过逐条输入命令，操作系统把命令执行情况通知用户并让用户再输入下一条命令，以控制作业执行直到结束　。这种方式也适合于 终端用户 使用。采用交互控制方式的作业称为“ 交互式作业 ”。对于来自终端的作业也称为“ 终端作业 ”</p>
+<P>　　三、批处理作业的调度及调度算法（ 综合应用 ）</p>
+<P>　　1、 批处理作业 ：采用批处理控制方式的作业称为“批处理作业”</p>
+<P>　　2、批处理作业进入系统时必须提交： 源程序 、 运行时的数据、 用 作业控制语言 书写的 作业控制说明书 .</p>
+<P>　　3、批处理作业的输入：操作员只要用“ 预输入命令 ”启动 SPOOL 系统中的“ 预输入程序 ”工作就可把作业流中的作业信息存放到“ 输入井 ”中。等待系统的调度。</p>
+<P>　　4、 批处理作业调度 ：操作系统根据允许并行工作的道数和一定算法从“输入井”选取可以装入主存储器的作业。 这项工作就是“ 作业调度 ”。实现这项工作的程序就是“ 作业调度程序 ”。</p>
+<P>　　5、作业调度程序从“输入井”选取作业的 必要条件 ： 即系统现有的尚未分配的资源可以满足被选作业的资源要求。 当现有资源可以满足“输入井”中多个作业需求时，选取哪个作业取决于调度算法。</p>
+<P>　　6、常用的 作业调度算法 （ 能够用这几种算法解应用题：结合作业调度的必要条件，运用各种作业调度算法，确定作业被选取的次序以及计算作业的实际完成时间和周转时间等 .）</p>
+<P>　　先来先服务算法 ：最简单的算法，它按照作业进入“输入井”的先后次序来挑选作业，先进入的作业优先被挑选。这里要注意的是，被选中的作业首先要满足资源需求的必要条件。</p>
+<P>　　计算时间短的作业优先算法 ：要求用户对自己的作业需要计算的时间预先作出一个估计，在作业控制说明书中加以说明。作业调度时依据在输入井中的作业提出的计算时间为标准，优先选择计算时间短且资源能得到满足的作业。</p>
+<P>　　响应比最高者优先算法 ：响应比=等待时间/计算时间 计算时间短的作业容易得到较高的响应比。等时间长的也会得到较高响应比，这样可以解决计算时间长的作业总是被后推的问题。</p>
+<P>　　优先数调度算法 ：为每个作业确定一个优先数，资源能满足且优先数高的作业优先被选取，当几个作业有相同优称数时，对这些具有相同优先数的作业再按照先来先服务算法进行调度。</p>
+<P>　　均衡调度算法 ：根据作业对资源的要求进行分类，作业调度从各类作业中去挑选，尽可能地使得使用不同资源的作业同时进行执行。</p>
+<P>　　7、 作业调度 与 进程调度 各自的职责和相互间的关系。</p>
+<P>　　作业调度 的职责是把 输入井 中的作业装入 主存 ，此时系统为该作业创建一个进程，若有多个作业被装入主存储器，则同时存在多个进程。它们处于 就绪状态 （ 万事具备，只欠处理 器）。</p>
+<P>　　进程调度 的职责就是 选择 当前可占用处理器的 进程 ，进程运行中由于某种原因状态发生变化，当它让出处理器时，进程调度就再选另一个作业的进程去运行。</p>
+<P>　　二者相互配合才能实现多道作业的并行执行。</p>
+<P>　　四、批处理作业的控制（ 领会 ）</p>
+<P>　　1、按用户提交的作业控制说明书控制作业的执行。</p>
+<P>　　2、一个作业步的工作往往由多个进程的合作来完成。</p>
+<P>　　3、一个作业步的工作完成后，继续下一个作业步的作业，直至作业执行结束。</p>
+<P>　　五、交互式作业的管理 （ 领会 ）</p>
+<P>　　1、交互式作业的 特点 ： 交互式作业的特点主要表现在 交互性 上，它采用 人机对话 的方式工作。</p>
+<P>　　2、交互式作业的 控制 ：一种是 操作使用接口 ，另一种是 命令解释执行。</p>
+<P>　　操作使用接口包括</p>
+<P>　　操作控制命令</p>
+<P>　　菜单技术</p>
+<P>　　窗口技术</p>
+<P>　　命令的解释执行</p>
+<P>　　一类是操作系统中的相应处理模块直接解释执行；</p>
+<P>　　另一类必须创建用户进程去解释执行。</p>
+<P>　　3、 终端作业 的注册和注销。</p>
+<P>　　终端用户控制终端作业的执行大致有四个阶段： 终端的连接 、 用户注册 、 控制作业执行 和 用户退出。</P></p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=2623"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="2623" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/gxl/2623.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/ggk/3619.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/ggk/3618.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/ggk/3619.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3618.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3617.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3616.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3615.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3614.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3613.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3612.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3611.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3610.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3609.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3608.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3607.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3606.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3605.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3604.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3603.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3602.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3601.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3600.shtml" target=_blank>2009年10月自考英语（一…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>

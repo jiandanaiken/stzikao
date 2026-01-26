@@ -1,0 +1,321 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>《计算机网络基本原理》实践环节考核指导_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="《计,计算,算机,机网,网络,络基,基本,本原,原理,理》,》实,实践,践环,环节,节考,考核,核指,《计算机网络基本原理》实践环节考核指导,工学类,汕头自考网"> 
+<meta name="description" content="				　　一、类型　　课程实验　　二、目的与要求　　动手实践是本课程必不可少的环节，实践的目的是锻炼和培养考生的实际操作技能和解决问题的能力。考生在深刻理解计算机网络基本原理的基础上，掌握网络系统的配置" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/Index.shtml'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/gxl/Index.shtml'>工学类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>《计算机网络基本原理》实践环节考核指导</LI>
+<LI class=date>发布日期时间：2007-1-14&nbsp;&nbsp;来源：网络 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=1072'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>
+
+				<P><STRONG>　　一、类型</STRONG></p>
+<P>　　课程实验</p>
+<P><STRONG>　　二、目的与要求</STRONG></p>
+<P>　　动手实践是本课程必不可少的环节，实践的目的是锻炼和培养考生的实际操作技能和解决问题的能力。考生在深刻理解计算机网络基本原理的基础上，掌握网络系统的配置、调试和操作的过程，在实践中培养学习兴趣和分析问题、解决问题的能力。</p>
+<P><STRONG>　　三、考核环境</STRONG></p>
+<P>　　Windows 2000或Windows NT操作系统</p>
+<P><STRONG>　　四、考核内容</STRONG></p>
+<P>　　1、了解Windows2000的网络环境的使用（包括资源共享、资源搜索、网络连接、网络数据安全和访问控制等方面）。</p>
+<P>　　2、掌握基本的网络命令（Ping， Ipconfig）。</p>
+<P>　　3、理解通信协议的作用，掌握TCP/IP协议安装设置的技术细节。</p>
+<P>　　4、了解互联网的使用，掌握IE的设置。</p>
+<P>　　5、会熟练收发电子邮件。</p>
+<P><STRONG>　　五、考核时间与形式</STRONG></p>
+<P>　　考试时间为50-60分钟（含<a class="channel_keylink" href="http://www.stzikao.com/lnst/Index.html">试题</a>说明、答题和收发卷时间）。</p>
+<P>　　采用闭卷形式，通过试卷方式进行考核，考生按照试卷上的要求进行上机操作，并按照要求将相关结果写到试卷上或等待老师当场检查。</p>
+<P><STRONG>　　六、注意事项</STRONG></p>
+<P>　　1、考生应该按照试卷要求填写清楚相关信息；</p>
+<P>　　2、考生必须遵守考场规则，如果违反考场规则，一律按不及格处理；</p>
+<P>　　3、要求用钢笔或圆珠笔书写，字迹要清楚，卷面要整洁。</p>
+<P><STRONG>　　七、题型与要求</STRONG></p>
+<P>　　请参考以下样题。</p>
+<P>　　样题一</p>
+<P>　　1、请问如何将目录D：\mydocument设置为共享目录（只读）？如何取消共享？请写出具体操作步骤。</p>
+<P>　　答案：设置共享（以WindowsXP为例，其他类似）双击“我的电脑”－&gt;选中D：\mydocument－&gt;按鼠标右键弹出下拉菜单－&gt;选中菜单项“共享和安全”－&gt;选“在网络上共享这个文件夹”；填“共享名” －&gt;按“确定”。</p>
+<P>　　取消共享：双击“我的电脑”－&gt;选中D：\mydocument－&gt;按鼠标右键弹出下拉菜单－&gt;选中菜单项“共享和安全”－&gt;取消“在网络上共享这个文件夹” －&gt;按“确定”</p>
+<P>　　2、已知某台计算机（IP地址为202.112.14.112）通过局域网连接在Internet上，连接该局域网的路由器的IP地址为202.112.14.1，用户希望使用该计算机访问某Web站点：www.lucent.com， 但访问总是失败。请问：如何大概定位故障的位置？</p>
+<P>　　答案：</p>
+<P>　　（1）点击“开始”－&gt;选“运行”—&gt;填“ping 202.112.14.1”，如果能够收到回应信息说明本子网无问题，问题出在路由器以外的部分；如果超时无回应，则说明故障出在本机与路由器之间；</p>
+<P>　　（2）如果故障出在本机与路由器之间，则点击“开始”－&gt;选“运行”—&gt;填“ping 127.0.0.1”，如果无法收到回应信息说明本机TCP/IP协议安装不正确，需要重新安装；</p>
+<P>　　（3）如果可以收到回应信息说明本机TCP/IP协议安装正确，这时候检查网线接口数据灯是否闪烁，如果不闪烁，说明物理接触不好；如果数据灯闪烁，则物理连接无问题，这时候可以用本机ping本网内的其他机器，看连接是否正常。如此逐步检查，基本可以定位故障大致位置。</p>
+<P>　　（也可以用其他方法进行故障定位，只要可行就得分）</p>
+<P>　　3、某用户希望通过室内的局域网口接入Internet，已知该网口的IP地址为202.204.13.35. 网关地址为202.204.13.1，域名服务器为202.204.12.4和202.204.12.5，子网掩码为255.255.0.0.</p>
+<P>　　（1）请解释网关和域名服务器的作用</p>
+<P>　　答：网关的作用是：转发IP数据包；域名服务器的作用是：将域名转换为IP地址。</p>
+<P>　　（2）请写出用户使用PC机通过LAN接入Internet的基本步骤（如果需要购买设备，请写出这些设备的作用；如果需要安装协议软件，请写出协议参数的配置的步骤）</p>
+<P>　　答：需要购买的硬件设备包括网卡和网线，作用是实现物理层和MAC层功能，为计算机与网络的连接提供接口。</p>
+<P>　　需要安装的软件是TCP/IP协议，协议参数配置步骤如下：</p>
+<P>　　点击“开始”－&gt;选“控制面板”－&gt;选“网络和Internet” －&gt;选“网络连接”－&gt;选“本地连接”－&gt;右键“属性”－&gt;选Internet协议（TCP/IP）－&gt;选“属性”－&gt;选“使用下列IP地址”；在“IP地址”填：202.204.13.35；在“子网掩码”填：255.255.0.0；在“默认网关”填：202.204.13.1；在“域名服务器”填：202.204.12.4和202.204.12.5－&gt;“确定”－&gt;“确定”。</p>
+<P>　　4、将www.263.net设置为IE浏览器的起始主页。</p>
+<P>　　答案：运行IE浏览器－&gt;选“工具”菜单－&gt;选“Internet选项”－&gt;选“常规”－&gt;在“主页”中的“地址”中填入：www.263.net－&gt;按“使用当前页”－&gt;按“确定”</p>
+<P>　　5、收发电子邮件（请写出操作步骤）</p>
+<P>　　（1）给你自己发一封电子邮件，要求如下：</p>
+<P>　　主题：考试</p>
+<P>　　内容：我正在进行考试。</p>
+<P>　　同时将图片C：\windows\car.bmp随信发出。</p>
+<P>　　答案：将你发送电子邮件的步骤写出即可，可以使用Web方式发送，也可以使用邮件客户端软件如“Outlook”或“Foxmail”等发送。（注意：粘贴附件的步骤也要求写，如果使用邮件客户端软件发送电子邮件，则要求先写出邮件服务器的配置步骤，例如：运行“Foxmail”－&gt;选“帐户”－&gt;选“新建”－&gt;“下一步”－&gt;填“用户名”：张三－&gt;“下一步”－&gt;填“发送者姓名”：张三 和“邮件地址”：zhangsan@263.net－&gt;“下一步”－</p><p align='center'><b><font color='red'>[1]</font>&nbsp;<a href='/cjbj/gxl/1072_2.shtml'>[2]</a>&nbsp;<a href='/cjbj/gxl/1072_2.shtml'>下一页</a> </b></p>
+<!--#include File="/wzad.html"--> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=1072"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="1072" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank"><img class='pic1' src='/Article/UploadFiles/200909/2009093015334028_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3551.shtml" title="广东2010年自学考试课程安排表" target="_blank">广东2010年自学考试课程</a></td><td align='center'><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank"><img class='pic1' src='/Article/UploadFiles/200806/2008061210402790_S.gif'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/2970.shtml" title="2008年10月公共政治课改革完全解析" target="_blank">2008年10月公共政治课改</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009101301050608_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3565.shtml" title="广东省2009年10月自考使用计算器课程通知" target="_blank">广东省2009年10月自考使</a></td><td align='center'><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank"><img class='pic1' src='/Article/UploadFiles/200910/2009100521574463_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/3562.shtml" title="广东省2009年10月自学考试考生考籍数据更正办理办法" target="_blank">广东省2009年10月自学考</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/gxl/1072.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/ggk/3619.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/ggk/3618.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2009年10月自考马克思…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/ggk/3619.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3618.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3617.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3616.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3615.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3614.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3613.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3612.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3611.shtml" target=_blank>2009年10月自考马克思主…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3610.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3609.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3608.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3607.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3606.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3605.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3604.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3603.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3602.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3601.shtml" target=_blank>2009年10月自考英语（一…</A></LI> 
+<LI>·<A href="/cjbj/ggk/3600.shtml" target=_blank>2009年10月自考英语（一…</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>
