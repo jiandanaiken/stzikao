@@ -267,40 +267,37 @@
         </div>
         <div class=main_mainbar4_body><center>距离2026年10月22日考试仅<BR><BR>
         <script>
-    // ===== 显示当前日期（调用date.js的函数）=====
-    const dateEl = document.getElementById('current-date');
-    if (dateEl) {
-      dateEl.textContent = getCurrentChineseDate(); // 用textContent更安全
-    }
-
-    // ===== 倒计时逻辑（独立无冲突）=====
-    (function() {
-      try {
-        // 当前时间
-        const now = new Date();
-        // 目标日期：2026年4月11日（月份0开始，4月=3）
-        const target = new Date(2026, 3, 11);
-        // 计算剩余毫秒数
-        const timeDiff = target.getTime() - now.getTime();
-        // 转换为天数（向下取整）
-        const daysLeft = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-
-        // 显示倒计时
-        const countdownEl = document.getElementById('countdown-days');
-        if (countdownEl) {
-          if (daysLeft > 0) {
-            countdownEl.innerHTML = '<b><font color=red size=9 face="arial black">' + daysLeft + '</font></b>';
-          } else if (daysLeft === 0) {
-            countdownEl.innerHTML = '今天举行哦！';
-          } else {
-            countdownEl.innerHTML = '正在举行哦！';
-          }
+    // 倒计时JS代码（放在date.js之后）
+(function() {
+    // 避免变量污染，兼容date.js
+    // 强制使用原生Date，防止date.js篡改
+    const NativeDate = window.Date;
+    
+    try {
+        // 获取当前时间
+        const mydate = new NativeDate();
+        // 目标日期：2026年4月11日（月份从0开始，4月=3）
+        const urodz = new NativeDate(2026, 3, 11);
+        
+        // 计算时间差（毫秒）
+        const timeDiff = urodz.getTime() - mydate.getTime();
+        // 计算剩余天数（向下取整，确保准确）
+        const dni = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+        
+        // 保留原有的document.write输出方式，不改动HTML
+        if (dni > 0) {
+            document.write("<b><font color=red size=9 face='arial black'>"+dni+"</font></b>");
+        } else if (dni === 0) {
+            document.write("今天举行哦！");
+        } else {
+            document.write("正在举行哦！");
         }
-      } catch (e) {
-        console.error('倒计时出错：', e);
-        document.getElementById('countdown-days').textContent = '加载失败';
-      }
-    })();
+    } catch (e) {
+        // 出错时提示，不影响页面其他内容
+        document.write("加载中...");
+        console.error("倒计时计算错误：", e);
+    }
+})();
   </script>
             </script>天<BR><BR>新生可参加2026年4月大考</td></center>
         </div>
@@ -772,6 +769,7 @@
 </div>
 </body>
 </html>
+
 
 
 
