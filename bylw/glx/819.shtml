@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>论公司战略的财务评估_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="战略管理会计的本质研究和特点分析,论公司战略的财务评估,管理类,汕头自考网"> 
+<meta name="description" content="公司战略对于一个公司而言是至关重要的&nbsp;,无论从生存考虑还是从发展考虑都是如此。而同时&nbsp;,恐怕没有人会否认&nbsp;,财务对于一个公司的成功与否也是非常关键的。先不说任何项目、任何部门事先的预算、事中的控制以及事后的" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script src="/JS/prototype.js"></script>
+<script src="/JS/scriptaculous.js"></script>
+<script src="/JS/checklogin.js"></script>
+<link href='/Skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<!--#include File="/WZtop.html"--> 
+<!--#include File="/header.html"--> 
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='http://www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/bylw/Index.shtml'>毕业论文</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/bylw/glx/Index.shtml'>管理类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/AD/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>论公司战略的财务评估</LI>
+<LI class=date>发布日期时间：2006-12-19&nbsp;&nbsp;来源：毕业论文 &nbsp;&nbsp;点击数：<script language='javascript' src='/bylw/GetHits.asp?ArticleID=819'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/AD/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>公司战略对于一个公司而言是至关重要的&nbsp;,无论从生存考虑还是从发展考虑都是如此。而同时&nbsp;,恐怕没有人会否认&nbsp;,财务对于一个公司的成功与否也是非常关键的。先不说任何项目、任何部门事先的预算、事中的控制以及事后的考评都离不开财务&nbsp;,公司战略的选择与决策本身也要以财务分析与评估的结论为依据。所以&nbsp;,财务分析与评估的方法将直接关系到公司战略决策的质量以至成败。本文试图将期权评估的方法应用于公司战略的评估与决策&nbsp;,作为一种不同于传统财务方法的新尝试。<BR>一、传统的财务评估<BR>&nbsp;&nbsp;&nbsp;&nbsp;传统的财务评估方法有很多&nbsp;,例如年投资回报率法、投资回收期法、内部收益率法、净现值法&nbsp;,以及作为辅助方法的敏感性分析等。其中&nbsp;,最完善的做法莫过于利用经过风险调整的现金流量或资金成本率计算净现金&nbsp;,如果净现值大于&nbsp;0&nbsp;,说明方案可行&nbsp;,在此基础上再做敏感性分析。这也是长期以来战略财务评估流行的做法。<BR>&nbsp;&nbsp;&nbsp;&nbsp;这一方法考虑了战略方案形成现金流量的时间价值和风险&nbsp;,这是其有别于年投资回报率、投资回收期等方法的优点。但同时&nbsp;,这一方法与所有传统的方法一样&nbsp;,也存在严重的局限性。下面通过一个例子说明。同时&nbsp;,我们将用同一个例子演示期权评估的方法&nbsp;,以便于读者对两种决策过程和结果做出对比。<BR>[例&nbsp;]Ｈ公司是一家从事计算机软、硬件开发、生产、销售的中型企业&nbsp;,经过&nbsp;10年的发展&nbsp;,形成了一定的财力和知名度。高层经理与技术专家经过多次讨论&nbsp;,对未来&nbsp;10_&nbsp;20年中国市场需求结构与演化趋势取得了较为一致的看法。根据本公司的技术与财力基础&nbsp;,认为公司应该尽快进入家用电器&nbsp;(视听设备&nbsp;)领域&nbsp;,依靠领先进入和技术方面的优势&nbsp;,抢占未来信息家电行业的领先地位。公司内部将这一战略称为“蛙跳战略”。<BR>&nbsp;&nbsp;&nbsp;&nbsp;在进入的突破口和进入方式的选择上&nbsp;,考虑到目前公司的财力和进入的紧迫性&nbsp;,高层经理认为收购一个中等规模的ＶＣＤ企业是最佳选择。原因主要在于&nbsp;:ＶＣＤ行业的竞争已经趋于白热化&nbsp;,其市场前景普遍地不被看好&nbsp;,而一个中等规模的ＶＣＤ企业的前景简直可以说是“不妙”。在这种情况下&nbsp;,这样的ＶＣＤ企业的市场价格可以说已经接近“谷底”。同时&nbsp;,公司高层经理普遍认为&nbsp;,目前ＶＣＤ的市场并没有做透&nbsp;,换句话说&nbsp;,ＶＣＤ并未真正达到市场饱和&nbsp;(分析略&nbsp;),在ＤＶＤ产品大规模上市之前&nbsp;,收购企业的ＶＣＤ生产本身有希望全部或接近于全部收回投资。当然&nbsp;,ＶＣＤ生产本身是否赚钱并不很重要&nbsp;,最为重要的是它可以作为本公司实现“蛙跳战略”的“跳板”&nbsp;,而通过企业收购进入ＶＣＤ行业是进入这一新行业的最为快捷的方法。<BR>&nbsp;&nbsp;&nbsp;&nbsp;按照公司的战略&nbsp;,在踏上这一跳板后&nbsp;,在取得相关<a class="channel_keylink" href="http://www.stzikao.com/fxzd/jyjl/Index.html" target="_blank">经验</a>的基础上&nbsp;,至少有两件事可以考虑&nbsp;:(1&nbsp;)在适当的时机及时购置ＤＶＤ生产技术和生产线&nbsp;,上马ＤＶＤ&nbsp;,利用并扩大公司ＶＣＤ的经销网络&nbsp;,力争使公司的ＤＶＤ成为知名品牌。&nbsp;(2&nbsp;)在适当的时机及时购置数字化电视生产技术&nbsp;,并利用本企业的技术优势进行深度开发&nbsp;,使本企业的数字化电视在质量、性能及生产成本方面取得竞争优势&nbsp;,成为国内数字化电视的第一品牌。从而&nbsp;,数字化电视普遍取代普通电视之时就是本公司蛙跳战略成功之日。<BR>&nbsp;&nbsp;&nbsp;&nbsp;现在的时间是&nbsp;1999年&nbsp;,即公司投资ＶＣＤ的时间&nbsp;;专家估计&nbsp;,合适的投资ＤＶＤ的时间为&nbsp;2002年&nbsp;,合适的数字化电视生产技术购置时间为&nbsp;2003年&nbsp;,本公司研究开发期为&nbsp;2年&nbsp;,生产线购置时间为&nbsp;2005年。假定所有现金流量都是从生产线购置的第二年开始产生&nbsp;,专家估计的有关投资及现金流量数据如下&nbsp;(为避免繁琐的说明&nbsp;,已经将原始数据简化&nbsp;):<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;公司根据长期<a class="channel_keylink" href="http://www.stzikao.com/fxzd/jyjl/Index.html" target="_blank">经验</a>&nbsp;,将经过风险调整的ＶＣＤ投资和ＤＶＤ投资的资金成本率确定为2&nbsp;0&nbsp;%,数字化电视投资的资金成本率确定为30&nbsp;%。<BR>计算净现金流量的总现值&nbsp;,即净现值为&nbsp;:<BR><BR>&nbsp;以投资时为基准时间和以当期时间为基准时间计算的ＤＶＤ投资的净现值都为负值&nbsp;,说明ＤＶＤ投资本身不可行。ＮＰＶ&nbsp;(数字化电视&nbsp;)(以&nbsp;2&nbsp;0&nbsp;0&nbsp;3年为基准时间&nbsp;)<BR><BR>&nbsp;&nbsp;&nbsp;以投资时为基准时间和以当前时间为基准时间计算的数字化电视投资的净现值都为负值&nbsp;,说明数字化电视投资本身不可行。ＶＣＤ投资是公司蛙跳战略实施的前提&nbsp;,而ＤＶＤ和数字化电视投资则是公司蛙跳战略的展开。在没有更好的投资机会可供考虑的情况下&nbsp;,如果如上述计算所显示的&nbsp;,三项投资的净现值都为负值&nbsp;,则公司的蛙跳战略无法实现。<BR>当然&nbsp;,这是传统财务分析方法的结论。<BR>二、期权的方法<BR>&nbsp;&nbsp;&nbsp;&nbsp;上述传统的财务分析忽略了一个基本事实&nbsp;;对于公司蛙跳战略而言&nbsp;,是否投资ＶＣＤ必须尽快决定&nbsp;,否则&nbsp;,战略机会的损失是无可挽回的&nbsp;;但是&nbsp;,ＤＶＤ和数字化电视投资则是&nbsp;3年和&nbsp;4年以后的事情&nbsp;,公司自然可以根据自身和环境类似&nbsp;,我们的总体战略是农村包围城市&nbsp;,但具体每场战斗是打还是退、是攻还是守则要到时候见机行事。<BR>&nbsp;&nbsp;&nbsp;&nbsp;具体而言&nbsp;,到第&nbsp;3年和第&nbsp;4年时&nbsp;,ＤＶＤ和数字化电视所需的投资和将产生的未来现金流量都会与当前专家测算的数据不同&nbsp;,通常&nbsp;,随着时间的临近&nbsp;,投资成本和市场前景都会更加明朗&nbsp;,因而数据更加准确。公司完全可以根据实际情况做出最为有利的决策。比如说ＤＶＤ&nbsp;,如果到第&nbsp;3年根据最新的数据计算的ＮＰＶ大于&nbsp;0&nbsp;,则投资&nbsp;;否则&nbsp;,就放弃。也就是说&nbsp;,无论是ＤＶＤ&nbsp;,还是数字化电视&nbsp;,其投资时ＮＰＶ的期望值肯定会大于&nbsp;0&nbsp;(因为有大于&nbsp;0的可能性投资&nbsp;,也有等于&nbsp;0的可能性放弃&nbsp;,但没有小于&nbsp;0的可能性&nbsp;)。既然ＤＶＤ和数字化电视在其投资时ＮＰＶ的期望值肯定大于&nbsp;0&nbsp;,那么这一期望值经过折现的现值也肯定大于&nbsp;0。<BR>&nbsp;&nbsp;&nbsp;&nbsp;换句话说&nbsp;,ＶＣＤ投资为公司争得是ＤＶＤ和数字化电视的投资机会&nbsp;,这两个机会本身是赚钱的机会&nbsp;,其价值不可能为负值。这一机会的价值如图&nbsp;1所示&nbsp;:<BR><BR>&nbsp;在图&nbsp;1中&nbsp;,投资价值即为投资所产生的未来现金流量&nbsp;(不包括初始投资&nbsp;)的总现值&nbsp;;机会价值则是投资价值与投资成本&nbsp;(即初始投资&nbsp;)之差&nbsp;,当投资价值小于或等于初始投资时&nbsp;,机会价值为&nbsp;0&nbsp;,当投资价值大于初始投资时&nbsp;,机会价值大于&nbsp;0&nbsp;(此时&nbsp;,机会价值即为投资的净现值&nbsp;)。<BR>图&nbsp;1表明&nbsp;,机会的价值实际上是以初始投资为约定价格的一个买方期权。其标的物为投资项目的价值。如上述ＤＶＤ和数字化电视投资的价值。<BR>&nbsp;&nbsp;&nbsp;&nbsp;期权&nbsp;(Ｏｐｔｉｏｎ)是这样一种权利&nbsp;,其持有人在规定的时间有权力但不负有义务&nbsp;(可以但不是必须&nbsp;)接约定的价格买或卖某项物品或某种标的资产或物品。如果持有人有按约定的价格买的权力&nbsp;,则称为买方期权&nbsp;(ＣａｌｌＯｐｔｉｏｎ)。标准买方期权的到期内在价值线的情形与上述机会价值线的情形完全相同。按照价值评估的折现现金流量方法&nbsp;,到期内在价值是确定资产或机会当前市场价值的基础&nbsp;,在风险大小相同的情况下&nbsp;,相同的到期内在价值及其概率分布会导致相同的当前市场价值。因而&nbsp;,我们可以利用期权的价值评估方法估算上述机会的当前价值。<BR>&nbsp;&nbsp;&nbsp;&nbsp;迄今为止&nbsp;,对于期权价值估算的较为成熟的方法有两种&nbsp;:其一是以考克斯&nbsp;(Ｃｏｘ)、罗斯(Ｒｏｓｓ)、鲁宾斯坦&nbsp;(Ｒｕｂｉｎｓｔｅｉｎ)等为代表的二项树估价模型&nbsp;;其二是费雪·布莱克&nbsp;(Ｆｉｓｃｈ&nbsp;ｅｒＢｌａｃｋ)和梅隆·舒尔斯&nbsp;(ＭｙｒｏｎＳｃｈｏｌｅｓ)(国内有译为梅隆·斯科尔斯&nbsp;)创立的布莱克舒尔斯模型。下面不妨借助于布莱克舒尔斯模型估算上述ＤＶＤ和数字化电视投资机会的价值。<BR>三、布莱克舒尔斯模型<BR>&nbsp;&nbsp;&nbsp;&nbsp;以Ｃ表示买方期权的价值&nbsp;,Ｐ表示卖方期权的价值。布莱克舒尔斯模型如<BR><BR>&nbsp;其中&nbsp;,Ｓ是期权标的物&nbsp;(此外为相应投资&nbsp;)的当前价值&nbsp;;Ｘ是期权的约定价格&nbsp;:ｒ是无风险年利率&nbsp;;Ｔ是期权到期期限&nbsp;(年&nbsp;)。Ｎ&nbsp;(ｄ1&nbsp;)和Ｎ&nbsp;(ｄ2&nbsp;)分别表示在正态分布下&nbsp;,变量小于ｄ1和ｄ2时的累计概率&nbsp;,ｄ1和ｄ2的取值如下&nbsp;:<BR><BR>&nbsp;其中&nbsp;,σ在本文中为投资价值相对变动的年标准差。通常&nbsp;,σ取值在&nbsp;0&nbsp;2_&nbsp;0&nbsp;4之间。假定专家估计ＤＶＤ的σ为&nbsp;35%,数字化电视的σ为&nbsp;30&nbsp;%。ｒ可以理解为不冒任何风险就可以取得的投资收益率&nbsp;,以下假定为&nbsp;5%。用期权的概念来定义&nbsp;,ＤＶＤ投资机会的价值等同于一个期限为&nbsp;3年&nbsp;,约定价格为2&nbsp;40&nbsp;0万元&nbsp;,标的物当前价值为&nbsp;1&nbsp;36&nbsp;1&nbsp;0&nbsp;8万元的买方期权的价值。<BR>即&nbsp;:σ&nbsp;=35%,Ｔ&nbsp;=3,Ｓ&nbsp;=1&nbsp;36&nbsp;1&nbsp;0&nbsp;8,Ｘ&nbsp;=240&nbsp;0&nbsp;,ｒ&nbsp;=5%。<BR>根据布莱克舒尔斯模型计算如下&nbsp;:<BR>ｄ1&nbsp;=-0&nbsp;3851&nbsp;;Ｎ&nbsp;(ｄ1&nbsp;)=0&nbsp;350&nbsp;2<BR>ｄ2&nbsp;=-0&nbsp;991&nbsp;3;Ｎ&nbsp;(ｄ2&nbsp;)=0&nbsp;1&nbsp;6&nbsp;0&nbsp;8<BR>Ｃ&nbsp;=1&nbsp;44&nbsp;486&nbsp;(万元&nbsp;)<BR>数字化电视投资机会的价值等同于一个期限为&nbsp;4年&nbsp;,约定价格为&nbsp;2&nbsp;91&nbsp;7&nbsp;1&nbsp;6万元&nbsp;,标的物当前价值为&nbsp;1&nbsp;0&nbsp;0&nbsp;3&nbsp;0&nbsp;4万元的买方期权的价值。<BR>即&nbsp;:σ&nbsp;=30&nbsp;%;Ｔ&nbsp;=4,Ｓ&nbsp;=1&nbsp;0&nbsp;0&nbsp;3&nbsp;0&nbsp;4,Ｘ&nbsp;=291&nbsp;7&nbsp;1&nbsp;6&nbsp;,ｒ=5%。<BR>根据布莱克舒尔斯模型计算如下&nbsp;:<BR>ｄ1&nbsp;=-1&nbsp;1&nbsp;46&nbsp;;Ｎ&nbsp;(ｄ1&nbsp;)=0&nbsp;1&nbsp;2&nbsp;59<BR>ｄ2&nbsp;=-1&nbsp;746&nbsp;;Ｎ&nbsp;(ｄ2&nbsp;)=0&nbsp;0&nbsp;40&nbsp;4<BR>Ｃ&nbsp;=2&nbsp;9&nbsp;793(万元&nbsp;)<BR>ＤＶＤ和数字化电视的投资机会的价值分别为&nbsp;1&nbsp;44&nbsp;486万元和&nbsp;2&nbsp;9&nbsp;793万元。<BR>四、期权方法的结论<BR>&nbsp;&nbsp;&nbsp;&nbsp;如果开始实施蛙跳战略&nbsp;,就要投资ＶＣＤ&nbsp;,其投资支出为&nbsp;1&nbsp;0&nbsp;0&nbsp;0万元&nbsp;;所得有三项&nbsp;:项目本身价值&nbsp;984&nbsp;1&nbsp;5万元&nbsp;,ＤＶＤ投资机会的价值为&nbsp;1&nbsp;44&nbsp;486万元和数字化电视投资机会的价值2&nbsp;9&nbsp;793万元。因而&nbsp;,蛙跳战略的总净现值为&nbsp;:<BR>-1&nbsp;0&nbsp;0&nbsp;0&nbsp;+984&nbsp;1&nbsp;5+1&nbsp;44&nbsp;486&nbsp;+2&nbsp;9&nbsp;793=1&nbsp;58&nbsp;42&nbsp;9(万元&nbsp;)<BR>总净现值大于&nbsp;0&nbsp;,说明蛙跳战略可行。<BR>五、总结<BR>从上述实例分析中&nbsp;,我们至少可以直接得出以下两点结论&nbsp;:<BR>第一&nbsp;,传统财务评估存在局限性。这种局限性源于其忽略或否定了决策者对一个战略所涉及的后续投资的灵活处理&nbsp;,实际是忽略或否定了起码的企业家才能。在这样的前提下做出的分析当然会在大大降低一个战略的实际价值&nbsp;,从而错误地否定了本来是可行的战略&nbsp;,从而也就不可避免地使企业失去许多宝贵的战略机会。<BR>第二&nbsp;,期权的方法完全可以突破传统财务评估这种源于假设前提的局限&nbsp;,是一种更为合理的战略财务评估的方法。具体而言&nbsp;,一个战略的实施意味着许多的后续投资机会&nbsp;,期权的方法是将这些投资机会真正当作“机会”来评估&nbsp;,而传统财务无法评估未来的机会。<BR>六、期权方法的应用价值<BR>&nbsp;&nbsp;&nbsp;&nbsp;一提到期权&nbsp;,许多人都会说它是一种衍生金融工具。这样说并没有什么错。自从本世纪70年代标准期权合约问世以来&nbsp;,期权在国际金融市场上呼风唤雨&nbsp;,独领风骚&nbsp;,以致于作为衍生金融工具的期权成为人们心目中期权的全部。然而&nbsp;,期权并不仅仅是指一种衍生金融工具。<BR>&nbsp;&nbsp;&nbsp;&nbsp;期权的英文为ｏｐｔｉｏｎ&nbsp;,ｏｐｔｉｏｎ可以翻译为期权&nbsp;,也可以翻译为选择权。在西方&nbsp;,ｏｐｔｉｏｎ就是有时候代表衍生金融工具&nbsp;,称为金融期权(ｆｉｎａｎｃｉａｌｏｐｔｉｏｎ),有时候代表现实的选择权&nbsp;,称为实物期权&nbsp;(ｒｅａｌｏｐｔｉｏｎ)。<BR>&nbsp;&nbsp;&nbsp;&nbsp;近&nbsp;20年来&nbsp;,西方期权理论的发展日新月异&nbsp;,期权应用研究也是紧随其后。由于期权理论的应用&nbsp;,传统财务的许多难题得以解决&nbsp;,许多局限得以突破&nbsp;,财务理论与方法&nbsp;(包括投资、筹资分析&nbsp;,资产与公司价值评估&nbsp;,风险管理与控制&nbsp;,购并机会研究等等&nbsp;)的面貌为之一新。&nbsp;1&nbsp;997年&nbsp;,有关期权定价的研究使两位美国经济学获得诺贝尔经济学奖&nbsp;,也使得西方“热了”&nbsp;2&nbsp;0多年的期权及其应用研究进一步升温。<BR>&nbsp;&nbsp;&nbsp;&nbsp;期权理论产生于本世纪&nbsp;70年代&nbsp;,在此之前&nbsp;,人们无法准确估算面临的大大小小的期权(机会、灵活性等&nbsp;)的价值。比如&nbsp;,在净现值相同的情况下&nbsp;,人们会正确地判断出有灵活性的方案更好。但是&nbsp;,如果有灵活性方案的净现值略小于另外的方案&nbsp;,又如何判断方案的优劣呢&nbsp;?在这种情况下&nbsp;,个人的<a class="channel_keylink" href="http://www.stzikao.com/fxzd/jyjl/Index.html" target="_blank">经验</a>判断无异于碰运气&nbsp;,决策失误也就在所难免。只有在期权理论产生之后&nbsp;,对这些实物期权的价值才能做数量的估算。而只有能从数量上把握这些无形的机会和权利&nbsp;,我们才能更好地利用它们。作为一种现实的选择权&nbsp;,从古至今&nbsp;,期权是无处不在的。特别是在涉及战略和投资的问题上&nbsp;,人们目前的决策总是会影响未来一定时间选择权及其价值的增减。在投资和回报都相同的情况下&nbsp;,人们更愿意选择那些有某种灵活性的项目&nbsp;,这实际上是因为这种灵活性本身即是一种期权&nbsp;,而这种期权当然是有价值的。有些人舍弃眼下的利益&nbsp;,而宁可先赔后赚&nbsp;,这实际上是在争取未来更有利的期权。其实&nbsp;,不仅仅微观单位的战略会涉及未来种种的期权变化&nbsp;,中观的行业和地区&nbsp;(城市&nbsp;)以至宏观的整个国民经?&nbsp;梅⒄拐铰砸采婕爸诙嗟钠谌ㄎ侍?nbsp;,如开发区的前期投资与随后的发展机会之间的比较&nbsp;,城市、行业基础设施建设与随后的经济发展空间扩展之间的比较&nbsp;,基础或瓶颈产业的投资的评估&nbsp;,环境保护投资的评估等等。实物期权存在的普遍性说明了期权原理的广泛应用价值。<BR>&nbsp;&nbsp;&nbsp;&nbsp;从微观经营角度看&nbsp;,我们已经进入世界性的微利时代。在这样的时代&nbsp;,公司需要在微薄的利润空间做精确的战略选择&nbsp;,一次战略机会的损失就可能导致公司一蹶不振&nbsp;,一次战略决策的失误就可能导致公司一败涂地。无疑&nbsp;,中观和宏观战略决策的失误造成的损失会更为惨重&nbsp;,影响也更为深远。战略决策正确性的保证&nbsp;,不是权威的说教&nbsp;,不是过时的<a class="channel_keylink" href="http://www.stzikao.com/fxzd/jyjl/Index.html" target="_blank">经验</a>&nbsp;,也不是冗长的文字说明&nbsp;,更不是胆大妄为的下赌&nbsp;,而是依据客观可靠的数据&nbsp;,利用合理科学的方法做出的定量分析与结论。从这层意义上讲&nbsp;,期权的方法为我们提供了一种不可多得的战略分析与决策的定量工具。<BR><BR></p> 
+<!--#include File="/wzad.html"-->
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/bylw/Comment.asp?Action=JS&CommentNum=6&ArticleID=819"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/bylw/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="819" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐毕业论文 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><img class='pic1' src='/images/nopic.gif' width='130' height='90' border='0'><br>没有任何图片毕业论文</td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/bylw/glx/819.shtml" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门毕业论文
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/bylw/fxl/3535.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">专家谈如何准备自考法…</SPAN></A></td> 
+      <td align=middle><A href="/bylw/xml/3103.shtml" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">深刻理解科学发展观的…</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/bylw/fxl/3535.shtml" target=_blank>专家谈如何准备自考法律…</A></LI> 
+<LI>·<A href="/bylw/xml/3103.shtml" target=_blank>深刻理解科学发展观的精…</A></LI> 
+<LI>·<A href="/bylw/xml/3102.shtml" target=_blank>对提高会计信息质量的认…</A></LI> 
+<LI>·<A href="/bylw/xml/3101.shtml" target=_blank>办公室狐狸眼里的职场菜…</A></LI> 
+<LI>·<A href="/bylw/xml/3100.shtml" target=_blank>笑看古代版办公室风云</A></LI> 
+<LI>·<A href="/bylw/xml/3099.shtml" target=_blank>办公室友谊就是这样的不…</A></LI> 
+<LI>·<A href="/bylw/xml/3098.shtml" target=_blank>职场物语：世故圆滑不如…</A></LI> 
+<LI>·<A href="/bylw/xml/3097.shtml" target=_blank>职场上什么人最成功？</A></LI> 
+<LI>·<A href="/bylw/xml/3096.shtml" target=_blank>经济学本科毕业论文辅导</A></LI> 
+<LI>·<A href="/bylw/xml/3095.shtml" target=_blank>对国拨项目资金实行县级…</A></LI> 
+<LI>·<A href="/bylw/xml/3094.shtml" target=_blank>论公共财政框架下我国行…</A></LI> 
+<LI>·<A href="/bylw/xml/3093.shtml" target=_blank>借鉴西方经验　建立我国…</A></LI> 
+<LI>·<A href="/bylw/xml/3092.shtml" target=_blank>我国地方国债发行问题浅…</A></LI> 
+<LI>·<A href="/bylw/xml/3091.shtml" target=_blank>推进依法理财建设法治财…</A></LI> 
+<LI>·<A href="/bylw/xml/3090.shtml" target=_blank>21世纪中国证券业将继续…</A></LI> 
+<LI>·<A href="/bylw/xml/3089.shtml" target=_blank>浅析“学习型组织”</A></LI> 
+<LI>·<A href="/bylw/xml/3088.shtml" target=_blank>企业所得税扣除项目及税…</A></LI> 
+<LI>·<A href="/bylw/xml/3087.shtml" target=_blank>论促进风险投资的税收政…</A></LI> 
+<LI>·<A href="/bylw/xml/3086.shtml" target=_blank>一九××年六月份经济分…</A></LI> 
+<LI>·<A href="/bylw/xml/2038.shtml" target=_blank>谁能成为大赢家</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+<!--#include File="/buttom.html"--> 
+<div>
+</div>
+</body>
+</html>
