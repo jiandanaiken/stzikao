@@ -1,27 +1,21 @@
-var day="";
-var month="";
-var ampm="";
-var ampmhour="";
-var myweekday="";
-var year="";
-mydate=new Date();
-myweekday=mydate.getDay();
-mymonth=mydate.getMonth()+1;
-myday= mydate.getDate();
-myyear= mydate.getYear();
-year=(myyear > 200) ? myyear : 1900 + myyear;
-if(myweekday == 0)
-weekday=" ������ ";
-else if(myweekday == 1)
-weekday=" ����һ ";
-else if(myweekday == 2)
-weekday=" ���ڶ� ";
-else if(myweekday == 3)
-weekday=" ������ ";
-else if(myweekday == 4)
-weekday=" ������ ";
-else if(myweekday == 5)
-weekday=" ������ ";
-else if(myweekday == 6)
-weekday=" ������ ";
-document.write(year+"��"+mymonth+"��"+myday+"�� "+weekday);
+// 统一使用UTF-8编码，修复变量/年份/中文显示问题
+const mydate = new Date();
+const myweekday = mydate.getDay();
+const mymonth = mydate.getMonth() + 1; // 月份从0开始，需+1
+const myday = mydate.getDate();
+const year = mydate.getFullYear(); // 替代废弃的getYear()，直接获取完整年份
+
+// 定义中文星期（UTF-8编码）
+const weekdayMap = [
+  "星期日",
+  "星期一",
+  "星期二",
+  "星期三",
+  "星期四",
+  "星期五",
+  "星期六"
+];
+const weekday = weekdayMap[myweekday];
+
+// 输出格式化日期（避免直接document.write，推荐更灵活的方式）
+document.write(`${year}年${mymonth}月${myday}日 ${weekday}`);
