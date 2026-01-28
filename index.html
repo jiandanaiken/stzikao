@@ -153,9 +153,9 @@
   // 原生JS轮播实现（替代Flash）
   (function() {
     // 解析原有数据为数组
-    const imgarr = images.split('|');
-    const linkarr = links.split('|');
-    const textarr = texts.split('|');
+    const imgArr = images.split('|');
+    const linkArr = links.split('|');
+    const textArr = texts.split('|');
     const container = document.getElementById('flashNewsContainer');
     
     // 创建轮播列表
@@ -183,7 +183,7 @@
 
     // 自动轮播逻辑
     let currentIndex = 0;
-    const items = document.querySelectorall('.flash-news-item');
+    const items = document.querySelectorAll('.flash-news-item');
     const total = items.length;
     
     function switchSlide() {
