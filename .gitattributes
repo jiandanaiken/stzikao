@@ -1,9 +1,4 @@
-# 指定所有 ASP/HTML/JS/CSS 文件以 GB2312 编码解析（适配你的整站编码）
+# 仅指定ASP/HTML/HTM文件为GB2312编码，其他文件默认UTF-8
 *.asp text encoding=GB2312
 *.html text encoding=GB2312
 *.htm text encoding=GB2312
-*.js text encoding=GB2312
-*.css text encoding=GB2312
-# 其他文件按默认 UTF-8 解析（可选）
-*.md text encoding=UTF-8
-*.txt text encoding=UTF-8
