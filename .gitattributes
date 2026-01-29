@@ -2,3 +2,5 @@
 *.html text working-tree-encoding=gbk
 *.css text working-tree-encoding=gbk
 *.js text working-tree-encoding=gbk
+# 针对报错的特定文件，禁用转码规则
+article/xsbd/3824.html -text
