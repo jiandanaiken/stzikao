@@ -1,4 +1,4 @@
-# 仅指定ASP/HTML/HTM文件为GB2312编码，其他文件默认UTF-8
-*.asp text encoding=GB2312
-*.html text encoding=GB2312
-*.htm text encoding=GB2312
+# 告诉 Git 所有的 HTML、CSS、JS 文件在本地是 gb2312，但在仓库里存为 utf-8
+*.html text working-tree-encoding=gb2312
+*.css text working-tree-encoding=gb2312
+*.js text working-tree-encoding=gb2312
