@@ -1,1 +1,0 @@
-document.write("<li>此栏目下没有历年试题</li>");
