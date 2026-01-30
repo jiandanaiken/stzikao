@@ -1,1 +1,1 @@
-document.write("<table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><img class='pic1' src='http://www.stzikao.com/images/nopic.gif' width='65' height='45' border='0'><br>娌℃湁浠讳綍鍥剧墖姣曚笟璁烘枃</td></tr></table>");
+document.write("<table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><img class='pic1' src='http://www.stzikao.com/images/nopic.gif' width='65' height='45' border='0'><br>没有任何图片毕业论文</td></tr></table>");

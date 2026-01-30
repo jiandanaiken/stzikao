@@ -1,1 +1,1 @@
-document.write("<li>姝ゆ爮鐩笅娌℃湁鍘嗗勾璇曢</li>");
+document.write("<li>此栏目下没有历年试题</li>");

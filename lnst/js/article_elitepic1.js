@@ -1,1 +1,1 @@
-document.write("<table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><img class='pic1' src='/images/nopic.gif' width='65' height='45' border='0'><br>娌℃湁浠讳綍鍥剧墖鍘嗗勾璇曢</td></tr></table>");
+document.write("<table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><img class='pic1' src='/images/nopic.gif' width='65' height='45' border='0'><br>没有任何图片历年试题</td></tr></table>");

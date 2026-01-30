@@ -1,15 +1,15 @@
 //********************************************************************************
-//** ä¸€é”®è½¬è½½æ–‡ç« åˆ°æ–°æµªå¾®åšå’Œè…¾è®¯å¾®åš
+//** Ò»¼ü×ªÔØÎÄÕÂµ½ĞÂÀËÎ¢²©ºÍÌÚÑ¶Î¢²©
 //** 
-//** æ½®æ±•ç½‘
+//** ³±ÉÇÍø
 //** http://www.chaoshanw.cn/
 //********************************************************************************
 
 
 
 document.writeln("<CENTER>")
-document.writeln("åˆ†äº«è¿™ç¯‡æ–‡ç« :")
-document.writeln("<a href=\"javascript:void((function(s,d,e){try{}catch(e){}var f='http:\/\/v.t.sina.com.cn\/share\/share.php?',u=d.location.href,p=['url=',e(u),'&title=',e(d.title),'&appkey=2419632877'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)\/2,',top=',(s.height-450)\/2].join('')))u.href=[f,p].join('');};if(\/Firefox\/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));\" style=\"background:url(http:\/\/t.sina.com.cn\/favicon.ico) no-repeat; padding:0 0 0 20px; text-decoration:none; \">è½¬å‘è‡³æ–°æµªå¾®åš<\/a>");document.writeln("<a href=\"javascript:void(0);\" onclick=\"posttoWb();\" style=\"background:url(http:\/\/t.qq.com\/favicon.ico) no-repeat; padding:0 0 0 20px;  text-decoration:none; \">è½¬æ’­åˆ°è…¾è®¯å¾®è–„<\/a>");
+document.writeln("·ÖÏíÕâÆªÎÄÕÂ:")
+document.writeln("<a href=\"javascript:void((function(s,d,e){try{}catch(e){}var f='http:\/\/v.t.sina.com.cn\/share\/share.php?',u=d.location.href,p=['url=',e(u),'&title=',e(d.title),'&appkey=2419632877'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)\/2,',top=',(s.height-450)\/2].join('')))u.href=[f,p].join('');};if(\/Firefox\/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));\" style=\"background:url(http:\/\/t.sina.com.cn\/favicon.ico) no-repeat; padding:0 0 0 20px; text-decoration:none; \">×ª·¢ÖÁĞÂÀËÎ¢²©<\/a>");document.writeln("<a href=\"javascript:void(0);\" onclick=\"posttoWb();\" style=\"background:url(http:\/\/t.qq.com\/favicon.ico) no-repeat; padding:0 0 0 20px;  text-decoration:none; \">×ª²¥µ½ÌÚÑ¶Î¢±¡<\/a>");
 
 function posttoWb(){
 	var _t = encodeURI(document.title);
@@ -18,8 +18,8 @@ function posttoWb(){
 	var _site = encodeURI('http://www.stzikao.com/');
 	var _pic = encodeURI('');
 	var _u = 'http://v.t.qq.com/share/share.php?title='+_t+'&url='+_url+'&appkey='+_appkey+'&site='+_site+'&pic='+_pic;
-	window.open(_u,'è½¬æ’­åˆ°è…¾è®¯å¾®åš', 'width=700, height=480, top=320, left=180, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no');
+	window.open(_u,'×ª²¥µ½ÌÚÑ¶Î¢²©', 'width=700, height=480, top=320, left=180, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no');
 }
-document.writeln(" <a href=\"javascript:(function(){window.open(\'http:\/\/sns.qzone.qq.com\/cgi-bin\/qzshare\/cgi_qzshare_onekey?url=\'+ encodeURIComponent(location.href)+ \'&title=\'+encodeURIComponent(document.title),\'_blank\');})()\" title=\"åˆ†äº«åˆ°QQç©ºé—´\"><img src=\"http:\/\/www.chaoshanw.cn\/ad\/qqkongjian.png\"  alt=\"Qzoneä¸€é”®åˆ†äº«\" border=\"0\">åˆ†äº«åˆ°QQç©ºé—´<\/a>")
+document.writeln(" <a href=\"javascript:(function(){window.open(\'http:\/\/sns.qzone.qq.com\/cgi-bin\/qzshare\/cgi_qzshare_onekey?url=\'+ encodeURIComponent(location.href)+ \'&title=\'+encodeURIComponent(document.title),\'_blank\');})()\" title=\"·ÖÏíµ½QQ¿Õ¼ä\"><img src=\"http:\/\/www.chaoshanw.cn\/ad\/qqkongjian.png\"  alt=\"QzoneÒ»¼ü·ÖÏí\" border=\"0\">·ÖÏíµ½QQ¿Õ¼ä<\/a>")
 document.writeln("<\/CENTER>")
 

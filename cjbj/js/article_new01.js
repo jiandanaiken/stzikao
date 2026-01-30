@@ -1,1 +1,1 @@
-document.write("<li>姝ゆ爮鐩笅娌℃湁涓茶绗旇</li>");
+document.write("<li>此栏目下没有串讲笔记</li>");

@@ -2,20 +2,20 @@ document.writeln("<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=
 document.writeln("  <tr>");
 document.writeln("    <td width=\"23%\" style=\"border-style: none; border-width: medium\"><a href=\"http:\/\/www.zkbooks.com\/book.asp?id=5994\" target=\"_blank\"><img src=\"http:\/\/www.zkbooks.com\/bookpic\/20087\/20080703173740.jpg\" style=\"margin:5px;\" border=\"0\" width=\"80\" height=\"100\"><\/a><\/td>");
 document.writeln("    <td width=\"77%\" style=\"border-style: none; border-width: medium\">");
-document.writeln("    <p align=\"left\">Â·<a href=\"http:\/\/www.zkbooks.com\/book.asp?id=5994\" target=\"_blank\" style=\"text-decoration: none\">æ€æƒ³é“å¾·ä¿®å…»ä¸æ³•å¾‹åŸºç¡€ä¸€è€ƒé€šè¯¾ç¨‹ä»£ç :3706<\/a><\/p>");
-document.writeln("    <p align=\"left\">ä¹¦ä»·:<font color=\"#FF0000\">ï¿¥20.00å…ƒ<\/font><\/p>");
+document.writeln("    <p align=\"left\">¡¤<a href=\"http:\/\/www.zkbooks.com\/book.asp?id=5994\" target=\"_blank\" style=\"text-decoration: none\">Ë¼ÏëµÀµÂĞŞÑøÓë·¨ÂÉ»ù´¡Ò»¿¼Í¨¿Î³Ì´úÂë:3706<\/a><\/p>");
+document.writeln("    <p align=\"left\">Êé¼Û:<font color=\"#FF0000\">£¤20.00Ôª<\/font><\/p>");
 document.writeln("    <p align=\"left\"><a href=\"http:\/\/www.zkbooks.com\/book.asp?id=5994\" target=\"_blank\"><img src=\"http:\/\/www.zkbooks.com\/Images\/buy.gif\" width=\"85\" height=\"23\" border=\"0\" style=\"margin-top:5px;\"><\/a><\/td>");
 document.writeln("  <\/tr>");
 document.writeln("  <tr>");
 document.writeln("    <td width=\"23%\" style=\"border-style: none; border-width: medium\"><a href=\"http:\/\/www.zkbooks.com\/book.asp?id=1598\" target=\"_blank\"><img src=\"http:\/\/www.zkbooks.com\/bookpic\/20090101124136.jpg\" style=\"margin:5px;\" border=\"0\" width=\"80\" height=\"100\"><\/a><\/td>");
 document.writeln("    <td width=\"77%\" style=\"border-style: none; border-width: medium\">");
-document.writeln("    <p align=\"left\">Â·<a href=\"http:\/\/book.kaogo.com\/html\/2008-9\/20089614493714034401.html\" target=\"_blank\" style=\"text-decoration: none\">æ¯›æ³½ä¸œæ€æƒ³ã€é‚“å°å¹³ç†è®ºå’Œ[ä¸‰ä¸ªä»£è¡¨]é‡è¦æ€æƒ³æ¦‚è®º[2008ç‰ˆ]è¯¾ç¨‹ä»£ç :3707<\/a><\/p>");
-document.writeln("    <p align=\"left\">ä¹¦ä»·:<font color=\"#FF0000\">ï¿¥14.00å…ƒ<\/font><\/p>");
+document.writeln("    <p align=\"left\">¡¤<a href=\"http:\/\/book.kaogo.com\/html\/2008-9\/20089614493714034401.html\" target=\"_blank\" style=\"text-decoration: none\">Ã«Ôó¶«Ë¼Ïë¡¢µËĞ¡Æ½ÀíÂÛºÍ[Èı¸ö´ú±í]ÖØÒªË¼Ïë¸ÅÂÛ[2008°æ]¿Î³Ì´úÂë:3707<\/a><\/p>");
+document.writeln("    <p align=\"left\">Êé¼Û:<font color=\"#FF0000\">£¤14.00Ôª<\/font><\/p>");
 document.writeln("    <p align=\"left\"><a href=\"http:\/\/www.zkbooks.com\/book.asp?id=1598\" target=\"_blank\"><img src=\"http:\/\/www.zkbooks.com\/Images\/buy.gif\" width=\"85\" height=\"23\" border=\"0\" style=\"margin-top:5px;\"><\/a><\/td>");
 document.writeln("  <\/tr>");
 document.writeln("  <tr>");
 document.writeln("    <td width=\"100%\" colspan=\"2\" style=\"border-style: none; border-width: medium\">");
-document.writeln("    <p align=\"left\">Â·<A href=\"http:\/\/www.zkbooks.com\/book.asp?id=6147\" target=\"_blank\" class=\"relatelink1\" title=\"è‡ªè€ƒæ•™æ--é©¬å…‹æ€ä¸»ä¹‰åŸºæœ¬åŸç†æ¦‚è®ºæ ‡å‡†é¢„æµ‹è¯•å·\" style=\"text-decoration: none\">è‡ªè€ƒæ•™æ--é©¬å…‹æ€ä¸»ä¹‰åŸºæœ¬åŸç†æ¦‚è®ºæ ‡å‡†é¢„æµ‹è¯•å·<\/A><BR>Â·<A href=\"http:\/\/www.zkbooks.com\/book.asp?id=6006\" target=\"_blank\" class=\"relatelink1\" title=\"è‡ªè€ƒæ•™æ--é©¬å…‹æ€ä¸»ä¹‰åŸºæœ¬åŸç†æ¦‚è®º[2008ç‰ˆ]\" style=\"text-decoration: none\">è‡ªè€ƒæ•™æ--é©¬å…‹æ€ä¸»ä¹‰åŸºæœ¬åŸç†æ¦‚è®º[2008ç‰ˆ]<\/A><BR>Â·<A href=\"http:\/\/www.zkbooks.com\/book.asp?id=6062\" target=\"_blank\" class=\"relatelink1\" title=\"è‡ªè€ƒæ•™æ--å¤§å­¦è¯­æ–‡ï¼ˆ2006å¹´ç‰ˆï¼‰\" style=\"text-decoration: none\">è‡ªè€ƒæ•™æ--å¤§å­¦è¯­æ–‡ï¼ˆ2006å¹´ç‰ˆï¼‰<\/A><BR>Â·<A href=\"http:\/\/www.zkbooks.com\/book.asp?id=1613\" target=\"_blank\" class=\"relatelink1\" title=\"è‡ªè€ƒæ•™æ--æ€æƒ³é“å¾·ä¿®å…»ä¸æ³•å¾‹åŸºç¡€[2008å¹´ç‰ˆ]\" style=\"text-decoration: none\">è‡ªè€ƒæ•™æ--æ€æƒ³é“å¾·ä¿®å…»ä¸æ³•å¾‹åŸºç¡€[2008..<\/A><\/td>");
+document.writeln("    <p align=\"left\">¡¤<A href=\"http:\/\/www.zkbooks.com\/book.asp?id=6147\" target=\"_blank\" class=\"relatelink1\" title=\"×Ô¿¼½Ì²Ä--Âí¿ËË¼Ö÷Òå»ù±¾Ô­Àí¸ÅÂÛ±ê×¼Ô¤²âÊÔ¾í\" style=\"text-decoration: none\">×Ô¿¼½Ì²Ä--Âí¿ËË¼Ö÷Òå»ù±¾Ô­Àí¸ÅÂÛ±ê×¼Ô¤²âÊÔ¾í<\/A><BR>¡¤<A href=\"http:\/\/www.zkbooks.com\/book.asp?id=6006\" target=\"_blank\" class=\"relatelink1\" title=\"×Ô¿¼½Ì²Ä--Âí¿ËË¼Ö÷Òå»ù±¾Ô­Àí¸ÅÂÛ[2008°æ]\" style=\"text-decoration: none\">×Ô¿¼½Ì²Ä--Âí¿ËË¼Ö÷Òå»ù±¾Ô­Àí¸ÅÂÛ[2008°æ]<\/A><BR>¡¤<A href=\"http:\/\/www.zkbooks.com\/book.asp?id=6062\" target=\"_blank\" class=\"relatelink1\" title=\"×Ô¿¼½Ì²Ä--´óÑ§ÓïÎÄ£¨2006Äê°æ£©\" style=\"text-decoration: none\">×Ô¿¼½Ì²Ä--´óÑ§ÓïÎÄ£¨2006Äê°æ£©<\/A><BR>¡¤<A href=\"http:\/\/www.zkbooks.com\/book.asp?id=1613\" target=\"_blank\" class=\"relatelink1\" title=\"×Ô¿¼½Ì²Ä--Ë¼ÏëµÀµÂĞŞÑøÓë·¨ÂÉ»ù´¡[2008Äê°æ]\" style=\"text-decoration: none\">×Ô¿¼½Ì²Ä--Ë¼ÏëµÀµÂĞŞÑøÓë·¨ÂÉ»ù´¡[2008..<\/A><\/td>");
 document.writeln("  <\/tr>");
 document.writeln("<\/table>");
 document.writeln("")

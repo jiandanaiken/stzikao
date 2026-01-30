@@ -1,21 +1,21 @@
-// ç»Ÿä¸€ä½¿ç”¨UTF-8ç¼–ç ï¼Œä¿®å¤å˜é‡/å¹´ä»½/ä¸­æ–‡æ˜¾ç¤ºé—®é¢˜
+// Í³Ò»Ê¹ÓÃUTF-8±àÂë£¬ĞŞ¸´±äÁ¿/Äê·İ/ÖĞÎÄÏÔÊ¾ÎÊÌâ
 const mydate = new Date();
 const myweekday = mydate.getDay();
-const mymonth = mydate.getMonth() + 1; // æœˆä»½ä»0å¼€å§‹ï¼Œéœ€+1
+const mymonth = mydate.getMonth() + 1; // ÔÂ·İ´Ó0¿ªÊ¼£¬Ğè+1
 const myday = mydate.getDate();
-const year = mydate.getFullYear(); // æ›¿ä»£åºŸå¼ƒçš„getYear()ï¼Œç›´æ¥è·å–å®Œæ•´å¹´ä»½
+const year = mydate.getFullYear(); // Ìæ´ú·ÏÆúµÄgetYear()£¬Ö±½Ó»ñÈ¡ÍêÕûÄê·İ
 
-// å®šä¹‰ä¸­æ–‡æ˜ŸæœŸï¼ˆUTF-8ç¼–ç ï¼‰
+// ¶¨ÒåÖĞÎÄĞÇÆÚ£¨UTF-8±àÂë£©
 const weekdayMap = [
-  "æ˜ŸæœŸæ—¥",
-  "æ˜ŸæœŸä¸€",
-  "æ˜ŸæœŸäºŒ",
-  "æ˜ŸæœŸä¸‰",
-  "æ˜ŸæœŸå››",
-  "æ˜ŸæœŸäº”",
-  "æ˜ŸæœŸå…­"
+  "ĞÇÆÚÈÕ",
+  "ĞÇÆÚÒ»",
+  "ĞÇÆÚ¶ş",
+  "ĞÇÆÚÈı",
+  "ĞÇÆÚËÄ",
+  "ĞÇÆÚÎå",
+  "ĞÇÆÚÁù"
 ];
 const weekday = weekdayMap[myweekday];
 
-// è¾“å‡ºæ ¼å¼åŒ–æ—¥æœŸï¼ˆé¿å…ç›´æ¥document.writeï¼Œæ¨èæ›´çµæ´»çš„æ–¹å¼ï¼‰
-document.write(`${year}å¹´${mymonth}æœˆ${myday}æ—¥ ${weekday}`); 
+// Êä³ö¸ñÊ½»¯ÈÕÆÚ£¨±ÜÃâÖ±½Ódocument.write£¬ÍÆ¼ö¸üÁé»îµÄ·½Ê½£©
+document.write(`${year}Äê${mymonth}ÔÂ${myday}ÈÕ ${weekday}`); 

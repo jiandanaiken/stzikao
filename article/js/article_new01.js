@@ -1,1 +1,1 @@
-document.write("<li>姝ゆ爮鐩笅娌℃湁鏂囩珷</li>");
+document.write("<li>此栏目下没有文章</li>");

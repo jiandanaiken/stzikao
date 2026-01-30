@@ -2,7 +2,7 @@
 Name:    Highslide JS
 Version: 3.3.7 (January 24 2008)
 Config:  default +inline +ajax +iframe +flash +packed
-Author:  Torstein Hé´‘si
+Author:  Torstein Hønsi
 Support: http://vikjavev.no/highslide/forum
 
 Licence:

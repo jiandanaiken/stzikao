@@ -1,1 +1,1 @@
-document.write("<p>&nbsp;&nbsp;娌℃湁鍏憡</p>");
+document.write("<p>&nbsp;&nbsp;没有公告</p>");

@@ -1,4 +1,4 @@
-//ä¸‹æ‹‰èœå•ç›¸å…³ä»£ç 
+//ÏÂÀ­²Ëµ¥Ïà¹Ø´úÂë
  var h;
  var w;
  var l;
@@ -7,7 +7,7 @@
  var leftMar = -2;
  var space = 1;
  var isvisible;
- var MENU_SHADOW_COLOR='#999999';//å®šä¹‰ä¸‹æ‹‰èœå•é˜´å½±è‰²
+ var MENU_SHADOW_COLOR='#999999';//¶¨ÒåÏÂÀ­²Ëµ¥ÒõÓ°É«
  var global = window.document
  global.fo_currentMenu = null
  global.fo_shadows = new Array

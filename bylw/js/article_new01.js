@@ -1,1 +1,1 @@
-document.write("<li>姝ゆ爮鐩笅娌℃湁姣曚笟璁烘枃</li>");
+document.write("<li>此栏目下没有毕业论文</li>");

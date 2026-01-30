@@ -1,5 +1,5 @@
 BODY {
-	FONT-SIZE: 12px; FONT-FAMILY: "瀹嬩綋"
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体"
 }
 .inputta1 {
 	BORDER-RIGHT: #a9a9a9 1px solid; BORDER-TOP: #a9a9a9 1px solid; BORDER-LEFT: #a9a9a9 1px solid; BORDER-BOTTOM: #a9a9a9 0px solid
@@ -29,10 +29,10 @@ A.a02:hover {
 	COLOR: #0099cc
 }
 .input1 {
-	FONT-WEIGHT: normal; FONT-SIZE: 14px; FONT-FAMILY: "瀹嬩綋"; TEXT-DECORATION: none
+	FONT-WEIGHT: normal; FONT-SIZE: 14px; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
 }
 TD {
-	FONT-SIZE: 12px; LINE-HEIGHT: 120%; FONT-FAMILY: "瀹嬩綋"
+	FONT-SIZE: 12px; LINE-HEIGHT: 120%; FONT-FAMILY: "宋体"
 }
 .bgdian {
 	BACKGROUND-POSITION: 50% bottom; BACKGROUND-IMAGE: url(../images/dian.gif); BACKGROUND-REPEAT: repeat-x
@@ -53,10 +53,10 @@ TD {
 	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ee7200; TEXT-DECORATION: none
 }
 .ta {
-	LINE-HEIGHT: 150%; FONT-FAMILY: "瀹嬩綋"
+	LINE-HEIGHT: 150%; FONT-FAMILY: "宋体"
 }
 .f014 {
-	FONT-SIZE: 14px; FONT-FAMILY: "瀹嬩綋"; TEXT-ALIGN: center
+	FONT-SIZE: 14px; FONT-FAMILY: "宋体"; TEXT-ALIGN: center
 }
 .bb {
 	FONT-WEIGHT: bold
@@ -65,7 +65,7 @@ TD {
 	COLOR: #ff0000; TEXT-DECORATION: none
 }
 .zl {
-	FONT-SIZE: 14px; COLOR: #333333; LINE-HEIGHT: 146%; FONT-FAMILY: "瀹嬩綋"
+	FONT-SIZE: 14px; COLOR: #333333; LINE-HEIGHT: 146%; FONT-FAMILY: "宋体"
 }
 .zl1 {
 	LINE-HEIGHT: 150%
@@ -74,7 +74,7 @@ TD {
 	COLOR: #666666; TEXT-DECORATION: none
 }
 .til2 {
-	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #a36209; FONT-FAMILY: "瀹嬩綋"
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #a36209; FONT-FAMILY: "宋体"
 }
 .tougao {
 	BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; BORDER-LEFT: #7f9db9 1px solid; BORDER-BOTTOM: #7f9db9 1px solid; BACKGROUND-COLOR: #ffffff

@@ -1,1 +1,1 @@
-document.write("<li>姝ゆ爮鐩笅娌℃湁澶嶄範鎸囧</li>");
+document.write("<li>此栏目下没有复习指导</li>");

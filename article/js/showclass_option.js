@@ -1,1 +1,1 @@
-document.write("<option value='55'>Х┤╙Х─┐Ф√╟И≈╩</option><option value='56'>Ф√╟Г■÷Е©┘Х╞╩</option><option value='5'>Ф┼╔Х─┐Ф▄┤Е█≈</option><option value='48'>Х─┐Х╞∙Х╝║Е┬▓</option><option value='52'>Д╫©Г■╗Ф∙≥Ф²░</option><option value='7'>Д╦╩Х─┐И≥╒Ф═║</option>");
+document.write("<option value='55'>вт©╪пбне</option><option value='56'>пбиЗ╠ь╤а</option><option value='5'>╠╗©╪ж╦до</option><option value='48'>©╪йт╪ф╩╝</option><option value='52'>й╧сц╫л╡д</option><option value='7'>жВ©╪т╨пё</option>");

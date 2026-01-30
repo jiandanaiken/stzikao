@@ -1,1 +1,1 @@
-document.write("<li><a href='/Article/ShowSpecial.asp?SpecialID=2' title=''>æ±•å¤´è‡ªè€ƒæ–°é—»</a></li><li><a href='/Article/ShowSpecial.asp?SpecialID=3' title=''>è‡ªè€ƒæŠ¥è€ƒå¿…è¯»</a></li>");
+document.write("<li><a href='/Article/ShowSpecial.asp?SpecialID=2' title=''>ÉÇÍ·×Ô¿¼ÐÂÎÅ</a></li><li><a href='/Article/ShowSpecial.asp?SpecialID=3' title=''>×Ô¿¼±¨¿¼±Ø¶Á</a></li>");

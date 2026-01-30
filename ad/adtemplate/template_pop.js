@@ -107,7 +107,7 @@ function PopZoneAD_Struct() {
 function PopZoneAD_Window() {
   var strWin;
   strWin = "<html><head><meta http-equiv='content-type' content='text/html; charset=gb2312'><title>";
-  strWin += (this.PopType==4) ? "鑳屾姇骞垮憡" : "POPAD";
+  strWin += (this.PopType==4) ? "背投广告" : "POPAD";
   strWin += "</title>";
   if (this.PopType==2||this.PopType==4) {
     strWin += "\n<Script language='Javascript'>\n";

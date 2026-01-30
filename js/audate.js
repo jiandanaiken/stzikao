@@ -1,17 +1,17 @@
 function getlink(action,name,link) {
 	monthnames = new Array(
-	"ä¸€æœˆ",
-	"äºŒæœˆ",
-	"ä¸‰æœˆ",
-	"å››æœˆ",
-	"äº”æœˆ",
-	"å…­æœˆ",
-	"ä¸ƒæœˆ",
-	"å…«æœˆ",
-	"ä¹æœˆ",
-	"åæœˆ",
-	"åä¸€æœˆ",
-	"åäºŒæœˆ"); 
+	"Ò»ÔÂ",
+	"¶şÔÂ",
+	"ÈıÔÂ",
+	"ËÄÔÂ",
+	"ÎåÔÂ",
+	"ÁùÔÂ",
+	"ÆßÔÂ",
+	"°ËÔÂ",
+	"¾ÅÔÂ",
+	"Ê®ÔÂ",
+	"Ê®Ò»ÔÂ",
+	"Ê®¶şÔÂ"); 
 	var linkcount=0;
 	linkdays = new Array();
 	monthdays = new Array(12);
@@ -42,16 +42,16 @@ function getlink(action,name,link) {
 	document.write("<table border=0 cellpadding=2 cellspacing=1");
 	document.write("><font color=black>");
 	document.write("<tr><td colspan=7><center><< " 
-	+"ä»Šå¤©æ˜¯ï¼š"+ thisyear 
-	+"å¹´ "+monthnames[thismonth]+" >></center></font></td></tr>");
+	+"½ñÌìÊÇ£º"+ thisyear 
+	+"Äê "+monthnames[thismonth]+" >></center></font></td></tr>");
 	document.write("<tr>");
-	document.write("<td align=center>æ—¥</td>");
-	document.write("<td align=center>ä¸€</td>");
-	document.write("<td align=center>äºŒ</td>");
-	document.write("<td align=center>ä¸‰</td>");
-	document.write("<td align=center>å››</td>");
-	document.write("<td align=center>äº”</td>");
-	document.write("<td align=center>å…­</td>"); 
+	document.write("<td align=center>ÈÕ</td>");
+	document.write("<td align=center>Ò»</td>");
+	document.write("<td align=center>¶ş</td>");
+	document.write("<td align=center>Èı</td>");
+	document.write("<td align=center>ËÄ</td>");
+	document.write("<td align=center>Îå</td>");
+	document.write("<td align=center>Áù</td>"); 
 	document.write("</tr>");
 	document.write("<tr>");
 	for (s=0;s<startspaces;s++) {

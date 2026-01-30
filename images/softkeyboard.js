@@ -1,4 +1,4 @@
-//å®šä¹‰å½“å‰æ˜¯å¦å¤§å†™çš„çŠ¶æ€
+//¶¨Òåµ±Ç°ÊÇ·ñ´óĞ´µÄ×´Ì¬
 window.onload=
 function() {
 	password1=null;		
@@ -145,9 +145,9 @@ if(IE) {
 	document.onmouseup = dropIt;	}
 
 //	if(NS || IE) action = window.setInterval("heartBeat()",1);
-document.write("<DIV align=center id=\"softkeyboard\" name=\"softkeyboard\" style=\"position:absolute; left:0px; top:0px; width:500px; z-index:180;display:none\"><table id=\"CalcTable\" width=\"\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"\"><FORM id=Calc name=Calc action=\"\" method=post autocomplete=\"off\"><tr><td align=\"center\" style=\"height:0\"><font color=#043BC9>==&nbsp;ç½‘å§ä¸Šç½‘è¯·ä½¿ç”¨è¾“å…¥å™¨è¾“å…¥æ‚¨çš„å¯†ç &nbsp;==</font></td></tr><tr align=\"center\"><td align=\"center\" bgcolor=\"#FFFFFF\"><INPUT type=hidden value=\"\" name=password><INPUT type=hidden value=ok name=action2><table align=\"center\" width=\"%\" border=\"0\" cellspacing=\"1\" cellpadding=\"0\">\n <tr align=\"left\" valign=\"middle\">\n <td><input type=button value=\" ~ \"></td>\n <td><input type=button value=\" ! \"></td>\n <td> <input type=button  value=\" @ \"></td>\n <td><input type=button value=\" # \"></td>\n <td><input type=button value=\" $ \"></td>\n <td><input type=button value=\" % \"></td>\n <td><input type=button value=\" ^ \"></td>\n <td><input type=button value=\" & \"></td>\n <td><input type=button value=\" * \"></td>\n <td><input type=button value=\" ( \"></td>\n <td><input type=button value=\" ) \"></td>\n <td><input type=button value=\" _ \"></td>\n <td><input type=button value=\" + \"></td>\n <td><input type=button value=\" | \"></td>\n <td colspan=\"1\" rowspan=\"2\"> <input name=\"button10\" type=button value=\"é€€æ ¼\" onclick=\"setpassvalue();\"  onDblClick=\"setpassvalue();\" style=\"width:40px;height:41px\">\n </td>\n </tr>\n <tr align=\"left\" valign=\"middle\"> \n <td><input type=button value=\" ` \"></td>\n <td><input type=button value=\" 1 \"></td>\n <td><input type=button value=\" 2 \"></td>\n <td><input type=button value=\" 3 \"></td>\n <td><input type=button value=\" 4 \"></td>\n <td><input type=button value=\" 5 \"></td>\n <td><input type=button value=\" 6 \"></td>\n <td><input type=button value=\" 7 \"></td>\n <td><input type=button value=\" 8 \"></td>\n <td><input type=button value=\" 9 \"></td>\n <td><input name=\"button6\" type=button value=\" 0 \"></td>\n <td><input type=button value=\" - \"></td>\n <td><input type=button value=\" = \"></td>\n <td><input type=button value=\" \\ \"></td>\n <td></td>\n </tr>\n <tr align=\"left\" valign=\"middle\">\n <td><input type=button value=\" q \"></td>\n <td><input type=button value=\" w \"></td>\n <td><input type=button value=\" e \"></td>\n <td><input type=button value=\" r \"></td>\n <td><input type=button value=\" t \"></td>\n <td><input type=button value=\" y \"></td>\n <td><input type=button value=\" u \"></td>\n <td><input type=button value=\" i \"></td>\n  <td><input type=button value=\" o \"></td>\n <td><input name=\"button8\" type=button value=\" p \"></td>\n <td><input name=\"button9\" type=button value=\" { \"></td>\n <td><input type=button value=\" } \"></td>\n <td><input type=button value=\" [ \"></td>\n <td><input type=button value=\" ] \"></td>\n <td><input name=\"capslock\" type=button onClick=\"setCapsLock();capsLockText();\" value=\"å°å†™\" style=\"width:40px;\"></td>\n </tr>\n <tr align=\"left\" valign=\"middle\">\n <td><input type=button value=\" a \"></td>\n <td><input type=button value=\" s \"></td>\n <td><input type=button value=\" d \"></td>\n <td><input type=button value=\" f \"></td>\n <td><input type=button value=\" g \"></td>\n <td><input type=button value=\" h \"></td>\n <td><input type=button value=\" j \"></td>\n <td><input name=\"button3\" type=button value=\" k \"></td>\n <td><input name=\"button4\" type=button value=\" l \"></td>\n <td><input name=\"button5\" type=button value=\" : \"></td>\n <td><input name=\"button7\" type=button value=\" &quot; \"></td>\n <td><input type=button value=\" ; \"></td>\n <td><input type=button value=\" ' \"></td>\n <td colspan=\"2\"><input name=\"button12\" type=button onclick=\"closekeyboard();\" value=\"é”®ç›˜è¾“å…¥\" style=\"width:66px\"></td>\n </tr>\n <tr align=\"left\" valign=\"middle\">\n <td><input name=\"button2\" type=button value=\" z \"></td>\n <td><input type=button value=\" x \"></td>\n <td><input type=button value=\" c \"></td>\n <td><input type=button value=\" v \"></td>\n <td><input type=button value=\" b \"></td>\n <td><input type=button value=\" n \"></td>\n <td><input type=button value=\" m \"></td>\n <td><input type=button value=\" &lt; \"></td>\n <td><input type=button value=\" &gt; \"></td>\n <td><input type=button value=\" ? \"></td>\n <td><input type=button value=\" , \"></td>\n <td><input type=button value=\" . \"></td>\n <td><input type=button value=\" / \"></td>\n <td colspan=\"2\"><input name=\"button12\" type=button onclick=\"OverInput();\" value=\"ç¡® å®š\" style=\"width:66px\"></td>\n </tr>\n </table></td></FORM></tr></table></DIV>")
+document.write("<DIV align=center id=\"softkeyboard\" name=\"softkeyboard\" style=\"position:absolute; left:0px; top:0px; width:500px; z-index:180;display:none\"><table id=\"CalcTable\" width=\"\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"\"><FORM id=Calc name=Calc action=\"\" method=post autocomplete=\"off\"><tr><td align=\"center\" style=\"height:0\"><font color=#043BC9>==&nbsp;Íø°ÉÉÏÍøÇëÊ¹ÓÃÊäÈëÆ÷ÊäÈëÄúµÄÃÜÂë&nbsp;==</font></td></tr><tr align=\"center\"><td align=\"center\" bgcolor=\"#FFFFFF\"><INPUT type=hidden value=\"\" name=password><INPUT type=hidden value=ok name=action2><table align=\"center\" width=\"%\" border=\"0\" cellspacing=\"1\" cellpadding=\"0\">\n <tr align=\"left\" valign=\"middle\">\n <td><input type=button value=\" ~ \"></td>\n <td><input type=button value=\" ! \"></td>\n <td> <input type=button  value=\" @ \"></td>\n <td><input type=button value=\" # \"></td>\n <td><input type=button value=\" $ \"></td>\n <td><input type=button value=\" % \"></td>\n <td><input type=button value=\" ^ \"></td>\n <td><input type=button value=\" & \"></td>\n <td><input type=button value=\" * \"></td>\n <td><input type=button value=\" ( \"></td>\n <td><input type=button value=\" ) \"></td>\n <td><input type=button value=\" _ \"></td>\n <td><input type=button value=\" + \"></td>\n <td><input type=button value=\" | \"></td>\n <td colspan=\"1\" rowspan=\"2\"> <input name=\"button10\" type=button value=\"ÍË¸ñ\" onclick=\"setpassvalue();\"  onDblClick=\"setpassvalue();\" style=\"width:40px;height:41px\">\n </td>\n </tr>\n <tr align=\"left\" valign=\"middle\"> \n <td><input type=button value=\" ` \"></td>\n <td><input type=button value=\" 1 \"></td>\n <td><input type=button value=\" 2 \"></td>\n <td><input type=button value=\" 3 \"></td>\n <td><input type=button value=\" 4 \"></td>\n <td><input type=button value=\" 5 \"></td>\n <td><input type=button value=\" 6 \"></td>\n <td><input type=button value=\" 7 \"></td>\n <td><input type=button value=\" 8 \"></td>\n <td><input type=button value=\" 9 \"></td>\n <td><input name=\"button6\" type=button value=\" 0 \"></td>\n <td><input type=button value=\" - \"></td>\n <td><input type=button value=\" = \"></td>\n <td><input type=button value=\" \\ \"></td>\n <td></td>\n </tr>\n <tr align=\"left\" valign=\"middle\">\n <td><input type=button value=\" q \"></td>\n <td><input type=button value=\" w \"></td>\n <td><input type=button value=\" e \"></td>\n <td><input type=button value=\" r \"></td>\n <td><input type=button value=\" t \"></td>\n <td><input type=button value=\" y \"></td>\n <td><input type=button value=\" u \"></td>\n <td><input type=button value=\" i \"></td>\n  <td><input type=button value=\" o \"></td>\n <td><input name=\"button8\" type=button value=\" p \"></td>\n <td><input name=\"button9\" type=button value=\" { \"></td>\n <td><input type=button value=\" } \"></td>\n <td><input type=button value=\" [ \"></td>\n <td><input type=button value=\" ] \"></td>\n <td><input name=\"capslock\" type=button onClick=\"setCapsLock();capsLockText();\" value=\"Ğ¡Ğ´\" style=\"width:40px;\"></td>\n </tr>\n <tr align=\"left\" valign=\"middle\">\n <td><input type=button value=\" a \"></td>\n <td><input type=button value=\" s \"></td>\n <td><input type=button value=\" d \"></td>\n <td><input type=button value=\" f \"></td>\n <td><input type=button value=\" g \"></td>\n <td><input type=button value=\" h \"></td>\n <td><input type=button value=\" j \"></td>\n <td><input name=\"button3\" type=button value=\" k \"></td>\n <td><input name=\"button4\" type=button value=\" l \"></td>\n <td><input name=\"button5\" type=button value=\" : \"></td>\n <td><input name=\"button7\" type=button value=\" &quot; \"></td>\n <td><input type=button value=\" ; \"></td>\n <td><input type=button value=\" ' \"></td>\n <td colspan=\"2\"><input name=\"button12\" type=button onclick=\"closekeyboard();\" value=\"¼üÅÌÊäÈë\" style=\"width:66px\"></td>\n </tr>\n <tr align=\"left\" valign=\"middle\">\n <td><input name=\"button2\" type=button value=\" z \"></td>\n <td><input type=button value=\" x \"></td>\n <td><input type=button value=\" c \"></td>\n <td><input type=button value=\" v \"></td>\n <td><input type=button value=\" b \"></td>\n <td><input type=button value=\" n \"></td>\n <td><input type=button value=\" m \"></td>\n <td><input type=button value=\" &lt; \"></td>\n <td><input type=button value=\" &gt; \"></td>\n <td><input type=button value=\" ? \"></td>\n <td><input type=button value=\" , \"></td>\n <td><input type=button value=\" . \"></td>\n <td><input type=button value=\" / \"></td>\n <td colspan=\"2\"><input name=\"button12\" type=button onclick=\"OverInput();\" value=\"È· ¶¨\" style=\"width:66px\"></td>\n </tr>\n </table></td></FORM></tr></table></DIV>")
 
-//ç»™è¾“å…¥çš„å¯†ç æ¡†æ·»åŠ æ–°å€¼
+//¸øÊäÈëµÄÃÜÂë¿òÌí¼ÓĞÂÖµ
 function addValue(newValue) {
 	if (CapsLockValue==0) {
 		var str=Calc.password.value;
@@ -168,7 +168,7 @@ function addValue(newValue) {
 	}
 }
 
-//å®ç°BackSpaceé”®çš„åŠŸèƒ½
+//ÊµÏÖBackSpace¼üµÄ¹¦ÄÜ
 function setpassvalue()	{
 	var longnum=Calc.password.value.length;
 	var num
@@ -178,7 +178,7 @@ function setpassvalue()	{
 	password1.value=Calc.password.value;
 }
 
-//è¾“å…¥å®Œæ¯•
+//ÊäÈëÍê±Ï
 function OverInput() {
 	password1.value=Calc.password.value;
 	softkeyboard.style.display="none";
@@ -187,7 +187,7 @@ function OverInput() {
 	document.Login.CheckCode.focus();
 }
 
-//å…³é—­è½¯é”®ç›˜
+//¹Ø±ÕÈí¼üÅÌ
 function closekeyboard() {
 	Calc.password.value="";
 	password1.readOnly=0;
@@ -197,7 +197,7 @@ function closekeyboard() {
        document.Login.password.focus();
 }
 
-//æ˜¾ç¤ºè½¯é”®ç›˜
+//ÏÔÊ¾Èí¼üÅÌ
 function showkeyboard() {
 	if (closestr==0) {
            password1.readOnly=1
@@ -215,23 +215,23 @@ function showkeyboard() {
 	}
 }
 
-//è®¾ç½®æ˜¯å¦å¤§å†™çš„å€¼
+//ÉèÖÃÊÇ·ñ´óĞ´µÄÖµ
 function setCapsLock() {
 	if (CapsLockValue==0) {
 		CapsLockValue=1;
-		Calc.capslock.value="å¤§å†™";
+		Calc.capslock.value="´óĞ´";
 	} else {
 		CapsLockValue=0;
-		Calc.capslock.value="å°å†™";
+		Calc.capslock.value="Ğ¡Ğ´";
 	}
 }
 
 function setCalcborder() {
-	CalcTable.style.border="1px solid #C4C2C4" //è¾¹æ¡†é¢œè‰²å®šä¹‰
+	CalcTable.style.border="1px solid #C4C2C4" //±ß¿òÑÕÉ«¶¨Òå
 }
 
 function setHead() {
-	CalcTable.cells[0].style.backgroundColor="#ECEEEC"  //æ ‡é¢˜æ èƒŒæ™¯è‰²å®šä¹‰
+	CalcTable.cells[0].style.backgroundColor="#ECEEEC"  //±êÌâÀ¸±³¾°É«¶¨Òå
 }
 
 function setCalcButtonBg() {
@@ -248,12 +248,12 @@ function setCalcButtonBg() {
 			Calc.elements[i].style.borderBottomStyle= "solid";
 			Calc.elements[i].style.borderLeftStyle= "none";
 			//#46AC17
-			Calc.elements[i].style.borderTopColor= "#ECEEEC";ã€€// æŒ‰é’®é˜´å½±è‰²å®šä¹‰ ";
+			Calc.elements[i].style.borderTopColor= "#ECEEEC";¡¡// °´Å¥ÒõÓ°É«¶¨Òå ";
 			Calc.elements[i].style.borderRightColor= "#ECEEEC";
 			Calc.elements[i].style.borderBottomColor= "#ECEEEC";
 			Calc.elements[i].style.borderLeftColor= "#ECEEEC";
 			//#CBF3B2
-			Calc.elements[i].style.backgroundColor="#F7F7F7"; //é”®ç›˜èƒŒæ™¯è‰²å®šä¹‰ ";
+			Calc.elements[i].style.backgroundColor="#F7F7F7"; //¼üÅÌ±³¾°É«¶¨Òå ";
 			var str1=Calc.elements[i].value;
 			str1=str1.trim();
 			/*
@@ -291,15 +291,15 @@ function initCalc() {
 	setCalcButtonBg();
 }
 String.prototype.trim = function() {
-    // ç”¨æ­£åˆ™è¡¨è¾¾å¼å°†å‰åç©ºæ ¼
-    // ç”¨ç©ºå­—ç¬¦ä¸²æ›¿ä»£ã€‚
+    // ÓÃÕıÔò±í´ïÊ½½«Ç°ºó¿Õ¸ñ
+    // ÓÃ¿Õ×Ö·û´®Ìæ´ú¡£
     return this.replace(/(^\s*)|(\s*$)/g, "");
 }
 var capsLockFlag;
 capsLockFlag=true;
 
 function capsLockText() {
-	if(capsLockFlag) //æ”¹æˆå¤§å†™ 
+	if(capsLockFlag) //¸Ä³É´óĞ´ 
 	{
 		for(var i=0;i<Calc.elements.length;i++)	{
 			var char=Calc.elements[i].value;

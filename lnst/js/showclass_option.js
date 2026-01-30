@@ -1,1 +1,1 @@
-document.write("<option value='22'>å…¬å…±è¯¾</option><option value='24'>æ³•å­¦ç±»</option><option value='49'>ç®¡ç†ç±»</option><option value='50'>æ•™è‚²å­¦</option><option value='51'>æ–‡å­¦ç±»</option><option value='23'>åŒ»å­¦ç±»</option>");
+document.write("<option value='22'>¹«¹²¿Î</option><option value='24'>·¨Ñ§Àà</option><option value='49'>¹ÜÀíÀà</option><option value='50'>½ÌÓýÑ§</option><option value='51'>ÎÄÑ§Àà</option><option value='23'>Ò½Ñ§Àà</option>");

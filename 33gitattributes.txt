@@ -1,6 +1,5 @@
 # 告诉 Git 所有的 HTML、CSS、JS 文件在本地是 gb2312，但在仓库里存为 utf-8
+# 将 gb2312 替换为兼容性更强的 gbk
 *.html text working-tree-encoding=gbk
 *.css text working-tree-encoding=gbk
 *.js text working-tree-encoding=gbk
-# 针对报错的特定文件，禁用转码规则
-article/xsbd/3824.html -text

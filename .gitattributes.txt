@@ -1,0 +1,3 @@
+*.html text working-tree-encoding=gbk
+*.css text working-tree-encoding=gbk
+*.js text working-tree-encoding=gbk
