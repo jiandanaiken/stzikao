@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?>
+<menu>
+<item label="经济类" url="" target="_Self" />
+<item label="公共课" url="" target="_Self" />
+<item label="法学类" url="" target="_Self" />
+<item label="文学类" url="" target="_Self" />
+<item label="历史类" url="" target="_Self" />
+<item label="工学类" url="" target="_Self" />
+<item label="理学类" url="" target="_Self" />
+<item label="农学类" url="" target="_Self" />
+<item label="管理类" url="" target="_Self" />
+<item label="教育学" url="" target="_Self" />
+</menu>

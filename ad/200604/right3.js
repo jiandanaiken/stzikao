@@ -1,0 +1,4 @@
+document.writeln("<a href=\'http://union.chinaacc.com/union/advertHit/advertHit.shtm?siteID=1&advertID=3011&agentID=6706\' target=\'_blank\'><img name=\'AdsHttp\' src=\'https://img.cdeledu.com/ADVC/2022/0215/9970f4f545ce03d3-0.png\' width=\'320\' height=\'80\' alt=\'\' border=\'0\'/></a>");
+document.writeln("</br>");
+document.writeln("</br>");
+document.writeln("<a href=\'http://union.jianshe99.com/union/advertHit/advertHit.shtm?siteID=4&advertID=2349&agentID=6706\' target=\'_blank\'><img name=\'AdsHttp\' src=\'https://img.cdeledu.com/ADVC/2021/1118/98bb16a3a5157a6c-0.png\' width=\'300\' height=\'197\' alt=\'\' border=\'0\'/></a>");
