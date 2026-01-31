@@ -1,0 +1,1 @@
+document.writeln("<a href=\"http:\/\/lm.zikao365.com\/ManageCheck.asp?adsid=197&UnionID=2724\" target=\"_blank\"><img name=\"AdsHttp\" src=\"http:\/\/lm.zikao365.com\/\/UploadFiles\/20121291143226047.gif\" width=\"950\" height=\"90\" alt=\"\" border=\"0\"\/><\/a>")
