@@ -1,1 +1,0 @@
-document.write("<li><a href='/Article/ShowSpecial.asp?SpecialID=2' title=''>汕头自考新闻</a></li><li><a href='/Article/ShowSpecial.asp?SpecialID=3' title=''>自考报考必读</a></li>");
