@@ -1,0 +1,1 @@
+document.write("<option value='55'>自考新闻</option><option value='56'>新生必读</option><option value='5'>报考指南</option><option value='48'>考试计划</option><option value='52'>使用教材</option><option value='7'>主考院校</option>");
