@@ -1,1 +1,0 @@
-document.write("<img src='../Images/tree_folder3.gif' width='15' height='15' valign='abvmiddle'><a href='/fxzd/xxff/Index.html' title='' target='_top'><b>学习方法</b></a><br><img src='../Images/tree_folder3.gif' width='15' height='15' valign='abvmiddle'><a href='/fxzd/jyjl/Index.html' title='自考经验交流' target='_top'><b>经验交流</b></a><br>");
