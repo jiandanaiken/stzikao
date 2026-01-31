@@ -30,14 +30,66 @@ function bbimg(o)
 </head>
 
 <body>
-<!--#include File="/WZtop.html"--> 
-<!--#include File="/header.html"--> 
+<div class=header>
+<div class=header_loginbar>
+<div class=header_loginbar_left><div id=UserLogin style="PADDING-LEFT: 20px">载入中… 
+<script language="JavaScript" type="text/JavaScript">LoadUserLogin('/',3,1);</script> </div> </div>
+<div class=header_loginbar_right>
+<UL>
+<LI><A href="/">首页</A></LI>
+<LI><A href="/Article/" target=_blank>新闻</A></LI>
+<LI><A href="/cjbj/" target=_blank>串讲</A></LI>
+<LI><A href="/lnst/" target=_blank>试题</A></LI>
+<LI></LI></UL></div></div>
+<div class=header_logobar>
+<div class=header_logobar_left><A href="/"><IMG height=70 src="/skin/web/logo.gif" width=207 border=0></A></div>
+<div class=header_logobar_right>
+<P><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A href="/Article/" target=_blank>自考动态</A>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</B>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B><A href="/fxzd/" target=_blank>复习指导</A></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><A href="/lnst/" target=_blank>历年试题</A>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</B>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><A href="/cjbj/" target=_blank>串讲笔记</A></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><A href="/guestbook/" target=_blank>建议留言</A>&nbsp;&nbsp;&nbsp;&nbsp; </B>&nbsp;|<BR><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A href="/Article/xsbd" target=_blank>自考必读</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </B>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><A href="/soft" target=_blank>资料下载</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B><A href="/bylw" target=_blank>毕业论文</A>&nbsp;&nbsp;&nbsp; &nbsp; </B>|&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<B><A href="//bbs.stzikao.com/" target=_blank>自考论坛</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B>|&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<B><A href="/" target=_blank>备用频道</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B>|</P></div></div></div>  <div class="main">
+
+<div class="header_searchbar">
+		<div class="header_searchbar_left">
+		<script language="JavaScript" type="text/JavaScript" src="/js/date.js"></script>				<br />
+				<!-- 天气预报开始 -->
+				<IFRAME style="FILTER: chroma(color=#ffffff)" marginWidth=0 marginHeight=0 src="//m.weather.com.cn/m/p1/weather1.htm?id=101280501T " frameBorder=0 width=150 scrolling=no height=20></IFRAME>
+				<!-- 天气预报结束 -->
+
+		</div>
+		<div class="header_searchbar_right">
+			<ul>
+			<FORM name=search action=/search.asp method=post>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:10px;">
+  <tr>
+    <td colspan="3" width="550">常用查询： <A href="//www.stzikao.com" target="_blank">自考报名</A>  <A href="//www.stzikao.com" target="_blank">自考专业</A>  <A href="//www.stzikao.com" target="_blank">自考成绩查询</A>  <A href="//www.stzikao.com" target="_blank">汕头自考办</A>  <A href="//www.stzikao.com" target="_blank">自考本科</A></td>
+    <td width="150"> </td>
+  </tr>
+  <tr>
+    <td><Input id=Keyword style="WIDTH: 320px;" onclick="search.Keyword.value=''" maxLength=30 size=14 value=关键字 name=Keyword></td>
+    <td><Select size=1 name=ModuleName style="margin-top:4px; margin-bottom:4px;"> 
+  <Option value=Article selected>自考新闻</Option>
+  <Option value=cjbj>串讲笔记</Option>
+  <Option value=lnst>历年试题</Option>     
+  <Option value=bylw>毕业论文</Option> 
+  <Option value=fxzd>复习指导</Option>
+</Select> 
+    <Input id=Field type=hidden value=Title name=Field></td>
+    <td><input id=Submit name=Submit type="image" src="/skin/web/button_search.gif" /></td>
+    <td><A href="" name=StranLink>繁體中文</A>
+<script language="javascript" src="/js/gb_big5.js"></script></td>
+  </tr>
+</table>
+
+			</form>
+
+		  </ul>
+</div>
+</div>
 <div class=main>
 <div class=main_adbar>
 <script language='javascript' src='/ad/200607/8.js'></script> 
 </div>
 <div class=cmain_head>
-<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='//www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/Index.html'>自考动态</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/zknews/Index.html'>自考新闻</a>&nbsp;>>&nbsp;正文 
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='//www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/index.html'>自考动态</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/zknews/index.html'>自考新闻</a>&nbsp;>>&nbsp;正文 
 <!--empire.url-->
 </div>
 <div class=cmain_head_right>
@@ -64,9 +116,7 @@ function bbimg(o)
 </div>
 </div>
 <div class=newsinfo_main_body_news_body>2007年下半年我省高等教育自学考试将于10月27、28日两天进行。省考办现已开通报名报考系统，现将有关报名<a class="channel_keylink" href="//www.stzikao.com/Article/plane/Index.html">报考</a>工作有关事项通知如下：<BR><BR>　　一、 报名<a class="channel_keylink" href="//www.stzikao.com/Article/plane/Index.html">报考</a>时间：<BR>　　新生报名时间：7月20日至25日(各区县可根据实际情况适当调整报名时间，请考生提前跟有关区县联系)。<BR>　　<a class="channel_keylink" href="//www.stzikao.com/Article/plane/Index.html">报考</a>时间：7月15日至7月30日。<BR><BR>　　二、自学考试考生报名<a class="channel_keylink" href="//www.stzikao.com/Article/plane/Index.html">报考</a>办法（一）新生报名方法：<BR>　　1．网上预报名：7月15日至25日。<BR>　　（1）新生应先登录省<a class="channel_keylink" href="//www.stzikao.com" target="_blank">自考</a>信息网，网址：//www.stegd.edu.cn/selfec/Index.jsp<BR>　　（2）选择【注册登录】-&gt;【考生】，点击【新考生注册】。<BR>　　（3）选择考生类别，点击【下一步】。此次<a class="channel_keylink" href="//www.stzikao.com/Article/plane/Index.html">报考</a>应选择【面向社会大考考生】。<BR>　　（4）选择报名专业，然后点击【下一步】。<BR>　　（5）进入考生详细信息填写页面：<BR>　　在该页面中，全部内容请如实填写，以后到报名点正式报名时会进行<a class="channel_keylink" href="//www.stzikao.com/Soft/Index.asp">资料</a>审核，审核通过后才可以得到准考证号。<BR>　　户口编码请从户口查询处查得,户口编码不一定和本人身份证号前6位对应的。<BR>　　新考生必须选好报名县区，预报名后要到该报名县区的报名点正式报名（摄像并取得准考证号）。<BR>　　在此设置的个人密码请考生务必记住，正式报名得到准考证号后考生可登录广东省高等教育自学考试管理系统办理转免考、毕业申请等操作。<BR>　　注册信息维护功能和正式报名的时候都可以更改密码。<BR>　　确认无误后，点击【提交报名】。<BR>　　（6）系统将返回一个预报名号和报名点地址、电话。如果系统没有返回报名点地址，请考生向所选择考试地点区县招生办查询详细地址。<BR>　　未进行正式报名（摄像）之前，考生可选择【注册登录】-&gt;【考生】，点击【注册信息维护】进行注册信息修改。<BR>　　2．正式报名：7月20日至25日(各区县报名时间可能会有所调整，请考生提前跟有关区县联系)。<BR>　　考生本人带预报名号及身份证到各区县报名点进行<a class="channel_keylink" href="//www.stzikao.com/Soft/Index.asp">资料</a>审核和摄像，通过后将得到一个准考证号。<BR>　　（二）到银行开户，最好使用邮政储蓄的帐号，开户时办理自学考试<a class="channel_keylink" href="//www.stzikao.com/Article/plane/Index.html">报考</a>委托扣款业务。其他部分银行卡也可以用，考生可以登录网站(WWW.5184.COM)查看那些银行卡可以使用。<BR>　　（三）已摄像的旧考生和已正式报名的新生进行<a class="channel_keylink" href="//www.stzikao.com/Article/plane/Index.html">报考</a>。<BR>　　已摄像的旧考生和正式报名后的新生可以通过以下三种方式进行<a class="channel_keylink" href="//www.stzikao.com/Article/plane/Index.html">报考</a>：<BR>　　1．7月20日至25日（各区县报名时间可能会有所调整，请考生提前跟有关区县联系）到区县招生办报考点进行报考(各区县招生办<a class="channel_keylink" href="//www.stzikao.com/Article/plane/Index.html">报考</a>地点附后)。<BR>　　2．7月15日至30日通过网站(www.5184.com)<a class="channel_keylink" href="//www.stzikao.com/Article/plane/Index.html">报考</a>。<BR>　　3．7月15日至30日通过电话进行报考（<a class="channel_keylink" href="//www.stzikao.com/Article/plane/Index.html">报考</a>电话96040，只限用固定电话拔打，且须提前办理邮政储蓄扣款委托）。<BR>　　注意：在每一次开考中，考生只能通过一个方式进行报考，比如：一个考生要报考本次考试的课程，考生通过电话96040报考了两门课，后来又想再补报一门课，这个时候只能通过电话96040进行增加报考。如果这时候用网络（www.5184.com）来<a class="channel_keylink" href="//www.stzikao.com/Article/plane/Index.html">报考</a>，所报的课程不管有没有冲突，都不会被系统接受。<BR><BR>　　三、各区县考点代码、招生办地址和联系电话：<BR>　　金平区（0511）　　东厦路82号　　　　　　　　　　8634223<BR>　　龙湖区（0507）　　珠江路珠江大楼8楼　　　　　　8831116<BR>　　澄海区（0515）　　澄海区新区玉潭路教育局大楼　　5856200<BR>　　濠江区（0512）　　濠江区府前路教育局大楼　　　　7398767<BR>　　潮阳区（0513）　　潮阳区棉城东山大道北189号　　8711378<BR>　　潮南区（0514）　　潮南区六都中学校内　　　　　　7795463<BR>　　　　　（潮南区报名点：峡山金龙商场7-8号胜百隆电脑，电话：7798401）<BR>　　南澳县（0523）　　南澳县后宅镇广新路　　　　　　6802217-803
-<!--#include File="/wzad.html"-->
 <P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p> 
-<P align=right>文章录入：简单爱</A></p> 
 <CENTER></CENTER>
 </div>
 </div>
@@ -267,7 +317,26 @@ if ((form1.Name.value == "") || (form1.Name.value == "null"))
 <div>
 </div>
   <!-- 页脚 -->
-<!--#include File="/buttom.html"--> 
+  <!-- 页脚 --><P>
+  <table style="WIDTH: 964px" borderColor=#ffffff cellSpacing=0 cellPadding=1 width=964 align=center bgColor=#ffffff border=1>
+    <tr>
+      <td colSpan=3>
+<P align=center>
+<div align=center>
+      <div class=foot_copyright_head></div>| <A class=Bottom href="/inside/about.asp">关于本站</A> | <A class=Bottom onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('//www.stzikao.com');" href="#">设为首页</A> | <A class=Bottom href="javascript:window.external.addFavorite('//www.stzikao.com','汕头自考网');">加入收藏</A> | <A class=Bottom href="mailto:linkte@163.com">站长邮箱</A> | <A class=Bottom href="/FriendSite/Index.asp" target=_blank>友情链接</A> | <A class=Bottom href="/Announcelist.asp" target=_blank>网站公告</A> | <A class=Bottom href="/Copyright.asp" target=_blank>版权申明</A> | </div></td>
+        <tr>
+          <td width=200>
+          <P align=center>&nbsp;<IMG style="FILTER: ; WIDTH: 60px; HEIGHT: 80px" height=80 alt="" hspace=0 src="/netalarm.gif" width=60 border=0></P></td>
+          <td>
+          <P align=center>&nbsp;声明：<a title="声明：本站是由汕头自考人士主办的公益网站" target="_blank" href="//www.stzikao.com">本站是由汕头自考人士主办的公益网站</a><br> 汕头自考网版权所有 Copyright &copy; 2006-2020 <a title="汕头自考网" target="_blank" href="//www.stzikao.com">stzikao</a>. All rights reserved.<br>   交流群：27052471 <a target="_blank" href="https://beian.miit.gov.cn/">粤ICP备14009918号-2</a><br>
+<script language='javascript' src='//www.stzikao.com/ad/tongji.js'></script> </P></td>
+          <td width=200>
+<P align=center>&nbsp; 
+<script>var caid="8750";</script> 
+          <script src="//www.315safe.com.cn/ca.js"></script></P></td>
+        </tr>
+      </table>
+</P>
 <div>
 </div>
 </body>

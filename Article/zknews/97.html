@@ -30,14 +30,66 @@ function bbimg(o)
 </head>
 
 <body>
-<!--#include File="/WZtop.html"--> 
-<!--#include File="/header.html"--> 
+<div class=header>
+<div class=header_loginbar>
+<div class=header_loginbar_left><div id=UserLogin style="PADDING-LEFT: 20px">载入中… 
+<script language="JavaScript" type="text/JavaScript">LoadUserLogin('/',3,1);</script> </div> </div>
+<div class=header_loginbar_right>
+<UL>
+<LI><A href="/">首页</A></LI>
+<LI><A href="/Article/" target=_blank>新闻</A></LI>
+<LI><A href="/cjbj/" target=_blank>串讲</A></LI>
+<LI><A href="/lnst/" target=_blank>试题</A></LI>
+<LI></LI></UL></div></div>
+<div class=header_logobar>
+<div class=header_logobar_left><A href="/"><IMG height=70 src="/skin/web/logo.gif" width=207 border=0></A></div>
+<div class=header_logobar_right>
+<P><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A href="/Article/" target=_blank>自考动态</A>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</B>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B><A href="/fxzd/" target=_blank>复习指导</A></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><A href="/lnst/" target=_blank>历年试题</A>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</B>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><A href="/cjbj/" target=_blank>串讲笔记</A></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><A href="/guestbook/" target=_blank>建议留言</A>&nbsp;&nbsp;&nbsp;&nbsp; </B>&nbsp;|<BR><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A href="/Article/xsbd" target=_blank>自考必读</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </B>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><A href="/soft" target=_blank>资料下载</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B><A href="/bylw" target=_blank>毕业论文</A>&nbsp;&nbsp;&nbsp; &nbsp; </B>|&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<B><A href="//bbs.stzikao.com/" target=_blank>自考论坛</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B>|&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<B><A href="/" target=_blank>备用频道</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B>|</P></div></div></div>  <div class="main">
+
+<div class="header_searchbar">
+		<div class="header_searchbar_left">
+		<script language="JavaScript" type="text/JavaScript" src="/js/date.js"></script>				<br />
+				<!-- 天气预报开始 -->
+				<IFRAME style="FILTER: chroma(color=#ffffff)" marginWidth=0 marginHeight=0 src="//m.weather.com.cn/m/p1/weather1.htm?id=101280501T " frameBorder=0 width=150 scrolling=no height=20></IFRAME>
+				<!-- 天气预报结束 -->
+
+		</div>
+		<div class="header_searchbar_right">
+			<ul>
+			<FORM name=search action=/search.asp method=post>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:10px;">
+  <tr>
+    <td colspan="3" width="550">常用查询： <A href="//www.stzikao.com" target="_blank">自考报名</A>  <A href="//www.stzikao.com" target="_blank">自考专业</A>  <A href="//www.stzikao.com" target="_blank">自考成绩查询</A>  <A href="//www.stzikao.com" target="_blank">汕头自考办</A>  <A href="//www.stzikao.com" target="_blank">自考本科</A></td>
+    <td width="150"> </td>
+  </tr>
+  <tr>
+    <td><Input id=Keyword style="WIDTH: 320px;" onclick="search.Keyword.value=''" maxLength=30 size=14 value=关键字 name=Keyword></td>
+    <td><Select size=1 name=ModuleName style="margin-top:4px; margin-bottom:4px;"> 
+  <Option value=Article selected>自考新闻</Option>
+  <Option value=cjbj>串讲笔记</Option>
+  <Option value=lnst>历年试题</Option>     
+  <Option value=bylw>毕业论文</Option> 
+  <Option value=fxzd>复习指导</Option>
+</Select> 
+    <Input id=Field type=hidden value=Title name=Field></td>
+    <td><input id=Submit name=Submit type="image" src="/skin/web/button_search.gif" /></td>
+    <td><A href="" name=StranLink>繁體中文</A>
+<script language="javascript" src="/js/gb_big5.js"></script></td>
+  </tr>
+</table>
+
+			</form>
+
+		  </ul>
+</div>
+</div>
 <div class=main>
 <div class=main_adbar>
 <script language='javascript' src='/ad/200607/8.js'></script> 
 </div>
 <div class=cmain_head>
-<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='//www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/Index.html'>自考动态</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/zknews/Index.html'>自考新闻</a>&nbsp;>>&nbsp;正文 
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='//www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/index.html'>自考动态</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/zknews/index.html'>自考新闻</a>&nbsp;>>&nbsp;正文 
 <!--empire.url-->
 </div>
 <div class=cmain_head_right>
@@ -87,9 +139,7 @@ function bbimg(o)
 <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 4">
 <TD style="PADDING-RIGHT: 0cm; PADDING-LEFT: 0cm; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; HEIGHT: 13.5pt">
 <P class=MsoNormal>各有关市自学考试办公室，各学历文凭考试试点学校：<SPAN lang=EN-US><BR>&nbsp;&nbsp;&nbsp;&nbsp;</SPAN>根据全国考办《关于<SPAN lang=EN-US>2007</SPAN>年高等教育学历文凭考试全国统考课程考试时间安排的通知》（考委办函<SPAN lang=EN-US>[2006]36</SPAN>号）、省教育厅《关于调整广东省高等教育学历文凭考试教学<a class="channel_keylink" href="//www.stzikao.com/Article/zkbkbd/Index.html">计划</a>和教学大纲的通知》（粤教职<SPAN lang=EN-US>[2003]97</SPAN>号）、省教育厅职成处《关于使用新高等教育学历文凭考试教学<a class="channel_keylink" href="//www.stzikao.com/Article/zkbkbd/Index.html">计划</a>和大纲的补充通知》和《关于调整学历文凭考试个别课程教学时间及变更〈办公自动化〉课程教学大纲通知》要求，结合我省实际情况，现将《<SPAN lang=EN-US>2007</SPAN>年<SPAN lang=EN-US>1</SPAN>月广东省高等教育学历文凭考试各年级统考课程考试时间安排表》<SPAN lang=EN-US>(</SPAN>附件一<SPAN lang=EN-US>)</SPAN>、《<SPAN lang=EN-US>2007</SPAN>年<SPAN lang=EN-US>7</SPAN>月广东省高等教育学历文凭考试各年级统考课程考试时间安排表》<SPAN lang=EN-US>(</SPAN>附件二<SPAN lang=EN-US>)</SPAN>、《<SPAN lang=EN-US>2007</SPAN>年<SPAN lang=EN-US>1</SPAN>月广东省高等教育学历文凭考试考务日程安排表》<SPAN lang=EN-US>(</SPAN>附件三<SPAN lang=EN-US>)</SPAN>、《<SPAN lang=EN-US>2007</SPAN>年<SPAN lang=EN-US>7</SPAN>月广东省高等教育学历文凭考试考务日程安排表》<SPAN lang=EN-US>(</SPAN>附件四<SPAN lang=EN-US>)</SPAN>印发给你们，并就有关问题通知如下，请遵照执行。<SPAN lang=EN-US><BR>&nbsp;&nbsp;&nbsp;&nbsp;</SPAN>一、各专业的考试课程全部按粤教职<SPAN lang=EN-US>[2003]97</SPAN>号文件中的教学计划及省教育厅职成处有关调整意见进行安排。各学校拟定的教学<a class="channel_keylink" href="//www.stzikao.com/Article/zkbkbd/Index.html">计划</a>与当次考试课程安排如有冲突，须严格按当次考试课程安排执行。<SPAN lang=EN-US><BR>&nbsp;&nbsp;&nbsp;&nbsp;</SPAN>二、办公自动化课程（课程代号<SPAN lang=EN-US>1048</SPAN>）实行计算机上机（无纸化）考试，考试的组织和评卷工作由华南师范大学教育信息技术中心负责，省、市考办进行检查、监督。请各有关学历文凭考试试点学校直接与华南师范大学教育信息技术中心联系安排该课程考试。华南师范大学教育信息技术中心应于<st1:chsdate IsROCDate="False" IsLunarDate="False" Day="15" Month="7" Year="2007" w:st="on"><SPAN lang=EN-US>2007</SPAN>年<SPAN lang=EN-US>7</SPAN>月<SPAN lang=EN-US>15</SPAN>日前</st1:chsdate>将该课程当次考试成绩报我中心技术与统计部。华南师范大学教育信息技术中心联系人：郑德庆；联系电话：<SPAN lang=EN-US>020-85213800</SPAN>。<SPAN lang=EN-US><BR>&nbsp;&nbsp;&nbsp;&nbsp;</SPAN>三、当次安排考试的课程，符合报考规定的各年级各专业考生均可<a class="channel_keylink" href="//www.stzikao.com/Article/plane/Index.html">报考</a>。<SPAN lang=EN-US><BR>&nbsp;&nbsp;&nbsp;&nbsp;</SPAN>四、<SPAN lang=EN-US>2007</SPAN>年<SPAN lang=EN-US>1</SPAN>月和<SPAN lang=EN-US>7</SPAN>月安排考试的课程，其使用<a class="channel_keylink" href="//www.stzikao.com/Article/syjc/Index.html">教材</a>分别见附件五和附件六。<SPAN lang=EN-US><BR>&nbsp;&nbsp;&nbsp;&nbsp;</SPAN>五、<SPAN lang=EN-US>2007</SPAN>年<SPAN lang=EN-US>1</SPAN>月和<SPAN lang=EN-US>7</SPAN>月校考课程的考试成绩须分别于<SPAN lang=EN-US>2007</SPAN>年<SPAN lang=EN-US>2</SPAN>月底和<SPAN lang=EN-US>8</SPAN>月底前报送我中心技术与统计部备案。<SPAN lang=EN-US><BR>&nbsp;&nbsp;&nbsp;&nbsp;</SPAN>六、根据全国考办考委办函<SPAN lang=EN-US>[2006]36</SPAN>号文件要求，从<SPAN lang=EN-US>2008</SPAN>年起，不再安排高等教育学历文凭考试，在考籍有效期内未获得毕业证书的考生可参加高等教育自学考试相关课程的考试。请各试点学校做好相关工作。<SPAN lang=EN-US><BR><BR>&nbsp;&nbsp;&nbsp;<A href="//202.116.236.43/news/skb/2006623124115fj.doc"><U><FONT color=#0000ff>&nbsp;<SPAN lang=EN-US><SPAN lang=EN-US>附件：一、2007</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>年1</SPAN></SPAN></FONT></U><U><FONT color=#0000ff><SPAN lang=EN-US><SPAN lang=EN-US>月广东省高等教育学历文凭考试各年级统考课程考试时间安排表<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>二、2007</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>年7</SPAN></SPAN></FONT></U><U><FONT color=#0000ff><SPAN lang=EN-US><SPAN lang=EN-US>月广东省高等教育学历文凭考试各年级统考课程考试时间安排表<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>三、2007</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>年1</SPAN></SPAN></FONT></U><U><FONT color=#0000ff><SPAN lang=EN-US><SPAN lang=EN-US>月广东省高等教育学历文凭考试考务日程安排表<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>四、2007</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>年7</SPAN></SPAN></FONT></U><U><FONT color=#0000ff><SPAN lang=EN-US><SPAN lang=EN-US>月广东省高等教育学历文凭考试考务日程安排表<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>五、2007</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>年1</SPAN></SPAN></FONT></U><SPAN lang=EN-US><SPAN lang=EN-US><U><FONT color=#0000ff>月广东省高等教育学历文凭考试统考课程使用<a class="channel_keylink" href="//www.stzikao.com/Article/syjc/Index.html">教材</a></FONT></U><SPAN lang=EN-US><U><FONT color=#0000ff>一览表<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></U></SPAN></SPAN></SPAN><U><FONT color=#0000ff><SPAN lang=EN-US><SPAN lang=EN-US>六、2007</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>年7</SPAN></SPAN></FONT></U><U><FONT color=#0000ff><SPAN lang=EN-US><SPAN lang=EN-US>月广东省高等教育学历文凭考试统考课程使用<a class="channel_keylink" href="//www.stzikao.com/Article/syjc/Index.html">教材</a>一览表<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>七、2007</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>年1</SPAN></SPAN></FONT></U><U><FONT color=#0000ff><SPAN lang=EN-US><SPAN lang=EN-US>月广东省高等教育学历文凭考试考点安排表<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>八、2007</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>年7</SPAN></SPAN></FONT></U><U><FONT color=#0000ff><SPAN lang=EN-US><SPAN lang=EN-US>月广东省高等教育学历文凭考试考点安排表<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>九、2007</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>年1</SPAN></SPAN></FONT></U><U><FONT color=#0000ff><SPAN lang=EN-US><SPAN lang=EN-US>月广东省高等教育学历文凭考试国考课程<a class="channel_keylink" href="//www.stzikao.com/Article/plane/Index.html">报考</a>人数统计表<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>十、2007</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>年7</SPAN></SPAN><SPAN lang=EN-US><SPAN lang=EN-US>月广东省高等教育学历文凭考试国考课<SPAN lang=EN-US>程<a class="channel_keylink" href="//www.stzikao.com/Article/plane/Index.html">报考</a>人数统计表</SPAN></SPAN></SPAN></FONT></U></A><BR><BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN></SPAN>二○○六年六月十一日<SPAN lang=EN-US><BR><BR><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN></SPAN>主题词：学历文凭考试<SPAN lang=EN-US>&nbsp;&nbsp;</SPAN>通知<SPAN lang=EN-US><BR><SPAN style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN></SPAN>抄送：广东省教育厅职业与成人教育处，华南师范大学教育信息技术中心。</P></TD></TR></TBODY></TABLE>
-<!--#include File="/wzad.html"-->
 <P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p> 
-<P align=right>文章录入：简单爱</A></p> 
 <CENTER></CENTER>
 </div>
 </div>
@@ -290,7 +340,26 @@ if ((form1.Name.value == "") || (form1.Name.value == "null"))
 <div>
 </div>
   <!-- 页脚 -->
-<!--#include File="/buttom.html"--> 
+  <!-- 页脚 --><P>
+  <table style="WIDTH: 964px" borderColor=#ffffff cellSpacing=0 cellPadding=1 width=964 align=center bgColor=#ffffff border=1>
+    <tr>
+      <td colSpan=3>
+<P align=center>
+<div align=center>
+      <div class=foot_copyright_head></div>| <A class=Bottom href="/inside/about.asp">关于本站</A> | <A class=Bottom onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('//www.stzikao.com');" href="#">设为首页</A> | <A class=Bottom href="javascript:window.external.addFavorite('//www.stzikao.com','汕头自考网');">加入收藏</A> | <A class=Bottom href="mailto:linkte@163.com">站长邮箱</A> | <A class=Bottom href="/FriendSite/Index.asp" target=_blank>友情链接</A> | <A class=Bottom href="/Announcelist.asp" target=_blank>网站公告</A> | <A class=Bottom href="/Copyright.asp" target=_blank>版权申明</A> | </div></td>
+        <tr>
+          <td width=200>
+          <P align=center>&nbsp;<IMG style="FILTER: ; WIDTH: 60px; HEIGHT: 80px" height=80 alt="" hspace=0 src="/netalarm.gif" width=60 border=0></P></td>
+          <td>
+          <P align=center>&nbsp;声明：<a title="声明：本站是由汕头自考人士主办的公益网站" target="_blank" href="//www.stzikao.com">本站是由汕头自考人士主办的公益网站</a><br> 汕头自考网版权所有 Copyright &copy; 2006-2020 <a title="汕头自考网" target="_blank" href="//www.stzikao.com">stzikao</a>. All rights reserved.<br>   交流群：27052471 <a target="_blank" href="https://beian.miit.gov.cn/">粤ICP备14009918号-2</a><br>
+<script language='javascript' src='//www.stzikao.com/ad/tongji.js'></script> </P></td>
+          <td width=200>
+<P align=center>&nbsp; 
+<script>var caid="8750";</script> 
+          <script src="//www.315safe.com.cn/ca.js"></script></P></td>
+        </tr>
+      </table>
+</P>
 <div>
 </div>
 </body>

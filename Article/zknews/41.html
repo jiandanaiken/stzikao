@@ -30,14 +30,66 @@ function bbimg(o)
 </head>
 
 <body>
-<!--#include File="/WZtop.html"--> 
-<!--#include File="/header.html"--> 
+<div class=header>
+<div class=header_loginbar>
+<div class=header_loginbar_left><div id=UserLogin style="PADDING-LEFT: 20px">载入中… 
+<script language="JavaScript" type="text/JavaScript">LoadUserLogin('/',3,1);</script> </div> </div>
+<div class=header_loginbar_right>
+<UL>
+<LI><A href="/">首页</A></LI>
+<LI><A href="/Article/" target=_blank>新闻</A></LI>
+<LI><A href="/cjbj/" target=_blank>串讲</A></LI>
+<LI><A href="/lnst/" target=_blank>试题</A></LI>
+<LI></LI></UL></div></div>
+<div class=header_logobar>
+<div class=header_logobar_left><A href="/"><IMG height=70 src="/skin/web/logo.gif" width=207 border=0></A></div>
+<div class=header_logobar_right>
+<P><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A href="/Article/" target=_blank>自考动态</A>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</B>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B><A href="/fxzd/" target=_blank>复习指导</A></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><A href="/lnst/" target=_blank>历年试题</A>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</B>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><A href="/cjbj/" target=_blank>串讲笔记</A></B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><A href="/guestbook/" target=_blank>建议留言</A>&nbsp;&nbsp;&nbsp;&nbsp; </B>&nbsp;|<BR><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A href="/Article/xsbd" target=_blank>自考必读</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </B>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><A href="/soft" target=_blank>资料下载</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B><A href="/bylw" target=_blank>毕业论文</A>&nbsp;&nbsp;&nbsp; &nbsp; </B>|&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<B><A href="//bbs.stzikao.com/" target=_blank>自考论坛</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B>|&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<B><A href="/" target=_blank>备用频道</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B>|</P></div></div></div>  <div class="main">
+
+<div class="header_searchbar">
+		<div class="header_searchbar_left">
+		<script language="JavaScript" type="text/JavaScript" src="/js/date.js"></script>				<br />
+				<!-- 天气预报开始 -->
+				<IFRAME style="FILTER: chroma(color=#ffffff)" marginWidth=0 marginHeight=0 src="//m.weather.com.cn/m/p1/weather1.htm?id=101280501T " frameBorder=0 width=150 scrolling=no height=20></IFRAME>
+				<!-- 天气预报结束 -->
+
+		</div>
+		<div class="header_searchbar_right">
+			<ul>
+			<FORM name=search action=/search.asp method=post>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:10px;">
+  <tr>
+    <td colspan="3" width="550">常用查询： <A href="//www.stzikao.com" target="_blank">自考报名</A>  <A href="//www.stzikao.com" target="_blank">自考专业</A>  <A href="//www.stzikao.com" target="_blank">自考成绩查询</A>  <A href="//www.stzikao.com" target="_blank">汕头自考办</A>  <A href="//www.stzikao.com" target="_blank">自考本科</A></td>
+    <td width="150"> </td>
+  </tr>
+  <tr>
+    <td><Input id=Keyword style="WIDTH: 320px;" onclick="search.Keyword.value=''" maxLength=30 size=14 value=关键字 name=Keyword></td>
+    <td><Select size=1 name=ModuleName style="margin-top:4px; margin-bottom:4px;"> 
+  <Option value=Article selected>自考新闻</Option>
+  <Option value=cjbj>串讲笔记</Option>
+  <Option value=lnst>历年试题</Option>     
+  <Option value=bylw>毕业论文</Option> 
+  <Option value=fxzd>复习指导</Option>
+</Select> 
+    <Input id=Field type=hidden value=Title name=Field></td>
+    <td><input id=Submit name=Submit type="image" src="/skin/web/button_search.gif" /></td>
+    <td><A href="" name=StranLink>繁體中文</A>
+<script language="javascript" src="/js/gb_big5.js"></script></td>
+  </tr>
+</table>
+
+			</form>
+
+		  </ul>
+</div>
+</div>
 <div class=main>
 <div class=main_adbar>
 <script language='javascript' src='/ad/200607/8.js'></script> 
 </div>
 <div class=cmain_head>
-<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='//www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/Index.html'>自考动态</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/zknews/Index.html'>自考新闻</a>&nbsp;>>&nbsp;正文 
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='//www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/index.html'>自考动态</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/zknews/index.html'>自考新闻</a>&nbsp;>>&nbsp;正文 
 <!--empire.url-->
 </div>
 <div class=cmain_head_right>
@@ -64,9 +116,7 @@ function bbimg(o)
 </div>
 </div>
 <div class=newsinfo_main_body_news_body>在2001年广东省<a class="channel_keylink" href="//www.stzikao.com" target="_blank">自考</a>办组织进行了大规模更换准考证工作，当时办理更换或当年新生的准考证有效期是到2006年为止。为了及时做好准考证更换工作，防止在2007年参加自学考试时因持过期准考证而不能参加考试的情况出现，特此通知如下：<BR>&nbsp;&nbsp;&nbsp;&nbsp;1．需要更换准考证（请检查准考证右下角注明的有效期）的考生在今年各次报考期间直接在报考点申请。如果尚未照电子相片的考生应该到市、区（县）自学考试报名点采集电子照片。申请更换准考证的考生在<a class="channel_keylink" href="//www.stzikao.com/Article/plane/Index.html">报考</a>点登记、缴交准考证制作费和领取准考证。考生该准考证号上的合格成绩继续有效。<BR>&nbsp;&nbsp;&nbsp;&nbsp;2、如果尚未更换新的12位号准考证考生必须更换准考证，考生可通过电话96040或到各级自学考试报名点通过原13位准考证号查询转换为12位准考证号。<BR>&nbsp;&nbsp;&nbsp;&nbsp;3、持95年前本市发出的号码不足13位数准考证的考生，请持《课程合格证书》先到市、区（县）<a class="channel_keylink" href="//www.stzikao.com" target="_blank">自考</a>办查询对应的13位准考证号码，然后通过电话96040或到各级自学考试报名点通过原13位准考证号查询转换为12位准考证号，再按规定办理<a class="channel_keylink" href="//www.stzikao.com/Article/plane/Index.html">报考</a>和办理更换新准考证等手续。<BR>&nbsp;&nbsp;&nbsp;&nbsp;4、如果考生的考籍数据有错漏，考生必须要事先办理考籍更正手续。在确知省考办已经修改好<a class="channel_keylink" href="//www.stzikao.com/Soft/Index.asp">资料</a>后，才能办理更换准考证手续。<BR>&nbsp;&nbsp;&nbsp;&nbsp;5、今后每年都有考生准考证的有效期到期（请检查准考证右下角注明的有效期），考生应注意及时做好办理更换准考证的工作，以免影响参加自学考试。<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;二○○六年四月七日<BR>
-<!--#include File="/wzad.html"-->
 <P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p> 
-<P align=right>文章录入：简单爱</A></p> 
 <CENTER></CENTER>
 </div>
 </div>
@@ -267,7 +317,26 @@ if ((form1.Name.value == "") || (form1.Name.value == "null"))
 <div>
 </div>
   <!-- 页脚 -->
-<!--#include File="/buttom.html"--> 
+  <!-- 页脚 --><P>
+  <table style="WIDTH: 964px" borderColor=#ffffff cellSpacing=0 cellPadding=1 width=964 align=center bgColor=#ffffff border=1>
+    <tr>
+      <td colSpan=3>
+<P align=center>
+<div align=center>
+      <div class=foot_copyright_head></div>| <A class=Bottom href="/inside/about.asp">关于本站</A> | <A class=Bottom onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('//www.stzikao.com');" href="#">设为首页</A> | <A class=Bottom href="javascript:window.external.addFavorite('//www.stzikao.com','汕头自考网');">加入收藏</A> | <A class=Bottom href="mailto:linkte@163.com">站长邮箱</A> | <A class=Bottom href="/FriendSite/Index.asp" target=_blank>友情链接</A> | <A class=Bottom href="/Announcelist.asp" target=_blank>网站公告</A> | <A class=Bottom href="/Copyright.asp" target=_blank>版权申明</A> | </div></td>
+        <tr>
+          <td width=200>
+          <P align=center>&nbsp;<IMG style="FILTER: ; WIDTH: 60px; HEIGHT: 80px" height=80 alt="" hspace=0 src="/netalarm.gif" width=60 border=0></P></td>
+          <td>
+          <P align=center>&nbsp;声明：<a title="声明：本站是由汕头自考人士主办的公益网站" target="_blank" href="//www.stzikao.com">本站是由汕头自考人士主办的公益网站</a><br> 汕头自考网版权所有 Copyright &copy; 2006-2020 <a title="汕头自考网" target="_blank" href="//www.stzikao.com">stzikao</a>. All rights reserved.<br>   交流群：27052471 <a target="_blank" href="https://beian.miit.gov.cn/">粤ICP备14009918号-2</a><br>
+<script language='javascript' src='//www.stzikao.com/ad/tongji.js'></script> </P></td>
+          <td width=200>
+<P align=center>&nbsp; 
+<script>var caid="8750";</script> 
+          <script src="//www.315safe.com.cn/ca.js"></script></P></td>
+        </tr>
+      </table>
+</P>
 <div>
 </div>
 </body>
