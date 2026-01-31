@@ -1,1 +1,0 @@
-document.writeln("<a href=\'http://union.chinaacc.com/union/advertHit/advertHit.shtm?siteID=1&advertID=2919&agentID=6706\' target=\'_blank\'><img name=\'AdsHttp\' src=\'https://img.cdeledu.com/ADVC/2022/0208/32ea436b9e908ac8-0_chg.png\' width=\'960\' height=\'90\' alt=\'\' border=\'0\'/></a>");
