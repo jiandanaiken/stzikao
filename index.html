@@ -6,10 +6,10 @@
 <meta name="keywords" content="汕头自学考试网,汕头自学考试,汕头自考办,自考,自考成绩查询,自考365,自考网,自考报名自考专业,成人自考,自考本科,自考查询,自考查分">
 <meta name="description" content="创建于2006年7月1日,是一家免费公益性质的自考信息交流网站. 网站自成立以来,为广大自考生提供各种自考信息和学习资料,自考成绩查询,自考专业自考安排和考试用书,促进考生交流,汕头自考网是汕头自考人士建立的网站！宗旨是帮助广大自考生以更快的速度通过自考！">
 <meta name="google-site-verification" content="dUR9npCbkQzeOJrYjAJj5trsxxXSzqB_ee0pVIEZEiI" />
-<script src="/JS/prototype.js"></script>
-<script src="/JS/scriptaculous.js"></script>
-<script src="/JS/checklogin.js"></script>
-<link href='/skin/DefaultSkin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script src="/js/prototype.js"></script>
+<script src="/js/scriptaculous.js"></script>
+<script src="/js/checklogin.js"></script>
+<link href='/skin/defaultskin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
 
 <script type="text/javascript" src="/skin/web/changepart.js"></script>
 </head>
@@ -75,39 +75,164 @@
 <div class=main_mainbar>
 <div class=main_mainbar_left>
 <div class=main_mainbar1>
-<div class=main_mainbar1_img><!-- flash section -->
-<script language="javascript" type="text/javascript" src="/flash/flash.js"></script>
-<script language="javascript" type="text/javascript">
-var images="";
-var links="";
-var texts="";
+<div class=main_mainbar1_img><!-- 焦点图轮播：替换原有Flash，保留原动易标签/数据结构 -->
+<style type="text/css">
+/* 轮播核心样式，和原Flash尺寸/布局一致，适配UTF-8 */
+#flashNewsWrap {
+    position: relative;
+    width: 260px;
+    height: 232px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#flashNewsList {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(260px * 10);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: left 0.5s ease; /* 平滑轮播过渡，和Flash动画一致 */
+}
+#flashNewsList li {
+    float: left;
+    width: 260px;
+    height: 232px;
+}
+#flashNewsList li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#flashNewsList li img {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    object-fit: cover; /* 保持图片比例，不拉伸变形 */
+}
+/* 底部标题栏：和原Flash text_height一致，半透明背景 */
+#flashNewsTitle {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+    line-height: 0px;
+    background: rgba(0,0,0,0.7); /* 半透明黑，和Flash默认样式一致 */
+    color: #fff;
+    font-size: 14px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    z-index: 10;
+}
+/* 轮播控制隐藏：保持自动轮播，和原Flash无手动按钮一致 */
+.flashNewsCtrl {
+    display: none;
+}
+</style>
 
-images=images+"|"+"/Article/UploadFiles/201305/2013050215591855_S.jpg";
-links=links+"|"+"/Article/zknews/4621.html";
-texts=texts+"|"+"关于重申广东省自考中英合作两个专业报考有关报考通知"
-images=images+"|"+"/Article/UploadFiles/201201/20120106135251358_S.jpg";
-links=links+"|"+"/Article/zknews/4348.html";
-texts=texts+"|"+"2012年4月自考新生报名指南"
-images=images+"|"+"/Article/UploadFiles/201201/20120106134853643_S.jpg";
-links=links+"|"+"/Article/zknews/4347.html";
-texts=texts+"|"+"2012年4月自学考试报考说明"
-images=images+"|"+"/Article/UploadFiles/201111/20111112205336663_S.jpg";
-links=links+"|"+"/Article/zknews/4343.html";
-texts=texts+"|"+"2012年1月自考公共课报考必读"
-images=images+"|"+"/Article/UploadFiles/201101/20110121183147737_S.jpg";
-links=links+"|"+"/Article/zknews/4321.html";
-texts=texts+"|"+"2011年首次自考新生报名1月5至15日进行"
-images=images.substring(1, images.length );
-links=links.substring(1, links.length );
-texts=texts.substring(1, texts.length );
-var focus_width=260 //宽度
-var focus_height=232 //高度，focus_height text_height 相加之和最好是偶数,否则数字会出现模糊失真的问题
-var text_height=0 //标题高度
-cindx.home.flashNews("/flash/xman.swf", focus_width, focus_height, images, links, texts, text_height);
+<div id="flashNewsWrap">
+    <ul id="flashNewsList">
+        
+        <li>
+            <a href="/Article/zknews/4621.html" target="_blank">
+                <img src="/Article/UploadFiles/201305/2013050215591855_S.jpg" alt="关于重申广东省自考中英合作两个专业报考有关报考通知">
+            </a>
+        </li>
+        
+        <li>
+            <a href="/Article/zknews/4348.html" target="_blank">
+                <img src="/Article/UploadFiles/201201/20120106135251358_S.jpg" alt="2012年4月自考新生报名指南">
+            </a>
+        </li>
+        
+        <li>
+            <a href="/Article/zknews/4347.html" target="_blank">
+                <img src="/Article/UploadFiles/201201/20120106134853643_S.jpg" alt="2012年4月自学考试报考说明">
+            </a>
+        </li>
+        
+        <li>
+            <a href="/Article/zknews/4343.html" target="_blank">
+                <img src="/Article/UploadFiles/201111/20111112205336663_S.jpg" alt="2012年1月自考公共课报考必读">
+            </a>
+        </li>
+        
+        <li>
+            <a href="/Article/zknews/4321.html" target="_blank">
+                <img src="/Article/UploadFiles/201101/20110121183147737_S.jpg" alt="2011年首次自考新生报名1月5至15日进行">
+            </a>
+        </li>
+        
+    </ul>
+    <div id="flashNewsTitle"></div>
+</div>
+
+<script type="text/javascript">
+// 轮播核心逻辑：自动轮播、标题同步、点击跳转，和原Flash功能一致
+window.onload = function() {
+    // 原Flash配置参数，直接复用，无需修改
+    var focus_width = 260;  // 轮播宽度
+    var focus_height = 232; // 轮播高度
+    var text_height = 0;  // 标题栏高度
+    
+    // 获取元素
+    var wrap = document.getElementById("flashNewsWrap");
+    var list = document.getElementById("flashNewsList");
+    var titleBar = document.getElementById("flashNewsTitle");
+    var lis = list.getElementsByTagName("li");
+    var len = lis.length;
+    
+    // 若无数据，隐藏容器
+    if(len === 0) {
+        wrap.style.display = "none";
+        return;
+    }
+    
+    // 1. 初始化标题：显示第一个轮播图的标题
+    var titles = [];
+    for(var i=0; i<len; i++) {
+        titles.push(lis[i].getElementsByTagName("img")[0].alt);
+    }
+    titleBar.innerText = titles[0];
+    
+    // 2. 自动轮播核心：无缝滚动，和原Flash轮播速度一致
+    var index = 0;
+    var timer = setInterval(function() {
+        index++;
+        if(index >= len) {
+            index = 0;
+        }
+        // 移动轮播列表
+        list.style.left = -index * focus_width + "px";
+        // 同步更新标题
+        titleBar.innerText = titles[index];
+    }, 5000); // 5秒轮播一次，和原Flash默认速度一致
+    
+    // 3. 鼠标悬停暂停轮播、离开继续，提升体验（原Flash同款交互）
+    wrap.onmouseover = function() {
+        clearInterval(timer);
+    };
+    wrap.onmouseout = function() {
+        timer = setInterval(function() {
+            index++;
+            if(index >= len) {
+                index = 0;
+            }
+            list.style.left = -index * focus_width + "px";
+            titleBar.innerText = titles[index];
+        }, 5000);
+    };
+};
 </script>
-<!-- flash section -->
-
- 
+<!-- 焦点图轮播替换结束 --> 
 </div>
 </div>
 <div class=main_mainbar2>
@@ -255,7 +380,7 @@ href="//www.stzikao.com/Article/zkbkbd/4319.shtml" style="text-decoration: none"
 <div class=main_mainbar4_headleft>自考倒计时 
 </div>
 </div>
-<div class=main_mainbar4_body><center>距离2015年7月4日考试仅<BR><BR>
+<div class=main_mainbar4_body><center>距离2026年4月11日考试仅<BR><BR>
 <script language="JavaScript" >
 <!--
 mydate = new Date();
@@ -263,7 +388,7 @@ myyear = mydate.getYear();
 mymonth = mydate.getMonth()+1;
 today = mydate.getDate();
 myhour = mydate.getHours();
-var urodz= new Date("7/4/2015");
+var urodz= new Date("4/11/2026");
 var ile = urodz.getTime() - mydate.getTime()+1;
 var dni = Math.floor(ile / (1000 * 60 * 60 * 24)+1);
 if (dni > 0)
@@ -271,7 +396,7 @@ document.write("<b><font color=red size=9 face=arial black>"+dni+"</font></b>")
 else
 document.write("正在举行哦！"); 
 //      -->  
- </script>天<BR><BR>新生可参加2015年10月大考</td></center>
+ </script>天<BR><BR>新生可参加2026年4月大考</td></center>
 </div>
 <div class=main_mainbar4_foot>
 </div>
