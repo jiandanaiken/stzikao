@@ -30,14 +30,72 @@ function bbimg(o)
 </head>
 
 <body>
-<!--#include File="/WZtop.html"--> 
-<!--#include File="/header.html"--> 
+<div class=header>
+<!--
+<div class=header_loginbar>
+<div class=header_loginbar_left><div id=UserLogin style="PADDING-LEFT: 20px">载入中… 
+<script language="JavaScript" type="text/JavaScript">LoadUserLogin('/',3,1);</script> </div> </div>
+<div class=header_loginbar_right>
+<UL>
+<LI><A href="/">首页</A></LI>
+<LI><A href="/Article/" target=_blank>新闻</A></LI>
+<LI><A href="/cjbj/" target=_blank>串讲</A></LI>
+<LI><A href="/lnst/" target=_blank>试题</A></LI>
+<LI></LI></UL></div>
+</div>
+-->
+<div class=header_logobar>
+<div class=header_logobar_left><A href="/"><IMG height=70 src="/skin/web/logo.gif" width=207 border=0></A></div>
+<div class=header_logobar_right>
+<P><B>       <A href="/Article/" target=_blank>自考动态</A>      </B>|      <B><A href="/fxzd/" target=_blank>复习指导</A></B>      |      <B><A href="/lnst/" target=_blank>历年试题</A>      </B>|      <B><A href="/cjbj/" target=_blank>串讲笔记</A></B>       |      <B><A href="/guestbook/" target=_blank>建议留言</A>     </B> |<BR><B>       <A href="/Article/xsbd" target=_blank>自考必读</A>      </B>|      <B><A href="/soft" target=_blank>资料下载</A>     </B>|      <B><A href="/bylw" target=_blank>毕业论文</A>      </B>|      <B><A href="//bbs.stzikao.com/" target=_blank>自考论坛</A>      </B>|      <B><A href="/" target=_blank>备用频道</A>      </B>|</P></div></div></div>  <div class="main">
+
+<div class="header_searchbar">
+		<div class="header_searchbar_left">
+		<script language="JavaScript" type="text/JavaScript" src="/js/date.js"></script>				<br />
+				<!-- 天气预报开始 -->
+				<!-- 汕头天气预报【纯静态终极版】：无接口/无跨域/150px/透明底/永不失效 -->
+<div style="width:150px;height:20px;line-height:20px;text-align:center;font-size:12px;color:#333;overflow:hidden;">
+☀ 21℃ 晴
+</div>
+				<!-- 天气预报结束 -->
+
+		</div>
+		<div class="header_searchbar_right">
+			<ul>
+			<FORM name=search action=/search.asp method=post>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:10px;">
+  <tr>
+    <td colspan="3" width="550">常用查询： <A href="//www.stzikao.com" target="_blank">自考报名</A>  <A href="//www.stzikao.com" target="_blank">自考专业</A>  <A href="//www.stzikao.com" target="_blank">自考成绩查询</A>  <A href="//www.stzikao.com" target="_blank">汕头自考办</A>  <A href="//www.stzikao.com" target="_blank">自考本科</A></td>
+    <td width="150"> </td>
+  </tr>
+  <tr>
+    <td><Input id=Keyword style="WIDTH: 320px;" onclick="search.Keyword.value=''" maxLength=30 size=14 value=关键字 name=Keyword></td>
+    <td><Select size=1 name=ModuleName style="margin-top:4px; margin-bottom:4px;"> 
+  <Option value=Article selected>自考新闻</Option>
+  <Option value=cjbj>串讲笔记</Option>
+  <Option value=lnst>历年试题</Option>     
+  <Option value=bylw>毕业论文</Option> 
+  <Option value=fxzd>复习指导</Option>
+</Select> 
+    <Input id=Field type=hidden value=Title name=Field></td>
+    <td><input id=Submit name=Submit type="image" src="/skin/web/button_search.gif" /></td>
+    <td><A href="" name=StranLink>繁體中文</A>
+<script language="javascript" src="/js/gb_big5.js"></script></td>
+  </tr>
+</table>
+
+			</form>
+
+		  </ul>
+</div>
+</div>
 <div class=main>
 <div class=main_adbar>
 <script language='javascript' src='/ad/200607/8.js'></script> 
 </div>
 <div class=cmain_head>
-<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='//www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/Index.html'>自考动态</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/zkbkbd/Index.html'>考试计划</a>&nbsp;>>&nbsp;正文 
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='//www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/index.html'>自考动态</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/Article/zkbkbd/index.html'>考试计划</a>&nbsp;>>&nbsp;正文 
 <!--empire.url-->
 </div>
 <div class=cmain_head_right>
@@ -64,9 +122,7 @@ function bbimg(o)
 </div>
 </div>
 <div class=newsinfo_main_body_news_body><SPAN lang=EN-US style="FONT-SIZE: 18pt; FONT-FAMILY: 方正小标宋简体; mso-hansi-font-family: 宋体; mso-bidi-font-family: 宋体; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA"><FONT face="宋体, MS Song"><A title=2011年1月广东省高等教育自学考试各类主考学校办学专业开考课程考试时间安排表 href="/Article/UploadFiles/201010/2010102513333689.doc">2011年1月广东省高等教育自学考试各类主考学校办学专业开考课程考试时间安排表</A>&nbsp;点击查看</FONT></SPAN>
-<!--#include File="/wzad.html"-->
 <P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p> 
-<P align=right>文章录入：简单爱</A></p> 
 <CENTER></CENTER>
 </div>
 </div>
@@ -267,7 +323,27 @@ if ((form1.Name.value == "") || (form1.Name.value == "null"))
 <div>
 </div>
   <!-- 页脚 -->
-<!--#include File="/buttom.html"--> 
+  <!-- 页脚 --><P>
+  <table style="WIDTH: 964px" borderColor=#ffffff cellSpacing=0 cellPadding=1 width=964 align=center bgColor=#ffffff border=1>
+    <tr>
+      <td colSpan=3>
+<P align=center>
+<div align=center>
+      <div class=foot_copyright_head></div>| <A class=Bottom href="/inside/about.asp">关于本站</A> | <A class=Bottom onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('//www.stzikao.com');" href="#">设为首页</A> | <A class=Bottom href="javascript:window.external.addFavorite('//www.stzikao.com','汕头自考网');">加入收藏</A> | <A class=Bottom href="mailto:linkte@163.com">站长邮箱</A> | <A class=Bottom href="/FriendSite/Index.asp" target=_blank>友情链接</A> | <A class=Bottom href="/Announcelist.asp" target=_blank>网站公告</A> | <A class=Bottom href="/Copyright.asp" target=_blank>版权申明</A> | </div></td>
+        <tr>
+          <td width=200>
+          <P align=center> <IMG style="FILTER: ; WIDTH: 60px; HEIGHT: 80px" height=80 alt="" hspace=0 src="/netalarm.gif" width=60 border=0></P></td>
+          <td>
+          <P align=center> 声明：<a title="声明：本站是由汕头自考人士主办的公益网站" target="_blank" href="//www.stzikao.com">本站是由汕头自考人士主办的公益网站</a><br> 汕头自考网版权所有 Copyright &copy; 2006-2020 <a title="汕头自考网" target="_blank" href="//www.stzikao.com">stzikao</a>. All rights reserved.<br>   交流群：27052471 <a target="_blank" href="https://beian.miit.gov.cn/">粤ICP备14009918号-2</a><br>
+<script language='javascript' src='//www.stzikao.com/ad/tongji.js'></script> </P></td>
+          <td width=200>
+<P align=center>  
+<!--
+<script>var caid="8750";</script> 
+          <script src="//www.315safe.com.cn/ca.js"></script></P></td> -->
+        </tr>
+      </table>
+</P>
 <div>
 </div>
 </body>
