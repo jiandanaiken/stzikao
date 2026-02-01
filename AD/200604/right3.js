@@ -32,4 +32,4 @@ document.writeln("    <p align=\"left\">·<A href=\"http:\/\/www.zkbooks.com\/bo
 document.writeln("  <\/tr>");
 document.writeln("<\/table>")
 
-document.writeln("<iframe src=\"http:\/\/www.chinaacc.com\/webhtml\/lm6.htm?456,2724\" width=\"300\" height=\"310\" scrolling=\"no\" border=0 frameborder=0  marginwidth=\'0\' marginheight=\'0\'><\/iframe>")
+//document.writeln("<iframe src=\"http:\/\/www.chinaacc.com\/webhtml\/lm6.htm?456,2724\" width=\"300\" height=\"310\" scrolling=\"no\" border=0 frameborder=0  marginwidth=\'0\' marginheight=\'0\'><\/iframe>")
