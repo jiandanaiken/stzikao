@@ -1,0 +1,351 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="//www.w3.org/1999/xhtml">
+<head>
+<title>网友整理的数据库及应用笔记（二）_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="网友,友整,整理,理的,的数,数据,据库,库及,及应,应用,用笔,笔记,记（,（二,网友整理的数据库及应用笔记（二）,工学类,汕头自考网"> 
+<meta name="description" content="				&nbsp;&nbsp;&nbsp;&nbsp;第四章　　　　数据库设计是数据库应用系统的核心部分，它包括两方面的内容：结构特性设计和行为特性设计。　　　　在数据库的两方面设计中，结构特性是静态的，一旦形成轻易不再改变，行为特性是指用户的业务活动，这种活动体现在应用程序中。结构特性设计是指数据库总体概念设计。它应该是具有最小数据冗余的，能反映不同用户数据需求的，能实现数据共享的系统。数据库设计中结构设计是关键。　　　　在数据库设" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="/js/prototype.js"></script>
+<script src="/js/scriptaculous.js"></script>
+<script src="/js/checklogin.js"></script>
+<link href='/skin/defaultskin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<div class=header>
+<!--
+<div class=header_loginbar>
+<div class=header_loginbar_left><div id=UserLogin style="PADDING-LEFT: 20px">载入中… 
+<script language="JavaScript" type="text/JavaScript">LoadUserLogin('/',3,1);</script> </div> </div>
+<div class=header_loginbar_right>
+<UL>
+<LI><A href="/">首页</A></LI>
+<LI><A href="/Article/" target=_blank>新闻</A></LI>
+<LI><A href="/cjbj/" target=_blank>串讲</A></LI>
+<LI><A href="/lnst/" target=_blank>试题</A></LI>
+<LI></LI></UL></div>
+</div>
+-->
+<div class=header_logobar>
+<div class=header_logobar_left><A href="/"><IMG height=70 src="/skin/web/logo.gif" width=207 border=0></A></div>
+<div class=header_logobar_right>
+<P><B>       <A href="/Article/" target=_blank>自考动态</A>      </B>|      <B><A href="/fxzd/" target=_blank>复习指导</A></B>      |      <B><A href="/lnst/" target=_blank>历年试题</A>      </B>|      <B><A href="/cjbj/" target=_blank>串讲笔记</A></B>       |      <B><A href="/guestbook/" target=_blank>建议留言</A>     </B> |<BR><B>       <A href="/Article/xsbd" target=_blank>自考必读</A>      </B>|      <B><A href="/soft" target=_blank>资料下载</A>     </B>|      <B><A href="/bylw" target=_blank>毕业论文</A>      </B>|      <B><A href="//bbs.stzikao.com/" target=_blank>自考论坛</A>      </B>|      <B><A href="/" target=_blank>备用频道</A>      </B>|</P></div></div></div>  <div class="main">
+
+<div class="header_searchbar">
+		<div class="header_searchbar_left">
+		<script language="JavaScript" type="text/JavaScript" src="/js/date.js"></script>				<br />
+				<!-- 天气预报开始 -->
+				<!-- 汕头天气预报【纯静态终极版】：无接口/无跨域/150px/透明底/永不失效 -->
+<div style="width:150px;height:20px;line-height:20px;text-align:center;font-size:12px;color:#333;overflow:hidden;">
+☀ 21℃ 晴
+</div>
+				<!-- 天气预报结束 -->
+
+		</div>
+		<div class="header_searchbar_right">
+			<ul>
+			<FORM name=search action=/search.asp method=post>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:10px;">
+  <tr>
+    <td colspan="3" width="550">常用查询： <A href="//www.stzikao.com" target="_blank">自考报名</A>  <A href="//www.stzikao.com" target="_blank">自考专业</A>  <A href="//www.stzikao.com" target="_blank">自考成绩查询</A>  <A href="//www.stzikao.com" target="_blank">汕头自考办</A>  <A href="//www.stzikao.com" target="_blank">自考本科</A></td>
+    <td width="150"> </td>
+  </tr>
+  <tr>
+    <td><Input id=Keyword style="WIDTH: 320px;" onclick="search.Keyword.value=''" maxLength=30 size=14 value=关键字 name=Keyword></td>
+    <td><Select size=1 name=ModuleName style="margin-top:4px; margin-bottom:4px;"> 
+  <Option value=Article selected>自考新闻</Option>
+  <Option value=cjbj>串讲笔记</Option>
+  <Option value=lnst>历年试题</Option>     
+  <Option value=bylw>毕业论文</Option> 
+  <Option value=fxzd>复习指导</Option>
+</Select> 
+    <Input id=Field type=hidden value=Title name=Field></td>
+    <td><input id=Submit name=Submit type="image" src="/skin/web/button_search.gif" /></td>
+    <td><A href="" name=StranLink>繁體中文</A>
+<script language="javascript" src="/js/gb_big5.js"></script></td>
+  </tr>
+</table>
+
+			</form>
+
+		  </ul>
+</div>
+</div>
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/ad/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='//www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/index.html'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/gxl/index.html'>工学类</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/ad/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>网友整理的数据库及应用笔记（二）</LI>
+<LI class=date>发布日期时间：2007/1/14&nbsp;&nbsp;来源：网络 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=974'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/ad/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body>　　查询程序文件qpr<BR>　　<BR>　　编译查询程序文件qpx<BR>　　<BR>　　Foxdoc文件文件doc<BR>　　<BR>　　屏幕文件scx<BR>　　<BR>　　屏幕备注文件sct<BR>　　<BR>　　屏幕程序文件spr<BR>　　<BR>　　编译屏幕程序文件spx<BR>　　<BR>　　配置文件config.fpw<BR>　　<BR>　　菜单文件mnx<BR>　　<BR>　　菜单备注文件mnt<BR>　　<BR>　　菜单程序文件mpr<BR>　　<BR>　　编译菜单程序文件mpx<BR>　　<BR>　　资源文件foxuser.fpt<BR>　　<BR>　　项目文件pjx<BR>　　<BR>　　项目备注文件pjt<BR>　　<BR>　　项目程序文件app<BR>　　<BR>　　项目可执行文件exe<BR>　　<BR>　　帮助文件foxhelp.dbf<BR>　　<BR>　　格式文件fmt<BR>　　<BR>　　编译格式文件frx<BR>　　<BR>　　报表格式文件frx<BR>　　<BR>　　报表备注文件frt<BR>　　<BR>　　帮助备注文件foxhelp.fpt<BR>　　<BR>　　标签文件lbx<BR>　　<BR>　　标签备注文件lbt<BR>　　<BR>　　程序文件prg<BR>　　<BR>　　编译程序文件fxp<BR>　　<BR>　　可执行文件exe<BR>　　<BR>　　视图文件vue<BR>　　<BR>　　键盘宏文件fky<BR>　　<BR>　　内存变量文件mem<BR>　　<BR>　　编译记事文件log<BR>　　<BR>　　编译出错记录文件err<BR>　　<BR>　　文本文件txt<BR>　　<BR>　　窗口文件win<BR>　　<BR>　　菜单：文件file编辑edit数据库database记录record程序program运行run文字text窗口window帮助help<BR>　　<BR>　　在FoxPro菜单中，如果菜单右面带有省略号（…），表示选择菜单会弹出一个对话框窗口，如果菜单中某些项呈暗淡的灰色，表示该功能在当前状态下不能使用。ALT或F10调用菜单。<BR>　　<BR>　　命令窗口的显示与隐藏可通过Window的&quot;Command&quot;和&quot;Hide&quot;选项来控制。<BR>　　<BR>　　FoxPro的数据类型有七种，它们的名字和简写字母是字符型C、数值型N、浮点型F、逻辑型L、日期型D、备注型M和通用型G，数据库中的字段变量可取其中的七种。内存变量是字符型、数值型、逻辑型、浮点型、屏幕S数据，常量通常只有字符型、数值型、日期型和逻辑型四种数据类型。<BR>　　<BR>　　变量名不超过10个字母、数字和下划线组成，而且必须以字母开头，但系统变量一般以下划线开头。<BR>　　<BR>　　字符型字段的最大长度是254个字符长，一个汉字视作2个ASCII码字符，字符型数据可进行大小比较运算和字符连接运算。数值或浮点数据最大宽度为20.逻辑型字段固定的长度为1个字节，逻辑真值可用。T.或。Y.表示，逻辑假值可用。F.或。N.表示。日期型数据宽度固定为8；可以与数值相加减，所得结果为另一个日期，两个日期型数据可以相减，结果为两个日期之间的天数。备注、通用字段的宽度为10个字节，该字段中存放的是指向存放备注内容的地址指针，或指向图形、图像、声音等文件的地址指针。在备注中，备注字段的每个数据，按大小为512个字节的数据块存放。对常量而言，名和值是一致的，对变量而言，名和值是不一致的。字符变量是“”、‘’或〔〕定界，日期变量用｛｝定界，逻辑常量用……定界。FoxPro的变量有两种，单值的内存变量和多值的字段变量。当字段变量与内存变量同名时，字段变量优先，可通过在内存变量名前加M.或M-&gt;来区别。<BR>　　<BR>　　从内存变量的组织形式上看，它可分为标量与数组，从内存变量的作用域上看，它可分为全局变量和局部变量。<BR>　　<BR>　　单个常量、变量或函数都是表达式的特殊形式之一。表达式是指通过各种运算符连接的常量、字段变量、内存变量、函数等运算对象所构成的有意义的算式。<BR>　　<BR>　　Foxpro的运算符有算术、字符串、关系、逻辑。比较运算会产生逻辑结果。字符串运算符有+、－、＝＝、$.。<BR>　　<BR>　　FoxPro有200多条命令，它一般由命令动词开头，后跟一个或多个限定该动词的子句构成。子句一般由动能短语和表达式构成。FoxPro命令，常见的子句有三种，分别是是范围子句，条件子句，字段列表子句。<BR>　　<BR>　　&lt;命令名&gt;[&lt;表达式表&gt;][&lt;范围&gt;][FOR&lt;条件&gt;][WHILE&lt;条件&gt;][TO FILE&lt;文件名&gt;|TO PRINTER|TO ARRAY&lt;数组表&gt;|TO&lt;内存变量&gt;][ALL[LIKE|EXCEPT&lt;通配符&gt;]][IN&lt;别名&gt;]][FIELDS&lt;字段列表&gt;]<BR>　　<BR>　　①[FIELDS&lt;字段列表&gt;子句用于指定被操作数据库文件的字段，是对二维数组表格各列的操作，又称投影操作。<BR>　　<BR>　　②而[&lt;范围&gt;]子句、[FIELDS&lt;条件&gt;]子句或[&lt;WHILE条件&gt;]子句用于指定被操作记录的范围和被操作记录要满足的要求，对二维表格各行的操作，又称选择操作。其中&lt;条件&gt;是一个逻辑表达式。<BR>　　<BR>　　③FOR&lt;条件&gt;[WHILE&lt;条件&gt;]这两个条件子句是有区别的，前者能对所有数据库中满足条件的记录操作，后者一旦遇到不满足条件的记录便停止操作。<BR>　　<BR>　　有个别的命令不是命令动词开头的，而是以特殊符号，例如命令？和@.<BR>　　<BR>　　FoxPro中，投影操作的子句是字段列表子句，选择操作的子句是范围子句和条件子句。<BR>　　<BR>　　当数据库一打开（如果不是空库）记录指针指向记录1的位置。<BR>　　<BR>　　FoxPro共有225个工作区，工作区号为1－255.其中前10个工作区也可命名为A－J.。最近一交换选择的工作区称为当前工作区。调用其它工作区的字段时应按工作区/别名-&gt;字段名“或”别名。字段名格式。<BR>　　<BR>　　一个数组占1个内存变量名额，通过数组定义命令DIMENSION建立，赋值前数组各元素的初值为逻辑假值<BR>　　<BR>　　进入FoxPro系统时，系统初始选中1号工作区。在FoxPro命令行中同时使用的各个子句，其位置可以交换。<BR>　　<BR>　　在FoxPro中用户可以使用两种方式执行命令，即立即执行方式和程序方式。<BR>　　<BR>　　立即方式是一种交互方式。好处是简单方便，缺点是工作量大，易出错，降低了计算机的使用效率。<BR>　　<BR>　　程序方式又称命令文件方式，这种方式要求用户事先根据任务编写程序。好处是速度快，计算机使用效率高。是Foxpr</p><p align='center'><b><a href='/cjbj/gxl/974.html'>上一页</a>&nbsp;&nbsp;<a href='/cjbj/gxl/974.html'>[1]</a>&nbsp;<font color='red'>[2]</font>&nbsp;<a href='/cjbj/gxl/974_3.html'>[3]</a>&nbsp;<a href='/cjbj/gxl/974_3.html'>下一页</a> </b></p> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=974"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="974" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/4621.html" title="关于重申广东省自考中英合作两个专业报考有关报考通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/201305/2013050215591855_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/4621.html" title="关于重申广东省自考中英合作两个专业报考有关报考通知" target="_blank">关于重申广东省自考中英合作两个专业报考有关报</a></td><td align='center'><a class="" href="/Article/zknews/4348.html" title="2012年4月自考新生报名指南" target="_blank"><img class='pic1' src='/Article/UploadFiles/201201/20120106135251358_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/4348.html" title="2012年4月自考新生报名指南" target="_blank">2012年4月自考新生报名指南</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/4347.html" title="2012年4月自学考试报考说明" target="_blank"><img class='pic1' src='/Article/UploadFiles/201201/20120106134853643_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/4347.html" title="2012年4月自学考试报考说明" target="_blank">2012年4月自学考试报考说明</a></td><td align='center'><a class="" href="/Article/zknews/4343.html" title="2012年1月自考公共课报考必读" target="_blank"><img class='pic1' src='/Article/UploadFiles/201111/20111112205336663_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/4343.html" title="2012年1月自考公共课报考必读" target="_blank">2012年1月自考公共课报考必读</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/gxl/974.html" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/lxl/4569.html" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2012年4月自考心理学复习考点一</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/lxl/4568.html" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2012年4月自考心理学复习考点二</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/lxl/4569.html" target=_blank>2012年4月自考心理学复习考点一</A></LI> 
+<LI>·<A href="/cjbj/lxl/4568.html" target=_blank>2012年4月自考心理学复习考点二</A></LI> 
+<LI>·<A href="/cjbj/lxl/4567.html" target=_blank>2012年4月自考心理学复习考点三</A></LI> 
+<LI>·<A href="/cjbj/lxl/4566.html" target=_blank>2012年4月自考心理学复习考点四</A></LI> 
+<LI>·<A href="/cjbj/lxl/4565.html" target=_blank>2012年4月自考心理学复习考点五</A></LI> 
+<LI>·<A href="/cjbj/lxl/4564.html" target=_blank>2012年4月自考心理学复习考点六</A></LI> 
+<LI>·<A href="/cjbj/lxl/4563.html" target=_blank>2012年4月自考心理学复习考点七</A></LI> 
+<LI>·<A href="/cjbj/lxl/4562.html" target=_blank>2012年4月自考心理学复习考点八</A></LI> 
+<LI>·<A href="/cjbj/lxl/4561.html" target=_blank>2012年4月自考心理学复习考点九</A></LI> 
+<LI>·<A href="/cjbj/lxl/4560.html" target=_blank>2012年4月自考心理学复习考点十</A></LI> 
+<LI>·<A href="/cjbj/lxl/4559.html" target=_blank>2012年4月自考心理学复习考点</A></LI> 
+<LI>·<A href="/cjbj/lxl/4558.html" target=_blank>2012年自考广告心理学复习资料汇编（一）</A></LI> 
+<LI>·<A href="/cjbj/lxl/4557.html" target=_blank>2012年自考广告心理学复习资料汇编（二）</A></LI> 
+<LI>·<A href="/cjbj/lxl/4556.html" target=_blank>2012年自考广告心理学复习资料汇编（三）</A></LI> 
+<LI>·<A href="/cjbj/lxl/4555.html" target=_blank>2012年自考广告心理学复习资料汇编（四）</A></LI> 
+<LI>·<A href="/cjbj/lxl/4554.html" target=_blank>2012年自考广告心理学复习资料汇编（五）</A></LI> 
+<LI>·<A href="/cjbj/lxl/4553.html" target=_blank>2012年自考广告心理学复习资料汇编（六）</A></LI> 
+<LI>·<A href="/cjbj/lxl/4552.html" target=_blank>2012年自考广告心理学复习资料汇编（七）</A></LI> 
+<LI>·<A href="/cjbj/lxl/4551.html" target=_blank>2012年自考广告心理学复习资料汇编</A></LI> 
+<LI>·<A href="/cjbj/fxk/4518.html" target=_blank>2012年自考知识产权法名词解释一</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+  <!-- 页脚 --><P>
+  <table style="WIDTH: 964px" borderColor=#ffffff cellSpacing=0 cellPadding=1 width=964 align=center bgColor=#ffffff border=1>
+    <tr>
+      <td colSpan=3>
+<P align=center>
+<div align=center>
+      <div class=foot_copyright_head></div>| <A class=Bottom href="/inside/about.asp">关于本站</A> | <A class=Bottom onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('//www.stzikao.com');" href="#">设为首页</A> | <A class=Bottom href="javascript:window.external.addFavorite('//www.stzikao.com','汕头自考网');">加入收藏</A> | <A class=Bottom href="mailto:linkte@163.com">站长邮箱</A> | <A class=Bottom href="/FriendSite/Index.asp" target=_blank>友情链接</A> | <A class=Bottom href="/Announcelist.asp" target=_blank>网站公告</A> | <A class=Bottom href="/Copyright.asp" target=_blank>版权申明</A> | </div></td>
+        <tr>
+          <td width=200>
+          <P align=center> <IMG style="FILTER: ; WIDTH: 60px; HEIGHT: 80px" height=80 alt="" hspace=0 src="/netalarm.gif" width=60 border=0></P></td>
+          <td>
+          <P align=center> 声明：<a title="声明：本站是由汕头自考人士主办的公益网站" target="_blank" href="//www.stzikao.com">本站是由汕头自考人士主办的公益网站</a><br> 汕头自考网版权所有 Copyright &copy; 2006-2020 <a title="汕头自考网" target="_blank" href="//www.stzikao.com">stzikao</a>. All rights reserved.<br>   交流群：27052471 <a target="_blank" href="https://beian.miit.gov.cn/">粤ICP备14009918号-2</a><br>
+<script language='javascript' src='//www.stzikao.com/ad/tongji.js'></script> </P></td>
+          <td width=200>
+<P align=center>  
+<!--
+<script>var caid="8750";</script> 
+          <script src="//www.315safe.com.cn/ca.js"></script></P></td> -->
+        </tr>
+      </table>
+</P>
+<div>
+</div>
+</body>
+</html>

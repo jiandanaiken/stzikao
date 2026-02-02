@@ -1,0 +1,548 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="//www.w3.org/1999/xhtml">
+<head>
+<title>自考局域网组网工程听课笔记第一章_汕头自考网www.stzikao.com</title>
+<meta name="Keywords" content="串讲,自考局域网组网工程听课笔记第一章,公共课,汕头自考网"> 
+<meta name="description" content="第1章&nbsp;局域网技术基础　　本章主要内容　　局域网体系结构与标准　　局域网的拓扑结构　　局域网的传输媒体　　局域网的互连　　1.1&nbsp;概&nbsp;述　　1.1.1&nbsp;局域网的普及　　一个微机系统应用于学校、办公楼、工厂、企业等场合，这些系统互连起来，实现系统之间交换数据和共享昂贵的的资源。　　（1）主要包括与其它用户交换报文、共同访问公共文件和数据资源；　　（2）实现硬件资源的共享，例如共享大容量存储器和高性能" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="/js/prototype.js"></script>
+<script src="/js/scriptaculous.js"></script>
+<script src="/js/checklogin.js"></script>
+<link href='/skin/defaultskin.css' rel='stylesheet' type='text/css'> <script language='JavaScript' type='text/JavaScript' src='/js/menu.js'></script>
+<script type='text/javascript' language='JavaScript1.2' src='/js/stm31.js'></script>
+<link href="/skin/cmain.css" rel="stylesheet" type="text/css" />
+<link href="/skin/news.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/web/changepart.js"></script>
+<script language="JavaScript">
+<!--
+//改变图片大小
+function resizepic(thispic)
+{
+  return true;
+}
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+-->
+</script>
+</head>
+
+<body>
+<div class=header>
+<!--
+<div class=header_loginbar>
+<div class=header_loginbar_left><div id=UserLogin style="PADDING-LEFT: 20px">载入中… 
+<script language="JavaScript" type="text/JavaScript">LoadUserLogin('/',3,1);</script> </div> </div>
+<div class=header_loginbar_right>
+<UL>
+<LI><A href="/">首页</A></LI>
+<LI><A href="/Article/" target=_blank>新闻</A></LI>
+<LI><A href="/cjbj/" target=_blank>串讲</A></LI>
+<LI><A href="/lnst/" target=_blank>试题</A></LI>
+<LI></LI></UL></div>
+</div>
+-->
+<div class=header_logobar>
+<div class=header_logobar_left><A href="/"><IMG height=70 src="/skin/web/logo.gif" width=207 border=0></A></div>
+<div class=header_logobar_right>
+<P><B>       <A href="/Article/" target=_blank>自考动态</A>      </B>|      <B><A href="/fxzd/" target=_blank>复习指导</A></B>      |      <B><A href="/lnst/" target=_blank>历年试题</A>      </B>|      <B><A href="/cjbj/" target=_blank>串讲笔记</A></B>       |      <B><A href="/guestbook/" target=_blank>建议留言</A>     </B> |<BR><B>       <A href="/Article/xsbd" target=_blank>自考必读</A>      </B>|      <B><A href="/soft" target=_blank>资料下载</A>     </B>|      <B><A href="/bylw" target=_blank>毕业论文</A>      </B>|      <B><A href="//bbs.stzikao.com/" target=_blank>自考论坛</A>      </B>|      <B><A href="/" target=_blank>备用频道</A>      </B>|</P></div></div></div>  <div class="main">
+
+<div class="header_searchbar">
+		<div class="header_searchbar_left">
+		<script language="JavaScript" type="text/JavaScript" src="/js/date.js"></script>				<br />
+				<!-- 天气预报开始 -->
+				<!-- 汕头天气预报【纯静态终极版】：无接口/无跨域/150px/透明底/永不失效 -->
+<div style="width:150px;height:20px;line-height:20px;text-align:center;font-size:12px;color:#333;overflow:hidden;">
+☀ 21℃ 晴
+</div>
+				<!-- 天气预报结束 -->
+
+		</div>
+		<div class="header_searchbar_right">
+			<ul>
+			<FORM name=search action=/search.asp method=post>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:10px;">
+  <tr>
+    <td colspan="3" width="550">常用查询： <A href="//www.stzikao.com" target="_blank">自考报名</A>  <A href="//www.stzikao.com" target="_blank">自考专业</A>  <A href="//www.stzikao.com" target="_blank">自考成绩查询</A>  <A href="//www.stzikao.com" target="_blank">汕头自考办</A>  <A href="//www.stzikao.com" target="_blank">自考本科</A></td>
+    <td width="150"> </td>
+  </tr>
+  <tr>
+    <td><Input id=Keyword style="WIDTH: 320px;" onclick="search.Keyword.value=''" maxLength=30 size=14 value=关键字 name=Keyword></td>
+    <td><Select size=1 name=ModuleName style="margin-top:4px; margin-bottom:4px;"> 
+  <Option value=Article selected>自考新闻</Option>
+  <Option value=cjbj>串讲笔记</Option>
+  <Option value=lnst>历年试题</Option>     
+  <Option value=bylw>毕业论文</Option> 
+  <Option value=fxzd>复习指导</Option>
+</Select> 
+    <Input id=Field type=hidden value=Title name=Field></td>
+    <td><input id=Submit name=Submit type="image" src="/skin/web/button_search.gif" /></td>
+    <td><A href="" name=StranLink>繁體中文</A>
+<script language="javascript" src="/js/gb_big5.js"></script></td>
+  </tr>
+</table>
+
+			</form>
+
+		  </ul>
+</div>
+</div>
+<div class=main>
+<div class=main_adbar>
+<script language='javascript' src='/ad/200607/8.js'></script> 
+</div>
+<div class=cmain_head>
+<div class=cmain_head_left>您现在的位置：&nbsp;<a class='LinkPath' href='//www.stzikao.com'>汕头自考网</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/index.html'>串讲笔记</a>&nbsp;>>&nbsp;<a class='LinkPath' href='/cjbj/ggk/index.html'>公共课</a>&nbsp;>>&nbsp;正文 
+<!--empire.url-->
+</div>
+<div class=cmain_head_right>
+<div align=right>
+</div>
+</div>
+</div>
+<div class=cmain_body>
+<div class=newsinfo_left>
+<div class=newsinfo_main>
+<div class=newsinfo_main_ad align=center>
+<script language='javascript' src='/ad/200904/4.js'></script> 
+</div>
+<div class=newsinfo_main_body>
+<div class=newsinfo_main_body_news>
+<div class=newsinfo_main_body_news_head>
+<UL>
+<LI class=title>自考局域网组网工程听课笔记第一章</LI>
+<LI class=date>发布日期时间：2006/8/23&nbsp;&nbsp;来源：自考365 &nbsp;&nbsp;点击数：<script language='javascript' src='/cjbj/GetHits.asp?ArticleID=254'></script>&nbsp;&nbsp;作者：佚名</LI></UL>
+</div>
+<div class=newsinfo_main_ad align=center>
+<div align=center>
+<script language='javascript' src='/ad/200904/5.js'></script> 
+</div>
+</div>
+<div class=newsinfo_main_body_news_body><STRONG>第1章 局域网技术基础</STRONG>
+<P>　　本章主要内容</P>
+<P>　　局域网体系结构与标准</P>
+<P>　　局域网的拓扑结构</P>
+<P>　　局域网的传输媒体</P>
+<P>　　局域网的互连</P>
+<P><STRONG>　　1.1 概 述</STRONG></P>
+<P>　　1.1.1 局域网的普及</P>
+<P>　　一个微机系统应用于学校、办公楼、工厂、企业等场合，这些系统互连起来，实现系统之间交换数据和共享昂贵的的资源。</P>
+<P>　　（1）主要包括与其它用户交换报文、共同访问公共文件和数据资源；</P>
+<P>　　（2）实现硬件资源的共享，例如共享大容量存储器和高性能激光打印机等。</P>
+<P>　　1.1.2 局域网的定义</P>
+<P>　　在一个小区范围内，将分散的微机系统互连起来，实现资源的共享合同型，便构成了局域网（LAN）。几点说明：</P>
+<P>　　（1）局域网终端设备：又称为数据通信设备。主要包括：微机、服务器、终端、外围设备、传感 器（如温度、湿度、安全报警传感器等），数字电话、数字电视发送和接收机以及传真机等。</P>
+<P>　　当然不是所有的LAN都能配置上述设备。</P>
+<P>　　（2）局域网的地理覆盖一般可达几十公里范围；</P>
+<P>　　（3）局域网在传输媒体上的数据传输速率为10Mbps、100Mbps及1000Mbps.</P>
+<P>　　1.1.3 局域网的技术要素</P>
+<P>　　体系结构与标准</P>
+<P>　　传输媒体</P>
+<P>　　拓扑结构</P>
+<P>　　数据编码</P>
+<P>　　媒体访问控制 MAC</P>
+<P>　　逻辑链路控制 LAC</P>
+<P><STRONG>　　1.2 局域网体系结构与标准</STRONG></P>
+<P>　　1.2.1 局域网参考模型</P>
+<P>　　LAN参考模型是以IEEE802（国际电工电子工程师协会）标准的工作文件为基础，并且采用参考模型来分析这一问题。</P>
+<P>　　1.局域网存在的四个特征</P>
+<P>　　（1）它用带地址的帧来传送数据；</P>
+<P>　　（2）不存在中间交换，所以不要求路由选择。</P>
+<P>　　（3）数据传输各层的对应内容：</P>
+<P>　　第一层： 物理层，比特传输；</P>
+<P>　　第二层： 数据连路层，组成帧，并进行一定的控制，主要包括：寻址、排序、流量控制、差错控制等。</P>
+<P>　　第三层： 网络层，完成路由选择。</P>
+<P>　　（4）层二和层三的区别</P>
+<P>　　层二是通过单个链路完成其功能，层三是通过数个链路完成的。</P>
+<P>　　2.域网体系结构</P>
+<P>　　3.局域网数据的传递（二层和三层）</P>
+<P>　　（1）最上层接收来自所连接的站的发送信息；</P>
+<P>　　（2）通过服务访问点（SAP）向下层交换信息，SAP是相邻层的逻辑接口；</P>
+<P>　　（3）发送时将数据组装带有地址的差错检测字段的帧；</P>
+<P>　　（4）接收时拆卸帧，完成地址识别和差错检测；</P>
+<P>　　（5）管理链路上的通信。</P>
+<P>　　4.物理层的主要功能</P>
+<P>　　（1）信号的编码和译码；</P>
+<P>　　（2）前导码的生成和除去（前导码用于帧同步）；</P>
+<P>　　（3）比特的发送和接收。</P>
+<P>　　1.2.2 局域网媒体访问控制</P>
+<P>　　1.么是MAC？</P>
+<P>　　所有局域网均由共享该网络传输能力的多个设备组成。需要有某些方法控制对传输媒体的访问，以便两个特定的设备在需要时可以交换数据。</P>
+<P>　　2.体访问技术中的“方法”</P>
+<P>　　“方法”分为两种，指控制是在集中方式下还是在分布方式下来实现。</P>
+<P>　　（1）集中方式：</P>
+<P>　　某个控制器被指定拥有访问网络的控制权，此时，希望发送的某个站必须等待，直到他收到该控制器的准许，该站才允许发送。</P>
+<P>　　（2）分布方式：</P>
+<P>　　由各个站集体地完成媒体访问控制功能，动态地确定站的发送顺序。</P>
+<P>　　（3）集中方式方案的优点和缺点：</P>
+<P>　　优点a.可提供诸如优先权、保证带宽，具有较大的控制访问能力。</P>
+<P>　　b.允许每个站有尽可能简单的逻辑；</P>
+<P>　　c.避免了协调问题。</P>
+<P>　　缺点：a.会出现影响全网的单点故障；</P>
+<P>　　b.会发生瓶颈作用，时效率降低。</P>
+<P>　　分布方式方案的优点和缺点：正好与集中式相反。</P>
+<P>　　3.访问控制技术的分类</P>
+<P>　　主要按同步和异步进行划分。</P>
+<P>　　（1）同步技术：</P>
+<P>　　每个连接均被分配一个专用规定的传输容量。这种方式在局域网中不是最佳的，因为每个站发送数据是随机的。</P>
+<P>　　（2）异步技术：</P>
+<P>　　根据各站的发送情况分配传输容量，异步技术可进一步划分为：循环、预约、竞争三种情况。</P>
+<P>　　1.异步技术三种方法</P>
+<P>　　（1）循环：</P>
+<P>　　给每个站轮流发送的机会，在此机会里，某站可以谢绝发送，或发送一定限度的信息。此限度为每个站每次发送的最大数据量或最大时间量来表示。</P>
+<P>　　（2）预约：</P>
+<P>　　对于平稳流式的业务，预约技术是相当合适的。即将媒体（介质）上的时间划分为许多时隙，当某站需要发送信息时，提前预约时隙。</P>
+<P>　　（3）竞争：</P>
+<P>　　对于突发式业务，竞争技术通常是合适的，各个站采取简单的竞争方式进行竞争发送数据。常用的方式为循环和竞争方式。</P>
+<P>　　1.2.3 局域网数据链路控制LLC</P>
+<P>　　1.LAN的LLC与传统链路层的区别：</P>
+<P>　　（1）它必须支持链路的多路访问特性；</P>
+<P>　　（2）它可利用MAC子层来实现链路访问中的某些功能；</P>
+<P>　　（3）它必须提供某些属于三层的功能。</P>
+<P>　　2.LLC的主要功能：</P>
+<P>　　（1）端到端的差错控制功能；</P>
+<P>　　（2）端到端的流量控制功能；</P>
+<P>　　（3）完成无连接服务功能；</P>
+<P>　　（4）完成面向连接服务功能；</P>
+<P>　　（5）能进行复用，即多个不同的端点的数据在同一信道上传输。</P>
+<P>　　3.服务访问点（SAP）</P>
+<P>　　SAP在每层中有若干个点，分别用SAP1、SAP2……SAPn表示，每个SAP属于某站，但它又在LLC层有若干个SAP，每个SAP均由一个自己的地址，例如A点LLC层的SAP，可简单表示为：（A，1），如下图。下面来看各站的SAP之间是如何通信的。</P>
+<P>　　如上图，假设站A内有一个应用X，希望将电文发送给站C内的一个进程，（A为某PC内的报告生成程序，C为一台打印机和一个简单的打印机驱动器）</P>
+<P>　　（1）站A的链路发送一个“连接请求”，的若干控制比特的帧，该帧内含源地址（A，1—X），目的地址（C，1—M），及其它的控制比特。</P>
+<P>　　（2）LAN将该帧传递给C站；</P>
+<P>　　（3）如果“C”站空闲，就返回一个“接受连接”帧，（如果不空闲，这需要等待）；</P>
+<P>　　（4）当A站与C站建立连接后，就可以利用站A的LLC将来自X的全部数据组装成帧，每帧均含源地址和目的地址；</P>
+<P>　　（5）在此段时间，所有寻找（A，1）的帧均被拒绝，除非是来自（C，1）的帧。同样（C，1）的寻找帧也被（C，1）拒绝，字节收（A，1）的帧。</P>
+<P>　　（6）以上方式被称为面向连接服务。</P>
+<P>　　在以上进行数据交换的同时，各站的其它SAP之间可以同时传递消息，例如，进程Y可以连接到</P>
+<P>　　（A，2），并与（B，1）交换数据，这就是一个复用的例子。</P>
+<P>　　1.2.4 寻址</P>
+<P>　　1.信涉及三个因素：进程、主机、网络</P>
+<P>　　（1）进程是进行通信的基本实体，（也就是指软件程序）。我们举例说明两个站之间的进程是如何传递的。（例如A站和B站）</P>
+<P>　　A站的进程通过PC机，然后通过网络与B站进程进行连接，并交换数据。进程在PC机上进行。</P>
+<P>　　（2）主机</P>
+<P>　　（3）网络</P>
+<P>　　2.通信（含寻址）的过程</P>
+<P>　　MH：必须包含一个用来唯一地标识局域网上某个站的目的地址，因为对于每一个可接收的站必须读出“目的地址”，如果和本站地址不同，则向下一站传送；如果和本站地址相同，则MAC实体标剥除MH和MT，并且将剩余的LLC—PDU向上传递，LLC子层的标头LH中必须包含SAP地址，以便LLC可将该数据交付给哪个SAP.</P>
+<P>　　MAC地址：表识局域网中的一个站；</P>
+<P>　　LLC地址：表识LLC上的某个SAP（某个用户）。</P>
+<P>　　3.SAP的分布</P>
+<P>　　（1）在每两层之间均有SAP（服务访问点），物理层上没有SAP.</P>
+<P>　　（2）在网络接口单元（NIU）上的每个终端接口都具有一个唯一的SAP；</P>
+<P>　　（3）组地址：</P>
+<P>　　某用户希望将数据发送给特定NIU上的所有终端用户，或者给整个局域网上的所有终端用户，这就需要组地址。</P>
+<P>　　a.广播方式；</P>
+<P>　　b.多址方式。</P>
+<P>　　4.局域网寻址的多种方式</P>
+<P>　　MAC地址LLC用户地址（服务访问点）</P>
+<P>　　单个单个</P>
+<P>　　单个多址</P>
+<P>　　单个广播</P>
+<P>　　多址广播</P>
+<P>　　广播广播</P>
+<P>　　多址单个</P>
+<P>　　多址多址</P>
+<P>　　广播单个</P>
+<P>　　广播多址</P>
+<P>　　1.2.5 局域网标准</P>
+<P><STRONG>　　1.3 局域网的拓扑结构</STRONG></P>
+<P>　　1.3.1星型拓扑结构</P>
+<P>　　特点：</P>
+<P>　　（1）每个站由点到点链路连接到公共中心；</P>
+<P>　　（2）任意两站之间的通信均要通过中心点；</P>
+<P>　　（3）中心点可以是一个中继器，也可以是一个局域网的交换机；</P>
+<P>　　（4）发送数据的站以帧的形式进入中心点，以帧中的目的地址到达目的站点。</P>
+<P>　　（5）目前局域网系统中均采用星型拓扑结构。</P>
+<P>　　1.3.2 环形</P>
+<P>　　特点：</P>
+<P>　　（1）由一组转发器（又称为中继器）通过点到点链路连接成封闭的环所构成。</P>
+<P>　　（2）以帧的方式传输数据，循环一周，在起始位除去。</P>
+<P>　　（3）有令牌的站才可以发送帧。</P>
+<P>　　1.3.3 总线和树型</P>
+<P>　　树型特点：传输媒体是不构成闭合环路的分支电缆，也即在树型网络中，任意两个终端之间只有唯一的一条路径。</P>
+<P>　　总线型特点：只有传输媒体，没有交换机，也没有转发器。</P>
+<P><STRONG>　　1.4 局域网的传输媒体</STRONG></P>
+<P>　　传输媒体主要有双绞线、同轴电缆和光纤。</P>
+<P>　　1.4.1 双绞线</P>
+<P>　　1.物理描述</P>
+<P>　　2.传输特性</P>
+<P>　　（1）对模拟信号，约每5~6Km需要一个放大器；</P>
+<P>　　（2）对低频数字信号，每2~3Km需用一个转发器。</P>
+<P>　　1.4.2 同轴电缆</P>
+<P>　　分类：</P>
+<P>　　（1）CATV系统中使用75Ω电缆，主要用于宽带FDM模拟信号及高速数据。</P>
+<P>　　（2）基带数字信号使用50Ω电缆，对于模拟信号可达300MHz~400MHz，每个电视信道分配6MHz的带宽。</P>
+<P>　　（3）带宽和速率的关系：</P>
+<P>　　对于5Mbps或更高的速率可设定1Hz/1bps，如6MHzTV信道——5Mbp速率。</P>
+<P>　　对于较低速率可设计 2 Hz/1bps；</P>
+<P>　　目前用整条同轴电缆（75Ω）传送数据，可达50Mbps，距离一般为1Km左右。</P>
+<P>　　1.4.3 光缆</P>
+<P>　　传输特性：1014Hz~1015Hz范围起波导作用。</P>
+<P>　　多模：小角度的入射光纤被反射并沿光纤传播，其余光纤被周围媒体所吸收。</P>
+<P>　　单模：纤芯半径降低到波长的量级时，只有单个角度或单个模，即只有轴向光束能通过。</P>
+<P>　　1.4.4 无线传输媒体</P>
+<P>　　分类：</P>
+<P>　　（1）射频（RF）：900MHz、2.4GHz、5.8GHz（无需申请的频率）</P>
+<P>　　（2）红外线（IR）800mm~900mm波段，地域范围可达数十米，可获得10Mbps的数据传输率。</P>
+<P>　　散射IR（DFIR）：范围较小，但收发之间可有障碍物；</P>
+<P>　　直射 IR（DBIR） ：范围较大，但收发之间不能有障碍物。</P>
+<P>　　<STRONG>1.5 局域网的互连</STRONG></P>
+<P>　　局域网的互连主要通过以下设备实现：</P>
+<P>　　（1）中继器（又称转发器，在物理层实现互连）；</P>
+<P>　　（2）网桥（又称桥接器，在数据链路层实现互连）；</P>
+<P>　　（3）路由器（在网络层实现互连）；</P>
+<P>　　（4）网关（又称网间连接器，在传输层及以上实现互连）。</P>
+<P>　　1.5.1 中继器</P>
+<P>　　中继器，又称重发器，主要是将信号再生放大，主要作用为：</P>
+<P>　　（1）将冲突域延长、扩大；</P>
+<P>　　（2）但不能将电路形成环路；中继的个数有限，主要为时延及负荷情况；</P>
+<P>　　（3）多口中继器又称为集线器，可分为电缆中继器（双绞线、同轴电缆）和光缆中继器。</P>
+<P>　　1.5.2 集线器</P>
+<P>　　集线器又称为集中器，用它作为一个中心节点，可连接多个传输媒体。集线器分为有源集线器，无源集线器和智能集线器。</P>
+<P>　　1.5.3 网桥</P>
+<P>　　用于连接两个或两个以上具有相同通信协议、传输媒体及寻址结构的局域网网间的互连设备。</P>
+<P>　　（1）网桥有它的软件和硬件。网桥需要有足够大的RAM（存储器）缓冲区，用于扩展网络距离和转发数据到另一个目的网工作站。</P>
+<P>　　（2）网桥具有寻址和路径选择功能；网桥对广播信息不能识别，也不能过滤；</P>
+<P>　　（3）网桥又分为本地网桥和远程网桥。</P>
+<P>　　本地网桥：指所连接的两个LAN间的距离在所允许的最大传输媒体长度之内的网桥。连接两个LAN只需一个网桥。</P>
+<P>　　远程网桥：必须加上调制解调器，而且连接两个LAN时需要两个网桥。</P>
+<P>　　1.5.4 路由器</P>
+<P>　　1.主要功能：</P>
+<P>　　（1）选择最佳的转发数据的路径，建立非常灵活的连接，均衡网络负载。</P>
+<P>　　（2）利用通信协议本身的流控来控制数据传输，解决拥挤问题；</P>
+<P>　　（3）具有判断需要转发的数据分组的功能，判定某数据是否需转发。</P>
+<P>　　2.路由器分为：</P>
+<P>　　（1）单协议路由器：对具有相同网络层协议的网络互连；</P>
+<P>　　（2）多协议路由器：对具有多种网络层协议的网络互连。</P>
+<P>　　1.5.5 网关（又称高层协议转发器）</P>
+<P>　用途：用于不同类型且差别较大的网络系统间的互联。</P> 
+<P align=right>文章转载请注明来源于：<A title="" href="/" target=_blank>汕头自考网</A></p>
+<CENTER></CENTER>
+</div>
+</div>
+
+<CENTER class=newsinfo_main_body_news_body></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200906/19.js"></script></CENTER>
+<CENTER class=newsinfo_main_body_news_body>
+<script language="javascript" src="/AD/200908/27.js"></script></CENTER>
+
+<div class=newsinfo_main_body_link>
+<div class=newsinfo_main_body_link_head>网友评论 
+</div>
+<div class=newsinfo_main_body_link_body>
+  <table id=plpost cellSpacing=0 cellPadding=0 width="98%" border=0>
+    <tr>
+      <td>
+        <table class=title cellSpacing=0 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td align=middle>
+            <script language="javascript" src="/cjbj/Comment.asp?Action=JS&CommentNum=6&ArticleID=254"></script></td>
+          </tr>
+        </table>
+        <table cellSpacing=10 cellPadding=0 width="100%" border=0>
+          <tr>
+            <td><style type="text/css">
+.art_content_fbpl{float:left;width:676px;border:1px solid #D7E9FC; border-right:1px solid #D7E9FC;}
+.art_content_form{float:left;width:676px;background:#fff;padding:5px;text-align:left;}
+.art_content_form_l{float:left;width:340px;padding:5px;}
+.art_content_form_l li{height:28px;line-height:28px;}
+.art_content_form_r{float:left;width:280px;border:1px dotted #D7E9FC;line-height:22px;padding:5px;}
+</style>
+
+<FORM name=form1 action=/cjbj/Comment.asp method=post target=_self>
+<table width="100%" border="0" class="title01">
+  <tr>
+    <td>姓 名 ：<Input maxLength=16 style="width:140px;" name=Name><FONT color=red>*</FONT> <B>（必填项）</B></td>
+  </tr>
+  <tr>
+    <td>评 分 ：<Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=1 name=Score> 1分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=2 name=Score> 2分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio CHECKED value=3 name=Score> 3分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=4 name=Score> 4分 
+  <Input style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" type=radio value=5 name=Score> 5分</td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+  </tr>
+  <tr>
+    <td><TEXTAREA id=Content name=Content rows=5 cols=60></textarea>
+        <Input id=Action type=hidden value=Save name=Action> 
+               <Input id=ArticleID type=hidden value="254" name=ArticleID> </td>
+  </tr>
+  <tr>
+    <td><Input onclick="return Check();" type=button class="skbutton" value=" 发表我的评论 " name=Submit></td>
+  </tr>
+</table>
+</FORM>
+<script language="javascript">
+ function Check()
+ {  
+ if (document.form1.Name.value=='')
+ {     
+  alert('请输入姓名！');
+  document.form1.Name.focus(); 
+  return false;   
+ }   
+ if (document.form1.Content.value=='')
+ {    
+  alert('请输入评论内容！'); 
+  document.form1.Content.focus(); 
+  return false;   
+ }
+ document.form1.submit();
+ window.location.reload();
+ if (form1.Name.disabled == ""){
+  alert("评论发表成功！\n\n该评论需经管理员审核后才能发表。\n感谢您的参与！");
+ } 
+ return true; 
+ }
+<!-- 读取Cookie 的函数 -->
+function getCookieVal (offset)
+{
+ var endstr = document.cookie.indexOf ("&", offset);
+ if (endstr == -1)
+  endstr = document.cookie.length;
+ return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie (name) 
+{
+ var arg = name + "=";
+ var alen = arg.length;
+ var clen = document.cookie.length;
+ var i = 0;
+ while (i < clen) {
+  var j = i + alen;
+  if (document.cookie.substring(i, j) == arg)
+   return getCookieVal (j);
+  i = document.cookie.indexOf("&", i) + 1;
+  if (i == 0) break; 
+ }
+ return null;
+}
+form1.Name.value = GetCookie("UserName");
+if ((form1.Name.value == "") || (form1.Name.value == "null"))
+{
+ form1.Name.value = "游客";
+ form1.Name.disabled = "";
+}
+</script> </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_main_body_link_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_main_foot>
+</div>
+</div>
+</div>
+<div class=newsinfo_right>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>推荐串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr>
+    <table width='100%' cellpadding='0' cellspacing='5' border='0' align='center'><tr valign='top'><td align='center'><a class="" href="/Article/zknews/4621.html" title="关于重申广东省自考中英合作两个专业报考有关报考通知" target="_blank"><img class='pic1' src='/Article/UploadFiles/201305/2013050215591855_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/4621.html" title="关于重申广东省自考中英合作两个专业报考有关报考通知" target="_blank">关于重申广东省自考中英合作两个专业报考有关报</a></td><td align='center'><a class="" href="/Article/zknews/4348.html" title="2012年4月自考新生报名指南" target="_blank"><img class='pic1' src='/Article/UploadFiles/201201/20120106135251358_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/4348.html" title="2012年4月自考新生报名指南" target="_blank">2012年4月自考新生报名指南</a></td></tr><tr valign='top'><td align='center'><a class="" href="/Article/zknews/4347.html" title="2012年4月自学考试报考说明" target="_blank"><img class='pic1' src='/Article/UploadFiles/201201/20120106134853643_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/4347.html" title="2012年4月自学考试报考说明" target="_blank">2012年4月自学考试报考说明</a></td><td align='center'><a class="" href="/Article/zknews/4343.html" title="2012年1月自考公共课报考必读" target="_blank"><img class='pic1' src='/Article/UploadFiles/201111/20111112205336663_S.jpg'  width='130' height='90' border='0'></a><br><a class="" href="/Article/zknews/4343.html" title="2012年1月自考公共课报考必读" target="_blank">2012年1月自考公共课报考必读</a></td></tr></table>&nbsp; 
+    </tr>
+    <tr>&nbsp; 
+      <td align=middle><A href="/cjbj/ggk/254.html" target=_blank><SPAN style="LINE-HEIGHT: 15pt"></SPAN></A></td>&nbsp; 
+    </tr>
+  </table>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_head>热门串讲笔记 
+</div>
+<div class=newsinfo_rightbar_body>
+  <table cellSpacing=0 cellPadding=3 width="100%" border=0>
+    <tr> 
+      <td align=middle><A href="/cjbj/lxl/4569.html" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2012年4月自考心理学复习考点一</SPAN></A></td> 
+      <td align=middle><A href="/cjbj/lxl/4568.html" target=_blank><img src='/images/nopic.gif'  width='128' height='90' border='0'> <BR><SPAN style="LINE-HEIGHT: 15pt">2012年4月自考心理学复习考点二</SPAN></A></td> 
+    </tr>
+  </table>
+<div class=main_mainbar38_bodydown>
+<UL> 
+<LI>·<A href="/cjbj/lxl/4569.html" target=_blank>2012年4月自考心理学复习考点一</A></LI> 
+<LI>·<A href="/cjbj/lxl/4568.html" target=_blank>2012年4月自考心理学复习考点二</A></LI> 
+<LI>·<A href="/cjbj/lxl/4567.html" target=_blank>2012年4月自考心理学复习考点三</A></LI> 
+<LI>·<A href="/cjbj/lxl/4566.html" target=_blank>2012年4月自考心理学复习考点四</A></LI> 
+<LI>·<A href="/cjbj/lxl/4565.html" target=_blank>2012年4月自考心理学复习考点五</A></LI> 
+<LI>·<A href="/cjbj/lxl/4564.html" target=_blank>2012年4月自考心理学复习考点六</A></LI> 
+<LI>·<A href="/cjbj/lxl/4563.html" target=_blank>2012年4月自考心理学复习考点七</A></LI> 
+<LI>·<A href="/cjbj/lxl/4562.html" target=_blank>2012年4月自考心理学复习考点八</A></LI> 
+<LI>·<A href="/cjbj/lxl/4561.html" target=_blank>2012年4月自考心理学复习考点九</A></LI> 
+<LI>·<A href="/cjbj/lxl/4560.html" target=_blank>2012年4月自考心理学复习考点十</A></LI> 
+<LI>·<A href="/cjbj/lxl/4559.html" target=_blank>2012年4月自考心理学复习考点</A></LI> 
+<LI>·<A href="/cjbj/lxl/4558.html" target=_blank>2012年自考广告心理学复习资料汇编（一）</A></LI> 
+<LI>·<A href="/cjbj/lxl/4557.html" target=_blank>2012年自考广告心理学复习资料汇编（二）</A></LI> 
+<LI>·<A href="/cjbj/lxl/4556.html" target=_blank>2012年自考广告心理学复习资料汇编（三）</A></LI> 
+<LI>·<A href="/cjbj/lxl/4555.html" target=_blank>2012年自考广告心理学复习资料汇编（四）</A></LI> 
+<LI>·<A href="/cjbj/lxl/4554.html" target=_blank>2012年自考广告心理学复习资料汇编（五）</A></LI> 
+<LI>·<A href="/cjbj/lxl/4553.html" target=_blank>2012年自考广告心理学复习资料汇编（六）</A></LI> 
+<LI>·<A href="/cjbj/lxl/4552.html" target=_blank>2012年自考广告心理学复习资料汇编（七）</A></LI> 
+<LI>·<A href="/cjbj/lxl/4551.html" target=_blank>2012年自考广告心理学复习资料汇编</A></LI> 
+<LI>·<A href="/cjbj/fxk/4518.html" target=_blank>2012年自考知识产权法名词解释一</A></LI> </UL>
+</div>
+</div>
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=newsinfo_rightbar>
+<div class=newsinfo_rightbar_body>
+<div align=center>
+<script language="javascript" src="/AD/200604/right3.js"></script> 
+
+</div>
+</div>
+</div>
+
+<div class=newsinfo_rightbar_foot>
+</div>
+</div>
+<div class=main_adbar>
+<script language='javascript' src='/AD/200604/indexad.js'></script> 
+</div>
+</div>
+</div>
+
+<div class=cmain_foot>
+</div>
+<div>
+</div>
+  <!-- 页脚 -->
+  <!-- 页脚 --><P>
+  <table style="WIDTH: 964px" borderColor=#ffffff cellSpacing=0 cellPadding=1 width=964 align=center bgColor=#ffffff border=1>
+    <tr>
+      <td colSpan=3>
+<P align=center>
+<div align=center>
+      <div class=foot_copyright_head></div>| <A class=Bottom href="/inside/about.asp">关于本站</A> | <A class=Bottom onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('//www.stzikao.com');" href="#">设为首页</A> | <A class=Bottom href="javascript:window.external.addFavorite('//www.stzikao.com','汕头自考网');">加入收藏</A> | <A class=Bottom href="mailto:linkte@163.com">站长邮箱</A> | <A class=Bottom href="/FriendSite/Index.asp" target=_blank>友情链接</A> | <A class=Bottom href="/Announcelist.asp" target=_blank>网站公告</A> | <A class=Bottom href="/Copyright.asp" target=_blank>版权申明</A> | </div></td>
+        <tr>
+          <td width=200>
+          <P align=center> <IMG style="FILTER: ; WIDTH: 60px; HEIGHT: 80px" height=80 alt="" hspace=0 src="/netalarm.gif" width=60 border=0></P></td>
+          <td>
+          <P align=center> 声明：<a title="声明：本站是由汕头自考人士主办的公益网站" target="_blank" href="//www.stzikao.com">本站是由汕头自考人士主办的公益网站</a><br> 汕头自考网版权所有 Copyright &copy; 2006-2020 <a title="汕头自考网" target="_blank" href="//www.stzikao.com">stzikao</a>. All rights reserved.<br>   交流群：27052471 <a target="_blank" href="https://beian.miit.gov.cn/">粤ICP备14009918号-2</a><br>
+<script language='javascript' src='//www.stzikao.com/ad/tongji.js'></script> </P></td>
+          <td width=200>
+<P align=center>  
+<!--
+<script>var caid="8750";</script> 
+          <script src="//www.315safe.com.cn/ca.js"></script></P></td> -->
+        </tr>
+      </table>
+</P>
+<div>
+</div>
+</body>
+</html>
